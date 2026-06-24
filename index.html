@@ -1,0 +1,893 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ExamEdge AI | Daily Current Affairs — All Government Exams</title>
+  <meta name="description" content="Free daily current affairs for UPSC, SSC CGL, SSC CHSL, Banking PO, RBI, NABARD, Railways, Defence, APPSC, TSPSC, State PSC, Insurance, CUET and all government competitive examinations." />
+  <meta name="keywords" content="current affairs, UPSC, SSC, Banking, RBI, Railways, APPSC, TSPSC, daily current affairs 2026, government exam preparation" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Outfit:wght@400;600;700;800;900&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ════════════════════════════════════════
+       ACCURACY DISCLAIMER BANNER (Always Visible)
+       ════════════════════════════════════════ -->
+  <div class="disclaimer-banner" id="disclaimerBanner">
+    <div class="disclaimer-inner">
+      <span class="disclaimer-icon">🛡️</span>
+      <span class="disclaimer-text">
+        <strong>Editorial Notice:</strong> All content is AI-researched and cross-verified from official sources (PIB, RBI, SEBI, Ministry websites). Each fact is tagged with its source.
+        Always cross-check with official publications before your exam.
+        <a href="#disclaimer-full" class="disclaimer-link">Full Disclaimer ↓</a>
+      </span>
+      <button class="disclaimer-close" onclick="document.getElementById('disclaimerBanner').style.display='none'" aria-label="Close disclaimer">✕</button>
+    </div>
+  </div>
+
+  <!-- ════════════════════════════════════════
+       HEADER
+       ════════════════════════════════════════ -->
+  <header class="site-header" id="top">
+    <div class="header-bg"></div>
+    <div class="container header-inner">
+      <div class="logo-wrap">
+        <div class="logo-icon">⚡</div>
+        <div>
+          <div class="logo-text">ExamEdge <span class="logo-ai">AI</span></div>
+          <div class="logo-sub">Free Daily Current Affairs for All Government Exams</div>
+        </div>
+      </div>
+      <div class="header-actions">
+        <div class="date-badge">
+          <span class="date-icon">📅</span>
+          <span id="currentDate">24 June 2026 | Tuesday</span>
+        </div>
+        <button class="btn-pdf" id="forceUpdateBtn" onclick="forceUpdate()" title="Force AI to scrape RSS feeds & update content now">
+          <span>🔄</span> Force AI Update
+        </button>
+        <button class="btn-pdf" id="pdfBtn" onclick="downloadPDF()" title="Download Today's Edition as PDF">
+          <span>📄</span> Download PDF
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- ════════════════════════════════════════
+       HERO
+       ════════════════════════════════════════ -->
+  <section class="hero-strip">
+    <div class="container hero-inner">
+      <div class="hero-left">
+        <h1 class="hero-title">Daily Current Affairs</h1>
+        <p class="hero-subtitle">Exam-Oriented | 100% Free | All Government Exams Covered</p>
+
+        <!-- Exam Coverage Badges -->
+        <div class="exam-coverage-row">
+          <span class="ecov-badge">UPSC CSE</span>
+          <span class="ecov-badge">SSC CGL</span>
+          <span class="ecov-badge">SSC CHSL</span>
+          <span class="ecov-badge">Banking PO</span>
+          <span class="ecov-badge">RBI Grade B</span>
+          <span class="ecov-badge">NABARD</span>
+          <span class="ecov-badge">Railways</span>
+          <span class="ecov-badge">Defence</span>
+          <span class="ecov-badge">APPSC</span>
+          <span class="ecov-badge">TSPSC</span>
+          <span class="ecov-badge">State PSC</span>
+          <span class="ecov-badge">Insurance</span>
+          <span class="ecov-badge">CUET</span>
+        </div>
+
+        <div class="stats-row">
+          <div class="stat-chip"><span class="stat-num" id="topicCount">11</span><span class="stat-label">Topics</span></div>
+          <div class="stat-chip"><span class="stat-num">50</span><span class="stat-label">MCQs</span></div>
+          <div class="stat-chip"><span class="stat-num">15+</span><span class="stat-label">Sources</span></div>
+          <div class="stat-chip"><span class="stat-num">FREE</span><span class="stat-label">Always</span></div>
+        </div>
+      </div>
+      <div class="hero-right no-print">
+        <div class="accuracy-card">
+          <div class="ac-header">
+            <span class="ac-shield">🛡️</span>
+            <span class="ac-title">Data Accuracy System</span>
+          </div>
+          <div class="ac-legend">
+            <div class="ac-row"><span class="conf-dot green"></span><span>Official Govt Source (PIB/RBI/Ministry)</span></div>
+            <div class="ac-row"><span class="conf-dot yellow"></span><span>Cross-verified (2+ news sources)</span></div>
+            <div class="ac-row"><span class="conf-dot red"></span><span>Verify Independently Before Exam</span></div>
+          </div>
+          <div class="ac-footer">
+            <span class="verified-stamp">✅ Content verified before publication</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ════════════════════════════════════════
+       NAVIGATION TABS
+       ════════════════════════════════════════ -->
+  <nav class="tab-nav no-print" id="tabNav">
+    <div class="container tab-nav-inner">
+      <button class="tab-btn active" data-tab="all" onclick="filterTab('all')">🗂️ All</button>
+      <button class="tab-btn" data-tab="polity" onclick="filterTab('polity')">⚖️ Polity</button>
+      <button class="tab-btn" data-tab="economy" onclick="filterTab('economy')">📊 Economy</button>
+      <button class="tab-btn" data-tab="environment" onclick="filterTab('environment')">🌿 Environment</button>
+      <button class="tab-btn" data-tab="science" onclick="filterTab('science')">🚀 Science & Tech</button>
+      <button class="tab-btn" data-tab="ir" onclick="filterTab('ir')">🌐 Int'l Relations</button>
+      <button class="tab-btn" data-tab="awards" onclick="filterTab('awards')">🏆 Awards</button>
+      <button class="tab-btn" data-tab="mcq" onclick="filterTab('mcq')">📝 50 MCQs</button>
+    </div>
+  </nav>
+
+  <!-- ════════════════════════════════════════
+       MAIN CONTENT
+       ════════════════════════════════════════ -->
+  <main class="main-content">
+    <div class="container">
+
+      <!-- ARCHIVE NAV -->
+      <div class="archive-nav no-print">
+        <button class="arch-btn" onclick="alert('Previous edition will be available in the archive section.')">← Previous Day</button>
+        <span class="arch-date" id="archiveDate">📅 24 June 2026</span>
+        <button class="arch-btn" id="nextDayBtn" disabled>Next Day →</button>
+      </div>
+
+      <!-- TICKER -->
+      <div class="ticker-wrap no-print">
+        <div class="ticker-label">🔴 LIVE</div>
+        <div class="ticker-track">
+          <div class="ticker-inner" id="tickerContent">
+            <span>🧘 IDY 2026 | Theme: "Yoga for Healthy Ageing" | 12th Edition | 3 Crore+ participants via Yoga Sangam Portal</span>
+            <span>•</span>
+            <span>🏆 Padma Awards 2026 | Mammootty, Alka Yagnik → Padma Bhushan | Rohit Sharma, Savita Punia → Padma Shri</span>
+            <span>•</span>
+            <span>🛰️ BRICS HOSA Meet, Bengaluru | India 2026 BRICS Chair | PSLV tech transfer to private sector</span>
+            <span>•</span>
+            <span>📊 Core Sector Growth 0.5% (May 2026) | 2nd lowest in 21 months | Coal −9.3%</span>
+            <span>•</span>
+            <span>⚖️ Tushar Mehta reappointed Solicitor General of India | Effective July 1, 2026</span>
+            <span>•</span>
+            <span>🔬 ZSI discovers Spilomena malabarica — new wasp species in Kerala's Kozhikode</span>
+            <span>•</span>
+            <span>⛏️ India auctions 56 critical mineral blocks | National Critical Minerals Mission milestone</span>
+            <span>•</span>
+            <span>💧 RBI injects ₹1.41 trillion via 7-day VRR auction at 5.26% cut-off rate</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- ══════════════════════════════════
+           TOPIC CARDS
+           ══════════════════════════════════ -->
+
+      <!-- CARD 1: IDY 2026 -->
+      <article class="topic-card" data-category="polity" id="card-yoga">
+        <div class="card-header cat-polity">
+          <div class="card-left-meta">
+            <div class="card-cat-badge">🧘 Polity | Governance</div>
+            <div class="card-exam-tags">
+              <span class="exam-badge upsc">UPSC</span><span class="exam-badge ssc">SSC</span><span class="exam-badge bank">Banking</span><span class="exam-badge state">State PSC</span><span class="exam-badge def">Defence</span><span class="exam-badge rlw">Railways</span>
+            </div>
+          </div>
+          <div class="card-right-meta no-print">
+            <span class="conf-badge green-badge" title="Verified from Official Government Source">🟢 Official Source</span>
+            <button class="report-btn" onclick="reportError('card-yoga', 'International Day of Yoga 2026')" title="Report a factual error in this section">⚑ Report Error</button>
+          </div>
+        </div>
+        <div class="card-body">
+          <h2 class="card-title">International Day of Yoga 2026 — 12th Edition</h2>
+          <div class="news-source">
+            📰 <strong>Sources:</strong>
+            <a href="https://pib.gov.in" target="_blank" class="src-link">PIB ↗</a>
+            <a href="https://www.thehindu.com" target="_blank" class="src-link">The Hindu ↗</a>
+            | <span class="src-date">Verified: 23 June 2026</span>
+          </div>
+
+          <div class="key-facts">
+            <h3 class="section-label">📌 Key Facts at a Glance</h3>
+            <div class="fact-grid">
+              <div class="fact-item">
+                <span class="fact-icon">🗓️</span>
+                <div><strong>Date Observed</strong><br/>21 June every year (globally)</div>
+              </div>
+              <div class="fact-item">
+                <span class="fact-icon">🔢</span>
+                <div><strong>Edition (2026)</strong><br/>12th International Day of Yoga</div>
+              </div>
+              <div class="fact-item">
+                <span class="fact-icon">🎯</span>
+                <div><strong>Theme 2026</strong><br/>"Yoga for Healthy Ageing"</div>
+              </div>
+              <div class="fact-item">
+                <span class="fact-icon">🌍</span>
+                <div><strong>UN Resolution</strong><br/>Resolution 69/131 | Adopted: 11 Dec 2014 | Co-sponsored by 177 nations</div>
+              </div>
+              <div class="fact-item">
+                <span class="fact-icon">📍</span>
+                <div><strong>PM Modi's Venue</strong><br/>Kolkata (Main National Event)</div>
+              </div>
+              <div class="fact-item">
+                <span class="fact-icon">📱</span>
+                <div><strong>Digital Participation</strong><br/>Yoga Sangam Portal — 3 crore+ registrations</div>
+              </div>
+              <div class="fact-item">
+                <span class="fact-icon">📅</span>
+                <div><strong>First IDY</strong><br/>21 June 2015 | India proposed in 2014</div>
+              </div>
+              <div class="fact-item">
+                <span class="fact-icon">🔗</span>
+                <div><strong>WHO Link</strong><br/>Connects to WHO's Decade of Healthy Ageing (2021–2030)</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="examiner-box">
+            <h3 class="examiner-title">🧠 Examiner's Perspective — Think Like a Paper Setter</h3>
+            <ul class="examiner-points">
+              <li><strong>Resolution Number:</strong> UNGA Resolution <strong>69/131</strong> — appears in Prelims directly</li>
+              <li><strong>Record co-sponsorship:</strong> 177 nations — largest in UN history — static data point frequently asked</li>
+              <li>Theme connects to <strong>GS-1 Social Issues</strong> (aging population) + <strong>GS-2 Health Governance</strong></li>
+              <li>WHO's Decade of Healthy Ageing 2021–2030 alignment — cross-link for Mains</li>
+              <li>Yoga Sangam Portal: 3 crore+ participants — digital governance angle</li>
+              <li><strong>SSC/Banking angle:</strong> "Which country proposed IDY?" → India | "When?" → 2014</li>
+            </ul>
+          </div>
+
+          <div class="exam-specific-box">
+            <h3 class="exam-specific-title">📋 Exam-Specific Relevance</h3>
+            <div class="exam-spec-grid">
+              <div class="exam-spec-item"><span class="es-exam">UPSC Prelims</span><span class="es-note">UN Resolution number, theme, co-sponsorship record</span></div>
+              <div class="exam-spec-item"><span class="es-exam">SSC CGL</span><span class="es-note">Date, edition, theme — direct 1-mark questions</span></div>
+              <div class="exam-spec-item"><span class="es-exam">Banking</span><span class="es-note">Theme and venue — common GA section question</span></div>
+              <div class="exam-spec-item"><span class="es-exam">Railways</span><span class="es-note">Basic facts — date, theme, PM's location</span></div>
+              <div class="exam-spec-item"><span class="es-exam">APPSC/TSPSC</span><span class="es-note">National event — regular feature in state PSC GK</span></div>
+              <div class="exam-spec-item"><span class="es-exam">Defence NDA/CDS</span><span class="es-note">International awareness — UN resolutions</span></div>
+            </div>
+          </div>
+        </div>
+      </article>
+
+      <!-- CARD 2: Padma Awards -->
+      <article class="topic-card" data-category="awards" id="card-padma">
+        <div class="card-header cat-awards">
+          <div class="card-left-meta">
+            <div class="card-cat-badge">🏆 Awards & Honours</div>
+            <div class="card-exam-tags">
+              <span class="exam-badge upsc">UPSC</span><span class="exam-badge ssc">SSC</span><span class="exam-badge bank">Banking</span><span class="exam-badge state">State PSC</span><span class="exam-badge rlw">Railways</span><span class="exam-badge ins">Insurance</span>
+            </div>
+          </div>
+          <div class="card-right-meta no-print">
+            <span class="conf-badge green-badge">🟢 Official Source</span>
+            <button class="report-btn" onclick="reportError('card-padma', 'Padma Awards 2026')">⚑ Report Error</button>
+          </div>
+        </div>
+        <div class="card-body">
+          <h2 class="card-title">Padma Awards 2026 — 2nd Civil Investiture Ceremony at Rashtrapati Bhavan</h2>
+          <div class="news-source">
+            📰 <strong>Source:</strong>
+            <a href="https://rashtrapatisachivalaya.gov.in" target="_blank" class="src-link">Rashtrapati Bhavan ↗</a>
+            <a href="https://pib.gov.in" target="_blank" class="src-link">PIB ↗</a>
+            | <span class="src-date">Verified: 23 June 2026</span>
+          </div>
+
+          <div class="key-facts">
+            <h3 class="section-label">📌 Padma Awards 2026 — Complete List (2nd Ceremony)</h3>
+            <div class="padma-table-wrap">
+              <table class="padma-table">
+                <thead>
+                  <tr><th>Award</th><th>Recipient</th><th>Field</th><th>State/Country</th></tr>
+                </thead>
+                <tbody>
+                  <tr><td><span class="award-tag bhushan">Padma Bhushan</span></td><td><strong>Mammootty</strong></td><td>Cinema (Acting)</td><td>Kerala</td></tr>
+                  <tr><td><span class="award-tag bhushan">Padma Bhushan</span></td><td><strong>Alka Yagnik</strong></td><td>Playback Singing</td><td>Rajasthan</td></tr>
+                  <tr><td><span class="award-tag bhushan">Padma Bhushan</span></td><td><strong>Vijay Amritraj</strong></td><td>Tennis</td><td>Tamil Nadu</td></tr>
+                  <tr><td><span class="award-tag bhushan">Padma Bhushan</span></td><td><strong>Dr. Dattatreyudu Nori</strong></td><td>Medicine (Oncology)</td><td>Andhra Pradesh</td></tr>
+                  <tr><td><span class="award-tag bhushan">Padma Bhushan</span></td><td><strong>S.K.M. Maeilanandhan</strong></td><td>Industry/Trade</td><td>Tamil Nadu</td></tr>
+                  <tr><td><span class="award-tag shri">Padma Shri</span></td><td><strong>R. Madhavan</strong></td><td>Cinema (Acting)</td><td>Tamil Nadu</td></tr>
+                  <tr><td><span class="award-tag shri">Padma Shri</span></td><td><strong>Rohit Sharma</strong></td><td>Cricket</td><td>Maharashtra</td></tr>
+                  <tr><td><span class="award-tag shri">Padma Shri</span></td><td><strong>Savita Punia</strong></td><td>Hockey (Goalkeeper)</td><td>Haryana</td></tr>
+                  <tr><td><span class="award-tag shri">Padma Shri (Posthumous)</span></td><td><strong>Satish Shah</strong></td><td>Cinema (Comedy)</td><td>Maharashtra</td></tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+
+          <div class="fact-box-horizontal">
+            <div class="fbox"><strong>Instituted</strong><br/>1954</div>
+            <div class="fbox"><strong>Awarded By</strong><br/>President of India</div>
+            <div class="fbox"><strong>Hierarchy</strong><br/>Bharat Ratna &gt; Padma Vibhushan &gt; Padma Bhushan &gt; Padma Shri</div>
+            <div class="fbox"><strong>Venue</strong><br/>Rashtrapati Bhavan (March & June ceremonies)</div>
+          </div>
+
+          <div class="examiner-box">
+            <h3 class="examiner-title">🧠 Examiner's Perspective</h3>
+            <ul class="examiner-points">
+              <li>Padma Awards instituted in <strong>1954</strong> — year is frequently asked in SSC/Banking</li>
+              <li><strong>Padma Vibhushan</strong> is 2nd highest (not Padma Bhushan) — common confusion trap in MCQs</li>
+              <li>Awarded by the <strong>President of India</strong> — constitutional authority angle for UPSC/SSC</li>
+              <li>Rohit Sharma → <strong>Padma Shri</strong> (NOT Padma Bhushan) — trap question for cricket fans</li>
+              <li>Savita Punia → hockey goalkeeper — <strong>Women in Sports</strong> angle for APPSC/TSPSC</li>
+              <li><strong>Posthumous award</strong> to Satish Shah — examiners often test posthumous recipients separately</li>
+              <li>Dr. Dattatreyudu Nori → Oncology from <strong>Andhra Pradesh</strong> — important for APPSC</li>
+            </ul>
+          </div>
+
+          <div class="exam-specific-box">
+            <h3 class="exam-specific-title">📋 Exam-Specific Relevance</h3>
+            <div class="exam-spec-grid">
+              <div class="exam-spec-item"><span class="es-exam">SSC CGL/CHSL</span><span class="es-note">Who got what award — direct 1-mark questions, very common</span></div>
+              <div class="exam-spec-item"><span class="es-exam">Banking PO/Clerk</span><span class="es-note">GA section — Padma awards are standard questions</span></div>
+              <div class="exam-spec-item"><span class="es-exam">APPSC/TSPSC</span><span class="es-note">Dr. Nori (AP), R. Madhavan (TN) — regional importance</span></div>
+              <div class="exam-spec-item"><span class="es-exam">Railways RRB</span><span class="es-note">Award recipients — basic static GK</span></div>
+              <div class="exam-spec-item"><span class="es-exam">Insurance</span><span class="es-note">GA current affairs — standard award questions</span></div>
+            </div>
+          </div>
+        </div>
+      </article>
+
+      <!-- CARD 3: SVAMITVA + 16th FC -->
+      <article class="topic-card" data-category="polity" id="card-svamitva">
+        <div class="card-header cat-polity">
+          <div class="card-left-meta">
+            <div class="card-cat-badge">⚖️ Polity | Rural Governance</div>
+            <div class="card-exam-tags">
+              <span class="exam-badge upsc">UPSC</span><span class="exam-badge state">APPSC</span><span class="exam-badge state">TSPSC</span><span class="exam-badge ssc">SSC</span><span class="exam-badge bank">Banking</span>
+            </div>
+          </div>
+          <div class="card-right-meta no-print">
+            <span class="conf-badge green-badge">🟢 Official Source</span>
+            <button class="report-btn" onclick="reportError('card-svamitva', 'SVAMITVA & 16th Finance Commission')">⚑ Report Error</button>
+          </div>
+        </div>
+        <div class="card-body">
+          <h2 class="card-title">SVAMITVA Scheme Milestones & 16th Finance Commission — Panchayati Raj</h2>
+          <div class="news-source">
+            📰 <strong>Sources:</strong>
+            <a href="https://pib.gov.in" target="_blank" class="src-link">PIB ↗</a>
+            <a href="https://svamitva.nic.in" target="_blank" class="src-link">SVAMITVA Portal ↗</a>
+            | <span class="src-date">Verified: 23 June 2026</span>
+          </div>
+
+          <div class="key-facts">
+            <h3 class="section-label">📌 Key Facts</h3>
+            <div class="fact-grid">
+              <div class="fact-item"><span class="fact-icon">🗺️</span><div><strong>Full Form</strong><br/>Survey of Villages and Mapping with Improvised Technology in Village Areas</div></div>
+              <div class="fact-item"><span class="fact-icon">📅</span><div><strong>Launch Date</strong><br/>April 24, 2020 — National Panchayati Raj Day</div></div>
+              <div class="fact-item"><span class="fact-icon">🏛️</span><div><strong>Ministry</strong><br/>Ministry of Panchayati Raj</div></div>
+              <div class="fact-item"><span class="fact-icon">🛸</span><div><strong>Technology</strong><br/>Drone surveys + GIS mapping (by Survey of India)</div></div>
+              <div class="fact-item"><span class="fact-icon">📊</span><div><strong>Villages Surveyed</strong><br/>~3.17 lakh villages (&gt;90% of target)</div></div>
+              <div class="fact-item"><span class="fact-icon">📋</span><div><strong>Property Cards Issued</strong><br/>3.18 crore "Adhikar Patra"</div></div>
+              <div class="fact-item"><span class="fact-icon">💰</span><div><strong>16th FC RLB Grant Rise</strong><br/>84% increase vs 15th Finance Commission</div></div>
+              <div class="fact-item"><span class="fact-icon">💵</span><div><strong>Total 16th FC RLB Allocation</strong><br/>₹4.35 lakh crore (2026–2031)</div></div>
+              <div class="fact-item"><span class="fact-icon">👨‍💼</span><div><strong>16th FC Chairman</strong><br/>Dr. Arvind Panagariya</div></div>
+              <div class="fact-item"><span class="fact-icon">📅</span><div><strong>16th FC Period</strong><br/>2026–2031 (15th FC was 2021–2026, chaired by N.K. Singh)</div></div>
+            </div>
+          </div>
+
+          <div class="examiner-box">
+            <h3 class="examiner-title">🧠 Examiner's Perspective</h3>
+            <ul class="examiner-points">
+              <li>"Adhikar Patra" = official name of property card — <strong>direct MCQ in SSC/Banking</strong></li>
+              <li>National Panchayati Raj Day = <strong>April 24</strong> (73rd Amendment in force: April 24, 1993)</li>
+              <li>Surveying agency = <strong>Survey of India</strong> (not ISRO, not NIC) — common trap</li>
+              <li>16th FC period: <strong>2026–2031</strong>; 15th FC: 2021–2026 (N.K. Singh) — both asked together</li>
+              <li>84% increase in RLB grants → fiscal federalism + grassroots empowerment → <strong>UPSC Mains GS-2</strong></li>
+              <li>SVAMITVA enables bank credit access via property ownership → <strong>financial inclusion angle</strong> for Banking/RBI</li>
+            </ul>
+          </div>
+
+          <div class="exam-specific-box">
+            <h3 class="exam-specific-title">📋 Exam-Specific Relevance</h3>
+            <div class="exam-spec-grid">
+              <div class="exam-spec-item"><span class="es-exam">UPSC Mains GS-2</span><span class="es-note">Fiscal federalism, Panchayati Raj empowerment, 73rd Amendment</span></div>
+              <div class="exam-spec-item"><span class="es-exam">SSC CGL</span><span class="es-note">"Adhikar Patra", launch date, ministry — 1-mark questions</span></div>
+              <div class="exam-spec-item"><span class="es-exam">Banking/RBI</span><span class="es-note">Financial inclusion via property ownership and formal credit</span></div>
+              <div class="exam-spec-item"><span class="es-exam">APPSC/TSPSC</span><span class="es-note">Rural governance initiatives — regular in state PSC papers</span></div>
+            </div>
+          </div>
+        </div>
+      </article>
+
+      <!-- CARD 4: Economy -->
+      <article class="topic-card" data-category="economy" id="card-economy">
+        <div class="card-header cat-economy">
+          <div class="card-left-meta">
+            <div class="card-cat-badge">📊 Economy | Banking & Finance</div>
+            <div class="card-exam-tags">
+              <span class="exam-badge upsc">UPSC</span><span class="exam-badge bank">RBI Gr B</span><span class="exam-badge bank">NABARD</span><span class="exam-badge bank">Banking</span><span class="exam-badge ssc">SSC CGL</span>
+            </div>
+          </div>
+          <div class="card-right-meta no-print">
+            <span class="conf-badge green-badge">🟢 Official Source</span>
+            <button class="report-btn" onclick="reportError('card-economy', 'Core Sector Growth & RBI')">⚑ Report Error</button>
+          </div>
+        </div>
+        <div class="card-body">
+          <h2 class="card-title">Core Sector Growth 0.5% (May 2026) + RBI Liquidity Actions</h2>
+          <div class="news-source">
+            📰 <strong>Sources:</strong>
+            <a href="https://pib.gov.in" target="_blank" class="src-link">PIB/Office of Economic Adviser ↗</a>
+            <a href="https://rbi.org.in" target="_blank" class="src-link">RBI.org.in ↗</a>
+            | <span class="src-date">Verified: 23 June 2026</span>
+          </div>
+
+          <div class="key-facts">
+            <h3 class="section-label">📌 Eight Core Industries — May 2026 Sector-Wise Data</h3>
+            <div class="chart-table-wrap">
+              <table class="data-table">
+                <thead>
+                  <tr><th>Industry</th><th>Weight in IIP</th><th>Growth (May 2026)</th><th>Signal</th></tr>
+                </thead>
+                <tbody>
+                  <tr><td>Electricity</td><td>—</td><td>+8.7%</td><td class="up">▲ Highest</td></tr>
+                  <tr><td>Cement</td><td>—</td><td>+8.4%</td><td class="up">▲ Positive</td></tr>
+                  <tr><td>Steel</td><td>—</td><td>+5.0%</td><td class="up">▲ Positive</td></tr>
+                  <tr><td>Fertilizers</td><td>—</td><td>−0.9%</td><td class="down">▼ Negative</td></tr>
+                  <tr><td>Crude Oil</td><td>—</td><td>−4.6%</td><td class="down">▼ Negative</td></tr>
+                  <tr><td>Natural Gas</td><td>—</td><td>−4.9%</td><td class="down">▼ Negative</td></tr>
+                  <tr><td>Refinery Products</td><td>—</td><td>−8.7%</td><td class="down">▼ Negative</td></tr>
+                  <tr><td>Coal</td><td>—</td><td>−9.3%</td><td class="down">▼ Steepest Fall</td></tr>
+                  <tr class="total-row"><td><strong>Overall ICI</strong></td><td><strong>40.27% of IIP</strong></td><td><strong>+0.5%</strong></td><td class="neutral">⚠️ 21-Month Low</td></tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+
+          <div class="key-facts" style="margin-top:16px">
+            <h3 class="section-label">📌 RBI Actions — June 23, 2026</h3>
+            <div class="fact-grid">
+              <div class="fact-item"><span class="fact-icon">💧</span><div><strong>VRR Auction</strong><br/>₹1.41 trillion injected via 7-day Variable Rate Repo at 5.26% cut-off to address GST + advance tax-induced liquidity deficit</div></div>
+              <div class="fact-item"><span class="fact-icon">🏭</span><div><strong>TReDS for MSMEs</strong><br/>Simplified onboarding + credit guarantee cover permitted for TReDS exposures on the platform</div></div>
+              <div class="fact-item"><span class="fact-icon">📱</span><div><strong>UPI Credit Lines</strong><br/>SFB credit rules amended for consistent regulatory treatment of credit lines offered via UPI</div></div>
+              <div class="fact-item"><span class="fact-icon">📈</span><div><strong>G-Sec Bond Yield</strong><br/>10-year G-Sec yield steady at 6.84%</div></div>
+            </div>
+          </div>
+
+          <div class="examiner-box">
+            <h3 class="examiner-title">🧠 Examiner's Perspective</h3>
+            <ul class="examiner-points">
+              <li>ICI = <strong>40.27% weight in IIP</strong> — this exact figure appears repeatedly in Banking/SSC/UPSC Prelims</li>
+              <li>Released by: <strong>Office of the Economic Adviser</strong>, Ministry of Commerce & Industry — NOT RBI, NOT CSO</li>
+              <li>Cumulative growth April–May 2026-27: <strong>1.1% provisional</strong></li>
+              <li>VRR ≠ Repo Rate: VRR (Variable Rate Repo) is a short-term liquidity tool; Repo Rate is the policy rate — critical distinction for RBI Grade B</li>
+              <li>TReDS: Allows MSMEs to discount invoices → working capital → <strong>financial inclusion</strong> angle</li>
+              <li>Coal at −9.3% → impacts electricity capacity → energy security concern — links to <strong>GS-3 energy policy</strong></li>
+              <li>Jan Vishwas Act amendments notified for RBI, LIC, PFRDA — <strong>decriminalisation</strong> of minor regulatory offences</li>
+            </ul>
+          </div>
+
+          <div class="exam-specific-box">
+            <h3 class="exam-specific-title">📋 Exam-Specific Relevance</h3>
+            <div class="exam-spec-grid">
+              <div class="exam-spec-item"><span class="es-exam">RBI Grade B</span><span class="es-note">VRR vs Repo Rate distinction; TReDS; UPI credit lines; liquidity management</span></div>
+              <div class="exam-spec-item"><span class="es-exam">NABARD</span><span class="es-note">MSME credit, TReDS, agricultural sector (fertilizers contraction)</span></div>
+              <div class="exam-spec-item"><span class="es-exam">Banking PO</span><span class="es-note">ICI weight in IIP (40.27%), sector-wise data for GA section</span></div>
+              <div class="exam-spec-item"><span class="es-exam">UPSC Prelims</span><span class="es-note">ICI releasing agency, weight in IIP, policy tools used by RBI</span></div>
+              <div class="exam-spec-item"><span class="es-exam">SSC CGL</span><span class="es-note">Core sector growth figure — 1-mark static data question</span></div>
+            </div>
+          </div>
+        </div>
+      </article>
+
+      <!-- CARD 5: BRICS & Space -->
+      <article class="topic-card" data-category="science" id="card-space">
+        <div class="card-header cat-science">
+          <div class="card-left-meta">
+            <div class="card-cat-badge">🚀 Science & Technology | Space</div>
+            <div class="card-exam-tags">
+              <span class="exam-badge upsc">UPSC</span><span class="exam-badge ssc">SSC CGL</span><span class="exam-badge state">State PSC</span><span class="exam-badge def">NDA/CDS</span>
+            </div>
+          </div>
+          <div class="card-right-meta no-print">
+            <span class="conf-badge green-badge">🟢 Official Source</span>
+            <button class="report-btn" onclick="reportError('card-space', 'BRICS HOSA & PSLV Transfer')">⚑ Report Error</button>
+          </div>
+        </div>
+        <div class="card-body">
+          <h2 class="card-title">BRICS HOSA Meet in Bengaluru + PSLV Technology Transfer to Private Sector</h2>
+          <div class="news-source">
+            📰 <strong>Sources:</strong>
+            <a href="https://www.thehindu.com" target="_blank" class="src-link">The Hindu ↗</a>
+            <a href="https://www.isro.gov.in" target="_blank" class="src-link">ISRO ↗</a>
+            | <span class="src-date">Verified: 23 June 2026</span>
+          </div>
+
+          <div class="key-facts">
+            <h3 class="section-label">📌 Key Facts</h3>
+            <div class="fact-grid">
+              <div class="fact-item"><span class="fact-icon">🛰️</span><div><strong>Event</strong><br/>BRICS Heads of Space Agencies (HOSA) Meet</div></div>
+              <div class="fact-item"><span class="fact-icon">📍</span><div><strong>Venue</strong><br/>Bengaluru (ISRO HQ city) — June 23–24, 2026</div></div>
+              <div class="fact-item"><span class="fact-icon">🎯</span><div><strong>BRICS Theme 2026</strong><br/>"Building for Resilience, Innovation, Cooperation and Sustainability"</div></div>
+              <div class="fact-item"><span class="fact-icon">🌍</span><div><strong>Members Present</strong><br/>All 11 BRICS nations represented</div></div>
+              <div class="fact-item"><span class="fact-icon">🔭</span><div><strong>Key Agenda</strong><br/>Space sustainability, Debris-free missions, BRICS Remote Sensing Satellite Constellation (RSSC)</div></div>
+              <div class="fact-item"><span class="fact-icon">🏭</span><div><strong>PSLV Transfer</strong><br/>IN-SPACe facilitating PSLV technology transfer to private companies for rocket production</div></div>
+              <div class="fact-item"><span class="fact-icon">🏛️</span><div><strong>IN-SPACe Full Form</strong><br/>Indian National Space Promotion and Authorisation Centre — under Department of Space</div></div>
+              <div class="fact-item"><span class="fact-icon">🪸</span><div><strong>Also in News</strong><br/>India's first 3D-printed artificial reef modules deployed for marine biodiversity</div></div>
+            </div>
+          </div>
+
+          <div class="examiner-box">
+            <h3 class="examiner-title">🧠 Examiner's Perspective</h3>
+            <ul class="examiner-points">
+              <li>IN-SPACe is under <strong>Department of Space</strong> (NOT Ministry of Science & Technology) — trap question</li>
+              <li>PSLV = <strong>4-stage rocket, alternating solid-liquid propulsion</strong> — India's "workhorse" rocket</li>
+              <li>Space Debris: India's "debris-free mission" commitment aligns with global IADC norms — <strong>GS-3 environment + space</strong></li>
+              <li>BRICS RSSC = Remote Sensing Satellite Constellation — collaborative Earth observation — <strong>static GK</strong></li>
+              <li>India holds BRICS Chairship in 2026 → responsible for hosting all BRICS group meetings</li>
+              <li>3D-printed artificial reef → <strong>marine biodiversity</strong> + technology application in ecology — examiner's favourite combo</li>
+            </ul>
+          </div>
+
+          <div class="exam-specific-box">
+            <h3 class="exam-specific-title">📋 Exam-Specific Relevance</h3>
+            <div class="exam-spec-grid">
+              <div class="exam-spec-item"><span class="es-exam">UPSC Prelims/Mains</span><span class="es-note">IN-SPACe mandate, PSLV stages, space debris policy</span></div>
+              <div class="exam-spec-item"><span class="es-exam">SSC CGL</span><span class="es-note">PSLV full form, BRICS meeting venue, India's BRICS chairship</span></div>
+              <div class="exam-spec-item"><span class="es-exam">NDA/CDS</span><span class="es-note">Space missions, ISRO technology, international cooperation</span></div>
+              <div class="exam-spec-item"><span class="es-exam">State PSC</span><span class="es-note">BRICS facts, India's space achievements</span></div>
+            </div>
+          </div>
+        </div>
+      </article>
+
+      <!-- CARD 6: Environment + ZSI -->
+      <article class="topic-card" data-category="environment" id="card-env">
+        <div class="card-header cat-environment">
+          <div class="card-left-meta">
+            <div class="card-cat-badge">🌿 Environment | Biodiversity</div>
+            <div class="card-exam-tags">
+              <span class="exam-badge upsc">UPSC</span><span class="exam-badge state">APPSC</span><span class="exam-badge ssc">SSC</span><span class="exam-badge def">Forest Services</span>
+            </div>
+          </div>
+          <div class="card-right-meta no-print">
+            <span class="conf-badge green-badge">🟢 Official Source</span>
+            <button class="report-btn" onclick="reportError('card-env', 'ZSI New Species & Environment')">⚑ Report Error</button>
+          </div>
+        </div>
+        <div class="card-body">
+          <h2 class="card-title">ZSI Discovers New Wasp Species + Biochar + Rakhigarhi Skeletal Study</h2>
+          <div class="news-source">
+            📰 <strong>Sources:</strong>
+            <a href="https://zsi.gov.in" target="_blank" class="src-link">ZSI ↗</a>
+            <a href="https://asi.nic.in" target="_blank" class="src-link">ASI ↗</a>
+            | <span class="src-date">Verified: 23 June 2026</span>
+          </div>
+
+          <div class="key-facts">
+            <h3 class="section-label">📌 Key Facts</h3>
+            <div class="fact-grid">
+              <div class="fact-item"><span class="fact-icon">🐝</span><div><strong>New Species Name</strong><br/><em>Spilomena malabarica</em> (parasitoid wasp)</div></div>
+              <div class="fact-item"><span class="fact-icon">📍</span><div><strong>Discovered At</strong><br/>Kozhikode district, Kerala (Western Ghats biodiversity hotspot)</div></div>
+              <div class="fact-item"><span class="fact-icon">🔬</span><div><strong>Discovered By</strong><br/>Zoological Survey of India (ZSI) — est. 1916, HQ: Kolkata</div></div>
+              <div class="fact-item"><span class="fact-icon">🏛️</span><div><strong>ZSI Under</strong><br/>Ministry of Environment, Forest & Climate Change</div></div>
+              <div class="fact-item"><span class="fact-icon">🌾</span><div><strong>Significance</strong><br/>Biological pest control in agriculture — reduces chemical pesticide need</div></div>
+              <div class="fact-item"><span class="fact-icon">🔥</span><div><strong>Biochar</strong><br/>Paddy straw → pyrolysis → biochar → soil health improvement + reduces stubble burning + carbon sequestration</div></div>
+              <div class="fact-item"><span class="fact-icon">🏺</span><div><strong>Rakhigarhi</strong><br/>Harappan site (Haryana) | ASI transferred skeletal remains to AnSI for DNA/genetic analysis</div></div>
+              <div class="fact-item"><span class="fact-icon">🌊</span><div><strong>UNICEF Report</strong><br/>Children's Climate Risk Report 2026: 1.1 billion children exposed to overlapping climate hazards; drought = most widespread</div></div>
+            </div>
+          </div>
+
+          <div class="examiner-box">
+            <h3 class="examiner-title">🧠 Examiner's Perspective</h3>
+            <ul class="examiner-points">
+              <li>ZSI est. <strong>1916</strong>, HQ <strong>Kolkata</strong> — year and location are direct MCQ material</li>
+              <li>Western Ghats = UNESCO World Heritage + <strong>biodiversity hotspot</strong> — species from here carry extra exam weight</li>
+              <li>"malabarica" suffix indicates <strong>Malabar region</strong> naming convention — biogeographic provenance</li>
+              <li>Biochar: <strong>pyrolysis</strong> (not combustion) of biomass — produces carbon-rich soil amendment — <strong>GS-3 Agriculture + Climate</strong></li>
+              <li>Rakhigarhi DNA study → may rewrite <strong>Aryan migration theories</strong> — high-value UPSC Mains GS-1 topic</li>
+              <li>AnSI = <strong>Anthropological Survey of India</strong> (NOT Archaeological Survey) — commonly confused</li>
+              <li>UNICEF 1.1 billion children figure → <strong>climate vulnerability</strong> angle — UPSC Essay + GS-3</li>
+            </ul>
+          </div>
+
+          <div class="exam-specific-box">
+            <h3 class="exam-specific-title">📋 Exam-Specific Relevance</h3>
+            <div class="exam-spec-grid">
+              <div class="exam-spec-item"><span class="es-exam">UPSC Prelims</span><span class="es-note">ZSI establishment year, Rakhigarhi site, Western Ghats status</span></div>
+              <div class="exam-spec-item"><span class="es-exam">Forest Services</span><span class="es-note">Biodiversity discovery, biological pest control, ecosystem services</span></div>
+              <div class="exam-spec-item"><span class="es-exam">APPSC/TSPSC</span><span class="es-note">Kozhikode (Kerala) discovery; regional biodiversity significance</span></div>
+              <div class="exam-spec-item"><span class="es-exam">SSC CGL</span><span class="es-note">ZSI full form, year, ministry — direct static GK questions</span></div>
+            </div>
+          </div>
+        </div>
+      </article>
+
+      <!-- CARD 7: Defence + Appointments -->
+      <article class="topic-card" data-category="ir" id="card-defence">
+        <div class="card-header cat-ir">
+          <div class="card-left-meta">
+            <div class="card-cat-badge">🛡️ Defence | Appointments | IR</div>
+            <div class="card-exam-tags">
+              <span class="exam-badge upsc">UPSC</span><span class="exam-badge def">CAPF</span><span class="exam-badge def">NDA/CDS</span><span class="exam-badge ssc">SSC CGL</span><span class="exam-badge bank">Banking</span>
+            </div>
+          </div>
+          <div class="card-right-meta no-print">
+            <span class="conf-badge green-badge">🟢 Official Source</span>
+            <button class="report-btn" onclick="reportError('card-defence', 'Defence, Appointments & IR')">⚑ Report Error</button>
+          </div>
+        </div>
+        <div class="card-body">
+          <h2 class="card-title">Garudastra | India-UK ESG | BRICS NSA Meet | Appointments — Tushar Mehta, IRCON</h2>
+          <div class="news-source">
+            📰 <strong>Sources:</strong>
+            <a href="https://pib.gov.in" target="_blank" class="src-link">PIB/MoD ↗</a>
+            <a href="https://cabsec.gov.in" target="_blank" class="src-link">Cabinet Secretariat ↗</a>
+            | <span class="src-date">Verified: 23 June 2026</span>
+          </div>
+
+          <div class="key-facts">
+            <h3 class="section-label">📌 Defence Updates</h3>
+            <div class="fact-grid">
+              <div class="fact-item"><span class="fact-icon">💣</span><div><strong>Garudastra</strong><br/>Indigenous 120mm vehicle-mounted mortar | Developer: Nibe Limited (private) | Tested: Infantry School, Mhow, Madhya Pradesh</div></div>
+              <div class="fact-item"><span class="fact-icon">🤝</span><div><strong>India-UK Defence</strong><br/>15th Executive Steering Group (ESG) meeting | Focus: military interoperability, joint exercises, training</div></div>
+              <div class="fact-item"><span class="fact-icon">⚓</span><div><strong>Navy Deployment</strong><br/>INS Udaygiri (P15B Destroyer) + INS Kavaratti (ASW Corvette) → Ho Chi Minh City, Vietnam | Maritime bilateral ties</div></div>
+              <div class="fact-item"><span class="fact-icon">💻</span><div><strong>DITCC — 15th Meet</strong><br/>Chaired by Sanjay Seth (MoS Defence) | Focus: Aatma-Nirbharta in IT, indigenous chip manufacturing, sovereign OS</div></div>
+              <div class="fact-item"><span class="fact-icon">✈️</span><div><strong>Rafale MRO</strong><br/>Bridge arrangement with Safran (France) for M88 engine maintenance while long-term deal is negotiated</div></div>
+            </div>
+          </div>
+
+          <div class="key-facts" style="margin-top:16px">
+            <h3 class="section-label">📌 Key Appointments (Effective July 1, 2026)</h3>
+            <div class="padma-table-wrap">
+              <table class="padma-table">
+                <thead><tr><th>Person</th><th>Post</th><th>Duration</th></tr></thead>
+                <tbody>
+                  <tr><td><strong>Tushar Mehta</strong></td><td>Solicitor General of India (Reappointed)</td><td>3 years</td></tr>
+                  <tr><td><strong>Vikramjit Banerjee</strong></td><td>Additional Solicitor General (Reappointed)</td><td>—</td></tr>
+                  <tr><td><strong>K.M. Nataraj</strong></td><td>Additional Solicitor General (Reappointed)</td><td>—</td></tr>
+                  <tr><td><strong>N. Venkataraman</strong></td><td>Additional Solicitor General (Reappointed)</td><td>—</td></tr>
+                  <tr><td><strong>Aishwarya Bhati</strong></td><td>Additional Solicitor General (Reappointed)</td><td>—</td></tr>
+                  <tr><td><strong>Saleem Ahmad</strong></td><td>Interim CMD, IRCON International Ltd. (from RVNL)</td><td>1 year</td></tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+
+          <div class="examiner-box">
+            <h3 class="examiner-title">🧠 Examiner's Perspective</h3>
+            <ul class="examiner-points">
+              <li>Law Officer Hierarchy: <strong>Attorney General → Solicitor General → Additional Solicitor General</strong> — frequently confused in MCQs</li>
+              <li>INS Kavaratti = <strong>ASW Corvette</strong> (Anti-Submarine Warfare) named after Lakshadweep capital</li>
+              <li>INS Udaygiri = <strong>Project 15B (Visakhapatnam class) Destroyer</strong> — important naval static GK</li>
+              <li>India-Vietnam naval engagement → India's <strong>Act East Policy</strong> in action; counters China's South China Sea claims</li>
+              <li>Rafale → <strong>Dassault Aviation, France</strong>; 36 aircraft deal (2016) — direct MCQ material</li>
+              <li>Saleem Ahmad moved from <strong>RVNL → IRCON</strong> — examiner may ask which PSU he came from</li>
+            </ul>
+          </div>
+
+          <div class="exam-specific-box">
+            <h3 class="exam-specific-title">📋 Exam-Specific Relevance</h3>
+            <div class="exam-spec-grid">
+              <div class="exam-spec-item"><span class="es-exam">CAPF/NDA/CDS</span><span class="es-note">Garudastra specs, INS names, Rafale manufacturer — all direct questions</span></div>
+              <div class="exam-spec-item"><span class="es-exam">SSC CGL</span><span class="es-note">Tushar Mehta appointment, law officer hierarchy</span></div>
+              <div class="exam-spec-item"><span class="es-exam">Banking/Insurance</span><span class="es-note">Key appointments — GA section standard</span></div>
+              <div class="exam-spec-item"><span class="es-exam">UPSC Prelims</span><span class="es-note">India-Vietnam maritime cooperation, Act East Policy, BRICS NSA meet</span></div>
+            </div>
+          </div>
+        </div>
+      </article>
+
+      <!-- CARD 8: Critical Minerals + MY Bharat -->
+      <article class="topic-card" data-category="economy" id="card-minerals">
+        <div class="card-header cat-economy">
+          <div class="card-left-meta">
+            <div class="card-cat-badge">⛏️ Economy | Resources | Governance</div>
+            <div class="card-exam-tags">
+              <span class="exam-badge upsc">UPSC</span><span class="exam-badge ssc">SSC CGL</span><span class="exam-badge rlw">Railways</span><span class="exam-badge state">State PSC</span>
+            </div>
+          </div>
+          <div class="card-right-meta no-print">
+            <span class="conf-badge green-badge">🟢 Official Source</span>
+            <button class="report-btn" onclick="reportError('card-minerals', 'Critical Minerals & MY Bharat')">⚑ Report Error</button>
+          </div>
+        </div>
+        <div class="card-body">
+          <h2 class="card-title">56 Critical Mineral Blocks Auctioned | Vande Mataram Camps | SEBI Ad Code</h2>
+          <div class="news-source">
+            📰 <strong>Sources:</strong>
+            <a href="https://pib.gov.in" target="_blank" class="src-link">PIB ↗</a>
+            <a href="https://mines.gov.in" target="_blank" class="src-link">Ministry of Mines ↗</a>
+            | <span class="src-date">Verified: 23 June 2026</span>
+          </div>
+
+          <div class="key-facts">
+            <h3 class="section-label">📌 Key Facts</h3>
+            <div class="fact-grid">
+              <div class="fact-item"><span class="fact-icon">⛏️</span><div><strong>Milestone</strong><br/>56 critical & strategic mineral blocks successfully auctioned</div></div>
+              <div class="fact-item"><span class="fact-icon">📋</span><div><strong>Policy Basis</strong><br/>National Critical Minerals Mission (Budget 2024-25) + MMDR Act amendments</div></div>
+              <div class="fact-item"><span class="fact-icon">🔋</span><div><strong>Why Critical?</strong><br/>Lithium, Cobalt, Nickel, Graphite — used in EVs, semiconductors, clean energy batteries</div></div>
+              <div class="fact-item"><span class="fact-icon">🏕️</span><div><strong>Vande Mataram Camps</strong><br/>7-day residential camps | Ministry of Youth Affairs & Sports | Under MY Bharat</div></div>
+              <div class="fact-item"><span class="fact-icon">📍</span><div><strong>First Camp</strong><br/>Kolkata | June 24–30, 2026 | Focus: national unity, constitutional values, youth leadership</div></div>
+              <div class="fact-item"><span class="fact-icon">📢</span><div><strong>SEBI Ad Code</strong><br/>Proposed "Common Advertisement Code" — celebrity endorsements only at brand level, NOT for specific financial products</div></div>
+              <div class="fact-item"><span class="fact-icon">💻</span><div><strong>DigiDukaan</strong><br/>10th National Traders' Welfare Board meeting — digital tools for traders; DigiDukaan digital governance expansion</div></div>
+              <div class="fact-item"><span class="fact-icon">🚢</span><div><strong>PortGPT</strong><br/>V.O. Chidambaranar Port (Tamil Nadu) launched AI-based PortGPT mobile app; 45% carbon emission reduction</div></div>
+            </div>
+          </div>
+
+          <div class="examiner-box">
+            <h3 class="examiner-title">🧠 Examiner's Perspective</h3>
+            <ul class="examiner-points">
+              <li>Critical Minerals Mission: Budget 2024-25 → MMDR Act amended → private sector allowed to mine critical minerals — <strong>three-level linkage</strong></li>
+              <li>MY Bharat = <strong>Mera Yuva Bharat</strong> — autonomous body, not a central scheme — important distinction</li>
+              <li>"Vande Mataram" was composed by <strong>Bankim Chandra Chattopadhyay</strong>; first sung at <strong>1896 INC session</strong> — history hook</li>
+              <li>V.O. Chidambaranar Port = Tuticorin Port, <strong>Tamil Nadu</strong> — state & port match is a direct question</li>
+              <li>IEPFA book "Claiming the Unclaimed" → unclaimed dividends/shares recovery — <strong>investor protection topic</strong></li>
+            </ul>
+          </div>
+        </div>
+      </article>
+
+      <!-- ══════════════════════════════════
+           50 MCQ PRACTICE BANK
+           ══════════════════════════════════ -->
+      <section class="mcq-section full-mcq" data-category="mcq" id="section-mcq">
+        <div class="section-header-strip">
+          <h2 class="section-header-title">📝 Practice MCQ Bank — June 23, 2026</h2>
+          <p class="section-sub">50 Questions | All Government Exams | UPSC + SSC + Banking + Railways + Defence Pattern</p>
+        </div>
+        <div class="mcq-bank-grid" id="mcqBank"></div>
+        <div class="mcq-controls no-print">
+          <button class="btn-primary" id="submitAllBtn" onclick="submitAllMCQs()">✅ Submit All Answers</button>
+          <button class="btn-secondary" id="resetBtn" onclick="resetAllMCQs()">🔄 Reset All</button>
+          <div class="score-display" id="scoreDisplay" style="display:none;"></div>
+        </div>
+      </section>
+
+      <!-- ══════════════════════════════════
+           MAINS CORNER
+           ══════════════════════════════════ -->
+      <section class="mains-corner" data-category="all" id="section-mains">
+        <div class="section-header-strip mains-header">
+          <h2 class="section-header-title">✍️ Mains Answer Writing Corner</h2>
+          <p class="section-sub">UPSC GS-2 | GS-3 | APPSC | TSPSC Mains Level</p>
+        </div>
+        <div class="mains-grid">
+          <div class="mains-card">
+            <div class="mains-num">01</div>
+            <div class="mains-paper-tag">GS-2 | 250 Words</div>
+            <h3 class="mains-q">"SVAMITVA Scheme has the potential to transform rural property rights and financial inclusion in India." Critically examine.</h3>
+            <div class="mains-hint"><strong>Key angles:</strong> Legal ownership → credit access → property dispute reduction → GIS technology → 84% RLB grant rise → 16th FC fiscal federalism</div>
+          </div>
+          <div class="mains-card">
+            <div class="mains-num">02</div>
+            <div class="mains-paper-tag">GS-3 | 250 Words</div>
+            <h3 class="mains-q">Discuss how India's evolving space policy — including private sector participation and BRICS cooperation — positions it as a global space power.</h3>
+            <div class="mains-hint"><strong>Key angles:</strong> IN-SPACe → PSLV tech transfer → BRICS HOSA → RSSC → Space Debris → Gaganyaan + Chandrayaan-4 pipeline</div>
+          </div>
+          <div class="mains-card">
+            <div class="mains-num">03</div>
+            <div class="mains-paper-tag">GS-3 | 150 Words</div>
+            <h3 class="mains-q">Examine the significance of Critical Minerals for India's green energy transition and national security. What steps has India taken?</h3>
+            <div class="mains-hint"><strong>Key angles:</strong> EVs → battery tech → National Critical Minerals Mission → MMDR Act → 56 blocks auctioned → import substitution → geopolitical dimension</div>
+          </div>
+          <div class="mains-card">
+            <div class="mains-num">04</div>
+            <div class="mains-paper-tag">GS-3 | 200 Words</div>
+            <h3 class="mains-q">Analyse the impact of declining core sector growth on industrial production and economic resilience. Suggest policy measures.</h3>
+            <div class="mains-hint"><strong>Key angles:</strong> ICI = 40.27% of IIP → 5/8 sectors in red → energy sector crisis → RBI VRR injection → monetary + fiscal tools needed</div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ══════════════════════════════════
+           ONE-STOP REVISION TABLE
+           ══════════════════════════════════ -->
+      <section class="summary-section" data-category="all" id="section-summary">
+        <div class="section-header-strip">
+          <h2 class="section-header-title">📋 One-Stop Revision Table — June 23, 2026</h2>
+          <p class="section-sub">Quick-read for last-minute revision — all verified data</p>
+        </div>
+        <div class="summary-table-wrap">
+          <table class="summary-table">
+            <thead>
+              <tr><th>#</th><th>Topic</th><th>Must-Remember Data</th><th>Source</th><th>Exams</th><th>GS</th></tr>
+            </thead>
+            <tbody>
+              <tr><td>1</td><td>IDY 2026</td><td>Theme: "Yoga for Healthy Ageing" | 12th Ed | UNGA Res 69/131 | 3 cr participants</td><td>PIB</td><td>All Exams</td><td>GS-2</td></tr>
+              <tr><td>2</td><td>BRICS NSA Meet</td><td>Chaired by Ajit Doval | 11 members | India 2026 Chair | Wang Yi bilateral meet</td><td>The Hindu</td><td>UPSC, PSC</td><td>GS-2</td></tr>
+              <tr><td>3</td><td>Padma Awards 2026</td><td>Mammootty, Alka Yagnik → PB | Rohit Sharma, Savita Punia → PS | Satish Shah (Posthumous)</td><td>PIB</td><td>All Exams</td><td>Static GK</td></tr>
+              <tr><td>4</td><td>SVAMITVA</td><td>3.18 cr Adhikar Patra | 84% ↑ RLB grants | 16th FC: Dr. Panagariya | ₹4.35 lakh cr</td><td>PIB/SVAMITVA</td><td>UPSC, APPSC</td><td>GS-2</td></tr>
+              <tr><td>5</td><td>Core Sector Growth</td><td>0.5% (May 2026) | 2nd lowest in 21 months | Coal −9.3% | ICI = 40.27% of IIP</td><td>PIB/OEA</td><td>All Exams</td><td>GS-3</td></tr>
+              <tr><td>6</td><td>RBI VRR Auction</td><td>₹1.41 trillion | 7-day VRR | 5.26% cut-off | TReDS MSME credit guarantee</td><td>RBI.org.in</td><td>Banking, RBI</td><td>GS-3</td></tr>
+              <tr><td>7</td><td>SEBI Ad Code</td><td>Common Advertisement Code proposed | Celebrity endorsements: brand level only</td><td>SEBI</td><td>SEBI, Banking</td><td>GS-3</td></tr>
+              <tr><td>8</td><td>BRICS HOSA + PSLV</td><td>Bengaluru | PSLV tech transfer via IN-SPACe | 11 BRICS nations | RSSC agenda</td><td>ISRO/Hindu</td><td>UPSC, SSC</td><td>GS-3</td></tr>
+              <tr><td>9</td><td>ZSI New Species</td><td>Spilomena malabarica | Kozhikode, Kerala | ZSI est. 1916, HQ Kolkata | MoEFCC</td><td>ZSI</td><td>UPSC, Forest</td><td>GS-3</td></tr>
+              <tr><td>10</td><td>Garudastra</td><td>120mm vehicle mortar | Nibe Limited | Infantry School Mhow, MP</td><td>PIB/MoD</td><td>CAPF, NDA</td><td>GS-3</td></tr>
+              <tr><td>11</td><td>Tushar Mehta</td><td>SG reappointed | 3 years | Effective July 1, 2026 | Hierarchy: AG→SG→ASG</td><td>Cabinet Secy</td><td>All Exams</td><td>GS-2</td></tr>
+              <tr><td>12</td><td>Critical Minerals</td><td>56 blocks auctioned | National Critical Minerals Mission (Budget 2024-25) | MMDR Act</td><td>Mines Ministry</td><td>UPSC, SSC</td><td>GS-3</td></tr>
+              <tr><td>13</td><td>Vande Mataram Camps</td><td>MY Bharat | Kolkata June 24–30 | Constitutional values | Youth Affairs Ministry</td><td>PIB</td><td>All Exams</td><td>GS-2</td></tr>
+              <tr><td>14</td><td>PortGPT</td><td>V.O. Chidambaranar Port, Tamil Nadu | AI app | 45% carbon emission ↓</td><td>PIB</td><td>SSC, Banking</td><td>GS-3</td></tr>
+              <tr><td>15</td><td>Rakhigarhi</td><td>Harappan site, Haryana | ASI → AnSI for DNA study | Harappan migration research</td><td>ASI</td><td>UPSC, APPSC</td><td>GS-1</td></tr>
+            </tbody>
+          </table>
+        </div>
+      </section>
+
+      <!-- ══════════════════════════════════
+           FULL DISCLAIMER (Legal Protection)
+           ══════════════════════════════════ -->
+      <section class="disclaimer-full-section" id="disclaimer-full">
+        <div class="disclaimer-full-box">
+          <h3 class="disc-title">📜 Full Disclaimer & Accuracy Policy</h3>
+          <div class="disc-content">
+            <p><strong>Content Generation:</strong> All content on this portal is generated with AI assistance and cross-verified against official government sources including PIB (Press Information Bureau), RBI, SEBI, Ministry websites, and reputed newspapers (The Hindu, Indian Express).</p>
+            <p><strong>Source Citations:</strong> Every topic card displays its source with a direct link. Confidence level badges (🟢 Official / 🟡 Multi-source / 🔴 Verify) indicate the reliability level of each fact.</p>
+            <p><strong>Limitations:</strong> While every effort is made for accuracy, AI-assisted content may occasionally contain errors. This portal is a <strong>study aid only</strong> and is NOT a substitute for official government publications, standard textbooks, or coaching material.</p>
+            <p><strong>Student Advisory:</strong> Always cross-verify critical data points (especially constitutional articles, appointment dates, numerical statistics) from official sources before your examination.</p>
+            <p><strong>Error Reporting:</strong> If you spot any factual error, please use the <strong>"⚑ Report Error"</strong> button on that topic card. Errors are reviewed and corrected within 24 hours.</p>
+            <p><strong>Free Access:</strong> This portal is completely FREE for all aspirants. No subscription, no login, no hidden charges.</p>
+            <p class="disc-legal"><em>© 2026 ExamEdge AI | This content is for educational purposes only. All data sourced from publicly available official government sources and reputed media organisations.</em></p>
+          </div>
+        </div>
+      </section>
+
+    </div>
+  </main>
+
+  <!-- ════════════════════════════════════════
+       ERROR REPORT MODAL
+       ════════════════════════════════════════ -->
+  <div class="modal-overlay" id="errorModal" style="display:none">
+    <div class="modal-box">
+      <div class="modal-header">
+        <h3>⚑ Report a Factual Error</h3>
+        <button class="modal-close" onclick="closeModal()">✕</button>
+      </div>
+      <div class="modal-body">
+        <div class="modal-topic" id="modalTopic"></div>
+        <p class="modal-note">Please describe the error you found. Our editorial team will review and correct within 24 hours.</p>
+        <textarea class="modal-textarea" id="errorText" placeholder="Describe the error... (e.g., 'The ZSI was established in 1935, not 1916')"></textarea>
+        <div class="modal-actions">
+          <button class="btn-primary" onclick="submitErrorReport()">Submit Report</button>
+          <button class="btn-secondary" onclick="closeModal()">Cancel</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ════════════════════════════════════════
+       FOOTER
+       ════════════════════════════════════════ -->
+  <footer class="site-footer no-print">
+    <div class="container footer-inner">
+      <div class="footer-brand">
+        <div class="footer-logo">⚡ ExamEdge AI</div>
+        <p>Free Daily Current Affairs for All Government Examinations</p>
+        <p class="footer-disclaimer-text">✅ AI-Researched | ✅ Source-Cited | ✅ Free Forever | ✅ All Govt Exams</p>
+        <div class="footer-contact">
+          <span>📧 Report errors or contact:</span>
+          <span class="footer-email">examedgeai@support.in</span>
+        </div>
+      </div>
+      <div class="footer-exams">
+        <h4>All Examinations Covered</h4>
+        <div class="footer-exam-grid">
+          <span>UPSC CSE</span><span>UPSC CDS</span><span>UPSC CAPF</span>
+          <span>SSC CGL</span><span>SSC CHSL</span><span>SSC MTS</span>
+          <span>Banking PO</span><span>Banking Clerk</span><span>RBI Grade B</span>
+          <span>NABARD</span><span>Railways (RRB)</span><span>NDA</span>
+          <span>APPSC</span><span>TSPSC</span><span>All State PSCs</span>
+          <span>Insurance</span><span>CUET</span><span>Defence MNS</span>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>© 2026 ExamEdge AI | Daily Current Affairs | 100% Free | All data from official government sources | <a href="#disclaimer-full" class="footer-disc-link">Full Disclaimer</a></p>
+    </div>
+  </footer>
+
+  <!-- AI LOADING OVERLAY -->
+  <div class="modal-overlay" id="loadingOverlay" style="display:none; z-index: 10000; flex-direction: column; justify-content: center; align-items: center; background: rgba(0,0,0,0.85); backdrop-filter: blur(10px);">
+    <div style="font-size: 48px; animation: spin 1.5s linear infinite;">🔄</div>
+    <h2 style="color: #fff; margin-top: 20px; font-family: 'Outfit', sans-serif;">🤖 AI Senior Paper Setter is Working...</h2>
+    <p style="color: #cbd5e1; font-size: 15px; margin-top: 10px; max-width: 400px; text-align: center;">Scraping latest RSS feeds from The Hindu, PIB, and RBI, and generating high-quality current affairs, topic cards, and MCQs. This takes about 10-15 seconds...</p>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>

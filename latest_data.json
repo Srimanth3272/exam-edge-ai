@@ -1,0 +1,417 @@
+{
+  "date": "24 June 2026 | Wednesday",
+  "archiveDate": "📅 24 June 2026",
+  "tickerItems": [
+    "Kerala Assembly witnesses LDF-UDF clash over PM SHRI scheme implementation.",
+    "India-US trade deal 'very close' as high-level talks progress between Goyal and Greer.",
+    "Government clarifies E20 ethanol blending is safe and won't invalidate vehicle insurance.",
+    "Europe grapples with a deadly heatwave, linked to a meteorological 'omega block'.",
+    "Calcutta High Court rejects TMC's Abhishek Banerjee's plea for foreign travel.",
+    "ICAI CA Intermediate 2026 results declared; Shardul Vichare secures AIR 1."
+  ],
+  "topicCards": [
+    {
+      "id": "pm-shri-scheme",
+      "category": "polity",
+      "catBadge": "⚖️ Polity | Governance",
+      "examTags": [
+        "UPSC",
+        "SSC",
+        "Banking",
+        "State PSC",
+        "Railways"
+      ],
+      "title": "PM SHRI Scheme: A Central Initiative for School Upgradation and NEP 2020 Implementation",
+      "sources": [
+        {
+          "name": "The Hindu",
+          "url": "https://www.thehindu.com/news/national/kerala/kerala-assembly-opposition-ldf-locks-horn-with-udf-over-pm-shri-stages-walkout/article71140823.ece"
+        }
+      ],
+      "sourceDate": "Verified: 24 June 2026",
+      "keyFactsTitle": "📌 Key Facts at a Glance",
+      "keyFacts": [
+        {
+          "icon": "📚",
+          "title": "Scheme Name",
+          "desc": "PM Schools for Rising India (PM SHRI) scheme."
+        },
+        {
+          "icon": "🎯",
+          "title": "Primary Objective",
+          "desc": "To upgrade existing schools (including Kendriya Vidyalayas, Navodaya Vidyalayas, and State Government schools) to demonstrate the National Education Policy (NEP) 2020."
+        },
+        {
+          "icon": "💰",
+          "title": "Funding Pattern",
+          "desc": "A Centrally Sponsored Scheme with a 60:40 cost-sharing ratio between the Centre and States/UTs. For Northeastern states, Himachal Pradesh, Uttarakhand, J&K, Ladakh, and Andaman & Nicobar Islands, the ratio is 90:10."
+        },
+        {
+          "icon": "🏫",
+          "title": "Key Features",
+          "desc": "Focuses on green school initiatives, smart classrooms, vocational education, experiential learning, and holistic development of students."
+        }
+      ],
+      "examinerPerspective": [
+        "Questions can be framed on the objectives and key features of PM SHRI, its alignment with NEP 2020, and the funding mechanism (Centrally Sponsored vs. Central Sector Scheme).",
+        "Examiners might link the scheme to Centre-State relations, asking about potential friction points in implementation or the role of cooperative federalism in education.",
+        "Static GK linkage: Understand the National Education Policy (NEP) 2020, its pillars, and other major government initiatives in the education sector."
+      ],
+      "examRelevance": [
+        {
+          "exam": "UPSC Prelims",
+          "note": "Important for GS-2 (Governance, Social Justice - Education). Focus on scheme details, objectives, and funding."
+        },
+        {
+          "exam": "SSC CGL",
+          "note": "Relevant for General Awareness section, particularly government schemes and their benefits. Direct questions on full form, objectives, and target beneficiaries."
+        },
+        {
+          "exam": "Banking/RBI",
+          "note": "Useful for General Awareness and Economic & Social Issues (ESI) sections, especially regarding government initiatives for social development and education."
+        }
+      ]
+    },
+    {
+      "id": "india-us-trade-deal",
+      "category": "ir",
+      "catBadge": "🌍 International Relations | Economy",
+      "examTags": [
+        "UPSC",
+        "SSC",
+        "Banking",
+        "State PSC",
+        "Defence"
+      ],
+      "title": "India-US Trade Deal Nears Historic Conclusion Amidst High-Level Engagements",
+      "sources": [
+        {
+          "name": "Livemint",
+          "url": "https://www.livemint.com/news/india/very-very-close-to-historic-trade-deal-with-india-senior-us-official-says-as-goyal-greer-meet-for-key-talks-11782281034247.html"
+        }
+      ],
+      "sourceDate": "Verified: 24 June 2026",
+      "keyFactsTitle": "📌 Key Facts at a Glance",
+      "keyFacts": [
+        {
+          "icon": "🤝",
+          "title": "Current Status",
+          "desc": "A senior US official, Bethany Poulos Morrison, stated that a historic trade deal with India is 'very, very close' to being finalized."
+        },
+        {
+          "icon": "👥",
+          "title": "Key Meetings",
+          "desc": "Indian Commerce Minister Piyush Goyal and US Deputy Assistant Secretary of State Bethany Poulos Morrison held crucial talks to advance the agreement."
+        },
+        {
+          "icon": "📈",
+          "title": "Bilateral Relations",
+          "desc": "The deal is seen as a significant step in advancing a 'result-oriented' relationship between Prime Minister Narendra Modi and US President Donald Trump."
+        },
+        {
+          "icon": "🌐",
+          "title": "Significance",
+          "desc": "Aims to boost bilateral trade, reduce trade barriers, and enhance economic cooperation between the two strategic partners."
+        }
+      ],
+      "examinerPerspective": [
+        "Questions may focus on the current state of India-US economic relations, key areas of trade, and the potential impact of such a deal on various sectors of the Indian economy.",
+        "Examiners could ask about the broader strategic partnership between India and the US, beyond just trade, including defence, technology, and geopolitical alignment.",
+        "Static GK linkage: Understand the concept of Free Trade Agreements (FTAs), Preferential Trade Agreements (PTAs), and India's major trading partners and their significance."
+      ],
+      "examRelevance": [
+        {
+          "exam": "UPSC Prelims",
+          "note": "Crucial for GS-2 (International Relations) and GS-3 (Indian Economy). Focus on trade policies, bilateral agreements, and their implications."
+        },
+        {
+          "exam": "SSC CGL",
+          "note": "Relevant for General Awareness, particularly international affairs and economic news. Questions on key figures, countries involved, and general impact."
+        },
+        {
+          "exam": "Banking/RBI",
+          "note": "Important for Economic & Social Issues (ESI) and General Awareness. Focus on global trade trends, India's trade balance, and impact on financial markets."
+        }
+      ]
+    },
+    {
+      "id": "ethanol-blending-e20",
+      "category": "economy",
+      "catBadge": "💰 Economy | Environment",
+      "examTags": [
+        "UPSC",
+        "SSC",
+        "Banking",
+        "State PSC",
+        "Railways"
+      ],
+      "title": "Government Reassures on E20 Ethanol Blending: Safety and Insurance Validity Confirmed",
+      "sources": [
+        {
+          "name": "Livemint",
+          "url": "https://www.livemint.com/news/ethanol-blending-is-safe-and-globally-accepted-use-of-e20-won-t-invalidate-vehicle-insurance-11782281824644.html"
+        }
+      ],
+      "sourceDate": "Verified: 24 June 2026",
+      "keyFactsTitle": "📌 Key Facts at a Glance",
+      "keyFacts": [
+        {
+          "icon": "⛽",
+          "title": "E20 Fuel",
+          "desc": "Refers to petrol blended with 20% ethanol, a key component of India's biofuel strategy."
+        },
+        {
+          "icon": "🛡️",
+          "title": "Insurance Validity",
+          "desc": "The Ministry of Petroleum has clarified that the use of Ethanol Blended Petrol (EBP) does not invalidate vehicle insurance claims, debunking misleading social media claims."
+        },
+        {
+          "icon": "🌍",
+          "title": "Global Acceptance",
+          "desc": "Ethanol blending is a globally accepted practice, with no reported issues related to vehicle performance or pests since E20 petrol's introduction in India."
+        },
+        {
+          "icon": "🌱",
+          "title": "Policy Objective",
+          "desc": "Aims to reduce India's crude oil import dependence, lower greenhouse gas emissions, and promote the use of indigenous, renewable energy sources as per the National Biofuel Policy."
+        }
+      ],
+      "examinerPerspective": [
+        "Questions can be asked on the National Biofuel Policy, the targets for ethanol blending, and the economic and environmental benefits of using biofuels.",
+        "Examiners might explore the challenges associated with ethanol blending, such as feedstock availability, impact on food security (food vs. fuel debate), and infrastructure requirements.",
+        "Static GK linkage: Understand different types of biofuels (1st, 2nd, 3rd generation), the process of ethanol production, and the government's initiatives in renewable energy."
+      ],
+      "examRelevance": [
+        {
+          "exam": "UPSC Prelims",
+          "note": "Important for GS-3 (Economy, Environment & Ecology, Science & Technology). Focus on energy security, climate change mitigation, and government policies."
+        },
+        {
+          "exam": "SSC CGL",
+          "note": "Relevant for General Awareness, particularly science and technology, government schemes, and environmental issues. Direct questions on E20, biofuels, and related policies."
+        },
+        {
+          "exam": "Banking/RBI",
+          "note": "Useful for Economic & Social Issues (ESI) and General Awareness. Focus on energy sector policies, import reduction strategies, and their economic implications."
+        }
+      ]
+    },
+    {
+      "id": "europe-heatwave-omega-block",
+      "category": "environment",
+      "catBadge": "🌡️ Environment | Geography",
+      "examTags": [
+        "UPSC",
+        "SSC",
+        "State PSC",
+        "Railways"
+      ],
+      "title": "Europe's Deadly Heatwave Intensifies, Driven by a Persistent 'Omega Block' Atmospheric Pattern",
+      "sources": [
+        {
+          "name": "Times of India",
+          "url": "https://timesofindia.indiatimes.com/world/europe/how-an-omega-block-is-supercharging-europes-deadly-heatwave/articleshow/131954805.cms"
+        },
+        {
+          "name": "Times of India",
+          "url": "https://timesofindia.indiatimes.com/world/europe/40-drown-eiffel-tower-closes-nuclear-plant-shut-france-at-centre-of-europes-heatwave-crisis/articleshow/131953400.cms"
+        }
+      ],
+      "sourceDate": "Verified: 24 June 2026",
+      "keyFactsTitle": "📌 Key Facts at a Glance",
+      "keyFacts": [
+        {
+          "icon": "🔥",
+          "title": "Event",
+          "desc": "Europe is experiencing a severe and deadly heatwave, leading to numerous fatalities, closure of public attractions like the Eiffel Tower, and even a nuclear plant shutdown."
+        },
+        {
+          "icon": "🌀",
+          "title": "Omega Block",
+          "desc": "A specific atmospheric phenomenon characterized by a large, persistent high-pressure system (anticyclone) flanked by two low-pressure systems, forming a shape resembling the Greek letter Omega (Ω)."
+        },
+        {
+          "icon": "🌡️",
+          "title": "Impact",
+          "desc": "This 'blocking' pattern traps hot air over a region for an extended period, preventing cooler air masses from moving in and leading to prolonged extreme temperatures and stable weather conditions."
+        },
+        {
+          "icon": "📈",
+          "title": "Climate Context",
+          "desc": "The increasing frequency and intensity of such extreme weather events, including heatwaves, are widely linked to global climate change and global warming trends."
+        }
+      ],
+      "examinerPerspective": [
+        "Questions can be asked about the 'Omega Block' as a meteorological phenomenon, its formation, and its impact on weather patterns and climate.",
+        "Examiners might link this event to broader discussions on climate change, its causes, effects (e.g., extreme weather, sea-level rise), and global efforts to mitigate it.",
+        "Static GK linkage: Understand atmospheric pressure systems (high and low pressure), jet streams, and other meteorological terms relevant to global weather patterns and climate science."
+      ],
+      "examRelevance": [
+        {
+          "exam": "UPSC Prelims",
+          "note": "Highly relevant for GS-1 (Geography - Climatology) and GS-3 (Environment & Ecology - Climate Change). Focus on meteorological concepts and environmental impacts."
+        },
+        {
+          "exam": "SSC CGL",
+          "note": "Important for General Awareness, particularly geography and environmental science. Questions on climate phenomena, global warming, and current environmental events."
+        },
+        {
+          "exam": "State PSC",
+          "note": "Relevant for General Studies papers, covering geography, environment, and current affairs. Focus on understanding the scientific terms and their real-world implications."
+        }
+      ]
+    }
+  ],
+  "mcqData": [
+    {
+      "id": "q1",
+      "num": "01",
+      "topic": "PM SHRI Scheme",
+      "q": "Consider the following statements regarding the PM Schools for Rising India (PM SHRI) scheme:\n1. It is a centrally sponsored scheme aimed at upgrading existing schools.\n2. The scheme focuses on demonstrating the National Education Policy (NEP) 2020.\n3. It exclusively targets Kendriya Vidyalayas and Navodaya Vidyalayas for upgradation.\nWhich of the statements given above is/are correct?",
+      "opts": [
+        "1 only",
+        "1 and 2 only",
+        "2 and 3 only",
+        "1, 2 and 3"
+      ],
+      "correct": 1,
+      "explanation": "Statement 1 and 2 are correct. The PM SHRI scheme is indeed a centrally sponsored scheme for upgrading existing schools and demonstrating NEP 2020. However, statement 3 is incorrect as it targets not only KVs and NVs but also state government schools, local body schools, and private schools."
+    },
+    {
+      "id": "q2",
+      "num": "02",
+      "topic": "Ethanol Blending",
+      "q": "Which of the following statements about E20 fuel in India is/are correct?\n1. E20 fuel contains 20% ethanol blended with petrol.\n2. The Ministry of Petroleum has clarified that using E20 fuel will not invalidate vehicle insurance claims.\n3. The primary objective of ethanol blending is to increase crude oil imports.\nSelect the correct answer using the code given below:",
+      "opts": [
+        "1 only",
+        "1 and 2 only",
+        "2 and 3 only",
+        "1, 2 and 3"
+      ],
+      "correct": 1,
+      "explanation": "Statements 1 and 2 are correct. E20 fuel is petrol blended with 20% ethanol, and the government has confirmed its safety and insurance validity. Statement 3 is incorrect; the primary objective of ethanol blending is to *reduce* crude oil imports, thereby enhancing energy security."
+    },
+    {
+      "id": "q3",
+      "num": "03",
+      "topic": "India-US Trade Relations",
+      "q": "Recently, a senior US official stated that a historic trade deal with India is 'very, very close'. Which of the following is NOT a primary objective of typical bilateral trade agreements?",
+      "opts": [
+        "Reducing trade barriers and tariffs.",
+        "Promoting economic cooperation and investment.",
+        "Establishing a common currency between the two nations.",
+        "Enhancing market access for goods and services."
+      ],
+      "correct": 2,
+      "explanation": "Bilateral trade agreements primarily aim to reduce trade barriers, promote economic cooperation, and enhance market access. Establishing a common currency is a much more complex and rare form of economic integration, typically not a direct objective of a bilateral trade deal."
+    },
+    {
+      "id": "q4",
+      "num": "04",
+      "topic": "Meteorological Phenomena",
+      "q": "The term 'Omega Block' was recently in news in the context of Europe's severe heatwave. What does an Omega Block primarily refer to?",
+      "opts": [
+        "A geological phenomenon causing seismic activity.",
+        "A specific atmospheric pressure pattern resembling the Greek letter Omega.",
+        "A new type of renewable energy technology.",
+        "A political alliance formed to counter climate change."
+      ],
+      "correct": 1,
+      "explanation": "An 'Omega Block' is a meteorological term for a specific atmospheric pressure pattern where a high-pressure system is flanked by two low-pressure systems, resembling the Greek letter Omega (Ω). This pattern can trap weather systems, leading to prolonged periods of extreme conditions like heatwaves."
+    },
+    {
+      "id": "q5",
+      "num": "05",
+      "topic": "Agriculture & State Issues",
+      "q": "Arecanut, a significant cash crop, was recently in news due to the seizure of trucks in Maharashtra affecting growers in Karnataka. Which of the following states is a major producer of Arecanut in India?",
+      "opts": [
+        "Punjab",
+        "Uttar Pradesh",
+        "Karnataka",
+        "Rajasthan"
+      ],
+      "correct": 2,
+      "explanation": "Karnataka is the largest producer of Arecanut in India, followed by Kerala and Assam. The news highlights inter-state issues affecting its trade, emphasizing Karnataka's role in its production."
+    }
+  ],
+  "mainsQuestions": [
+    {
+      "num": "01",
+      "paperTag": "GS-2 | 250 Words",
+      "q": "The PM SHRI scheme aims to be a torchbearer for the National Education Policy 2020, yet its implementation often faces challenges related to federalism and resource allocation. Discuss this statement in the context of Centre-State relations in India.",
+      "hint": "Key angles: PM SHRI objectives & NEP 2020 principles → Centrally Sponsored Scheme model and its implications → State concerns (funding share, curriculum autonomy, administrative burden) → Role of cooperative and competitive federalism in education sector reforms."
+    },
+    {
+      "num": "02",
+      "paperTag": "GS-3 | 250 Words",
+      "q": "Evaluate the significance of ethanol blending in India's energy security and environmental sustainability goals. What are the associated challenges and how can they be addressed?",
+      "hint": "Key angles: Significance for energy security (reduced crude oil imports, forex savings) → Environmental benefits (lower emissions, cleaner fuel) → National Biofuel Policy framework → Challenges (food vs. fuel debate, feedstock availability, infrastructure, vehicle compatibility) → Way forward (R&D, farmer support, policy consistency)."
+    }
+  ],
+  "summaryTable": [
+    {
+      "num": 1,
+      "topic": "PM SHRI Scheme",
+      "data": "Centrally sponsored scheme to upgrade schools, demonstrating NEP 2020. Kerala Assembly saw debate over its implementation.",
+      "source": "The Hindu",
+      "exams": "UPSC, SSC, State PSC",
+      "gs": "GS-2"
+    },
+    {
+      "num": 2,
+      "topic": "India-US Trade Deal",
+      "data": "Senior US official states trade deal is 'very, very close' after talks between Piyush Goyal and Bethany Poulos Morrison.",
+      "source": "Livemint",
+      "exams": "UPSC, SSC, Banking",
+      "gs": "GS-2, GS-3"
+    },
+    {
+      "num": 3,
+      "topic": "Ethanol Blending (E20)",
+      "data": "Ministry of Petroleum confirms E20 fuel is safe, globally accepted, and does not invalidate vehicle insurance claims.",
+      "source": "Livemint",
+      "exams": "UPSC, SSC, Banking",
+      "gs": "GS-3"
+    },
+    {
+      "num": 4,
+      "topic": "Europe Heatwave & Omega Block",
+      "data": "Europe faces deadly heatwave; 'Omega Block' (atmospheric pattern) identified as a key factor trapping hot air.",
+      "source": "Times of India",
+      "exams": "UPSC, SSC, State PSC",
+      "gs": "GS-1, GS-3"
+    },
+    {
+      "num": 5,
+      "topic": "Calcutta HC on Abhishek Banerjee",
+      "data": "Calcutta High Court rejected TMC MP Abhishek Banerjee's plea seeking permission to travel abroad for medical treatment.",
+      "source": "Livemint",
+      "exams": "UPSC, SSC, State PSC",
+      "gs": "GS-2"
+    },
+    {
+      "num": 6,
+      "topic": "Arecanut Trade Issue",
+      "data": "Trucks carrying arecanut from Karnataka seized in Maharashtra for testing, causing worry among growers and traders.",
+      "source": "The Hindu",
+      "exams": "SSC, State PSC",
+      "gs": "GS-3"
+    },
+    {
+      "num": 7,
+      "topic": "ICAI CA Intermediate Results",
+      "data": "ICAI CA Intermediate 2026 results declared; Shardul Vichare from Dombivali secured All India Rank 1.",
+      "source": "The Hindu",
+      "exams": "SSC, Banking (General Awareness)",
+      "gs": "N/A"
+    },
+    {
+      "num": 8,
+      "topic": "Bengaluru Airport Expansion",
+      "data": "Bengaluru airport proposes cutting passenger fees and airline charges from Sept 2026, betting on higher traffic after ₹18,635 crore expansion.",
+      "source": "Livemint",
+      "exams": "SSC, Banking",
+      "gs": "GS-3"
+    }
+  ]
+}
