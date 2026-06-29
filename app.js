@@ -374,6 +374,14 @@ async function loadLatestData() {
     const archEl = document.getElementById('archiveDate');
     if (archEl && data.archiveDate) archEl.textContent = data.archiveDate;
 
+    const cleanDate = data.archiveDate ? data.archiveDate.replace('📅 ', '').trim() : '';
+    if (cleanDate) {
+      const mcqTitle = document.getElementById('mcqTitle');
+      if (mcqTitle) mcqTitle.textContent = `📝 Practice MCQ Bank — ${cleanDate}`;
+      const summaryTitle = document.getElementById('summaryTitle');
+      if (summaryTitle) summaryTitle.textContent = `📋 One-Stop Revision Table — ${cleanDate}`;
+    }
+
     // 2. Update Ticker
     const tickerInner = document.getElementById('tickerContent');
     if (tickerInner && data.tickerItems && data.tickerItems.length > 0) {
@@ -470,6 +478,8 @@ async function loadLatestData() {
     // 4. Update MCQ Bank
     if (data.mcqData && data.mcqData.length > 0) {
       mcqData = data.mcqData;
+      const mcqSub = document.getElementById('mcqSub');
+      if (mcqSub) mcqSub.textContent = `${mcqData.length} Questions | All Government Exams | UPSC + SSC + Banking + Railways + Defence Pattern`;
       renderMCQBank();
       resetAllMCQs();
     }
