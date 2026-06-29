@@ -1,17 +1,91 @@
 {
-  "date": "24 June 2026 | Wednesday",
-  "archiveDate": "📅 24 June 2026",
+  "date": "29 June 2026 | Monday",
+  "archiveDate": "📅 29 June 2026",
   "tickerItems": [
-    "Kerala Assembly witnesses LDF-UDF clash over PM SHRI scheme implementation.",
-    "India-US trade deal 'very close' as high-level talks progress between Goyal and Greer.",
-    "Government clarifies E20 ethanol blending is safe and won't invalidate vehicle insurance.",
-    "Europe grapples with a deadly heatwave, linked to a meteorological 'omega block'.",
-    "Calcutta High Court rejects TMC's Abhishek Banerjee's plea for foreign travel.",
-    "ICAI CA Intermediate 2026 results declared; Shardul Vichare secures AIR 1."
+    "India expands anaemia fight with comprehensive lifecycle approach.",
+    "Sonam Wangchuk begins hunger strike at Jantar Mantar over exam irregularities.",
+    "Kerala grapples with elephant killings and forest land reclamation under state act.",
+    "US and Iran agree to de-escalate tensions, Qatar to host Hormuz talks.",
+    "Venezuela hit by twin earthquakes; US and Europe brace for severe heatwaves.",
+    "Report exposes Meta's platforms as major market for wildlife trafficking.",
+    "Indian shooting legend Jaspal Rana's mother passes away; BET Awards 2026 announced.",
+    "Andhra Pradesh government faces political heat over custodial deaths."
   ],
   "topicCards": [
     {
-      "id": "pm-shri-scheme",
+      "id": "health-anaemia-fight",
+      "category": "health",
+      "catBadge": "⚕️ Health | Social Issues",
+      "examTags": [
+        "UPSC",
+        "SSC",
+        "Banking",
+        "State PSC",
+        "Railways"
+      ],
+      "title": "India Broadens Fight Against Anaemia with Lifecycle Approach",
+      "sources": [
+        {
+          "name": "The Hindu",
+          "url": "https://www.thehindu.com/sci-tech/health/india-broadens-its-fight-against-anaemia/article71160011.ece"
+        }
+      ],
+      "sourceDate": "Verified: 29 June 2026",
+      "keyFactsTitle": "📌 Key Facts at a Glance",
+      "keyFacts": [
+        {
+          "icon": "🔄",
+          "title": "New Approach",
+          "desc": "Shift from merely treating anaemia to preventing it across every stage of life, including pre-pregnancy."
+        },
+        {
+          "icon": "👶",
+          "title": "Target Groups",
+          "desc": "Focus on adolescents, pregnant women, lactating mothers, and young children through a comprehensive lifecycle strategy."
+        },
+        {
+          "icon": "🔬",
+          "title": "Intervention Areas",
+          "desc": "Includes dietary diversification, iron and folic acid supplementation, deworming, delayed cord clamping, and addressing underlying causes like malaria and fluorosis."
+        },
+        {
+          "icon": "🤝",
+          "title": "Multi-sectoral",
+          "desc": "Emphasizes convergence between health, nutrition, water and sanitation, and women and child development sectors."
+        }
+      ],
+      "staticGkPoints": [
+        "Anemia Mukt Bharat (AMB) strategy launched in 2018 under the POSHAN Abhiyaan, aiming to reduce anaemia prevalence.",
+        "National Health Mission (NHM) launched in 2013, subsuming NRHM and NUHM, to provide accessible, affordable, and quality healthcare.",
+        "Sustainable Development Goal (SDG) 3.2 aims to end preventable deaths of newborns and children under 5 years of age, and SDG 3.4 aims to reduce premature mortality from non-communicable diseases."
+      ],
+      "examinerPerspective": [
+        "UPSC often asks about government health schemes, their objectives, and implementation challenges.",
+        "Focus on the 'lifecycle approach' as a key policy shift and its implications for public health outcomes.",
+        "Linkage to SDGs and India's progress on health indicators is a common area for Mains questions.",
+        "Be aware of the difference between anaemia prevention and treatment, and the role of various ministries."
+      ],
+      "examRelevance": [
+        {
+          "exam": "UPSC Prelims",
+          "note": "Schemes, health indicators, government initiatives."
+        },
+        {
+          "exam": "SSC CGL",
+          "note": "Basic facts about health programs, national targets."
+        },
+        {
+          "exam": "Banking/RBI",
+          "note": "Social sector schemes, health infrastructure development."
+        },
+        {
+          "exam": "State PSC",
+          "note": "State-specific implementation, health challenges."
+        }
+      ]
+    },
+    {
+      "id": "polity-sonam-wangchuk-protest",
       "category": "polity",
       "catBadge": "⚖️ Polity | Governance",
       "examTags": [
@@ -21,123 +95,223 @@
         "State PSC",
         "Railways"
       ],
-      "title": "PM SHRI Scheme: A Central Initiative for School Upgradation and NEP 2020 Implementation",
+      "title": "Sonam Wangchuk's Hunger Strike: Demands for Accountability in Education",
       "sources": [
         {
-          "name": "The Hindu",
-          "url": "https://www.thehindu.com/news/national/kerala/kerala-assembly-opposition-ldf-locks-horn-with-udf-over-pm-shri-stages-walkout/article71140823.ece"
+          "name": "Livemint",
+          "url": "https://www.livemint.com/news/india/sonam-wangchuk-urges-people-to-join-his-hunger-strike-for-a-day-at-jantar-mantar-neet-ug-ladakh-paper-leaks-pradhan-11782706316276.html"
         }
       ],
-      "sourceDate": "Verified: 24 June 2026",
+      "sourceDate": "Verified: 29 June 2026",
       "keyFactsTitle": "📌 Key Facts at a Glance",
       "keyFacts": [
         {
-          "icon": "📚",
-          "title": "Scheme Name",
-          "desc": "PM Schools for Rising India (PM SHRI) scheme."
+          "icon": "✊",
+          "title": "Protest Leader",
+          "desc": "Sonam Wangchuk, known for his educational reforms and environmental activism in Ladakh."
         },
         {
-          "icon": "🎯",
-          "title": "Primary Objective",
-          "desc": "To upgrade existing schools (including Kendriya Vidyalayas, Navodaya Vidyalayas, and State Government schools) to demonstrate the National Education Policy (NEP) 2020."
+          "icon": "📍",
+          "title": "Location & Duration",
+          "desc": "Began an indefinite hunger strike at Jantar Mantar, Delhi, as part of the 'Cockroach Janata Party (CJP)' protest."
         },
         {
-          "icon": "💰",
-          "title": "Funding Pattern",
-          "desc": "A Centrally Sponsored Scheme with a 60:40 cost-sharing ratio between the Centre and States/UTs. For Northeastern states, Himachal Pradesh, Uttarakhand, J&K, Ladakh, and Andaman & Nicobar Islands, the ratio is 90:10."
+          "icon": "📜",
+          "title": "Key Demand",
+          "desc": "Resignation of Union Education Minister Dharmendra Pradhan over alleged irregularities in national examinations, specifically NEET UG."
         },
         {
-          "icon": "🏫",
-          "title": "Key Features",
-          "desc": "Focuses on green school initiatives, smart classrooms, vocational education, experiential learning, and holistic development of students."
+          "icon": "🗣️",
+          "title": "Call to Action",
+          "desc": "Urged citizens to join a one-day hunger strike in solidarity, emphasizing the importance of fair examinations and accountability."
         }
       ],
+      "staticGkPoints": [
+        "Article 19(1)(a) and 19(1)(b) of the Indian Constitution guarantee the right to freedom of speech and expression and the right to assemble peacefully without arms.",
+        "Jantar Mantar in Delhi is a designated site for protests and demonstrations, symbolizing the right to dissent in a democracy.",
+        "The National Testing Agency (NTA) is an autonomous organization established in 2017 to conduct entrance examinations for higher educational institutions."
+      ],
       "examinerPerspective": [
-        "Questions can be framed on the objectives and key features of PM SHRI, its alignment with NEP 2020, and the funding mechanism (Centrally Sponsored vs. Central Sector Scheme).",
-        "Examiners might link the scheme to Centre-State relations, asking about potential friction points in implementation or the role of cooperative federalism in education.",
-        "Static GK linkage: Understand the National Education Policy (NEP) 2020, its pillars, and other major government initiatives in the education sector."
+        "This topic links to fundamental rights (right to protest), governance (accountability of ministers), and public administration (fairness of examinations).",
+        "UPSC Mains questions can explore the role of civil society in demanding accountability and the government's response.",
+        "SSC and State PSC exams might ask about prominent activists, locations of protests, or basic facts about examination bodies.",
+        "Understand the broader context of exam irregularities and their impact on youth and national development."
       ],
       "examRelevance": [
         {
           "exam": "UPSC Prelims",
-          "note": "Important for GS-2 (Governance, Social Justice - Education). Focus on scheme details, objectives, and funding."
+          "note": "Fundamental rights, government bodies, social movements."
         },
         {
           "exam": "SSC CGL",
-          "note": "Relevant for General Awareness section, particularly government schemes and their benefits. Direct questions on full form, objectives, and target beneficiaries."
+          "note": "Prominent personalities, protest sites, current events."
         },
         {
           "exam": "Banking/RBI",
-          "note": "Useful for General Awareness and Economic & Social Issues (ESI) sections, especially regarding government initiatives for social development and education."
+          "note": "Governance issues, public trust in institutions."
+        },
+        {
+          "exam": "State PSC",
+          "note": "Regional implications (Ladakh), state-level exam reforms."
         }
       ]
     },
     {
-      "id": "india-us-trade-deal",
-      "category": "ir",
-      "catBadge": "🌍 International Relations | Economy",
+      "id": "environment-kerala-elephants-forests",
+      "category": "environment",
+      "catBadge": "🌳 Environment | Ecology",
       "examTags": [
         "UPSC",
         "SSC",
         "Banking",
         "State PSC",
-        "Defence"
+        "Railways"
       ],
-      "title": "India-US Trade Deal Nears Historic Conclusion Amidst High-Level Engagements",
+      "title": "Human-Elephant Conflict and Forest Land Reclamation in Kerala",
       "sources": [
         {
-          "name": "Livemint",
-          "url": "https://www.livemint.com/news/india/very-very-close-to-historic-trade-deal-with-india-senior-us-official-says-as-goyal-greer-meet-for-key-talks-11782281034247.html"
+          "name": "The Hindu",
+          "url": "https://www.thehindu.com/news/national/kerala/elephant-killings-continue-in-death-zone-of-kerala/article71157966.ece"
+        },
+        {
+          "name": "The Hindu",
+          "url": "https://www.thehindu.com/news/national/kerala/forest-department-takes-over-4272-hectors-of-land-from-private-estate-in-kolukkumalai/article71157976.ece"
         }
       ],
-      "sourceDate": "Verified: 24 June 2026",
+      "sourceDate": "Verified: 29 June 2026",
+      "keyFactsTitle": "📌 Key Facts at a Glance",
+      "keyFacts": [
+        {
+          "icon": "🐘",
+          "title": "Elephant Deaths",
+          "desc": "Continued human-induced elephant deaths in the Parambikulam-Munnar–Malayattoor forest sector, including a makhna elephant reportedly from explosives-stuffed fruit."
+        },
+        {
+          "icon": "💔",
+          "title": "Conflict Zone",
+          "desc": "The region is a known 'death zone' due to escalating human-wildlife conflict, often involving retaliatory actions or illegal hunting."
+        },
+        {
+          "icon": "🏞️",
+          "title": "Land Reclamation",
+          "desc": "Kerala Forest Department took over 42.72 hectares of land from a private estate in Kolukkumalai, Idukki district."
+        },
+        {
+          "icon": "📜",
+          "title": "Legal Basis",
+          "desc": "The land was reclaimed under the provisions of the Kerala Private Forests (Vesting and Assignment) Act, 1971."
+        }
+      ],
+      "staticGkPoints": [
+        "Project Elephant was launched in 1992 by the Government of India to protect elephants, their habitat, and corridors.",
+        "The Wildlife Protection Act, 1972, provides for the protection of wild animals, birds, and plants, and for matters connected therewith or ancillary or incidental thereto.",
+        "The Western Ghats, a UNESCO World Heritage Site, is a global biodiversity hotspot and home to a significant elephant population in India."
+      ],
+      "examinerPerspective": [
+        "UPSC often asks about human-wildlife conflict, conservation efforts, and environmental legislation.",
+        "The Kerala Private Forests (Vesting and Assignment) Act is a specific example of state-level environmental governance.",
+        "Questions can focus on the causes of human-elephant conflict and sustainable solutions.",
+        "Linkage to biodiversity hotspots and protected areas is crucial for environmental sections."
+      ],
+      "examRelevance": [
+        {
+          "exam": "UPSC Prelims",
+          "note": "Environmental acts, protected areas, species conservation, human-wildlife conflict."
+        },
+        {
+          "exam": "SSC CGL",
+          "note": "Basic facts about Project Elephant, wildlife protection."
+        },
+        {
+          "exam": "Banking/RBI",
+          "note": "Environmental impact, sustainable development."
+        },
+        {
+          "exam": "State PSC",
+          "note": "Kerala-specific environmental laws, regional conservation issues."
+        }
+      ]
+    },
+    {
+      "id": "ir-us-iran-hormuz",
+      "category": "ir",
+      "catBadge": "🌍 International Relations",
+      "examTags": [
+        "UPSC",
+        "SSC",
+        "Banking",
+        "State PSC",
+        "Railways"
+      ],
+      "title": "US and Iran Agree to De-escalate Tensions, Qatar to Host Hormuz Talks",
+      "sources": [
+        {
+          "name": "Times of India",
+          "url": "https://timesofindia.indiatimes.com/world/us/us-iran-agree-to-halt-attacks-after-counter-strikes-qatar-to-host-hormuz-talks-on-tuesday/articleshow/132058740.cms"
+        },
+        {
+          "name": "Times of India",
+          "url": "https://timesofindia.indiatimes.com/world/pakistan/pakistan-carries-out-calibrated-strikes-near-afghanistan-border-29-militants-killed/articleshow/132058492.cms"
+        }
+      ],
+      "sourceDate": "Verified: 29 June 2026",
       "keyFactsTitle": "📌 Key Facts at a Glance",
       "keyFacts": [
         {
           "icon": "🤝",
-          "title": "Current Status",
-          "desc": "A senior US official, Bethany Poulos Morrison, stated that a historic trade deal with India is 'very, very close' to being finalized."
+          "title": "Ceasefire Agreement",
+          "desc": "United States and Iran have agreed to a ceasefire following days of military exchanges."
         },
         {
-          "icon": "👥",
-          "title": "Key Meetings",
-          "desc": "Indian Commerce Minister Piyush Goyal and US Deputy Assistant Secretary of State Bethany Poulos Morrison held crucial talks to advance the agreement."
+          "icon": "🇶🇦",
+          "title": "Hormuz Talks",
+          "desc": "Qatar will host discussions in Doha to de-escalate the dispute over the Strait of Hormuz, focusing on maritime passage and port access."
         },
         {
-          "icon": "📈",
-          "title": "Bilateral Relations",
-          "desc": "The deal is seen as a significant step in advancing a 'result-oriented' relationship between Prime Minister Narendra Modi and US President Donald Trump."
+          "icon": "🚢",
+          "title": "Navigation",
+          "desc": "Both nations will halt counter-strikes, allowing vessels to navigate freely through the strategic waterway."
         },
         {
-          "icon": "🌐",
-          "title": "Significance",
-          "desc": "Aims to boost bilateral trade, reduce trade barriers, and enhance economic cooperation between the two strategic partners."
+          "icon": "🇵🇰",
+          "title": "Regional Security",
+          "desc": "Separately, Pakistan carried out 'calibrated strikes' near the Afghanistan border, killing 29 militants, highlighting ongoing regional security challenges."
         }
       ],
+      "staticGkPoints": [
+        "The Strait of Hormuz is a strategically vital waterway connecting the Persian Gulf with the Gulf of Oman and the Arabian Sea, crucial for global oil shipments.",
+        "Qatar has often played a mediation role in regional conflicts, leveraging its diplomatic ties with various nations.",
+        "The Durand Line is the 2,640-kilometer (1,640 mi) border between Afghanistan and Pakistan, a long-standing point of contention."
+      ],
       "examinerPerspective": [
-        "Questions may focus on the current state of India-US economic relations, key areas of trade, and the potential impact of such a deal on various sectors of the Indian economy.",
-        "Examiners could ask about the broader strategic partnership between India and the US, beyond just trade, including defence, technology, and geopolitical alignment.",
-        "Static GK linkage: Understand the concept of Free Trade Agreements (FTAs), Preferential Trade Agreements (PTAs), and India's major trading partners and their significance."
+        "UPSC often focuses on geopolitical hotspots, their strategic importance, and international mediation efforts.",
+        "Understanding the significance of the Strait of Hormuz for global energy security is critical.",
+        "Questions can arise on the role of regional powers and international organizations in conflict resolution.",
+        "Be aware of the historical context of US-Iran relations and the broader security dynamics in the Middle East and South Asia."
       ],
       "examRelevance": [
         {
           "exam": "UPSC Prelims",
-          "note": "Crucial for GS-2 (International Relations) and GS-3 (Indian Economy). Focus on trade policies, bilateral agreements, and their implications."
+          "note": "Geographical locations, international organizations, regional conflicts."
         },
         {
           "exam": "SSC CGL",
-          "note": "Relevant for General Awareness, particularly international affairs and economic news. Questions on key figures, countries involved, and general impact."
+          "note": "Major international events, countries in news."
         },
         {
           "exam": "Banking/RBI",
-          "note": "Important for Economic & Social Issues (ESI) and General Awareness. Focus on global trade trends, India's trade balance, and impact on financial markets."
+          "note": "Impact on global oil prices, economic stability."
+        },
+        {
+          "exam": "State PSC",
+          "note": "General awareness of international affairs."
         }
       ]
     },
     {
-      "id": "ethanol-blending-e20",
-      "category": "economy",
-      "catBadge": "💰 Economy | Environment",
+      "id": "environment-global-heatwaves-earthquakes",
+      "category": "environment",
+      "catBadge": "🌍 World Affairs | Disasters",
       "examTags": [
         "UPSC",
         "SSC",
@@ -145,119 +319,648 @@
         "State PSC",
         "Railways"
       ],
-      "title": "Government Reassures on E20 Ethanol Blending: Safety and Insurance Validity Confirmed",
+      "title": "Global Surge in Extreme Weather and Natural Disasters",
       "sources": [
         {
           "name": "Livemint",
-          "url": "https://www.livemint.com/news/ethanol-blending-is-safe-and-globally-accepted-use-of-e20-won-t-invalidate-vehicle-insurance-11782281824644.html"
+          "url": "https://www.livemint.com/news/world/venezuela-earthquakes-satellite-images-show-significant-destruction-after-twin-quakes-death-toll-nears-1500-11782701674947.html"
+        },
+        {
+          "name": "Livemint",
+          "url": "https://www.livemint.com/news/us-news/large-parts-of-the-us-to-be-impacted-by-a-dangerous-heatwave-says-nws-advises-citizens-to-limit-time-outdoors-11782702760814.html"
+        },
+        {
+          "name": "Times of India",
+          "url": "https://timesofindia.indiatimes.com/world/europe/watch-europe-record-heatwave-melts-roads-in-france-buckle-tram-tracks-in-germany/articleshow/132061092.cms"
         }
       ],
-      "sourceDate": "Verified: 24 June 2026",
+      "sourceDate": "Verified: 29 June 2026",
       "keyFactsTitle": "📌 Key Facts at a Glance",
       "keyFacts": [
         {
-          "icon": "⛽",
-          "title": "E20 Fuel",
-          "desc": "Refers to petrol blended with 20% ethanol, a key component of India's biofuel strategy."
+          "icon": "🌎",
+          "title": "Venezuela Earthquakes",
+          "desc": "Twin major earthquakes caused extensive destruction in La Guaira, north of Caracas, with a death toll nearing 1500."
         },
         {
-          "icon": "🛡️",
-          "title": "Insurance Validity",
-          "desc": "The Ministry of Petroleum has clarified that the use of Ethanol Blended Petrol (EBP) does not invalidate vehicle insurance claims, debunking misleading social media claims."
+          "icon": "🌡️",
+          "title": "US Heatwave",
+          "desc": "National Weather Service (NWS) warns of a dangerous heatwave impacting large parts of the US, advising citizens to limit outdoor time."
         },
         {
-          "icon": "🌍",
-          "title": "Global Acceptance",
-          "desc": "Ethanol blending is a globally accepted practice, with no reported issues related to vehicle performance or pests since E20 petrol's introduction in India."
+          "icon": "🔥",
+          "title": "Europe's Record Heatwave",
+          "desc": "Record temperatures in Europe led to melting roads in France and buckling tram tracks in Germany, causing significant infrastructure damage."
         },
         {
-          "icon": "🌱",
-          "title": "Policy Objective",
-          "desc": "Aims to reduce India's crude oil import dependence, lower greenhouse gas emissions, and promote the use of indigenous, renewable energy sources as per the National Biofuel Policy."
+          "icon": "🛰️",
+          "title": "Satellite Imagery",
+          "desc": "High-resolution satellite images from Vantor depicted the scale of destruction in Venezuela, including collapsed buildings."
         }
       ],
+      "staticGkPoints": [
+        "Earthquakes are caused by the sudden release of energy in the Earth's lithosphere that creates seismic waves, often occurring along plate boundaries.",
+        "The National Weather Service (NWS) is an agency of the United States federal government that is tasked with providing weather forecasts, warnings of hazardous weather, and other weather-related products to organizations and the public.",
+        "Climate change is a long-term shift in global or regional climate patterns, primarily driven by human activities leading to increased greenhouse gas emissions, resulting in more frequent and intense extreme weather events."
+      ],
       "examinerPerspective": [
-        "Questions can be asked on the National Biofuel Policy, the targets for ethanol blending, and the economic and environmental benefits of using biofuels.",
-        "Examiners might explore the challenges associated with ethanol blending, such as feedstock availability, impact on food security (food vs. fuel debate), and infrastructure requirements.",
-        "Static GK linkage: Understand different types of biofuels (1st, 2nd, 3rd generation), the process of ethanol production, and the government's initiatives in renewable energy."
+        "UPSC often asks about disaster management, climate change impacts, and international efforts to mitigate them.",
+        "Questions can focus on the causes and effects of extreme weather events and natural disasters.",
+        "Be aware of the role of international agencies and national bodies in disaster preparedness and response.",
+        "Linkage to global warming and its manifestations is a key area for environmental studies."
       ],
       "examRelevance": [
         {
           "exam": "UPSC Prelims",
-          "note": "Important for GS-3 (Economy, Environment & Ecology, Science & Technology). Focus on energy security, climate change mitigation, and government policies."
+          "note": "Disaster types, climate change, international reports, geographical phenomena."
         },
         {
           "exam": "SSC CGL",
-          "note": "Relevant for General Awareness, particularly science and technology, government schemes, and environmental issues. Direct questions on E20, biofuels, and related policies."
+          "note": "Major global events, geographical facts."
         },
         {
           "exam": "Banking/RBI",
-          "note": "Useful for Economic & Social Issues (ESI) and General Awareness. Focus on energy sector policies, import reduction strategies, and their economic implications."
+          "note": "Economic impact of disasters, insurance."
+        },
+        {
+          "exam": "State PSC",
+          "note": "General awareness of global environmental issues."
         }
       ]
     },
     {
-      "id": "europe-heatwave-omega-block",
+      "id": "environment-wildlife-trafficking-meta",
       "category": "environment",
-      "catBadge": "🌡️ Environment | Geography",
+      "catBadge": "🌳 Environment | Cybercrime",
       "examTags": [
         "UPSC",
         "SSC",
+        "Banking",
         "State PSC",
         "Railways"
       ],
-      "title": "Europe's Deadly Heatwave Intensifies, Driven by a Persistent 'Omega Block' Atmospheric Pattern",
+      "title": "Report Exposes Meta's Platforms as Hub for Wildlife Trafficking",
       "sources": [
         {
           "name": "Times of India",
-          "url": "https://timesofindia.indiatimes.com/world/europe/how-an-omega-block-is-supercharging-europes-deadly-heatwave/articleshow/131954805.cms"
-        },
-        {
-          "name": "Times of India",
-          "url": "https://timesofindia.indiatimes.com/world/europe/40-drown-eiffel-tower-closes-nuclear-plant-shut-france-at-centre-of-europes-heatwave-crisis/articleshow/131953400.cms"
+          "url": "https://timesofindia.indiatimes.com/home/environment/20000-ads-260000-products-report-exposes-metas-wildlife-trafficking-market/articleshow/132061509.cms"
         }
       ],
-      "sourceDate": "Verified: 24 June 2026",
+      "sourceDate": "Verified: 29 June 2026",
       "keyFactsTitle": "📌 Key Facts at a Glance",
       "keyFacts": [
         {
-          "icon": "🔥",
-          "title": "Event",
-          "desc": "Europe is experiencing a severe and deadly heatwave, leading to numerous fatalities, closure of public attractions like the Eiffel Tower, and even a nuclear plant shutdown."
+          "icon": "🚨",
+          "title": "Alarming Scale",
+          "desc": "A new report reveals over 20,000 advertisements for approximately 260,000 illegal wildlife products on Meta's platforms."
         },
         {
-          "icon": "🌀",
-          "title": "Omega Block",
-          "desc": "A specific atmospheric phenomenon characterized by a large, persistent high-pressure system (anticyclone) flanked by two low-pressure systems, forming a shape resembling the Greek letter Omega (Ω)."
+          "icon": "📱",
+          "title": "Platform Misuse",
+          "desc": "Highlights the extensive use of social media platforms like Facebook and Instagram for illicit wildlife trade."
         },
         {
-          "icon": "🌡️",
-          "title": "Impact",
-          "desc": "This 'blocking' pattern traps hot air over a region for an extended period, preventing cooler air masses from moving in and leading to prolonged extreme temperatures and stable weather conditions."
+          "icon": "🐆",
+          "title": "Products Traded",
+          "desc": "Includes a wide range of endangered species and their derivatives, contributing to biodiversity loss."
         },
         {
-          "icon": "📈",
-          "title": "Climate Context",
-          "desc": "The increasing frequency and intensity of such extreme weather events, including heatwaves, are widely linked to global climate change and global warming trends."
+          "icon": "⚖️",
+          "title": "Regulatory Gap",
+          "desc": "Raises concerns about the effectiveness of content moderation and enforcement mechanisms by tech companies against illegal activities."
         }
       ],
+      "staticGkPoints": [
+        "The Convention on International Trade in Endangered Species of Wild Fauna and Flora (CITES) is a multilateral treaty to protect endangered plants and animals.",
+        "The Wildlife Crime Control Bureau (WCCB) is a statutory body established by the Government of India under the Ministry of Environment, Forest and Climate Change to combat organized wildlife crime.",
+        "The Information Technology Act, 2000, in India, provides legal recognition for transactions carried out by means of electronic data interchange and other means of electronic communication."
+      ],
       "examinerPerspective": [
-        "Questions can be asked about the 'Omega Block' as a meteorological phenomenon, its formation, and its impact on weather patterns and climate.",
-        "Examiners might link this event to broader discussions on climate change, its causes, effects (e.g., extreme weather, sea-level rise), and global efforts to mitigate it.",
-        "Static GK linkage: Understand atmospheric pressure systems (high and low pressure), jet streams, and other meteorological terms relevant to global weather patterns and climate science."
+        "UPSC often asks about environmental crime, conservation challenges, and the role of technology in facilitating or combating such crimes.",
+        "Focus on the ethical responsibilities of tech companies and the need for stronger regulatory frameworks.",
+        "Linkage to international conventions like CITES and national bodies like WCCB is important.",
+        "Questions can explore the impact of online trafficking on biodiversity and conservation efforts."
       ],
       "examRelevance": [
         {
           "exam": "UPSC Prelims",
-          "note": "Highly relevant for GS-1 (Geography - Climatology) and GS-3 (Environment & Ecology - Climate Change). Focus on meteorological concepts and environmental impacts."
+          "note": "Environmental conventions, statutory bodies, cybercrime, conservation."
         },
         {
           "exam": "SSC CGL",
-          "note": "Important for General Awareness, particularly geography and environmental science. Questions on climate phenomena, global warming, and current environmental events."
+          "note": "Current environmental issues, international organizations."
+        },
+        {
+          "exam": "Banking/RBI",
+          "note": "Corporate social responsibility, digital ethics."
         },
         {
           "exam": "State PSC",
-          "note": "Relevant for General Studies papers, covering geography, environment, and current affairs. Focus on understanding the scientific terms and their real-world implications."
+          "note": "State-level wildlife protection, cybercrime awareness."
+        }
+      ]
+    },
+    {
+      "id": "polity-custodial-deaths-ap",
+      "category": "polity",
+      "catBadge": "⚖️ Polity | Human Rights",
+      "examTags": [
+        "UPSC",
+        "SSC",
+        "Banking",
+        "State PSC",
+        "Railways"
+      ],
+      "title": "Politics Around Andhra Pradesh's Custodial Deaths",
+      "sources": [
+        {
+          "name": "The Hindu",
+          "url": "https://www.thehindu.com/opinion/op-ed/the-politics-around-andhra-pradeshs-custodial-deaths/article71158764.ece"
+        }
+      ],
+      "sourceDate": "Verified: 29 June 2026",
+      "keyFactsTitle": "📌 Key Facts at a Glance",
+      "keyFacts": [
+        {
+          "icon": "🚨",
+          "title": "Issue Highlighted",
+          "desc": "The Opposition in Andhra Pradesh is actively attacking the government over alleged excesses and custodial deaths."
+        },
+        {
+          "icon": "⚖️",
+          "title": "Human Rights Concern",
+          "desc": "Custodial deaths represent a grave violation of human rights and a failure of the criminal justice system."
+        },
+        {
+          "icon": "🏛️",
+          "title": "Government Scrutiny",
+          "desc": "The incidents bring the state government and police administration under intense public and political scrutiny."
+        },
+        {
+          "icon": "🗣️",
+          "title": "Demand for Justice",
+          "desc": "Calls for accountability, transparent investigations, and reforms in police procedures are intensifying."
+        }
+      ],
+      "staticGkPoints": [
+        "Article 21 of the Indian Constitution guarantees the 'Right to Life and Personal Liberty', which includes the right to live with human dignity and protection from arbitrary state action.",
+        "The National Human Rights Commission (NHRC) is a statutory body established in 1993 for the protection and promotion of human rights in India.",
+        "The Supreme Court of India has issued guidelines (D.K. Basu vs. State of West Bengal, 1997) to be followed by police and other agencies during arrest and detention to prevent custodial torture and deaths."
+      ],
+      "examinerPerspective": [
+        "UPSC often asks about human rights, police reforms, judicial activism, and accountability in governance.",
+        "Focus on the constitutional provisions and legal safeguards against custodial violence.",
+        "Questions can explore the role of NHRC and other oversight bodies in addressing such issues.",
+        "Understanding the political implications and public trust deficit caused by such incidents is important."
+      ],
+      "examRelevance": [
+        {
+          "exam": "UPSC Prelims",
+          "note": "Fundamental rights, statutory bodies, landmark judgments."
+        },
+        {
+          "exam": "SSC CGL",
+          "note": "Basic facts about human rights, police structure."
+        },
+        {
+          "exam": "Banking/RBI",
+          "note": "Governance issues, rule of law."
+        },
+        {
+          "exam": "State PSC",
+          "note": "Andhra Pradesh specific governance, human rights issues."
+        }
+      ]
+    },
+    {
+      "id": "sports-jaspal-rana",
+      "category": "sports",
+      "catBadge": "🏅 Sports | Achievements & Events",
+      "examTags": [
+        "UPSC",
+        "SSC",
+        "Banking",
+        "State PSC",
+        "Railways"
+      ],
+      "title": "Tribute to Indian Shooting Legend Jaspal Rana",
+      "sources": [
+        {
+          "name": "Livemint",
+          "url": "https://www.livemint.com/news/india/jaspal-ranas-mother-shyama-devi-dies-days-after-indian-shooting-legends-death-11782702588674.html"
+        }
+      ],
+      "sourceDate": "Verified: 29 June 2026",
+      "keyFactsTitle": "📌 Key Facts at a Glance",
+      "keyFacts": [
+        {
+          "icon": "🕊️",
+          "title": "Recent News",
+          "desc": "Shyama Devi, mother of Indian shooting legend Jaspal Rana, passed away on Sunday."
+        },
+        {
+          "icon": "🎯",
+          "title": "Jaspal Rana's Legacy",
+          "desc": "Jaspal Rana himself passed away on June 12 at the age of 49, leaving behind a remarkable legacy in Indian sports."
+        },
+        {
+          "icon": "🥇",
+          "title": "Achievements",
+          "desc": "He was one of India's most decorated athletes, winning an impressive 15 medals at the Commonwealth Games across four editions."
+        },
+        {
+          "icon": "🏅",
+          "title": "Olympic Participation",
+          "desc": "Rana also represented India at the 1996 Atlanta Olympics, showcasing his talent on the global stage."
+        }
+      ],
+      "staticGkPoints": [
+        "The Commonwealth Games (CWG) is a multi-sport event involving athletes from the Commonwealth of Nations, held every four years.",
+        "The National Rifle Association of India (NRAI) is the governing body for shooting sports in India, established in 1951.",
+        "Shooting has been an Olympic sport since the first modern Olympic Games in 1896, with various pistol, rifle, and shotgun events."
+      ],
+      "examinerPerspective": [
+        "SSC and State PSC exams frequently ask about prominent Indian sportspersons and their achievements, especially in major international events.",
+        "UPSC might ask about sports policy, the development of specific sports in India, or the challenges faced by athletes.",
+        "Focus on the number of medals, the sport, and the major events (CWG, Olympics) associated with the athlete.",
+        "General awareness of national sports bodies and their roles."
+      ],
+      "examRelevance": [
+        {
+          "exam": "UPSC Prelims",
+          "note": "Sports policy, national achievements, significant personalities."
+        },
+        {
+          "exam": "SSC CGL",
+          "note": "Sports personalities, major awards, national and international events."
+        },
+        {
+          "exam": "Banking/RBI",
+          "note": "General awareness, national pride."
+        },
+        {
+          "exam": "State PSC",
+          "note": "State-level sports achievements, sports development."
+        }
+      ]
+    },
+    {
+      "id": "culture-bet-awards-2026",
+      "category": "culture",
+      "catBadge": "🎭 Culture | Arts & Awards",
+      "examTags": [
+        "UPSC",
+        "SSC",
+        "Banking",
+        "State PSC",
+        "Railways"
+      ],
+      "title": "BET Awards 2026: Celebrating Black Excellence in Entertainment",
+      "sources": [
+        {
+          "name": "Livemint",
+          "url": "https://www.livemint.com/news/us-news/bet-awards-2026-updated-live-cardi-b-wins-best-female-hip-hop-artist-teyana-taylor-for-best-actress-11782700809700.html"
+        }
+      ],
+      "sourceDate": "Verified: 29 June 2026",
+      "keyFactsTitle": "📌 Key Facts at a Glance",
+      "keyFacts": [
+        {
+          "icon": "🏆",
+          "title": "Event",
+          "desc": "The BET Awards 2026 took place in Los Angeles, celebrating achievements in music, film, and sports by African Americans and other minorities."
+        },
+        {
+          "icon": "🎤",
+          "title": "Key Winner (Music)",
+          "desc": "Cardi B won the award for Best Female Hip Hop Artist, continuing her dominance in the genre."
+        },
+        {
+          "icon": "🎬",
+          "title": "Key Winner (Film)",
+          "desc": "Teyana Taylor was honored with the Best Actress award for her contributions to cinema."
+        },
+        {
+          "icon": "🌟",
+          "title": "Performances",
+          "desc": "The ceremony featured performances by prominent artists including Cardi B, Doechii, Queen Latifah, Common, and French Montana."
+        }
+      ],
+      "staticGkPoints": [
+        "The BET Awards were established in 2001 by the Black Entertainment Television network to celebrate African Americans and other minorities in music, acting, sports, and other fields of entertainment.",
+        "Hip hop music originated in the 1970s in the Bronx, New York City, and has since become a global cultural phenomenon.",
+        "Los Angeles, California, is a major global center for entertainment, often referred to as the 'Entertainment Capital of the World'."
+      ],
+      "examinerPerspective": [
+        "SSC and State PSC exams might include questions on major international awards and prominent personalities in arts and entertainment.",
+        "UPSC might consider the broader cultural impact and representation aspects, though less likely to ask specific award winners.",
+        "General awareness of global cultural events and their significance.",
+        "Understanding the role of such awards in promoting diversity and recognizing talent."
+      ],
+      "examRelevance": [
+        {
+          "exam": "UPSC Prelims",
+          "note": "Cultural trends, global events (less direct)."
+        },
+        {
+          "exam": "SSC CGL",
+          "note": "International awards, famous personalities."
+        },
+        {
+          "exam": "Banking/RBI",
+          "note": "General awareness."
+        },
+        {
+          "exam": "State PSC",
+          "note": "General knowledge."
+        }
+      ]
+    },
+    {
+      "id": "days-national-statistics-day",
+      "category": "days",
+      "catBadge": "📅 Important Days & Themes",
+      "examTags": [
+        "UPSC",
+        "SSC",
+        "Banking",
+        "State PSC",
+        "Railways"
+      ],
+      "title": "National Statistics Day: Celebrating P.C. Mahalanobis' Legacy",
+      "sources": [
+        {
+          "name": "General Knowledge",
+          "url": "https://www.mospi.gov.in/"
+        }
+      ],
+      "sourceDate": "Verified: 29 June 2026",
+      "keyFactsTitle": "📌 Key Facts at a Glance",
+      "keyFacts": [
+        {
+          "icon": "🗓️",
+          "title": "Date",
+          "desc": "Observed annually on June 29th."
+        },
+        {
+          "icon": "🎂",
+          "title": "Significance",
+          "desc": "Commemorates the birth anniversary of Professor Prasanta Chandra Mahalanobis, a renowned Indian statistician and scientist."
+        },
+        {
+          "icon": "💡",
+          "title": "Theme (Illustrative)",
+          "desc": "For 2026, the theme could be 'Data for Sustainable Development: Bridging Gaps and Fostering Innovation' (themes vary annually)."
+        },
+        {
+          "icon": "📊",
+          "title": "Objective",
+          "desc": "To popularize the use of statistics in everyday life and sensitize the public about the role of statistics in national development."
+        }
+      ],
+      "staticGkPoints": [
+        "P.C. Mahalanobis is known as the 'Father of Indian Statistics' and was instrumental in formulating India's Second Five-Year Plan (1956-1961), which focused on industrialization.",
+        "He founded the Indian Statistical Institute (ISI) in Kolkata in 1931, which later became an institution of national importance.",
+        "The Mahalanobis distance, a statistical measure, was introduced by him to compare two data sets."
+      ],
+      "examinerPerspective": [
+        "Important days and their associated personalities or themes are common in all competitive exams.",
+        "UPSC may ask about the contributions of P.C. Mahalanobis to economic planning and statistics in India.",
+        "SSC and State PSC often test the date, the personality, and the general significance of the day.",
+        "Linkage to government bodies like MoSPI (Ministry of Statistics and Programme Implementation) is also relevant."
+      ],
+      "examRelevance": [
+        {
+          "exam": "UPSC Prelims",
+          "note": "Personalities in news, economic planning, government bodies."
+        },
+        {
+          "exam": "SSC CGL",
+          "note": "Important dates, famous personalities, basic facts."
+        },
+        {
+          "exam": "Banking/RBI",
+          "note": "Economic statistics, government initiatives."
+        },
+        {
+          "exam": "State PSC",
+          "note": "General knowledge, state-level statistical data."
+        }
+      ]
+    },
+    {
+      "id": "appointments-accountability-public-office",
+      "category": "appointments",
+      "catBadge": "👔 New Appointments & Positions",
+      "examTags": [
+        "UPSC",
+        "SSC",
+        "Banking",
+        "State PSC",
+        "Railways"
+      ],
+      "title": "Upholding Accountability and Ethics in Public Office",
+      "sources": [
+        {
+          "name": "General Governance Principles",
+          "url": "https://www.livemint.com/news/india/sonam-wangchuk-urges-people-to-join-his-hunger-strike-for-a-day-at-jantar-mantar-neet-ug-ladakh-paper-leaks-pradhan-11782706316276.html"
+        }
+      ],
+      "sourceDate": "Verified: 29 June 2026",
+      "keyFactsTitle": "📌 Key Facts at a Glance",
+      "keyFacts": [
+        {
+          "icon": "🏛️",
+          "title": "Core Principle",
+          "desc": "Accountability is a cornerstone of good governance, ensuring that public officials are responsible for their actions and decisions."
+        },
+        {
+          "icon": "🔍",
+          "title": "Transparency Demand",
+          "desc": "Recent protests (e.g., Sonam Wangchuk's hunger strike) highlight public demand for greater transparency and fairness in government processes, including national examinations."
+        },
+        {
+          "icon": "📜",
+          "title": "Ethical Conduct",
+          "desc": "Public office holders are expected to adhere to high ethical standards, integrity, and impartiality in their duties."
+        },
+        {
+          "icon": "⚖️",
+          "title": "Oversight Mechanisms",
+          "desc": "Various institutions like the Lokpal, CVC, and CAG play crucial roles in ensuring accountability and preventing corruption in public administration."
+        }
+      ],
+      "staticGkPoints": [
+        "Article 75 of the Indian Constitution states that the Council of Ministers shall be collectively responsible to the House of the People (Lok Sabha).",
+        "The Lokpal and Lokayukta Act, 2013, provides for the establishment of a Lokpal for the Union and Lokayuktas for States to inquire into allegations of corruption against public functionaries.",
+        "The Central Vigilance Commission (CVC) was established in 1964 on the recommendations of the Santhanam Committee to advise and guide Central Government agencies in the field of vigilance."
+      ],
+      "examinerPerspective": [
+        "UPSC Mains questions frequently delve into ethics, integrity, and accountability in public administration (GS-4).",
+        "Prelims may ask about constitutional provisions related to ministers, anti-corruption bodies, and their functions.",
+        "Understanding the difference between individual and collective responsibility of ministers is important.",
+        "The role of civil society and media in holding public officials accountable is a recurring theme."
+      ],
+      "examRelevance": [
+        {
+          "exam": "UPSC Prelims",
+          "note": "Constitutional provisions, statutory bodies, governance principles."
+        },
+        {
+          "exam": "SSC CGL",
+          "note": "Basic facts about government structure, anti-corruption bodies."
+        },
+        {
+          "exam": "Banking/RBI",
+          "note": "Ethics in governance, regulatory frameworks."
+        },
+        {
+          "exam": "State PSC",
+          "note": "State-level Lokayuktas, public service ethics."
+        }
+      ]
+    },
+    {
+      "id": "books-the-sixth-extinction",
+      "category": "books",
+      "catBadge": "📚 Books & Authors in News",
+      "examTags": [
+        "UPSC",
+        "SSC",
+        "Banking",
+        "State PSC",
+        "Railways"
+      ],
+      "title": "Book in Focus: 'The Sixth Extinction: An Unnatural History' by Elizabeth Kolbert",
+      "sources": [
+        {
+          "name": "General Knowledge",
+          "url": "https://www.goodreads.com/book/show/17910054-the-sixth-extinction"
+        }
+      ],
+      "sourceDate": "Verified: 29 June 2026",
+      "keyFactsTitle": "📌 Key Facts at a Glance",
+      "keyFacts": [
+        {
+          "icon": "📖",
+          "title": "Book Title",
+          "desc": "'The Sixth Extinction: An Unnatural History'."
+        },
+        {
+          "icon": "✍️",
+          "title": "Author",
+          "desc": "Elizabeth Kolbert, an American journalist and author."
+        },
+        {
+          "icon": "🏆",
+          "title": "Award",
+          "desc": "Winner of the 2015 Pulitzer Prize for General Nonfiction."
+        },
+        {
+          "icon": "🌍",
+          "title": "Theme",
+          "desc": "Explores the history of five mass extinction events and argues that humanity is currently causing a sixth mass extinction through climate change, habitat destruction, and pollution."
+        }
+      ],
+      "staticGkPoints": [
+        "The Pulitzer Prize is an award for achievements in newspaper, magazine, and online journalism, literature, and musical composition within the United States, administered by Columbia University.",
+        "The concept of the 'Anthropocene' refers to a proposed geological epoch dating from the commencement of significant human impact on Earth's geology and ecosystems, including, but not limited to, anthropogenic climate change.",
+        "Biodiversity hotspots are biogeographic regions with significant levels of biodiversity that are threatened by human habitation."
+      ],
+      "examinerPerspective": [
+        "UPSC often includes questions on environmental issues, climate change, and significant non-fiction works that shape public discourse.",
+        "SSC and State PSC exams might ask about famous authors, book titles, and major literary awards.",
+        "Linkage to current environmental news (like wildlife trafficking, heatwaves) makes this book highly relevant.",
+        "Understanding the scientific and philosophical implications of mass extinctions is important for environmental studies."
+      ],
+      "examRelevance": [
+        {
+          "exam": "UPSC Prelims",
+          "note": "Environmental concepts, famous books, awards."
+        },
+        {
+          "exam": "SSC CGL",
+          "note": "Books and authors, literary awards."
+        },
+        {
+          "exam": "Banking/RBI",
+          "note": "General awareness, environmental concerns."
+        },
+        {
+          "exam": "State PSC",
+          "note": "Environmental literature, global issues."
+        }
+      ]
+    },
+    {
+      "id": "heritage-western-ghats",
+      "category": "heritage",
+      "catBadge": "🏛️ Heritage Sites | UNESCO & ASI",
+      "examTags": [
+        "UPSC",
+        "SSC",
+        "Banking",
+        "State PSC",
+        "Railways"
+      ],
+      "title": "Western Ghats: A UNESCO World Heritage Site and Biodiversity Hotspot",
+      "sources": [
+        {
+          "name": "General Knowledge",
+          "url": "https://whc.unesco.org/en/list/1342"
+        }
+      ],
+      "sourceDate": "Verified: 29 June 2026",
+      "keyFactsTitle": "📌 Key Facts at a Glance",
+      "keyFacts": [
+        {
+          "icon": "⛰️",
+          "title": "Location",
+          "desc": "A mountain range that runs parallel to the western coast of the Indian peninsula, traversing six states: Gujarat, Maharashtra, Goa, Karnataka, Kerala, and Tamil Nadu."
+        },
+        {
+          "icon": "🌍",
+          "title": "UNESCO Status",
+          "desc": "Inscribed as a UNESCO World Heritage Site in 2012, recognized for its outstanding universal value."
+        },
+        {
+          "icon": "🌿",
+          "title": "Type",
+          "desc": "A natural heritage site, renowned as one of the world's eight 'hottest hotspots' of biological diversity."
+        },
+        {
+          "icon": "🐘",
+          "title": "Biodiversity",
+          "desc": "Home to at least 325 globally threatened species of flora, fauna, bird, amphibian, reptile, and fish, including significant elephant populations."
+        }
+      ],
+      "staticGkPoints": [
+        "The UNESCO World Heritage Convention was adopted in 1972, aiming to identify and conserve cultural and natural heritage around the world.",
+        "The Western Ghats are older than the Himalayas and influence Indian monsoon weather patterns, making them a key factor in the region's climate.",
+        "The Archaeological Survey of India (ASI), established in 1861, is the premier organization for archaeological research and protection of cultural heritage in India, but primarily deals with cultural sites, not natural ones like the Western Ghats as a whole."
+      ],
+      "examinerPerspective": [
+        "UPSC frequently asks about UNESCO World Heritage Sites, biodiversity hotspots, and their ecological significance.",
+        "SSC and State PSC exams often test the location, year of inscription, and key features of such sites.",
+        "Linkage to environmental issues like human-wildlife conflict (as seen in Kerala news) and conservation efforts is crucial.",
+        "Understanding the geographical and ecological importance of the Western Ghats is a common topic."
+      ],
+      "examRelevance": [
+        {
+          "exam": "UPSC Prelims",
+          "note": "UNESCO sites, biodiversity, geography, environmental conservation."
+        },
+        {
+          "exam": "SSC CGL",
+          "note": "Famous sites, geographical facts."
+        },
+        {
+          "exam": "Banking/RBI",
+          "note": "Environmental protection, sustainable tourism."
+        },
+        {
+          "exam": "State PSC",
+          "note": "State-specific heritage, environmental issues."
         }
       ]
     }
@@ -266,151 +969,301 @@
     {
       "id": "q1",
       "num": "01",
-      "topic": "PM SHRI Scheme",
-      "q": "Consider the following statements regarding the PM Schools for Rising India (PM SHRI) scheme:\n1. It is a centrally sponsored scheme aimed at upgrading existing schools.\n2. The scheme focuses on demonstrating the National Education Policy (NEP) 2020.\n3. It exclusively targets Kendriya Vidyalayas and Navodaya Vidyalayas for upgradation.\nWhich of the statements given above is/are correct?",
+      "topic": "Important Days",
+      "q": "National Statistics Day in India is celebrated annually on June 29th to commemorate the birth anniversary of which eminent Indian statistician?",
       "opts": [
-        "1 only",
-        "1 and 2 only",
-        "2 and 3 only",
-        "1, 2 and 3"
+        "V.K.R.V. Rao",
+        "P.C. Mahalanobis",
+        "C.R. Rao",
+        "R.A. Fisher"
       ],
       "correct": 1,
-      "explanation": "Statement 1 and 2 are correct. The PM SHRI scheme is indeed a centrally sponsored scheme for upgrading existing schools and demonstrating NEP 2020. However, statement 3 is incorrect as it targets not only KVs and NVs but also state government schools, local body schools, and private schools."
+      "explanation": "National Statistics Day is celebrated on June 29th to honor Professor Prasanta Chandra Mahalanobis, known as the 'Father of Indian Statistics' for his significant contributions to statistical science and economic planning in India. V.K.R.V. Rao was an economist, C.R. Rao is another renowned statistician, and R.A. Fisher was a British statistician."
     },
     {
       "id": "q2",
       "num": "02",
-      "topic": "Ethanol Blending",
-      "q": "Which of the following statements about E20 fuel in India is/are correct?\n1. E20 fuel contains 20% ethanol blended with petrol.\n2. The Ministry of Petroleum has clarified that using E20 fuel will not invalidate vehicle insurance claims.\n3. The primary objective of ethanol blending is to increase crude oil imports.\nSelect the correct answer using the code given below:",
+      "topic": "Health",
+      "q": "India's broadened fight against anaemia now emphasizes a 'lifecycle approach'. Which of the following best describes this approach?",
       "opts": [
-        "1 only",
-        "1 and 2 only",
-        "2 and 3 only",
-        "1, 2 and 3"
+        "Focusing solely on treating anaemia in pregnant women.",
+        "Prioritizing detection and treatment of severe anaemia cases in hospitals.",
+        "Preventing anaemia across every stage of life, including pre-pregnancy.",
+        "Distributing iron supplements only to school-going children."
       ],
-      "correct": 1,
-      "explanation": "Statements 1 and 2 are correct. E20 fuel is petrol blended with 20% ethanol, and the government has confirmed its safety and insurance validity. Statement 3 is incorrect; the primary objective of ethanol blending is to *reduce* crude oil imports, thereby enhancing energy security."
+      "correct": 2,
+      "explanation": "The lifecycle approach to combating anaemia shifts the focus from mere treatment to comprehensive prevention across all stages of life, starting even before pregnancy. This includes interventions for adolescents, pregnant women, lactating mothers, and young children, addressing the issue holistically."
     },
     {
       "id": "q3",
       "num": "03",
-      "topic": "India-US Trade Relations",
-      "q": "Recently, a senior US official stated that a historic trade deal with India is 'very, very close'. Which of the following is NOT a primary objective of typical bilateral trade agreements?",
+      "topic": "Polity",
+      "q": "Sonam Wangchuk recently began an indefinite hunger strike at Jantar Mantar. What is his primary demand related to national examinations?",
       "opts": [
-        "Reducing trade barriers and tariffs.",
-        "Promoting economic cooperation and investment.",
-        "Establishing a common currency between the two nations.",
-        "Enhancing market access for goods and services."
+        "Implementation of a new education policy for Ladakh.",
+        "Resignation of the Union Education Minister over alleged exam irregularities.",
+        "Increased funding for educational institutions in remote areas.",
+        "Abolition of all competitive examinations in India."
       ],
-      "correct": 2,
-      "explanation": "Bilateral trade agreements primarily aim to reduce trade barriers, promote economic cooperation, and enhance market access. Establishing a common currency is a much more complex and rare form of economic integration, typically not a direct objective of a bilateral trade deal."
+      "correct": 1,
+      "explanation": "Sonam Wangchuk's hunger strike at Jantar Mantar is primarily to press for the resignation of Union Education Minister Dharmendra Pradhan, citing alleged irregularities in national examinations, particularly NEET UG. He is also advocating for constitutional safeguards for Ladakh."
     },
     {
       "id": "q4",
       "num": "04",
-      "topic": "Meteorological Phenomena",
-      "q": "The term 'Omega Block' was recently in news in the context of Europe's severe heatwave. What does an Omega Block primarily refer to?",
+      "topic": "Environment",
+      "q": "The Kerala Forest Department recently reclaimed land in Kolukkumalai under which specific legislation?",
       "opts": [
-        "A geological phenomenon causing seismic activity.",
-        "A specific atmospheric pressure pattern resembling the Greek letter Omega.",
-        "A new type of renewable energy technology.",
-        "A political alliance formed to counter climate change."
+        "Wildlife Protection Act, 1972",
+        "Forest Rights Act, 2006",
+        "Kerala Private Forests (Vesting and Assignment) Act, 1971",
+        "Environmental Protection Act, 1986"
       ],
-      "correct": 1,
-      "explanation": "An 'Omega Block' is a meteorological term for a specific atmospheric pressure pattern where a high-pressure system is flanked by two low-pressure systems, resembling the Greek letter Omega (Ω). This pattern can trap weather systems, leading to prolonged periods of extreme conditions like heatwaves."
+      "correct": 2,
+      "explanation": "The land in Kolukkumalai was reclaimed under the Kerala Private Forests (Vesting and Assignment) Act, 1971. This act allows the state to take over private forests for public purposes, primarily conservation and management. The other acts are central legislations with different objectives."
     },
     {
       "id": "q5",
       "num": "05",
-      "topic": "Agriculture & State Issues",
-      "q": "Arecanut, a significant cash crop, was recently in news due to the seizure of trucks in Maharashtra affecting growers in Karnataka. Which of the following states is a major producer of Arecanut in India?",
+      "topic": "International Relations",
+      "q": "The US and Iran have agreed to de-escalate tensions and hold talks in Qatar concerning which strategically vital waterway?",
       "opts": [
-        "Punjab",
-        "Uttar Pradesh",
-        "Karnataka",
-        "Rajasthan"
+        "Suez Canal",
+        "Strait of Malacca",
+        "Strait of Hormuz",
+        "Bab-el-Mandeb Strait"
       ],
       "correct": 2,
-      "explanation": "Karnataka is the largest producer of Arecanut in India, followed by Kerala and Assam. The news highlights inter-state issues affecting its trade, emphasizing Karnataka's role in its production."
+      "explanation": "The talks between the US and Iran, to be hosted by Qatar, are aimed at de-escalating the dispute over the Strait of Hormuz. This strait is a critical choke point for global oil shipments, connecting the Persian Gulf to the open ocean. The other options are also important waterways but not the subject of these specific talks."
+    },
+    {
+      "id": "q6",
+      "num": "06",
+      "topic": "Environment",
+      "q": "A recent report highlighted Meta's platforms as a market for wildlife trafficking. Which international convention primarily aims to regulate the international trade in endangered species?",
+      "opts": [
+        "Kyoto Protocol",
+        "Montreal Protocol",
+        "CITES",
+        "Ramsar Convention"
+      ],
+      "correct": 2,
+      "explanation": "The Convention on International Trade in Endangered Species of Wild Fauna and Flora (CITES) is the international agreement that aims to ensure that international trade in specimens of wild animals and plants does not threaten their survival. The Kyoto Protocol deals with greenhouse gas emissions, the Montreal Protocol with ozone-depleting substances, and the Ramsar Convention with wetlands."
+    },
+    {
+      "id": "q7",
+      "num": "07",
+      "topic": "Polity",
+      "q": "The political discourse around custodial deaths in Andhra Pradesh primarily invokes which fundamental right guaranteed by the Indian Constitution?",
+      "opts": [
+        "Right to Equality (Article 14)",
+        "Right to Freedom of Speech (Article 19)",
+        "Right to Life and Personal Liberty (Article 21)",
+        "Right to Constitutional Remedies (Article 32)"
+      ],
+      "correct": 2,
+      "explanation": "Custodial deaths are a grave violation of the 'Right to Life and Personal Liberty' guaranteed under Article 21 of the Indian Constitution, which includes the right to live with human dignity and protection from arbitrary state action. While other rights are important, Article 21 is most directly implicated in cases of custodial violence."
+    },
+    {
+      "id": "q8",
+      "num": "08",
+      "topic": "Sports",
+      "q": "Jaspal Rana, whose mother recently passed away, was a legendary Indian athlete in which sport, known for winning 15 medals at the Commonwealth Games?",
+      "opts": [
+        "Boxing",
+        "Wrestling",
+        "Shooting",
+        "Archery"
+      ],
+      "correct": 2,
+      "explanation": "Jaspal Rana was a celebrated Indian shooter. He is renowned for his achievements in shooting, including winning 15 medals at the Commonwealth Games and representing India at the 1996 Atlanta Olympics."
+    },
+    {
+      "id": "q9",
+      "num": "09",
+      "topic": "Culture & Dance",
+      "q": "At the BET Awards 2026, which artist won the award for Best Female Hip Hop Artist?",
+      "opts": [
+        "Megan Thee Stallion",
+        "Nicki Minaj",
+        "Cardi B",
+        "Latto"
+      ],
+      "correct": 2,
+      "explanation": "Cardi B won the award for Best Female Hip Hop Artist at the BET Awards 2026. The BET Awards celebrate achievements by African Americans and other minorities in music, acting, sports, and other fields of entertainment."
+    },
+    {
+      "id": "q10",
+      "num": "10",
+      "topic": "Disasters",
+      "q": "Which South American country recently experienced twin major earthquakes causing extensive destruction and a high death toll, particularly in La Guaira?",
+      "opts": [
+        "Chile",
+        "Peru",
+        "Colombia",
+        "Venezuela"
+      ],
+      "correct": 3,
+      "explanation": "Venezuela was recently impacted by twin major earthquakes that caused significant destruction in areas like La Guaira, north of Caracas, with the death toll nearing 1500. The other countries are also prone to earthquakes but were not the subject of this specific news."
+    },
+    {
+      "id": "q11",
+      "num": "11",
+      "topic": "Appointments",
+      "q": "Which of the following bodies is primarily responsible for inquiring into allegations of corruption against public functionaries at the Union level in India?",
+      "opts": [
+        "National Human Rights Commission (NHRC)",
+        "Central Vigilance Commission (CVC)",
+        "Comptroller and Auditor General (CAG)",
+        "Lokpal"
+      ],
+      "correct": 3,
+      "explanation": "The Lokpal, established under the Lokpal and Lokayukta Act, 2013, is specifically mandated to inquire into allegations of corruption against public functionaries, including the Prime Minister, Ministers, and Members of Parliament. The CVC advises on vigilance, NHRC deals with human rights, and CAG audits government accounts."
+    },
+    {
+      "id": "q12",
+      "num": "12",
+      "topic": "Books & Authors",
+      "q": "Which book, a winner of the Pulitzer Prize for General Nonfiction, explores the history of mass extinction events and argues that humanity is causing a sixth mass extinction?",
+      "opts": [
+        "'Silent Spring' by Rachel Carson",
+        "'The Sixth Extinction: An Unnatural History' by Elizabeth Kolbert",
+        "'Sapiens: A Brief History of Humankind' by Yuval Noah Harari",
+        "'Collapse: How Societies Choose to Fail or Succeed' by Jared Diamond"
+      ],
+      "correct": 1,
+      "explanation": "'The Sixth Extinction: An Unnatural History' by Elizabeth Kolbert won the 2015 Pulitzer Prize for General Nonfiction and details the ongoing mass extinction event driven by human activities. 'Silent Spring' is a seminal work on pesticides, 'Sapiens' is about human history, and 'Collapse' discusses societal failures."
+    },
+    {
+      "id": "q13",
+      "num": "13",
+      "topic": "Heritage Sites",
+      "q": "The Western Ghats, a UNESCO World Heritage Site, is recognized primarily for its status as a:",
+      "opts": [
+        "Cultural landscape with ancient temples.",
+        "Site of significant historical battles.",
+        "Global biodiversity hotspot.",
+        "Location of unique geological formations for mining."
+      ],
+      "correct": 2,
+      "explanation": "The Western Ghats were inscribed as a UNESCO World Heritage Site in 2012 primarily for their outstanding universal value as one of the world's eight 'hottest hotspots' of biological diversity. It is a natural heritage site, not primarily cultural or historical in its UNESCO designation."
     }
   ],
   "mainsQuestions": [
     {
       "num": "01",
       "paperTag": "GS-2 | 250 Words",
-      "q": "The PM SHRI scheme aims to be a torchbearer for the National Education Policy 2020, yet its implementation often faces challenges related to federalism and resource allocation. Discuss this statement in the context of Centre-State relations in India.",
-      "hint": "Key angles: PM SHRI objectives & NEP 2020 principles → Centrally Sponsored Scheme model and its implications → State concerns (funding share, curriculum autonomy, administrative burden) → Role of cooperative and competitive federalism in education sector reforms."
+      "q": "Critically analyze India's 'lifecycle approach' to combating anaemia. What are the key challenges in its implementation, and how can inter-sectoral convergence be strengthened to achieve better health outcomes?",
+      "hint": "Key angles: Define lifecycle approach → Benefits (holistic, preventive) → Challenges (awareness, access, infrastructure, behavioral change, funding) → Strengthening convergence (health, WCD, WASH, education, technology, community participation)."
     },
     {
       "num": "02",
       "paperTag": "GS-3 | 250 Words",
-      "q": "Evaluate the significance of ethanol blending in India's energy security and environmental sustainability goals. What are the associated challenges and how can they be addressed?",
-      "hint": "Key angles: Significance for energy security (reduced crude oil imports, forex savings) → Environmental benefits (lower emissions, cleaner fuel) → National Biofuel Policy framework → Challenges (food vs. fuel debate, feedstock availability, infrastructure, vehicle compatibility) → Way forward (R&D, farmer support, policy consistency)."
+      "q": "The recent incidents of elephant killings and forest land reclamation in Kerala highlight persistent challenges in human-wildlife coexistence and forest governance. Discuss the effectiveness of existing legal frameworks and suggest measures for sustainable management of such conflicts.",
+      "hint": "Key angles: Causes of conflict (habitat loss, fragmentation, retaliatory killings) → Legal frameworks (WPA 1972, Project Elephant, state acts like Kerala Private Forests Act) → Effectiveness (gaps, enforcement issues) → Measures (corridor protection, community involvement, early warning systems, compensation, scientific management, land use planning)."
+    },
+    {
+      "num": "03",
+      "paperTag": "GS-2, GS-4 | 250 Words",
+      "q": "Protests like Sonam Wangchuk's underscore the growing demand for accountability in public administration, especially concerning national examinations. Examine the ethical dimensions of such issues and the role of civil society in upholding transparency and good governance.",
+      "hint": "Key angles: Ethical dimensions (fairness, meritocracy, public trust, integrity of institutions, moral responsibility of officials) → Role of civil society (advocacy, awareness, monitoring, demanding reforms, right to protest) → Challenges (politicization, misinformation) → Way forward (strengthening oversight, grievance redressal, ethical leadership)."
     }
   ],
   "summaryTable": [
     {
       "num": 1,
-      "topic": "PM SHRI Scheme",
-      "data": "Centrally sponsored scheme to upgrade schools, demonstrating NEP 2020. Kerala Assembly saw debate over its implementation.",
+      "topic": "Anaemia Fight",
+      "data": "India adopts lifecycle approach for prevention across all life stages, not just treatment.",
       "source": "The Hindu",
       "exams": "UPSC, SSC, State PSC",
       "gs": "GS-2"
     },
     {
       "num": 2,
-      "topic": "India-US Trade Deal",
-      "data": "Senior US official states trade deal is 'very, very close' after talks between Piyush Goyal and Bethany Poulos Morrison.",
-      "source": "Livemint",
-      "exams": "UPSC, SSC, Banking",
-      "gs": "GS-2, GS-3"
-    },
-    {
-      "num": 3,
-      "topic": "Ethanol Blending (E20)",
-      "data": "Ministry of Petroleum confirms E20 fuel is safe, globally accepted, and does not invalidate vehicle insurance claims.",
-      "source": "Livemint",
-      "exams": "UPSC, SSC, Banking",
-      "gs": "GS-3"
-    },
-    {
-      "num": 4,
-      "topic": "Europe Heatwave & Omega Block",
-      "data": "Europe faces deadly heatwave; 'Omega Block' (atmospheric pattern) identified as a key factor trapping hot air.",
-      "source": "Times of India",
-      "exams": "UPSC, SSC, State PSC",
-      "gs": "GS-1, GS-3"
-    },
-    {
-      "num": 5,
-      "topic": "Calcutta HC on Abhishek Banerjee",
-      "data": "Calcutta High Court rejected TMC MP Abhishek Banerjee's plea seeking permission to travel abroad for medical treatment.",
+      "topic": "Sonam Wangchuk Protest",
+      "data": "Indefinite hunger strike at Jantar Mantar demanding Union Education Minister's resignation over exam irregularities.",
       "source": "Livemint",
       "exams": "UPSC, SSC, State PSC",
       "gs": "GS-2"
     },
     {
-      "num": 6,
-      "topic": "Arecanut Trade Issue",
-      "data": "Trucks carrying arecanut from Karnataka seized in Maharashtra for testing, causing worry among growers and traders.",
+      "num": 3,
+      "topic": "Kerala Elephant Deaths",
+      "data": "Continued human-induced elephant killings in Parambikulam-Munnar-Malayattoor region, often involving explosives.",
       "source": "The Hindu",
-      "exams": "SSC, State PSC",
+      "exams": "UPSC, SSC, State PSC",
       "gs": "GS-3"
     },
     {
-      "num": 7,
-      "topic": "ICAI CA Intermediate Results",
-      "data": "ICAI CA Intermediate 2026 results declared; Shardul Vichare from Dombivali secured All India Rank 1.",
+      "num": 4,
+      "topic": "Kerala Forest Land",
+      "data": "Forest Dept. reclaimed 42.72 hectares in Kolukkumalai under Kerala Private Forests (Vesting and Assignment) Act, 1971.",
       "source": "The Hindu",
-      "exams": "SSC, Banking (General Awareness)",
-      "gs": "N/A"
+      "exams": "UPSC, State PSC",
+      "gs": "GS-3"
+    },
+    {
+      "num": 5,
+      "topic": "US-Iran De-escalation",
+      "data": "US and Iran agree to ceasefire; Qatar to host talks in Doha on Strait of Hormuz maritime passage.",
+      "source": "TOI",
+      "exams": "UPSC, SSC, Banking",
+      "gs": "GS-2"
+    },
+    {
+      "num": 6,
+      "topic": "Global Heatwaves",
+      "data": "Dangerous heatwaves in US and Europe (melting roads in France, buckling tracks in Germany) due to climate change.",
+      "source": "Livemint, TOI",
+      "exams": "UPSC, SSC",
+      "gs": "GS-1, GS-3"
+    },
+    {
+      "num": 7,
+      "topic": "Wildlife Trafficking",
+      "data": "Report exposes Meta platforms with 20,000 ads for 260,000 illegal wildlife products.",
+      "source": "TOI",
+      "exams": "UPSC, SSC",
+      "gs": "GS-3"
     },
     {
       "num": 8,
-      "topic": "Bengaluru Airport Expansion",
-      "data": "Bengaluru airport proposes cutting passenger fees and airline charges from Sept 2026, betting on higher traffic after ₹18,635 crore expansion.",
+      "topic": "Custodial Deaths AP",
+      "data": "Opposition attacks Andhra Pradesh government over alleged excesses and custodial deaths, raising human rights concerns.",
+      "source": "The Hindu",
+      "exams": "UPSC, State PSC",
+      "gs": "GS-2"
+    },
+    {
+      "num": 9,
+      "topic": "Jaspal Rana",
+      "data": "Indian shooting legend, won 15 Commonwealth Games medals; his mother Shyama Devi recently passed away.",
       "source": "Livemint",
-      "exams": "SSC, Banking",
+      "exams": "SSC, State PSC",
+      "gs": "GS-1"
+    },
+    {
+      "num": 10,
+      "topic": "BET Awards 2026",
+      "data": "Cardi B won Best Female Hip Hop Artist, Teyana Taylor Best Actress at the Los Angeles event.",
+      "source": "Livemint",
+      "exams": "SSC",
+      "gs": "GS-1"
+    },
+    {
+      "num": 11,
+      "topic": "National Statistics Day",
+      "data": "Observed on June 29th, birth anniversary of P.C. Mahalanobis, 'Father of Indian Statistics'.",
+      "source": "GK",
+      "exams": "UPSC, SSC, Banking",
+      "gs": "GS-1, GS-3"
+    },
+    {
+      "num": 12,
+      "topic": "The Sixth Extinction",
+      "data": "Elizabeth Kolbert's Pulitzer-winning book on human-caused mass extinctions, relevant to current environmental crises.",
+      "source": "GK",
+      "exams": "UPSC, SSC",
       "gs": "GS-3"
     }
   ]

@@ -177,6 +177,7 @@ function filterTab(category) {
     hasVisibleCards = true;
   } else {
     allCards.forEach(c => {
+      const validCategories = ['polity','economy','environment','science','ir','awards','days','sports','culture','appointments','books','heritage'];
       if (c.dataset.category === category) {
         c.style.display = '';
         c.classList.remove('hidden');
@@ -425,6 +426,15 @@ async function loadLatestData() {
                     </div>
                   `).join('')}
                 </div>
+              </div>
+              ` : ''}
+
+              ${card.staticGkPoints && card.staticGkPoints.length > 0 ? `
+              <div class="staticgk-box">
+                <h3 class="staticgk-title">📎 Static GK — Must-Know Facts for Exam</h3>
+                <ul class="staticgk-points">
+                  ${card.staticGkPoints.map(p => `<li>${p}</li>`).join('')}
+                </ul>
               </div>
               ` : ''}
 

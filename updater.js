@@ -92,29 +92,44 @@ async function updateCurrentAffairs() {
     const genAI = new GoogleGenerativeAI(process.env.GEMINI_API_KEY);
 
     const prompt = `
-You are a Senior Paper Setter and Expert Educator for Indian Government Competitive Examinations (UPSC CSE, SSC CGL, Banking PO, RBI Grade B, Railways, Defence NDA/CDS, and State PSCs).
+You are a Senior Paper Setter and Expert Educator for Indian Government Competitive Examinations (UPSC CSE, SSC CGL, Banking PO, RBI Grade B, Railways, Defence NDA/CDS, APPSC, TSPSC and all State PSCs).
 
-I will facilitate you with a list of recent news articles scraped from major Indian news publications today. 
-Your task is to analyze these news items and generate a comprehensive, premium daily current affairs study package formatted strictly as a JSON object.
+I will provide you with a list of recent news articles scraped from major Indian news publications today.
+Your task is to analyze these news items and generate a COMPREHENSIVE, PREMIUM daily current affairs study package formatted strictly as a JSON object.
 
 Here are the news items:
 ${JSON.stringify(newsItems.slice(0, 18), null, 2)}
 
-You must return ONLY a raw JSON object matching the exact structure below. Do not include any markdown formatting, explanation, or conversational text outside the JSON block.
+You must return ONLY a raw JSON object matching the exact structure below. Do NOT include any markdown formatting, explanation, or conversational text outside the JSON block.
+
+CRITICAL INSTRUCTIONS:
+1. Generate topic cards for ALL 12 categories listed — not just polity/economy. ALWAYS generate at least one card for: days (important days with themes), sports (recent sports news/achievements), culture (festivals, dance forms, cultural events), appointments (new govt/intl appointments), books (books and authors in news), heritage (UNESCO/ASI sites in news).
+2. For each card, include "staticGkPoints" — these are STATIC GK facts that LINK to the current affairs topic. Examples: founding year, constitutional article, world ranking, India's first, headquarters, governing body, year established.
+3. Generate at least 12 MCQs covering ALL topic categories — at least 1 MCQ each from: days, sports, culture, appointments, books, heritage, plus the original categories.
+4. MCQ topics MUST be listed as their category name (e.g. "Sports", "Important Days", "Culture & Dance", "Appointments", "Books & Authors", "Heritage Sites").
 
 REQUIRED JSON STRUCTURE:
 {
   "date": "${dateStr}",
   "archiveDate": "${archiveDateStr}",
   "tickerItems": [
-    // 5 to 6 punchy one-line summaries of the top news items for the live ticker
+    // 6 to 8 punchy one-line summaries of top news for the live ticker — include sports, days, appointments
   ],
   "topicCards": [
-    // 3 to 4 detailed topic cards covering major news in Polity, Economy, Environment, Science & Tech, Defence, or Awards
+    // MANDATORY: Generate 8 to 12 detailed topic cards covering ALL 12 categories.
+    // Always include at least one card each for: polity, economy, science, awards, days, sports, culture, appointments, books, heritage
     {
       "id": "card-unique-id",
-      "category": "polity", // must be one of: polity, economy, environment, science, ir, awards
-      "catBadge": "⚖️ Polity | Governance", // appropriate emoji and label
+      "category": "polity",
+      // category MUST be one of: polity, economy, environment, science, ir, awards, days, sports, culture, appointments, books, heritage
+      "catBadge": "⚖️ Polity | Governance",
+      // catBadge emoji + label must match category:
+      // days → "📅 Important Days & Themes"
+      // sports → "🏅 Sports | Achievements & Events"
+      // culture → "🎭 Culture | Festivals & Dance"
+      // appointments → "👔 New Appointments & Positions"
+      // books → "📚 Books & Authors in News"
+      // heritage → "🏛️ Heritage Sites | UNESCO & ASI"
       "examTags": ["UPSC", "SSC", "Banking", "State PSC", "Railways"],
       "title": "Clear, exam-oriented title of the topic",
       "sources": [
@@ -123,34 +138,54 @@ REQUIRED JSON STRUCTURE:
       "sourceDate": "Verified: ${now.getDate()} ${months[now.getMonth()]} ${now.getFullYear()}",
       "keyFactsTitle": "📌 Key Facts at a Glance",
       "keyFacts": [
-        // 3 to 4 key factual data points
+        // 4 to 6 key factual data points
+        // For "days" cards: include the date, theme, observing body, first observed year, and significance
+        // For "sports" cards: include athlete name, event, result, state, and governing body
+        // For "culture" cards: include festival name, state/region, date, deity/theme, and cultural significance
+        // For "appointments" cards: include person, new post, organisation, term, and predecessor
+        // For "books" cards: include book title, author, publisher/award, theme, and literary significance
+        // For "heritage" cards: include site name, state, UNESCO year, type (cultural/natural), and ASI status
         { "icon": "🗓️", "title": "Key Aspect", "desc": "Detailed factual description" }
       ],
+      "staticGkPoints": [
+        // REQUIRED: 3 to 5 static GK facts that LINK to this topic.
+        // These must be specific, verifiable facts that examiners ask in MCQs.
+        // Examples: "UNHCR established 1950 | HQ Geneva | India NOT signatory to 1951 Refugee Convention"
+        // Examples: "Sangeet Natak Akademi est 1952 | under Ministry of Culture | distinct from Sahitya Akademi (1954)"
+        // Examples: "D. Gukesh = youngest World Chess Champion 2024 at age 18 | defeated Ding Liren | FIDE HQ Lausanne"
+        "Static GK fact 1 — must include founding year OR constitutional article OR headquarters OR India ranking",
+        "Static GK fact 2",
+        "Static GK fact 3"
+      ],
       "examinerPerspective": [
-        // 3 bullet points explaining how an examiner/paper setter would frame questions from this topic, traps to avoid, static GK linkages, etc.
+        // 4 bullet points explaining paper-setter traps, commonly confused facts, static linkages, and which exam specifically asks this
       ],
       "examRelevance": [
-        // Breakdown of relevance for 3 specific exams
-        { "exam": "UPSC Prelims", "note": "Relevance description" },
-        { "exam": "SSC CGL", "note": "Relevance description" },
-        { "exam": "Banking/RBI", "note": "Relevance description" }
+        { "exam": "UPSC Prelims", "note": "Specific relevance to UPSC" },
+        { "exam": "SSC CGL", "note": "Specific relevance to SSC" },
+        { "exam": "Banking/RBI", "note": "Specific relevance to Banking" },
+        { "exam": "State PSC", "note": "Regional relevance" }
       ]
     }
   ],
   "mcqData": [
-    // 5 to 6 high-quality practice MCQs based on today's news and static linkages (Daily Power Quiz)
+    // MANDATORY: Generate at least 12 high-quality MCQs.
+    // MUST include at least 1 MCQ each from these topics: Important Days, Sports, Culture & Dance, Appointments, Books & Authors, Heritage Sites
+    // Also include MCQs from: Polity, Economy, Science & Tech, Environment, Awards, Defence/IR
+    // Each MCQ must test a specific fact that appears in competitive exam papers
     {
       "id": "q1",
       "num": "01",
-      "topic": "Topic Name",
-      "q": "Clear multiple choice question text?",
+      "topic": "Important Days",
+      // topic MUST match one of: "Important Days", "Sports", "Culture & Dance", "Appointments", "Books & Authors", "Heritage Sites", "Polity", "Economy", "Science", "Environment", "Awards", "Defence", "BRICS", "Biodiversity", "Finance"
+      "q": "Clear multiple choice question — include specific year or data to make it precise?",
       "opts": ["Option A", "Option B", "Option C", "Option D"],
-      "correct": 1, // integer index of correct option (0 to 3)
-      "explanation": "Detailed explanation of why the option is correct and background info."
+      "correct": 1,
+      "explanation": "Detailed explanation including WHY this is correct AND what the wrong options represent, plus static GK context."
     }
   ],
   "mainsQuestions": [
-    // 2 Mains answer writing questions (GS-1, GS-2, GS-3 level)
+    // 3 Mains answer writing questions (UPSC GS level) — one should relate to a new category (sports policy, cultural heritage, appointments and governance, etc.)
     {
       "num": "01",
       "paperTag": "GS-2 | 250 Words",
@@ -159,7 +194,7 @@ REQUIRED JSON STRUCTURE:
     }
   ],
   "summaryTable": [
-    // 6 to 8 quick revision table rows
+    // 10 to 12 quick revision table rows — include rows for: important day, sports achievement, cultural event, appointment, book, heritage site
     { "num": 1, "topic": "Topic Name", "data": "Must-remember facts summary", "source": "Source Name", "exams": "Target Exams", "gs": "GS Paper" }
   ]
 }
