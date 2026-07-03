@@ -573,3 +573,148 @@ window.addEventListener('resize', updateStickyOffsets);
 const style = document.createElement('style');
 style.textContent = `@keyframes slideInToast { from{transform:translateX(100%);opacity:0;} to{transform:translateX(0);opacity:1;} } @keyframes spin { 100% { transform: rotate(360deg); } }`;
 document.head.appendChild(style);
+
+/* -----------------------------------------------
+   AUTHENTICATION & SUBSCRIPTION LOGIC
+   ----------------------------------------------- */
+let isLoginMode = true;
+let currentUserToken = localStorage.getItem("examedge_token") || null;
+let isUserSubscribed = localStorage.getItem("examedge_subscribed") === "true";
+
+// Attach token to API requests
+const originalFetch = window.fetch;
+window.fetch = function() {
+  let [resource, config] = arguments;
+  if(currentUserToken) {
+    if(config === undefined) { config = {}; }
+    if(config.headers === undefined) { config.headers = {}; }
+    config.headers["Authorization"] = `Bearer ${currentUserToken}`;
+  }
+  return originalFetch(resource, config);
+};
+
+function updateAuthUI() {
+  const authBtn = document.getElementById("authBtn");
+  if(currentUserToken && authBtn) {
+    authBtn.innerHTML = `<span>??</span> ${isUserSubscribed ? "Premium Active" : "Upgrade to Premium"}`;
+    if(isUserSubscribed) {
+      authBtn.style.background = "linear-gradient(135deg, #10b981 0%, #059669 100%)";
+      authBtn.onclick = () => alert("You have an active Premium Subscription!");
+    } else {
+      authBtn.onclick = openSubModal;
+    }
+  }
+}
+
+function openAuthModal() {
+  if(currentUserToken && !isUserSubscribed) {
+    openSubModal();
+    return;
+  }
+  document.getElementById("authModal").style.display = "flex";
+}
+
+function closeAuthModal() {
+  document.getElementById("authModal").style.display = "none";
+}
+
+function openSubModal() {
+  document.getElementById("subModal").style.display = "flex";
+}
+
+function closeSubModal() {
+  document.getElementById("subModal").style.display = "none";
+}
+
+function toggleAuthMode() {
+  isLoginMode = !isLoginMode;
+  document.getElementById("authTitle").innerText = isLoginMode ? "Sign In" : "Sign Up";
+  document.querySelector(".auth-switch").innerText = isLoginMode ? "Need an account? Sign up" : "Already have an account? Sign in";
+}
+
+async function handleAuth() {
+  const email = document.getElementById("authEmail").value;
+  const password = document.getElementById("authPassword").value;
+  const endpoint = isLoginMode ? "/api/login" : "/api/register";
+
+  try {
+    const res = await fetch(endpoint, {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ email, password })
+    });
+    const data = await res.json();
+    if(data.success) {
+      currentUserToken = data.token;
+      isUserSubscribed = data.isSubscribed;
+      localStorage.setItem("examedge_token", data.token);
+      localStorage.setItem("examedge_subscribed", data.isSubscribed);
+      closeAuthModal();
+      updateAuthUI();
+      loadLatestData(); // Reload data with token
+      if(!isUserSubscribed) openSubModal();
+    } else {
+      alert(data.error);
+    }
+  } catch(e) {
+    alert("Authentication failed.");
+  }
+}
+
+async function initiatePayment() {
+  if(!currentUserToken) {
+    alert("Please log in first!");
+    closeSubModal();
+    openAuthModal();
+    return;
+  }
+  
+  try {
+    // 1. Fetch Razorpay Key ID from our backend securely
+    const keyRes = await fetch("/api/razorpay-key");
+    const keyData = await keyRes.json();
+    
+    // 2. Create the Order
+    const res = await fetch("/api/create-order", { method: "POST" });
+    const order = await res.json();
+    
+    const options = {
+      key: keyData.key, // Dynamically fetched key from backend .env
+      amount: order.amount,
+      currency: "INR",
+      name: "ExamEdge AI",
+      description: "Premium Subscription (30 Days)",
+      order_id: order.id,
+      handler: async function (response) {
+        const verifyRes = await fetch("/api/verify-payment", {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify({
+            razorpay_payment_id: response.razorpay_payment_id,
+            razorpay_order_id: response.razorpay_order_id,
+            razorpay_signature: response.razorpay_signature,
+            email: document.getElementById("authEmail").value || "user@example.com"
+          })
+        });
+        const verifyData = await verifyRes.json();
+        if(verifyData.success) {
+          alert("Payment Successful! Premium Features Unlocked.");
+          isUserSubscribed = true;
+          localStorage.setItem("examedge_subscribed", "true");
+          closeSubModal();
+          updateAuthUI();
+          loadLatestData();
+        }
+      },
+      theme: { color: "#fbbf24" }
+    };
+    const rzp = new Razorpay(options);
+    rzp.open();
+  } catch(err) {
+    alert("Failed to initialize payment gateway.");
+  }
+}
+
+// Call on startup
+updateAuthUI();
+

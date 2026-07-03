@@ -685,3 +685,22 @@ a:hover{text-decoration:underline;}
   .header-actions{flex-direction:column;align-items:flex-start;gap:8px;}
   .footer-inner{grid-template-columns:1fr;}
 }
+
+/* ----------------------------------------
+   AUTH & SUBSCRIPTION MODALS
+   ---------------------------------------- */
+.modal-overlay { position: fixed; top: 0; left: 0; right: 0; bottom: 0; background: rgba(0,0,0,0.8); backdrop-filter: blur(8px); display: flex; align-items: center; justify-content: center; z-index: 9999; }
+.modal-box { background: var(--bg-card); padding: 32px; border-radius: 16px; width: 90%; max-width: 400px; border: 1px solid var(--border-color); position: relative; }
+.modal-close { position: absolute; top: 16px; right: 16px; background: transparent; border: none; color: #a0aec0; font-size: 1.2rem; cursor: pointer; }
+.modal-close:hover { color: #fff; }
+.auth-input { width: 100%; padding: 12px; margin-bottom: 16px; background: rgba(255,255,255,0.05); border: 1px solid var(--border-color); border-radius: 8px; color: #fff; font-family: inherit; font-size: 1rem; }
+.auth-input:focus { outline: none; border-color: var(--accent-blue); box-shadow: 0 0 0 3px rgba(59,130,246,0.2); }
+.auth-switch { color: var(--accent-blue); font-size: 0.9rem; text-align: center; margin-top: 16px; cursor: pointer; }
+.auth-switch:hover { text-decoration: underline; }
+.premium-btn { background: linear-gradient(135deg, #fbbf24 0%, #d97706 100%) !important; color: #fff !important; border: none !important; box-shadow: 0 4px 12px rgba(245, 158, 11, 0.3); }
+.premium-box { text-align: center; border: 2px solid #fbbf24; box-shadow: 0 0 40px rgba(245, 158, 11, 0.15); }
+.content-locked { position: relative; overflow: hidden; }
+.content-locked::after { content: ""; position: absolute; bottom: 0; left: 0; right: 0; height: 100%; background: linear-gradient(to bottom, rgba(15,23,42,0) 0%, rgba(15,23,42,0.9) 80%, rgba(15,23,42,1) 100%); backdrop-filter: blur(4px); z-index: 10; border-radius: inherit; }
+.locked-message { position: absolute; bottom: 30px; left: 50%; transform: translateX(-50%); z-index: 20; text-align: center; width: 100%; }
+.locked-message p { color: #fbbf24; font-weight: bold; margin-bottom: 12px; font-size: 1.1rem; }
+

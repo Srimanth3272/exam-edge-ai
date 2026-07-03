@@ -3,6 +3,11 @@ const path = require('path');
 const cron = require('node-cron');
 const fs = require('fs');
 const { updateCurrentAffairs } = require('./updater');
+const mongoose = require('mongoose');
+const bcrypt = require('bcryptjs');
+const jwt = require('jsonwebtoken');
+const Razorpay = require('razorpay');
+const crypto = require('crypto');
 require('dotenv').config();
 
 const app = express();
@@ -31,19 +36,175 @@ function loadDataToCache() {
 // Initial load on server start
 loadDataToCache();
 
+// ── MONGODB & USER SCHEMA ───────────────────────────────────
+const MONGODB_URI = process.env.MONGODB_URI || 'mongodb://localhost:27017/examedge';
+const JWT_SECRET = process.env.JWT_SECRET || 'your_super_secret_key_examedge';
+
+mongoose.connect(MONGODB_URI)
+  .then(() => console.log('✅ Connected to MongoDB Database'))
+  .catch(err => console.error('❌ MongoDB Connection Error:', err));
+
+const userSchema = new mongoose.Schema({
+  email: { type: String, required: true, unique: true },
+  password: { type: String, required: true },
+  isSubscribed: { type: Boolean, default: false },
+  subscriptionExpiry: { type: Date, default: null }
+});
+const User = mongoose.model('User', userSchema);
+
+// ── RAZORPAY CONFIGURATION ──────────────────────────────────
+const razorpay = new Razorpay({
+  key_id: process.env.RAZORPAY_KEY_ID || 'rzp_test_dummy_key_123',
+  key_secret: process.env.RAZORPAY_KEY_SECRET || 'dummy_secret_123'
+});
+
+// ── AUTHENTICATION ROUTES ───────────────────────────────────
+app.post('/api/register', async (req, res) => {
+  try {
+    const { email, password } = req.body;
+    if (await User.findOne({ email })) return res.status(400).json({ error: 'Email already exists' });
+    
+    const hashedPassword = await bcrypt.hash(password, 10);
+    const user = new User({ email, password: hashedPassword });
+    await user.save();
+    
+    const token = jwt.sign({ id: user._id, email: user.email }, JWT_SECRET);
+    res.json({ success: true, token, isSubscribed: user.isSubscribed });
+  } catch (err) {
+    res.status(500).json({ error: 'Server error' });
+  }
+});
+
+app.post('/api/login', async (req, res) => {
+  try {
+    const { email, password } = req.body;
+    const user = await User.findOne({ email });
+    if (!user) return res.status(400).json({ error: 'Invalid credentials' });
+
+    const isMatch = await bcrypt.compare(password, user.password);
+    if (!isMatch) return res.status(400).json({ error: 'Invalid credentials' });
+
+    // Check if subscription expired
+    let subStatus = user.isSubscribed;
+    if (subStatus && user.subscriptionExpiry < new Date()) {
+      user.isSubscribed = false;
+      await user.save();
+      subStatus = false;
+    }
+
+    const token = jwt.sign({ id: user._id, email: user.email }, JWT_SECRET);
+    res.json({ success: true, token, isSubscribed: subStatus });
+  } catch (err) {
+    res.status(500).json({ error: 'Server error' });
+  }
+});
+
+// ── MIDDLEWARE TO VERIFY TOKEN ──────────────────────────────
+const verifyToken = async (req, res, next) => {
+  const token = req.headers['authorization'];
+  if (!token) return next(); // Guest user
+
+  try {
+    const decoded = jwt.verify(token.replace('Bearer ', ''), JWT_SECRET);
+    const user = await User.findById(decoded.id);
+    if (user) {
+      req.userEmail = user.email;
+      if (user.isSubscribed && user.subscriptionExpiry > new Date()) {
+        req.isSubscribed = true;
+      }
+    }
+  } catch (err) {
+    // Invalid token, treat as guest
+  }
+  next();
+};
+
+// ── SUBSCRIPTION / PAYMENT ROUTES ───────────────────────────
+app.get('/api/razorpay-key', (req, res) => {
+  res.json({ key: process.env.RAZORPAY_KEY_ID });
+});
+
+app.post('/api/create-order', async (req, res) => {
+  try {
+    const options = {
+      amount: 2900, // ₹29 in paise
+      currency: 'INR',
+      receipt: 'receipt_order_' + Date.now()
+    };
+    const order = await razorpay.orders.create(options);
+    res.json(order);
+  } catch (err) {
+    res.status(500).json({ error: 'Error creating Razorpay order' });
+  }
+});
+
+app.post('/api/verify-payment', verifyToken, async (req, res) => {
+  try {
+    const { razorpay_order_id, razorpay_payment_id, razorpay_signature, email } = req.body;
+    
+    // Verify signature
+    const secret = process.env.RAZORPAY_KEY_SECRET || 'dummy_secret_123';
+    const hmac = crypto.createHmac('sha256', secret);
+    hmac.update(razorpay_order_id + "|" + razorpay_payment_id);
+    const generated_signature = hmac.digest('hex');
+
+    if (generated_signature !== razorpay_signature) {
+      return res.status(400).json({ error: 'Payment verification failed: Invalid signature' });
+    }
+    
+    // Update user subscription (30 days)
+    const expiry = new Date();
+    expiry.setDate(expiry.getDate() + 30);
+    
+    const userEmail = req.userEmail || email;
+    const user = await User.findOneAndUpdate(
+      { email: userEmail },
+      { isSubscribed: true, subscriptionExpiry: expiry },
+      { new: true }
+    );
+    
+    if (user) {
+      res.json({ success: true, message: 'Payment successful! Subscription unlocked.' });
+    } else {
+      res.status(404).json({ error: 'User not found' });
+    }
+  } catch (err) {
+    res.status(500).json({ error: 'Payment verification failed' });
+  }
+});
+
 // ── GET LATEST DATA ENDPOINT ────────────────────────────────
-app.get('/api/latest-data', (req, res) => {
+app.get('/api/latest-data', verifyToken, (req, res) => {
   if (cachedData) {
-    // Serve instantly from RAM (capable of 10,000+ users/sec)
-    res.json(cachedData);
+    if (req.isSubscribed) {
+      // Premium User: Gets all data
+      res.json(cachedData);
+    } else {
+      // Free User: Gets only ticker and 2 topics. Rest is blocked.
+      const freemiumData = {
+        ...cachedData,
+        topicCards: cachedData.topicCards.slice(0, 2), // Only 2 free topics
+        mcqData: [] // No MCQs for free users
+      };
+      res.json(freemiumData);
+    }
   } else {
     // If not in cache, fallback to reading file or return error
     try {
       const dataPath = path.join(__dirname, 'latest_data.json');
       if (fs.existsSync(dataPath)) {
         const data = JSON.parse(fs.readFileSync(dataPath, 'utf-8'));
-        cachedData = data; // Update cache
-        res.json(data);
+        cachedData = data;
+        
+        if (req.isSubscribed) {
+          res.json(data);
+        } else {
+          res.json({
+            ...data,
+            topicCards: data.topicCards.slice(0, 2),
+            mcqData: []
+          });
+        }
       } else {
         res.status(404).json({ error: 'Latest data file not found.' });
       }

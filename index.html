@@ -52,6 +52,9 @@
         <button class="btn-pdf" id="pdfBtn" onclick="downloadPDF()" title="Download Today's Edition as PDF">
           <span>📄</span> Download PDF
         </button>
+        <button class="btn-pdf premium-btn" id="authBtn" onclick="openAuthModal()">
+          <span>👤</span> Login / Subscribe
+        </button>
       </div>
     </div>
   </header>
@@ -1376,6 +1379,36 @@
     <div style="font-size: 48px; animation: spin 1.5s linear infinite;">🔄</div>
     <h2 style="color: #fff; margin-top: 20px; font-family: 'Outfit', sans-serif;">🤖 AI Senior Paper Setter is Working...</h2>
     <p style="color: #cbd5e1; font-size: 15px; margin-top: 10px; max-width: 400px; text-align: center;">Scraping latest RSS feeds from The Hindu, PIB, and RBI, and generating high-quality current affairs, topic cards, and MCQs. This takes about 10-15 seconds...</p>
+  </div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js"></script>
+  <script src="https://checkout.razorpay.com/v1/checkout.js"></script>
+
+  <!-- ════════════════════════════════════════
+       MODALS
+       ════════════════════════════════════════ -->
+  <!-- Auth Modal -->
+  <div id="authModal" class="modal-overlay" style="display: none;">
+    <div class="modal-box">
+      <button class="modal-close" onclick="closeAuthModal()">✕</button>
+      <h2 id="authTitle" style="color: #fff; margin-bottom: 8px;">Sign In</h2>
+      <p style="color: #a0aec0; margin-bottom: 20px; font-size: 0.95rem;">Log in to access your ExamEdge account.</p>
+      <input type="email" id="authEmail" class="auth-input" placeholder="Email Address" />
+      <input type="password" id="authPassword" class="auth-input" placeholder="Password" />
+      <button class="btn-primary" style="width: 100%; margin-top: 10px;" onclick="handleAuth()">Submit</button>
+      <p class="auth-switch" onclick="toggleAuthMode()">Need an account? Sign up</p>
+    </div>
+  </div>
+
+  <!-- Subscription Modal -->
+  <div id="subModal" class="modal-overlay" style="display: none;">
+    <div class="modal-box premium-box">
+      <button class="modal-close" onclick="closeSubModal()">✕</button>
+      <h2 style="color: #fbbf24; margin-bottom: 12px;">🌟 Upgrade to Premium</h2>
+      <p style="color: #e2e8f0; margin-bottom: 20px;">Get full access to all topic cards, the entire MCQ bank, and exclusive static GK links for just ₹29/month.</p>
+      <div class="price-tag" style="font-size: 2.5rem; font-weight: 800; color: #fff; margin-bottom: 24px;">₹29 <span style="font-size: 1rem; color: #a0aec0; font-weight: 400;">/ month</span></div>
+      <button class="btn-primary pulse" style="width: 100%; background: linear-gradient(135deg, #10b981 0%, #059669 100%); font-size: 1.1rem; padding: 14px;" onclick="initiatePayment()">Pay with Razorpay</button>
+    </div>
   </div>
 
   <script src="app.js"></script>
