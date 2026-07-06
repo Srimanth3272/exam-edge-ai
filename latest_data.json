@@ -1,966 +1,818 @@
 {
-  "date": "29 June 2026 | Monday",
-  "archiveDate": "📅 29 June 2026",
+  "date": "6 July 2026 | Monday",
+  "archiveDate": "📅 6 July 2026",
   "tickerItems": [
-    "India expands anaemia fight with comprehensive lifecycle approach.",
-    "Sonam Wangchuk begins hunger strike at Jantar Mantar over exam irregularities.",
-    "Kerala grapples with elephant killings and forest land reclamation under state act.",
-    "US and Iran agree to de-escalate tensions, Qatar to host Hormuz talks.",
-    "Venezuela hit by twin earthquakes; US and Europe brace for severe heatwaves.",
-    "Report exposes Meta's platforms as major market for wildlife trafficking.",
-    "Indian shooting legend Jaspal Rana's mother passes away; BET Awards 2026 announced.",
-    "Andhra Pradesh government faces political heat over custodial deaths."
+    "Madhya Pradesh reorganises State Waqf Board; includes Hindu members for the first time.",
+    "PM Modi pays tribute to Dr. Syama Prasad Mookerjee on his 125th birth anniversary.",
+    "Kailash Mansarovar Yatra 2026 begins via upgraded vehicle-based Lipulekh Pass route.",
+    "Puri Gajapati Maharaja urges ISKCON to align global Rath Yatra dates with scriptural calendar.",
+    "Islamabad to host crucial US-Iran technical negotiations on nuclear program and sanctions relief.",
+    "Monsoon dependency and groundwater overuse deepen water stress across major Indian cities.",
+    "Russia launches fresh missile and drone strikes on Kyiv ahead of the NATO Summit in Turkey.",
+    "Vikram Misri takes charge as India's new Foreign Secretary, ensuring strategic continuity."
   ],
   "topicCards": [
     {
-      "id": "health-anaemia-fight",
-      "category": "health",
-      "catBadge": "⚕️ Health | Social Issues",
-      "examTags": [
-        "UPSC",
-        "SSC",
-        "Banking",
-        "State PSC",
-        "Railways"
-      ],
-      "title": "India Broadens Fight Against Anaemia with Lifecycle Approach",
-      "sources": [
-        {
-          "name": "The Hindu",
-          "url": "https://www.thehindu.com/sci-tech/health/india-broadens-its-fight-against-anaemia/article71160011.ece"
-        }
-      ],
-      "sourceDate": "Verified: 29 June 2026",
-      "keyFactsTitle": "📌 Key Facts at a Glance",
-      "keyFacts": [
-        {
-          "icon": "🔄",
-          "title": "New Approach",
-          "desc": "Shift from merely treating anaemia to preventing it across every stage of life, including pre-pregnancy."
-        },
-        {
-          "icon": "👶",
-          "title": "Target Groups",
-          "desc": "Focus on adolescents, pregnant women, lactating mothers, and young children through a comprehensive lifecycle strategy."
-        },
-        {
-          "icon": "🔬",
-          "title": "Intervention Areas",
-          "desc": "Includes dietary diversification, iron and folic acid supplementation, deworming, delayed cord clamping, and addressing underlying causes like malaria and fluorosis."
-        },
-        {
-          "icon": "🤝",
-          "title": "Multi-sectoral",
-          "desc": "Emphasizes convergence between health, nutrition, water and sanitation, and women and child development sectors."
-        }
-      ],
-      "staticGkPoints": [
-        "Anemia Mukt Bharat (AMB) strategy launched in 2018 under the POSHAN Abhiyaan, aiming to reduce anaemia prevalence.",
-        "National Health Mission (NHM) launched in 2013, subsuming NRHM and NUHM, to provide accessible, affordable, and quality healthcare.",
-        "Sustainable Development Goal (SDG) 3.2 aims to end preventable deaths of newborns and children under 5 years of age, and SDG 3.4 aims to reduce premature mortality from non-communicable diseases."
-      ],
-      "examinerPerspective": [
-        "UPSC often asks about government health schemes, their objectives, and implementation challenges.",
-        "Focus on the 'lifecycle approach' as a key policy shift and its implications for public health outcomes.",
-        "Linkage to SDGs and India's progress on health indicators is a common area for Mains questions.",
-        "Be aware of the difference between anaemia prevention and treatment, and the role of various ministries."
-      ],
-      "examRelevance": [
-        {
-          "exam": "UPSC Prelims",
-          "note": "Schemes, health indicators, government initiatives."
-        },
-        {
-          "exam": "SSC CGL",
-          "note": "Basic facts about health programs, national targets."
-        },
-        {
-          "exam": "Banking/RBI",
-          "note": "Social sector schemes, health infrastructure development."
-        },
-        {
-          "exam": "State PSC",
-          "note": "State-specific implementation, health challenges."
-        }
-      ]
-    },
-    {
-      "id": "polity-sonam-wangchuk-protest",
+      "id": "card-polity-waqf",
       "category": "polity",
       "catBadge": "⚖️ Polity | Governance",
       "examTags": [
         "UPSC",
-        "SSC",
-        "Banking",
-        "State PSC",
-        "Railways"
+        "SSC CGL",
+        "State PSC"
       ],
-      "title": "Sonam Wangchuk's Hunger Strike: Demands for Accountability in Education",
-      "sources": [
-        {
-          "name": "Livemint",
-          "url": "https://www.livemint.com/news/india/sonam-wangchuk-urges-people-to-join-his-hunger-strike-for-a-day-at-jantar-mantar-neet-ug-ladakh-paper-leaks-pradhan-11782706316276.html"
-        }
-      ],
-      "sourceDate": "Verified: 29 June 2026",
-      "keyFactsTitle": "📌 Key Facts at a Glance",
-      "keyFacts": [
-        {
-          "icon": "✊",
-          "title": "Protest Leader",
-          "desc": "Sonam Wangchuk, known for his educational reforms and environmental activism in Ladakh."
-        },
-        {
-          "icon": "📍",
-          "title": "Location & Duration",
-          "desc": "Began an indefinite hunger strike at Jantar Mantar, Delhi, as part of the 'Cockroach Janata Party (CJP)' protest."
-        },
-        {
-          "icon": "📜",
-          "title": "Key Demand",
-          "desc": "Resignation of Union Education Minister Dharmendra Pradhan over alleged irregularities in national examinations, specifically NEET UG."
-        },
-        {
-          "icon": "🗣️",
-          "title": "Call to Action",
-          "desc": "Urged citizens to join a one-day hunger strike in solidarity, emphasizing the importance of fair examinations and accountability."
-        }
-      ],
-      "staticGkPoints": [
-        "Article 19(1)(a) and 19(1)(b) of the Indian Constitution guarantee the right to freedom of speech and expression and the right to assemble peacefully without arms.",
-        "Jantar Mantar in Delhi is a designated site for protests and demonstrations, symbolizing the right to dissent in a democracy.",
-        "The National Testing Agency (NTA) is an autonomous organization established in 2017 to conduct entrance examinations for higher educational institutions."
-      ],
-      "examinerPerspective": [
-        "This topic links to fundamental rights (right to protest), governance (accountability of ministers), and public administration (fairness of examinations).",
-        "UPSC Mains questions can explore the role of civil society in demanding accountability and the government's response.",
-        "SSC and State PSC exams might ask about prominent activists, locations of protests, or basic facts about examination bodies.",
-        "Understand the broader context of exam irregularities and their impact on youth and national development."
-      ],
-      "examRelevance": [
-        {
-          "exam": "UPSC Prelims",
-          "note": "Fundamental rights, government bodies, social movements."
-        },
-        {
-          "exam": "SSC CGL",
-          "note": "Prominent personalities, protest sites, current events."
-        },
-        {
-          "exam": "Banking/RBI",
-          "note": "Governance issues, public trust in institutions."
-        },
-        {
-          "exam": "State PSC",
-          "note": "Regional implications (Ladakh), state-level exam reforms."
-        }
-      ]
-    },
-    {
-      "id": "environment-kerala-elephants-forests",
-      "category": "environment",
-      "catBadge": "🌳 Environment | Ecology",
-      "examTags": [
-        "UPSC",
-        "SSC",
-        "Banking",
-        "State PSC",
-        "Railways"
-      ],
-      "title": "Human-Elephant Conflict and Forest Land Reclamation in Kerala",
+      "title": "Reorganisation of Madhya Pradesh Waqf Board: Legal and Constitutional Dimensions of Waqf Administration",
       "sources": [
         {
           "name": "The Hindu",
-          "url": "https://www.thehindu.com/news/national/kerala/elephant-killings-continue-in-death-zone-of-kerala/article71157966.ece"
-        },
-        {
-          "name": "The Hindu",
-          "url": "https://www.thehindu.com/news/national/kerala/forest-department-takes-over-4272-hectors-of-land-from-private-estate-in-kolukkumalai/article71157976.ece"
+          "url": "https://www.thehindu.com/news/national/madhya-pradesh/madhya-pradesh-waqf-board-reorganised-hindu-members-included/article71188097.ece"
         }
       ],
-      "sourceDate": "Verified: 29 June 2026",
+      "sourceDate": "Verified: 6 July 2026",
       "keyFactsTitle": "📌 Key Facts at a Glance",
       "keyFacts": [
         {
-          "icon": "🐘",
-          "title": "Elephant Deaths",
-          "desc": "Continued human-induced elephant deaths in the Parambikulam-Munnar–Malayattoor forest sector, including a makhna elephant reportedly from explosives-stuffed fruit."
+          "icon": "📰",
+          "title": "Gazette Notification",
+          "desc": "The Madhya Pradesh government issued a gazette notification reorganising the 10-member State Waqf Board."
         },
         {
-          "icon": "💔",
-          "title": "Conflict Zone",
-          "desc": "The region is a known 'death zone' due to escalating human-wildlife conflict, often involving retaliatory actions or illegal hunting."
+          "icon": "👤",
+          "title": "New Leadership",
+          "desc": "Sanwar Patel has been appointed as the Chairman of the reorganised Madhya Pradesh Waqf Board."
         },
-        {
-          "icon": "🏞️",
-          "title": "Land Reclamation",
-          "desc": "Kerala Forest Department took over 42.72 hectares of land from a private estate in Kolukkumalai, Idukki district."
-        },
-        {
-          "icon": "📜",
-          "title": "Legal Basis",
-          "desc": "The land was reclaimed under the provisions of the Kerala Private Forests (Vesting and Assignment) Act, 1971."
-        }
-      ],
-      "staticGkPoints": [
-        "Project Elephant was launched in 1992 by the Government of India to protect elephants, their habitat, and corridors.",
-        "The Wildlife Protection Act, 1972, provides for the protection of wild animals, birds, and plants, and for matters connected therewith or ancillary or incidental thereto.",
-        "The Western Ghats, a UNESCO World Heritage Site, is a global biodiversity hotspot and home to a significant elephant population in India."
-      ],
-      "examinerPerspective": [
-        "UPSC often asks about human-wildlife conflict, conservation efforts, and environmental legislation.",
-        "The Kerala Private Forests (Vesting and Assignment) Act is a specific example of state-level environmental governance.",
-        "Questions can focus on the causes of human-elephant conflict and sustainable solutions.",
-        "Linkage to biodiversity hotspots and protected areas is crucial for environmental sections."
-      ],
-      "examRelevance": [
-        {
-          "exam": "UPSC Prelims",
-          "note": "Environmental acts, protected areas, species conservation, human-wildlife conflict."
-        },
-        {
-          "exam": "SSC CGL",
-          "note": "Basic facts about Project Elephant, wildlife protection."
-        },
-        {
-          "exam": "Banking/RBI",
-          "note": "Environmental impact, sustainable development."
-        },
-        {
-          "exam": "State PSC",
-          "note": "Kerala-specific environmental laws, regional conservation issues."
-        }
-      ]
-    },
-    {
-      "id": "ir-us-iran-hormuz",
-      "category": "ir",
-      "catBadge": "🌍 International Relations",
-      "examTags": [
-        "UPSC",
-        "SSC",
-        "Banking",
-        "State PSC",
-        "Railways"
-      ],
-      "title": "US and Iran Agree to De-escalate Tensions, Qatar to Host Hormuz Talks",
-      "sources": [
-        {
-          "name": "Times of India",
-          "url": "https://timesofindia.indiatimes.com/world/us/us-iran-agree-to-halt-attacks-after-counter-strikes-qatar-to-host-hormuz-talks-on-tuesday/articleshow/132058740.cms"
-        },
-        {
-          "name": "Times of India",
-          "url": "https://timesofindia.indiatimes.com/world/pakistan/pakistan-carries-out-calibrated-strikes-near-afghanistan-border-29-militants-killed/articleshow/132058492.cms"
-        }
-      ],
-      "sourceDate": "Verified: 29 June 2026",
-      "keyFactsTitle": "📌 Key Facts at a Glance",
-      "keyFacts": [
         {
           "icon": "🤝",
-          "title": "Ceasefire Agreement",
-          "desc": "United States and Iran have agreed to a ceasefire following days of military exchanges."
-        },
-        {
-          "icon": "🇶🇦",
-          "title": "Hormuz Talks",
-          "desc": "Qatar will host discussions in Doha to de-escalate the dispute over the Strait of Hormuz, focusing on maritime passage and port access."
-        },
-        {
-          "icon": "🚢",
-          "title": "Navigation",
-          "desc": "Both nations will halt counter-strikes, allowing vessels to navigate freely through the strategic waterway."
-        },
-        {
-          "icon": "🇵🇰",
-          "title": "Regional Security",
-          "desc": "Separately, Pakistan carried out 'calibrated strikes' near the Afghanistan border, killing 29 militants, highlighting ongoing regional security challenges."
-        }
-      ],
-      "staticGkPoints": [
-        "The Strait of Hormuz is a strategically vital waterway connecting the Persian Gulf with the Gulf of Oman and the Arabian Sea, crucial for global oil shipments.",
-        "Qatar has often played a mediation role in regional conflicts, leveraging its diplomatic ties with various nations.",
-        "The Durand Line is the 2,640-kilometer (1,640 mi) border between Afghanistan and Pakistan, a long-standing point of contention."
-      ],
-      "examinerPerspective": [
-        "UPSC often focuses on geopolitical hotspots, their strategic importance, and international mediation efforts.",
-        "Understanding the significance of the Strait of Hormuz for global energy security is critical.",
-        "Questions can arise on the role of regional powers and international organizations in conflict resolution.",
-        "Be aware of the historical context of US-Iran relations and the broader security dynamics in the Middle East and South Asia."
-      ],
-      "examRelevance": [
-        {
-          "exam": "UPSC Prelims",
-          "note": "Geographical locations, international organizations, regional conflicts."
-        },
-        {
-          "exam": "SSC CGL",
-          "note": "Major international events, countries in news."
-        },
-        {
-          "exam": "Banking/RBI",
-          "note": "Impact on global oil prices, economic stability."
-        },
-        {
-          "exam": "State PSC",
-          "note": "General awareness of international affairs."
-        }
-      ]
-    },
-    {
-      "id": "environment-global-heatwaves-earthquakes",
-      "category": "environment",
-      "catBadge": "🌍 World Affairs | Disasters",
-      "examTags": [
-        "UPSC",
-        "SSC",
-        "Banking",
-        "State PSC",
-        "Railways"
-      ],
-      "title": "Global Surge in Extreme Weather and Natural Disasters",
-      "sources": [
-        {
-          "name": "Livemint",
-          "url": "https://www.livemint.com/news/world/venezuela-earthquakes-satellite-images-show-significant-destruction-after-twin-quakes-death-toll-nears-1500-11782701674947.html"
-        },
-        {
-          "name": "Livemint",
-          "url": "https://www.livemint.com/news/us-news/large-parts-of-the-us-to-be-impacted-by-a-dangerous-heatwave-says-nws-advises-citizens-to-limit-time-outdoors-11782702760814.html"
-        },
-        {
-          "name": "Times of India",
-          "url": "https://timesofindia.indiatimes.com/world/europe/watch-europe-record-heatwave-melts-roads-in-france-buckle-tram-tracks-in-germany/articleshow/132061092.cms"
-        }
-      ],
-      "sourceDate": "Verified: 29 June 2026",
-      "keyFactsTitle": "📌 Key Facts at a Glance",
-      "keyFacts": [
-        {
-          "icon": "🌎",
-          "title": "Venezuela Earthquakes",
-          "desc": "Twin major earthquakes caused extensive destruction in La Guaira, north of Caracas, with a death toll nearing 1500."
-        },
-        {
-          "icon": "🌡️",
-          "title": "US Heatwave",
-          "desc": "National Weather Service (NWS) warns of a dangerous heatwave impacting large parts of the US, advising citizens to limit outdoor time."
-        },
-        {
-          "icon": "🔥",
-          "title": "Europe's Record Heatwave",
-          "desc": "Record temperatures in Europe led to melting roads in France and buckling tram tracks in Germany, causing significant infrastructure damage."
-        },
-        {
-          "icon": "🛰️",
-          "title": "Satellite Imagery",
-          "desc": "High-resolution satellite images from Vantor depicted the scale of destruction in Venezuela, including collapsed buildings."
-        }
-      ],
-      "staticGkPoints": [
-        "Earthquakes are caused by the sudden release of energy in the Earth's lithosphere that creates seismic waves, often occurring along plate boundaries.",
-        "The National Weather Service (NWS) is an agency of the United States federal government that is tasked with providing weather forecasts, warnings of hazardous weather, and other weather-related products to organizations and the public.",
-        "Climate change is a long-term shift in global or regional climate patterns, primarily driven by human activities leading to increased greenhouse gas emissions, resulting in more frequent and intense extreme weather events."
-      ],
-      "examinerPerspective": [
-        "UPSC often asks about disaster management, climate change impacts, and international efforts to mitigate them.",
-        "Questions can focus on the causes and effects of extreme weather events and natural disasters.",
-        "Be aware of the role of international agencies and national bodies in disaster preparedness and response.",
-        "Linkage to global warming and its manifestations is a key area for environmental studies."
-      ],
-      "examRelevance": [
-        {
-          "exam": "UPSC Prelims",
-          "note": "Disaster types, climate change, international reports, geographical phenomena."
-        },
-        {
-          "exam": "SSC CGL",
-          "note": "Major global events, geographical facts."
-        },
-        {
-          "exam": "Banking/RBI",
-          "note": "Economic impact of disasters, insurance."
-        },
-        {
-          "exam": "State PSC",
-          "note": "General awareness of global environmental issues."
-        }
-      ]
-    },
-    {
-      "id": "environment-wildlife-trafficking-meta",
-      "category": "environment",
-      "catBadge": "🌳 Environment | Cybercrime",
-      "examTags": [
-        "UPSC",
-        "SSC",
-        "Banking",
-        "State PSC",
-        "Railways"
-      ],
-      "title": "Report Exposes Meta's Platforms as Hub for Wildlife Trafficking",
-      "sources": [
-        {
-          "name": "Times of India",
-          "url": "https://timesofindia.indiatimes.com/home/environment/20000-ads-260000-products-report-exposes-metas-wildlife-trafficking-market/articleshow/132061509.cms"
-        }
-      ],
-      "sourceDate": "Verified: 29 June 2026",
-      "keyFactsTitle": "📌 Key Facts at a Glance",
-      "keyFacts": [
-        {
-          "icon": "🚨",
-          "title": "Alarming Scale",
-          "desc": "A new report reveals over 20,000 advertisements for approximately 260,000 illegal wildlife products on Meta's platforms."
-        },
-        {
-          "icon": "📱",
-          "title": "Platform Misuse",
-          "desc": "Highlights the extensive use of social media platforms like Facebook and Instagram for illicit wildlife trade."
-        },
-        {
-          "icon": "🐆",
-          "title": "Products Traded",
-          "desc": "Includes a wide range of endangered species and their derivatives, contributing to biodiversity loss."
+          "title": "Inclusive Representation",
+          "desc": "Manoj Malpani and Animesh Bhargava have been included as Hindu members on the board, marking a significant administrative shift."
         },
         {
           "icon": "⚖️",
-          "title": "Regulatory Gap",
-          "desc": "Raises concerns about the effectiveness of content moderation and enforcement mechanisms by tech companies against illegal activities."
+          "title": "Regulatory Framework",
+          "desc": "State Waqf Boards are statutory bodies established under the Waqf Act, 1995, to manage and protect Waqf properties."
         }
       ],
       "staticGkPoints": [
-        "The Convention on International Trade in Endangered Species of Wild Fauna and Flora (CITES) is a multilateral treaty to protect endangered plants and animals.",
-        "The Wildlife Crime Control Bureau (WCCB) is a statutory body established by the Government of India under the Ministry of Environment, Forest and Climate Change to combat organized wildlife crime.",
-        "The Information Technology Act, 2000, in India, provides legal recognition for transactions carried out by means of electronic data interchange and other means of electronic communication."
+        "Waqf Act 1995 — enacted by Parliament to provide for the better administration of Auqaf (properties dedicated as waqf).",
+        "Central Waqf Council — established in 1964 under the Ministry of Minority Affairs as an advisory body on waqf administration.",
+        "Constitutional Provisions — Article 25 (Freedom of conscience and free profession, practice and propagation of religion) and Article 26 (Freedom to manage religious affairs) govern these administrations.",
+        "Waqf Tribunal — constituted under Section 83 of the Waqf Act, 1995, to resolve disputes regarding waqf properties."
       ],
       "examinerPerspective": [
-        "UPSC often asks about environmental crime, conservation challenges, and the role of technology in facilitating or combating such crimes.",
-        "Focus on the ethical responsibilities of tech companies and the need for stronger regulatory frameworks.",
-        "Linkage to international conventions like CITES and national bodies like WCCB is important.",
-        "Questions can explore the impact of online trafficking on biodiversity and conservation efforts."
+        "Paper setters frequently target the statutory nature of Waqf Boards; candidates must remember they are established under a Central Act but administered by State Governments.",
+        "Common trap: Confusing the Central Waqf Council with a constitutional body. It is strictly a statutory body under the Ministry of Minority Affairs.",
+        "State PSCs often ask about the composition and appointing authority of State Waqf Boards (the State Government).",
+        "UPSC Mains linkage: GS-2 syllabus topic 'Statutory, regulatory and various quasi-judicial bodies' and issues related to secularism and religious trust administrations."
       ],
       "examRelevance": [
         {
           "exam": "UPSC Prelims",
-          "note": "Environmental conventions, statutory bodies, cybercrime, conservation."
+          "note": "Statutory provisions of the Waqf Act, 1995, and powers of the Central Waqf Council."
         },
         {
           "exam": "SSC CGL",
-          "note": "Current environmental issues, international organizations."
-        },
-        {
-          "exam": "Banking/RBI",
-          "note": "Corporate social responsibility, digital ethics."
+          "note": "Ministry under which Central Waqf Council operates and year of Waqf Act."
         },
         {
           "exam": "State PSC",
-          "note": "State-level wildlife protection, cybercrime awareness."
+          "note": "Specific appointments and composition changes in State Waqf Boards."
         }
       ]
     },
     {
-      "id": "polity-custodial-deaths-ap",
-      "category": "polity",
-      "catBadge": "⚖️ Polity | Human Rights",
+      "id": "card-economy-up-fiscal",
+      "category": "economy",
+      "catBadge": "📈 Economy | Fiscal Policy",
       "examTags": [
         "UPSC",
-        "SSC",
         "Banking",
-        "State PSC",
-        "Railways"
+        "State PSC"
       ],
-      "title": "Politics Around Andhra Pradesh's Custodial Deaths",
+      "title": "Analyzing Uttar Pradesh's 'Revenue Surplus' Claims: Fiscal Health vs. Capital Expenditure Realities",
       "sources": [
         {
-          "name": "The Hindu",
-          "url": "https://www.thehindu.com/opinion/op-ed/the-politics-around-andhra-pradeshs-custodial-deaths/article71158764.ece"
+          "name": "The Hindu Data Team",
+          "url": "https://www.thehindu.com/data/questioning-the-hype-around-uttar-pradeshs-revenue-surplus-in-10-charts/article71188016.ece"
         }
       ],
-      "sourceDate": "Verified: 29 June 2026",
+      "sourceDate": "Verified: 6 July 2026",
       "keyFactsTitle": "📌 Key Facts at a Glance",
       "keyFacts": [
         {
-          "icon": "🚨",
-          "title": "Issue Highlighted",
-          "desc": "The Opposition in Andhra Pradesh is actively attacking the government over alleged excesses and custodial deaths."
+          "icon": "📊",
+          "title": "Revenue Surplus",
+          "desc": "Uttar Pradesh consistently projects a revenue surplus, which occurs when revenue receipts exceed revenue expenditure."
         },
         {
-          "icon": "⚖️",
-          "title": "Human Rights Concern",
-          "desc": "Custodial deaths represent a grave violation of human rights and a failure of the criminal justice system."
+          "icon": "⚠️",
+          "title": "The Structural Issue",
+          "desc": "Critics point out that the surplus is often achieved by under-spending on crucial social sectors and capital asset creation."
         },
         {
-          "icon": "🏛️",
-          "title": "Government Scrutiny",
-          "desc": "The incidents bring the state government and police administration under intense public and political scrutiny."
+          "icon": "💸",
+          "title": "Central Dependency",
+          "desc": "A significant portion of UP's revenue receipts comes from central tax devloution and grants-in-aid rather than its own tax revenue."
         },
         {
-          "icon": "🗣️",
-          "title": "Demand for Justice",
-          "desc": "Calls for accountability, transparent investigations, and reforms in police procedures are intensifying."
+          "icon": "🏗️",
+          "title": "Capital Expenditure",
+          "desc": "True economic development requires robust Capital Expenditure (CapEx) which builds long-term productive assets like roads, schools, and hospitals."
         }
       ],
       "staticGkPoints": [
-        "Article 21 of the Indian Constitution guarantees the 'Right to Life and Personal Liberty', which includes the right to live with human dignity and protection from arbitrary state action.",
-        "The National Human Rights Commission (NHRC) is a statutory body established in 1993 for the protection and promotion of human rights in India.",
-        "The Supreme Court of India has issued guidelines (D.K. Basu vs. State of West Bengal, 1997) to be followed by police and other agencies during arrest and detention to prevent custodial torture and deaths."
+        "Revenue Deficit/Surplus — refers to the difference between revenue receipts and revenue expenditures of the government.",
+        "FRBM Act 2003 — Fiscal Responsibility and Budget Management Act aims to reduce fiscal deficit and eliminate revenue deficit.",
+        "15th Finance Commission — recommended a horizontal devolution formula where Uttar Pradesh received the highest share (17.9%) due to population and distance criteria.",
+        "Article 280 — Constitutional provision for the establishment of the Finance Commission of India every five years by the President."
       ],
       "examinerPerspective": [
-        "UPSC often asks about human rights, police reforms, judicial activism, and accountability in governance.",
-        "Focus on the constitutional provisions and legal safeguards against custodial violence.",
-        "Questions can explore the role of NHRC and other oversight bodies in addressing such issues.",
-        "Understanding the political implications and public trust deficit caused by such incidents is important."
+        "Examiners love to test the conceptual difference between Revenue Expenditure (consumptive, non-asset creating) and Capital Expenditure (asset-creating).",
+        "A common trap is assuming a 'Revenue Surplus' automatically translates to a healthy overall fiscal deficit; a state can have a revenue surplus but still run a high fiscal deficit due to heavy capital borrowing.",
+        "UPSC GS-3 Mains: Direct linkage to 'Government Budgeting' and 'Inclusive Growth and issues arising from it'.",
+        "Banking exams frequently ask for definitions of Fiscal Deficit, Revenue Deficit, and Primary Deficit."
       ],
       "examRelevance": [
         {
           "exam": "UPSC Prelims",
-          "note": "Fundamental rights, statutory bodies, landmark judgments."
-        },
-        {
-          "exam": "SSC CGL",
-          "note": "Basic facts about human rights, police structure."
+          "note": "Conceptual questions on FRBM Act targets, Revenue vs. Capital accounts."
         },
         {
           "exam": "Banking/RBI",
-          "note": "Governance issues, rule of law."
+          "note": "Definitions of fiscal indicators and current recommendations of the Finance Commission."
         },
         {
           "exam": "State PSC",
-          "note": "Andhra Pradesh specific governance, human rights issues."
+          "note": "State-specific budget allocations and fiscal deficit targets under state FRBM acts."
         }
       ]
     },
     {
-      "id": "sports-jaspal-rana",
-      "category": "sports",
-      "catBadge": "🏅 Sports | Achievements & Events",
+      "id": "card-environment-water-stress",
+      "category": "environment",
+      "catBadge": "🌿 Environment | Ecology",
       "examTags": [
         "UPSC",
-        "SSC",
-        "Banking",
-        "State PSC",
-        "Railways"
+        "SSC CGL",
+        "State PSC"
       ],
-      "title": "Tribute to Indian Shooting Legend Jaspal Rana",
+      "title": "Deepening Water Stress in India: Monsoon Dependency, Groundwater Depletion, and Reservoir Crisis",
       "sources": [
         {
           "name": "Livemint",
-          "url": "https://www.livemint.com/news/india/jaspal-ranas-mother-shyama-devi-dies-days-after-indian-shooting-legends-death-11782702588674.html"
+          "url": "https://www.livemint.com/news/monsoon-rainfall-reservoirs-water-crisis-groundwater-central-water-commission-imd-climate-change-water-stress-11783250307736.html"
         }
       ],
-      "sourceDate": "Verified: 29 June 2026",
+      "sourceDate": "Verified: 6 July 2026",
       "keyFactsTitle": "📌 Key Facts at a Glance",
       "keyFacts": [
+        {
+          "icon": "💧",
+          "title": "Urban Rationing",
+          "desc": "Cities like Mumbai (shrinking lake supply) and Pune (alternate-day water rationing) are facing severe water stress due to delayed or deficient monsoons."
+        },
+        {
+          "icon": "📉",
+          "title": "Reservoir Depletion",
+          "desc": "The Central Water Commission (CWC) reports that water levels in India's major reservoirs are significantly below the 10-year average."
+        },
+        {
+          "icon": "🚜",
+          "title": "Groundwater Overuse",
+          "desc": "India is the largest user of groundwater globally, extracting more than the US and China combined, primarily for agricultural irrigation."
+        },
+        {
+          "icon": "🌦️",
+          "title": "Monsoon Dependency",
+          "desc": "Over 50% of India's cultivable land remains rainfed, making the agricultural economy highly vulnerable to monsoon variability."
+        }
+      ],
+      "staticGkPoints": [
+        "Central Water Commission (CWC) — premier technical organization in India in the field of water resources, established in 1945.",
+        "Central Ground Water Authority (CGWA) — constituted under Section 3(3) of the Environment (Protection) Act, 1986, to regulate groundwater development.",
+        "Composite Water Management Index (CWMI) — published by NITI Aayog to assess and improve water resource management across states.",
+        "Mihir Shah Committee (2016) — recommended restructuring the CWC and CGWB into a single National Water Commission (NWC)."
+      ],
+      "examinerPerspective": [
+        "Examiners frequently ask about the statutory origin of the Central Ground Water Authority (CGWA) — it is the Environment (Protection) Act, 1986, NOT the Water Act, 1974.",
+        "UPSC Prelims often tests concepts like 'virtual water export' (water used to grow crops like rice and sugarcane which are then exported).",
+        "State PSCs focus on regional micro-irrigation schemes (e.g., Per Drop More Crop under PMKSY).",
+        "Mains questions often require integrating climate change, urban planning, and agricultural crop diversification to address water scarcity."
+      ],
+      "examRelevance": [
+        {
+          "exam": "UPSC Prelims/Mains",
+          "note": "Statutory bodies, water conservation schemes, and geographical distribution of rainfall."
+        },
+        {
+          "exam": "SSC CGL",
+          "note": "Headquarters of CWC, year of Environment Protection Act, and basic water cycle terms."
+        },
+        {
+          "exam": "State PSC",
+          "note": "State-specific river basins, inter-state water disputes, and local water harvesting traditional methods."
+        }
+      ]
+    },
+    {
+      "id": "card-science-bee-hotels",
+      "category": "science",
+      "catBadge": "🔬 Science & Technology",
+      "examTags": [
+        "UPSC",
+        "SSC CGL",
+        "State PSC"
+      ],
+      "title": "Artificial Nesting Sites ('Bee Hotels'): Innovative Tools for Pollinator Conservation and Urban Biodiversity",
+      "sources": [
+        {
+          "name": "Times of India",
+          "url": "https://timesofindia.indiatimes.com/science/a-scientist-built-200-hotels-for-bees-three-years-later-the-guests-he-found-changed-what-we-know-about-pollinators-and-biodiversity/articleshow/132207862.cms"
+        }
+      ],
+      "sourceDate": "Verified: 6 July 2026",
+      "keyFactsTitle": "📌 Key Facts at a Glance",
+      "keyFacts": [
+        {
+          "icon": "🐝",
+          "title": "The Experiment",
+          "desc": "A scientist constructed 200 'bee hotels' (artificial nesting structures) to study solitary bees and urban pollinator dynamics over three years."
+        },
+        {
+          "icon": "🌱",
+          "title": "Biodiversity Insights",
+          "desc": "The study revealed unexpected diversity in wild, solitary bees, which do not live in hives but are critical for pollinating wild plants and crops."
+        },
+        {
+          "icon": "🕸️",
+          "title": "Parasite Dynamics",
+          "desc": "The research highlighted how artificial nesting sites can sometimes attract parasites, emphasizing the need for proper design and maintenance."
+        },
+        {
+          "icon": "🍎",
+          "title": "Ecological Value",
+          "desc": "Pollinators contribute directly to global food security; over 75% of the world's food crops depend at least in part on pollination."
+        }
+      ],
+      "staticGkPoints": [
+        "Solitary Bees — make up over 90% of the world's 20,000 bee species; unlike honeybees, every female is fertile and builds her own nest.",
+        "IPBES Pollination Report — The Intergovernmental Science-Policy Platform on Biodiversity and Ecosystem Services highlights that 40% of invertebrate pollinator species face extinction.",
+        "World Bee Day — celebrated annually on May 20 to mark the birth of Anton Janša, a pioneer of modern apiculture.",
+        "National Bee Board (NBB) — established in India in 2000 to promote scientific beekeeping and support the Sweet Revolution."
+      ],
+      "examinerPerspective": [
+        "Examiners target the ecological role of pollinators and the distinction between social bees (honeybees) and solitary bees.",
+        "Common trap: Assuming all bees live in hives and produce honey. Solitary bees do neither but are superior pollinators.",
+        "UPSC Prelims often asks about symbiotic relationships and ecological services provided by insects.",
+        "Mains linkage: GS-3 Environment and Biodiversity conservation strategies beyond traditional national parks."
+      ],
+      "examRelevance": [
+        {
+          "exam": "UPSC Prelims",
+          "note": "Ecological roles of pollinators, IPBES reports, and conservation initiatives."
+        },
+        {
+          "exam": "SSC CGL",
+          "note": "Study of bees (Apiculture), World Bee Day date, and National Bee Board."
+        },
+        {
+          "exam": "State PSC",
+          "note": "State-level honey production initiatives and agricultural impact of pollinators."
+        }
+      ]
+    },
+    {
+      "id": "card-ir-us-iran",
+      "category": "ir",
+      "catBadge": "🌐 International Relations",
+      "examTags": [
+        "UPSC",
+        "Banking",
+        "State PSC"
+      ],
+      "title": "US-Iran Technical Negotiations in Islamabad: The Islamabad Memorandum and West Asian Security",
+      "sources": [
+        {
+          "name": "Times of India",
+          "url": "https://timesofindia.indiatimes.com/world/pakistan/next-round-of-us-iran-talks-likely-in-islamabad-report/articleshow/132205230.cms"
+        }
+      ],
+      "sourceDate": "Verified: 6 July 2026",
+      "keyFactsTitle": "📌 Key Facts at a Glance",
+      "keyFacts": [
+        {
+          "icon": "📍",
+          "title": "Neutral Venue",
+          "desc": "Islamabad, Pakistan is set to host crucial technical negotiations between the United States and Iran around July 11, 2026."
+        },
+        {
+          "icon": "📜",
+          "title": "The Framework",
+          "desc": "The talks build upon the 'Islamabad Memorandum of Understanding' signed on June 18, aiming for a comprehensive peace framework."
+        },
+        {
+          "icon": "⚛️",
+          "title": "Core Agenda",
+          "desc": "Key discussion points include Iran's nuclear enrichment levels, sanctions relief, and regional security stabilization."
+        },
+        {
+          "icon": "⏳",
+          "title": "Timeline",
+          "desc": "Negotiators are working under a strict 60-day timeframe to establish a verifiable compliance mechanism."
+        }
+      ],
+      "staticGkPoints": [
+        "JCPOA (Joint Comprehensive Plan of Action) — signed in 2015 between Iran and the P5+1 (US, UK, France, Russia, China + Germany).",
+        "US Withdrawal — The United States unilaterally withdrew from the JCPOA in 2018 under the Trump administration, reinstating heavy economic sanctions.",
+        "IAEA (International Atomic Energy Agency) — established in 1957, headquartered in Vienna, Austria; acts as the global nuclear watchdog.",
+        "NPT (Non-Proliferation Treaty) — entered into force in 1970; Iran is a signatory, while India, Pakistan, Israel, and South Sudan are not."
+      ],
+      "examinerPerspective": [
+        "Examiners frequently test the composition of the P5+1 group and the status of countries regarding the NPT.",
+        "A common trap is confusing the IAEA's headquarters (Vienna) with other UN bodies in Geneva or New York.",
+        "UPSC GS-2 Mains: Direct relevance to 'Effect of policies and politics of developed and developing countries on India's interests'."
+      ],
+      "examRelevance": [
+        {
+          "exam": "UPSC Prelims/Mains",
+          "note": "JCPOA history, IAEA safeguards, and India's strategic interests in Chabahar Port amidst sanctions."
+        },
+        {
+          "exam": "Banking/RBI",
+          "note": "Impact of Iranian oil sanctions on global crude prices and India's current account deficit."
+        },
+        {
+          "exam": "State PSC",
+          "note": "Geopolitical locations in West Asia (Strait of Hormuz, Persian Gulf)."
+        }
+      ]
+    },
+    {
+      "id": "card-awards-pen-pinter",
+      "category": "awards",
+      "catBadge": "🏆 Awards & Honours",
+      "examTags": [
+        "SSC CGL",
+        "Banking",
+        "State PSC",
+        "Railways"
+      ],
+      "title": "The Pen Pinter Prize: Celebrating Literary Courage and Freedom of Expression",
+      "sources": [
+        {
+          "name": "English PEN",
+          "url": "https://www.englishpen.org"
+        }
+      ],
+      "sourceDate": "Verified: 6 July 2026",
+      "keyFactsTitle": "📌 Key Facts at a Glance",
+      "keyFacts": [
+        {
+          "icon": "✍️",
+          "title": "The Award",
+          "desc": "The Pen Pinter Prize is a prestigious literary award given annually to a writer of outstanding literary merit who casts an unflinching gaze on the world."
+        },
+        {
+          "icon": "🇬🇧",
+          "title": "Eligibility",
+          "desc": "The prize is awarded to a writer who defines themselves as living in the UK, the Republic of Ireland, or the Commonwealth."
+        },
+        {
+          "icon": "🇮🇳",
+          "title": "Indian Connection",
+          "desc": "Renowned Indian author Arundhati Roy was awarded the Pen Pinter Prize 2024 for her courageous essays and fiction."
+        },
         {
           "icon": "🕊️",
-          "title": "Recent News",
-          "desc": "Shyama Devi, mother of Indian shooting legend Jaspal Rana, passed away on Sunday."
-        },
-        {
-          "icon": "🎯",
-          "title": "Jaspal Rana's Legacy",
-          "desc": "Jaspal Rana himself passed away on June 12 at the age of 49, leaving behind a remarkable legacy in Indian sports."
-        },
-        {
-          "icon": "🥇",
-          "title": "Achievements",
-          "desc": "He was one of India's most decorated athletes, winning an impressive 15 medals at the Commonwealth Games across four editions."
-        },
-        {
-          "icon": "🏅",
-          "title": "Olympic Participation",
-          "desc": "Rana also represented India at the 1996 Atlanta Olympics, showcasing his talent on the global stage."
+          "title": "Companion Award",
+          "desc": "The winner co-chooses an 'International Writer of Courage' who has been persecuted for speaking out."
         }
       ],
       "staticGkPoints": [
-        "The Commonwealth Games (CWG) is a multi-sport event involving athletes from the Commonwealth of Nations, held every four years.",
-        "The National Rifle Association of India (NRAI) is the governing body for shooting sports in India, established in 1951.",
-        "Shooting has been an Olympic sport since the first modern Olympic Games in 1896, with various pistol, rifle, and shotgun events."
+        "Established in 2009 — by English PEN in memory of the Nobel Prize-winning British playwright Harold Pinter.",
+        "Harold Pinter — won the Nobel Prize in Literature in 2005; famous for plays like 'The Birthday Party' and 'The Caretaker'.",
+        "English PEN — founded in 1921, it is the founding centre of PEN International, a worldwide writers' association promoting freedom of expression.",
+        "First Winner — Tony Harrison was the inaugural recipient of the Pen Pinter Prize in 2009."
       ],
       "examinerPerspective": [
-        "SSC and State PSC exams frequently ask about prominent Indian sportspersons and their achievements, especially in major international events.",
-        "UPSC might ask about sports policy, the development of specific sports in India, or the challenges faced by athletes.",
-        "Focus on the number of medals, the sport, and the major events (CWG, Olympics) associated with the athlete.",
-        "General awareness of national sports bodies and their roles."
+        "One-liner exams (SSC, Banking) frequently ask for the names of recent award winners and the country/organization that confers the award.",
+        "Common trap: Confusing the Pen Pinter Prize with the Booker Prize. The former focuses heavily on human rights and political courage alongside literary merit.",
+        "State PSCs often ask about the works of the winning authors (e.g., Arundhati Roy's 'The God of Small Things' which won the Booker Prize in 1997)."
       ],
       "examRelevance": [
         {
-          "exam": "UPSC Prelims",
-          "note": "Sports policy, national achievements, significant personalities."
-        },
-        {
           "exam": "SSC CGL",
-          "note": "Sports personalities, major awards, national and international events."
+          "note": "Inaugural year, recent winners, and association with Harold Pinter."
         },
         {
           "exam": "Banking/RBI",
-          "note": "General awareness, national pride."
+          "note": "General awareness sections covering international cultural and literary awards."
         },
         {
           "exam": "State PSC",
-          "note": "State-level sports achievements, sports development."
+          "note": "Literary achievements of Indian authors on global platforms."
         }
       ]
     },
     {
-      "id": "culture-bet-awards-2026",
-      "category": "culture",
-      "catBadge": "🎭 Culture | Arts & Awards",
-      "examTags": [
-        "UPSC",
-        "SSC",
-        "Banking",
-        "State PSC",
-        "Railways"
-      ],
-      "title": "BET Awards 2026: Celebrating Black Excellence in Entertainment",
-      "sources": [
-        {
-          "name": "Livemint",
-          "url": "https://www.livemint.com/news/us-news/bet-awards-2026-updated-live-cardi-b-wins-best-female-hip-hop-artist-teyana-taylor-for-best-actress-11782700809700.html"
-        }
-      ],
-      "sourceDate": "Verified: 29 June 2026",
-      "keyFactsTitle": "📌 Key Facts at a Glance",
-      "keyFacts": [
-        {
-          "icon": "🏆",
-          "title": "Event",
-          "desc": "The BET Awards 2026 took place in Los Angeles, celebrating achievements in music, film, and sports by African Americans and other minorities."
-        },
-        {
-          "icon": "🎤",
-          "title": "Key Winner (Music)",
-          "desc": "Cardi B won the award for Best Female Hip Hop Artist, continuing her dominance in the genre."
-        },
-        {
-          "icon": "🎬",
-          "title": "Key Winner (Film)",
-          "desc": "Teyana Taylor was honored with the Best Actress award for her contributions to cinema."
-        },
-        {
-          "icon": "🌟",
-          "title": "Performances",
-          "desc": "The ceremony featured performances by prominent artists including Cardi B, Doechii, Queen Latifah, Common, and French Montana."
-        }
-      ],
-      "staticGkPoints": [
-        "The BET Awards were established in 2001 by the Black Entertainment Television network to celebrate African Americans and other minorities in music, acting, sports, and other fields of entertainment.",
-        "Hip hop music originated in the 1970s in the Bronx, New York City, and has since become a global cultural phenomenon.",
-        "Los Angeles, California, is a major global center for entertainment, often referred to as the 'Entertainment Capital of the World'."
-      ],
-      "examinerPerspective": [
-        "SSC and State PSC exams might include questions on major international awards and prominent personalities in arts and entertainment.",
-        "UPSC might consider the broader cultural impact and representation aspects, though less likely to ask specific award winners.",
-        "General awareness of global cultural events and their significance.",
-        "Understanding the role of such awards in promoting diversity and recognizing talent."
-      ],
-      "examRelevance": [
-        {
-          "exam": "UPSC Prelims",
-          "note": "Cultural trends, global events (less direct)."
-        },
-        {
-          "exam": "SSC CGL",
-          "note": "International awards, famous personalities."
-        },
-        {
-          "exam": "Banking/RBI",
-          "note": "General awareness."
-        },
-        {
-          "exam": "State PSC",
-          "note": "General knowledge."
-        }
-      ]
-    },
-    {
-      "id": "days-national-statistics-day",
+      "id": "card-days-syama-prasad",
       "category": "days",
       "catBadge": "📅 Important Days & Themes",
       "examTags": [
         "UPSC",
-        "SSC",
-        "Banking",
+        "SSC CGL",
         "State PSC",
         "Railways"
       ],
-      "title": "National Statistics Day: Celebrating P.C. Mahalanobis' Legacy",
+      "title": "125th Birth Anniversary of Dr. Syama Prasad Mookerjee: Legacy of National Integration and Education",
       "sources": [
         {
-          "name": "General Knowledge",
-          "url": "https://www.mospi.gov.in/"
+          "name": "Livemint",
+          "url": "https://www.livemint.com/news/india/pm-modi-pays-tribute-to-syama-prasad-mookerjee-on-his-125th-birth-anniversary-says-his-vision-continues-to-guide-india-11783311619433.html"
         }
       ],
-      "sourceDate": "Verified: 29 June 2026",
+      "sourceDate": "Verified: 6 July 2026",
       "keyFactsTitle": "📌 Key Facts at a Glance",
       "keyFacts": [
         {
           "icon": "🗓️",
-          "title": "Date",
-          "desc": "Observed annually on June 29th."
+          "title": "The Milestone",
+          "desc": "July 6, 2026 marks the 125th birth anniversary of Dr. Syama Prasad Mookerjee, born on July 6, 1901, in Calcutta."
         },
         {
-          "icon": "🎂",
-          "title": "Significance",
-          "desc": "Commemorates the birth anniversary of Professor Prasanta Chandra Mahalanobis, a renowned Indian statistician and scientist."
+          "icon": "🏛️",
+          "title": "Political Legacy",
+          "desc": "He founded the Bharatiya Jana Sangh in 1951, which was the ideological predecessor of the Bharatiya Janata Party (BJP)."
         },
         {
-          "icon": "💡",
-          "title": "Theme (Illustrative)",
-          "desc": "For 2026, the theme could be 'Data for Sustainable Development: Bridging Gaps and Fostering Innovation' (themes vary annually)."
+          "icon": "🎓",
+          "title": "Academic Feat",
+          "desc": "He became the youngest Vice-Chancellor of the University of Calcutta in 1934 at the age of 33."
         },
         {
-          "icon": "📊",
-          "title": "Objective",
-          "desc": "To popularize the use of statistics in everyday life and sensitize the public about the role of statistics in national development."
+          "icon": "🇮🇳",
+          "title": "Nationalist Stance",
+          "desc": "He strongly opposed the special status of Jammu and Kashmir under Article 370, coining the slogan: 'Ek desh mein do vidhan, do pradhan aur do nishan nahi chalenge'."
         }
       ],
       "staticGkPoints": [
-        "P.C. Mahalanobis is known as the 'Father of Indian Statistics' and was instrumental in formulating India's Second Five-Year Plan (1956-1961), which focused on industrialization.",
-        "He founded the Indian Statistical Institute (ISI) in Kolkata in 1931, which later became an institution of national importance.",
-        "The Mahalanobis distance, a statistical measure, was introduced by him to compare two data sets."
+        "First Cabinet — Served as the Minister for Industry and Supply in Prime Minister Jawaharlal Nehru's interim cabinet.",
+        "Resignation (1950) — Resigned from the cabinet in protest against the Liaquat-Nehru Pact, which he felt failed to protect minorities in East Pakistan.",
+        "All India Hindu Mahasabha — Served as its President from 1943 to 1944.",
+        "Demise — Passed away under detention in Srinagar, Jammu and Kashmir, on June 23, 1953."
       ],
       "examinerPerspective": [
-        "Important days and their associated personalities or themes are common in all competitive exams.",
-        "UPSC may ask about the contributions of P.C. Mahalanobis to economic planning and statistics in India.",
-        "SSC and State PSC often test the date, the personality, and the general significance of the day.",
-        "Linkage to government bodies like MoSPI (Ministry of Statistics and Programme Implementation) is also relevant."
+        "History and Polity sections frequently feature Dr. Mookerjee's contributions to post-independence consolidation.",
+        "Common trap: Believing he was a member of the Congress party throughout his career. He was an independent in the first cabinet and later founded the Jana Sangh.",
+        "Paper setters often ask about the specific portfolio he held (Industry and Supply) and the reason for his cabinet resignation (Liaquat-Nehru Pact).",
+        "UPSC Mains linkage: GS-1 Modern Indian History and Post-independence consolidation."
       ],
       "examRelevance": [
         {
-          "exam": "UPSC Prelims",
-          "note": "Personalities in news, economic planning, government bodies."
+          "exam": "UPSC Prelims/Mains",
+          "note": "Post-independence consolidation, interim cabinet composition, and ideological movements."
         },
         {
           "exam": "SSC CGL",
-          "note": "Important dates, famous personalities, basic facts."
-        },
-        {
-          "exam": "Banking/RBI",
-          "note": "Economic statistics, government initiatives."
+          "note": "Founding year of Bharatiya Jana Sangh (1951) and his ministerial portfolio."
         },
         {
           "exam": "State PSC",
-          "note": "General knowledge, state-level statistical data."
+          "note": "Role in Bengal politics, partition debates, and educational reforms."
         }
       ]
     },
     {
-      "id": "appointments-accountability-public-office",
-      "category": "appointments",
-      "catBadge": "👔 New Appointments & Positions",
+      "id": "card-sports-chess",
+      "category": "sports",
+      "catBadge": "🏅 Sports | Achievements & Events",
       "examTags": [
-        "UPSC",
-        "SSC",
+        "SSC CGL",
         "Banking",
         "State PSC",
         "Railways"
       ],
-      "title": "Upholding Accountability and Ethics in Public Office",
+      "title": "FIDE World Chess Championship and India's Rising Dominance in Global Chess",
       "sources": [
         {
-          "name": "General Governance Principles",
-          "url": "https://www.livemint.com/news/india/sonam-wangchuk-urges-people-to-join-his-hunger-strike-for-a-day-at-jantar-mantar-neet-ug-ladakh-paper-leaks-pradhan-11782706316276.html"
+          "name": "FIDE Official",
+          "url": "https://www.fide.com"
         }
       ],
-      "sourceDate": "Verified: 29 June 2026",
+      "sourceDate": "Verified: 6 July 2026",
       "keyFactsTitle": "📌 Key Facts at a Glance",
       "keyFacts": [
         {
-          "icon": "🏛️",
-          "title": "Core Principle",
-          "desc": "Accountability is a cornerstone of good governance, ensuring that public officials are responsible for their actions and decisions."
+          "icon": "♟️",
+          "title": "Youngest Challenger",
+          "desc": "India's D. Gukesh made history as the youngest-ever challenger for the FIDE World Chess Championship."
         },
         {
-          "icon": "🔍",
-          "title": "Transparency Demand",
-          "desc": "Recent protests (e.g., Sonam Wangchuk's hunger strike) highlight public demand for greater transparency and fairness in government processes, including national examinations."
+          "icon": "🌍",
+          "title": "Global Governing Body",
+          "desc": "FIDE (Fédération Internationale des Échecs) regulates all international chess competitions and awards player titles."
         },
         {
-          "icon": "📜",
-          "title": "Ethical Conduct",
-          "desc": "Public office holders are expected to adhere to high ethical standards, integrity, and impartiality in their duties."
+          "icon": "🇮🇳",
+          "title": "Grandmaster Boom",
+          "desc": "India has crossed over 85 Grandmasters, reflecting a massive structural growth in the country's chess ecosystem."
         },
         {
-          "icon": "⚖️",
-          "title": "Oversight Mechanisms",
-          "desc": "Various institutions like the Lokpal, CVC, and CAG play crucial roles in ensuring accountability and preventing corruption in public administration."
+          "icon": "🏆",
+          "title": "Highest Honour",
+          "desc": "The Major Dhyan Chand Khel Ratna is India's highest sporting honour, frequently awarded to top chess achievers."
         }
       ],
       "staticGkPoints": [
-        "Article 75 of the Indian Constitution states that the Council of Ministers shall be collectively responsible to the House of the People (Lok Sabha).",
-        "The Lokpal and Lokayukta Act, 2013, provides for the establishment of a Lokpal for the Union and Lokayuktas for States to inquire into allegations of corruption against public functionaries.",
-        "The Central Vigilance Commission (CVC) was established in 1964 on the recommendations of the Santhanam Committee to advise and guide Central Government agencies in the field of vigilance."
+        "FIDE Founded — July 20, 1924, in Paris, France; its headquarters is currently located in Lausanne, Switzerland.",
+        "First Indian GM — Viswanathan Anand became India's first Grandmaster in 1988 and went on to win the World Championship five times.",
+        "First Khel Ratna — The inaugural Rajiv Gandhi Khel Ratna (now Major Dhyan Chand Khel Ratna) was awarded to Viswanathan Anand in 1991-92.",
+        "First Female GM — Koneru Humpy became India's first female Grandmaster in 2002."
       ],
       "examinerPerspective": [
-        "UPSC Mains questions frequently delve into ethics, integrity, and accountability in public administration (GS-4).",
-        "Prelims may ask about constitutional provisions related to ministers, anti-corruption bodies, and their functions.",
-        "Understanding the difference between individual and collective responsibility of ministers is important.",
-        "The role of civil society and media in holding public officials accountable is a recurring theme."
+        "Sports GK is highly factual. Questions often target 'firsts' in Indian sports history.",
+        "Common trap: Confusing the headquarters of FIDE (Lausanne) with other sports bodies like FIFA (Zurich) or ICC (Dubai).",
+        "SSC and Banking exams frequently ask about the youngest Indian Grandmasters and recent tournament venues."
       ],
       "examRelevance": [
         {
-          "exam": "UPSC Prelims",
-          "note": "Constitutional provisions, statutory bodies, governance principles."
-        },
-        {
           "exam": "SSC CGL",
-          "note": "Basic facts about government structure, anti-corruption bodies."
+          "note": "First Grandmaster of India, FIDE headquarters, and recent sports awards."
         },
         {
           "exam": "Banking/RBI",
-          "note": "Ethics in governance, regulatory frameworks."
+          "note": "Current affairs questions on sports personalities and international championships."
         },
         {
           "exam": "State PSC",
-          "note": "State-level Lokayuktas, public service ethics."
+          "note": "Regional sports achievements and state-sponsored chess academies."
         }
       ]
     },
     {
-      "id": "books-the-sixth-extinction",
-      "category": "books",
-      "catBadge": "📚 Books & Authors in News",
+      "id": "card-culture-rath-yatra",
+      "category": "culture",
+      "catBadge": "🎭 Culture | Festivals & Dance",
       "examTags": [
         "UPSC",
-        "SSC",
+        "SSC CGL",
+        "State PSC"
+      ],
+      "title": "The Rath Yatra Dispute: Scriptural Traditions of Puri Jagannath Temple vs. ISKCON's Global Celebrations",
+      "sources": [
+        {
+          "name": "Livemint",
+          "url": "https://www.livemint.com/news/india/why-iskcon-s-rath-yatra-dates-are-at-the-centre-of-row-with-puri-s-jagannath-temple-11783314802401.html"
+        }
+      ],
+      "sourceDate": "Verified: 6 July 2026",
+      "keyFactsTitle": "📌 Key Facts at a Glance",
+      "keyFacts": [
+        {
+          "icon": "🛕",
+          "title": "The Core Issue",
+          "desc": "Puri Gajapati Maharaja Dibyasingha Deb has urged ISKCON to stop organizing Rath Yatras on dates other than those prescribed by Hindu scriptures."
+        },
+        {
+          "icon": "📅",
+          "title": "Scriptural Date",
+          "desc": "According to the Skanda Purana, the Rath Yatra must strictly begin on the 'Dwitiya Tithi' (second day) of the 'Ashadha Shukla Paksha' (waxing phase of moon in June/July)."
+        },
+        {
+          "icon": "🌐",
+          "title": "ISKCON's Stand",
+          "desc": "The International Society for Krishna Consciousness (ISKCON) often hosts Rath Yatras on different dates abroad due to local permissions and weekend logistics."
+        },
+        {
+          "icon": "👑",
+          "title": "Gajapati's Role",
+          "desc": "The Gajapati Maharaja of Puri is the traditional king and the 'Adhyasevaka' (first servant) of Lord Jagannath, holding supreme authority over temple rituals."
+        }
+      ],
+      "staticGkPoints": [
+        "Jagannath Temple Architecture — Built in the 12th century AD by King Anantavarman Chodaganga Deva of the Eastern Ganga Dynasty.",
+        "Kalinga Style — The temple is a classic example of Kalinga architecture, consisting of the Deula (sanctum), Jagamohana (assembly hall), Natamandira (festival hall), and Bhogamandapa (offering hall).",
+        "White Pagoda — Historically, European sailors referred to the Puri Jagannath Temple as the 'White Pagoda', while the Konark Sun Temple was called the 'Black Pagoda'.",
+        "Nabakalebara Festival — A ritual associated with the temple where the wooden idols of Jagannath, Balabhadra, and Subhadra are replaced with new ones made of neem wood, occurring every 8, 12, or 19 years."
+      ],
+      "examinerPerspective": [
+        "Art and Culture sections frequently test temple architecture styles (Nagara, Dravida, Vesara, Kalinga).",
+        "Common trap: Confusing the builder of the Jagannath Temple (Anantavarman Chodaganga Deva) with the builder of the Konark Sun Temple (Narasimhadeva I).",
+        "UPSC Prelims often asks about traditional festivals, their lunar calendar dates, and associated dynasties.",
+        "Mains linkage: GS-1 Indian Culture - Salient aspects of Art Forms, Literature and Architecture from ancient to modern times."
+      ],
+      "examRelevance": [
+        {
+          "exam": "UPSC Prelims",
+          "note": "Kalinga architecture features, Eastern Ganga Dynasty history, and Nabakalebara ritual details."
+        },
+        {
+          "exam": "SSC CGL",
+          "note": "Builder of the temple, 'White Pagoda' terminology, and state of origin."
+        },
+        {
+          "exam": "State PSC",
+          "note": "Odishan temple architecture and regional cultural festivals."
+        }
+      ]
+    },
+    {
+      "id": "card-appointments-foreign-sec",
+      "category": "appointments",
+      "catBadge": "👔 New Appointments & Positions",
+      "examTags": [
+        "SSC CGL",
         "Banking",
         "State PSC",
         "Railways"
       ],
-      "title": "Book in Focus: 'The Sixth Extinction: An Unnatural History' by Elizabeth Kolbert",
+      "title": "Appointment of Vikram Misri as India's Foreign Secretary: Strategic Continuity in Indian Diplomacy",
       "sources": [
         {
-          "name": "General Knowledge",
-          "url": "https://www.goodreads.com/book/show/17910054-the-sixth-extinction"
+          "name": "Ministry of External Affairs",
+          "url": "https://www.mea.gov.in"
         }
       ],
-      "sourceDate": "Verified: 29 June 2026",
+      "sourceDate": "Verified: 6 July 2026",
+      "keyFactsTitle": "📌 Key Facts at a Glance",
+      "keyFacts": [
+        {
+          "icon": "👔",
+          "title": "The Appointment",
+          "desc": "Senior diplomat Vikram Misri took charge as India's Foreign Secretary, succeeding Vinay Mohan Kwatra."
+        },
+        {
+          "icon": "🇨🇳",
+          "title": "China Expertise",
+          "desc": "Misri, a 1989-batch IFS officer, served as India's Ambassador to China during the crucial Galwan Valley clash period."
+        },
+        {
+          "icon": "🛡️",
+          "title": "National Security",
+          "desc": "Prior to this appointment, he served as the Deputy National Security Advisor (NSA) of India."
+        },
+        {
+          "icon": "💼",
+          "title": "Role & Duties",
+          "desc": "The Foreign Secretary is the administrative head of the Ministry of External Affairs and principal advisor to the External Affairs Minister."
+        }
+      ],
+      "staticGkPoints": [
+        "Indian Foreign Service (IFS) — established in 1946 under the recommendation of the Federal Public Service Commission.",
+        "First Foreign Secretary — K. P. S. Menon served as the first Foreign Secretary of independent India (1948–1952).",
+        "First Female Foreign Secretary — Chokila Iyer became India's first female Foreign Secretary in 2001.",
+        "Constitutional Status — The civil services of India, including IFS, are governed by Article 312 (All India Services) and Article 311 of the Constitution."
+      ],
+      "examinerPerspective": [
+        "Appointments of key secretaries (Foreign, Home, Finance, Cabinet) are high-yield areas for SSC and Banking exams.",
+        "Common trap: Believing the Foreign Service is a separate constitutional body. It is a Central Civil Service (Group A) under the executive control of the MEA.",
+        "Examiners often ask about the predecessor of newly appointed high-ranking officials."
+      ],
+      "examRelevance": [
+        {
+          "exam": "SSC CGL",
+          "note": "Name of the current Foreign Secretary, first female Foreign Secretary, and parent ministry."
+        },
+        {
+          "exam": "Banking/RBI",
+          "note": "Key administrative appointments in the Government of India."
+        },
+        {
+          "exam": "State PSC",
+          "note": "Structure of the Ministry of External Affairs and civil service classifications."
+        }
+      ]
+    },
+    {
+      "id": "card-books-dalrymple",
+      "category": "books",
+      "catBadge": "📚 Books & Authors in News",
+      "examTags": [
+        "SSC CGL",
+        "Banking",
+        "State PSC",
+        "Railways"
+      ],
+      "title": "'The Golden Road: How Ancient India Transformed the World' by William Dalrymple",
+      "sources": [
+        {
+          "name": "Bloomsbury Publishing",
+          "url": "https://www.bloomsbury.com"
+        }
+      ],
+      "sourceDate": "Verified: 6 July 2026",
       "keyFactsTitle": "📌 Key Facts at a Glance",
       "keyFacts": [
         {
           "icon": "📖",
-          "title": "Book Title",
-          "desc": "'The Sixth Extinction: An Unnatural History'."
+          "title": "The Book",
+          "desc": "'The Golden Road' explores India's profound cultural, mathematical, and religious influence across Asia and the world from 250 BC to 1200 AD."
         },
         {
           "icon": "✍️",
-          "title": "Author",
-          "desc": "Elizabeth Kolbert, an American journalist and author."
+          "title": "The Author",
+          "desc": "William Dalrymple is an acclaimed Scottish historian, art historian, and curator, known for his narrative history books on India."
         },
         {
-          "icon": "🏆",
-          "title": "Award",
-          "desc": "Winner of the 2015 Pulitzer Prize for General Nonfiction."
+          "icon": "🗺️",
+          "title": "Key Theme",
+          "desc": "The book challenges the 'Silk Road' narrative by highlighting the 'Golden Road' of Indian maritime and overland trade that exported Buddhism, Hinduism, and mathematics."
         },
         {
-          "icon": "🌍",
-          "title": "Theme",
-          "desc": "Explores the history of five mass extinction events and argues that humanity is currently causing a sixth mass extinction through climate change, habitat destruction, and pollution."
+          "icon": "🏛️",
+          "title": "Cultural Export",
+          "desc": "It details how Indian concepts like zero, Sanskrit literature, and temple architecture shaped Southeast Asian empires like Angkor Wat and Srivijaya."
         }
       ],
       "staticGkPoints": [
-        "The Pulitzer Prize is an award for achievements in newspaper, magazine, and online journalism, literature, and musical composition within the United States, administered by Columbia University.",
-        "The concept of the 'Anthropocene' refers to a proposed geological epoch dating from the commencement of significant human impact on Earth's geology and ecosystems, including, but not limited to, anthropogenic climate change.",
-        "Biodiversity hotspots are biogeographic regions with significant levels of biodiversity that are threatened by human habitation."
+        "Jaipur Literature Festival — William Dalrymple is the co-founder and co-director of the festival, established in 2006.",
+        "Notable Works — Author of 'The Anarchy: The Relentless Rise of the East India Company', 'White Mughals', and 'The Last Mughal'.",
+        "Duff Cooper Prize — Dalrymple won this prestigious British literary award in 1997 for his book 'From the Holy Mountain'.",
+        "Sahitya Akademi Translation Prize — His works have been widely translated and recognized by literary bodies globally."
       ],
       "examinerPerspective": [
-        "UPSC often includes questions on environmental issues, climate change, and significant non-fiction works that shape public discourse.",
-        "SSC and State PSC exams might ask about famous authors, book titles, and major literary awards.",
-        "Linkage to current environmental news (like wildlife trafficking, heatwaves) makes this book highly relevant.",
-        "Understanding the scientific and philosophical implications of mass extinctions is important for environmental studies."
+        "Books and Authors sections in competitive exams frequently feature prominent historians writing on Indian history.",
+        "Common trap: Confusing William Dalrymple's books with those of other popular historians like Ramachandra Guha or Manu S. Pillai.",
+        "Questions often ask for the specific historical period covered in the book (Ancient India, 250 BC to 1200 AD)."
       ],
       "examRelevance": [
         {
-          "exam": "UPSC Prelims",
-          "note": "Environmental concepts, famous books, awards."
-        },
-        {
           "exam": "SSC CGL",
-          "note": "Books and authors, literary awards."
+          "note": "Author of 'The Golden Road' and other famous historical books."
         },
         {
           "exam": "Banking/RBI",
-          "note": "General awareness, environmental concerns."
+          "note": "Current books and authors in the general awareness section."
         },
         {
           "exam": "State PSC",
-          "note": "Environmental literature, global issues."
+          "note": "Historical themes of cultural export to Southeast Asia (Suvarnabhumi)."
         }
       ]
     },
     {
-      "id": "heritage-western-ghats",
+      "id": "card-heritage-kailash",
       "category": "heritage",
       "catBadge": "🏛️ Heritage Sites | UNESCO & ASI",
       "examTags": [
         "UPSC",
-        "SSC",
-        "Banking",
-        "State PSC",
-        "Railways"
+        "SSC CGL",
+        "State PSC"
       ],
-      "title": "Western Ghats: A UNESCO World Heritage Site and Biodiversity Hotspot",
+      "title": "Kailash Mansarovar Yatra via Lipulekh Pass: Geopolitical, Cultural, and Infrastructure Significance",
       "sources": [
         {
-          "name": "General Knowledge",
-          "url": "https://whc.unesco.org/en/list/1342"
+          "name": "Livemint",
+          "url": "https://www.livemint.com/news/india/kailash-mansarovar-yatra-2026-begins-pilgrimage-through-lipulekh-pass-nathu-la-11783309694681.html"
         }
       ],
-      "sourceDate": "Verified: 29 June 2026",
+      "sourceDate": "Verified: 6 July 2026",
       "keyFactsTitle": "📌 Key Facts at a Glance",
       "keyFacts": [
         {
-          "icon": "⛰️",
-          "title": "Location",
-          "desc": "A mountain range that runs parallel to the western coast of the Indian peninsula, traversing six states: Gujarat, Maharashtra, Goa, Karnataka, Kerala, and Tamil Nadu."
+          "icon": "🏔️",
+          "title": "The Pilgrimage",
+          "desc": "The annual Kailash Mansarovar Yatra has commenced, with the first batch of pilgrims flagged off by Uttarakhand Chief Minister Pushkar Singh Dhami."
         },
         {
-          "icon": "🌍",
-          "title": "UNESCO Status",
-          "desc": "Inscribed as a UNESCO World Heritage Site in 2012, recognized for its outstanding universal value."
+          "icon": "🛣️",
+          "title": "Infrastructure Upgrade",
+          "desc": "The route through the Lipulekh Pass has been upgraded to be largely vehicle-based, significantly reducing trekking time and physical strain."
         },
         {
-          "icon": "🌿",
-          "title": "Type",
-          "desc": "A natural heritage site, renowned as one of the world's eight 'hottest hotspots' of biological diversity."
+          "icon": "🗺️",
+          "title": "Alternative Routes",
+          "desc": "Historically, the Yatra is conducted through two main routes managed by the Ministry of External Affairs: Lipulekh Pass (Uttarakhand) and Nathu La Pass (Sikkim)."
         },
         {
-          "icon": "🐘",
-          "title": "Biodiversity",
-          "desc": "Home to at least 325 globally threatened species of flora, fauna, bird, amphibian, reptile, and fish, including significant elephant populations."
+          "icon": "🤝",
+          "title": "Border Development",
+          "desc": "The motorable road benefits remote border communities in the Vyas Valley and strengthens India's border infrastructure."
         }
       ],
       "staticGkPoints": [
-        "The UNESCO World Heritage Convention was adopted in 1972, aiming to identify and conserve cultural and natural heritage around the world.",
-        "The Western Ghats are older than the Himalayas and influence Indian monsoon weather patterns, making them a key factor in the region's climate.",
-        "The Archaeological Survey of India (ASI), established in 1861, is the premier organization for archaeological research and protection of cultural heritage in India, but primarily deals with cultural sites, not natural ones like the Western Ghats as a whole."
+        "Lipulekh Pass — a Himalayan pass situated at a tri-junction between India (Uttarakhand), China (Tibet), and Nepal.",
+        "Mount Kailash — standing at 6,638 meters, it is considered sacred in four religions: Hinduism, Buddhism, Jainism, and Bön.",
+        "Lake Mansarovar — the world's highest freshwater lake, situated at 4,590 meters above sea level, feeding major rivers like the Indus, Sutlej, Brahmaputra, and Karnali (Ghara).",
+        "Kumaon Mandal Vikas Nigam (KMVN) — the nodal agency responsible for logistics on the Indian side of the Lipulekh route."
       ],
       "examinerPerspective": [
-        "UPSC frequently asks about UNESCO World Heritage Sites, biodiversity hotspots, and their ecological significance.",
-        "SSC and State PSC exams often test the location, year of inscription, and key features of such sites.",
-        "Linkage to environmental issues like human-wildlife conflict (as seen in Kerala news) and conservation efforts is crucial.",
-        "Understanding the geographical and ecological importance of the Western Ghats is a common topic."
+        "Geography and Heritage sections frequently target Himalayan passes and trans-boundary river origins.",
+        "Common trap: Confusing the origin of the Brahmaputra (near Mansarovar/Angsi Glacier) with the Ganga (Gangotri Glacier in India).",
+        "The geopolitical dispute over the Lipulekh Pass (Kalapani territory dispute between India and Nepal) is a high-yield area for UPSC Mains GS-2.",
+        "State PSCs (especially Uttarakhand PSC) ask detailed questions about the valleys and rivers along the Yatra route (e.g., Kali River, Vyas Valley)."
       ],
       "examRelevance": [
         {
-          "exam": "UPSC Prelims",
-          "note": "UNESCO sites, biodiversity, geography, environmental conservation."
+          "exam": "UPSC Prelims/Mains",
+          "note": "Himalayan geography, trans-boundary rivers, and India-Nepal border relations."
         },
         {
           "exam": "SSC CGL",
-          "note": "Famous sites, geographical facts."
-        },
-        {
-          "exam": "Banking/RBI",
-          "note": "Environmental protection, sustainable tourism."
+          "note": "Location of Lipulekh Pass, Nathu La Pass, and rivers originating from Mansarovar."
         },
         {
           "exam": "State PSC",
-          "note": "State-specific heritage, environmental issues."
+          "note": "Uttarakhand and Sikkim geography, local administrative bodies involved in the Yatra."
         }
       ]
     }
@@ -970,301 +822,287 @@
       "id": "q1",
       "num": "01",
       "topic": "Important Days",
-      "q": "National Statistics Day in India is celebrated annually on June 29th to commemorate the birth anniversary of which eminent Indian statistician?",
+      "q": "Dr. Syama Prasad Mookerjee, whose 125th birth anniversary was observed on July 6, 2026, served as the Minister of which portfolio in Jawaharlal Nehru's interim cabinet?",
       "opts": [
-        "V.K.R.V. Rao",
-        "P.C. Mahalanobis",
-        "C.R. Rao",
-        "R.A. Fisher"
+        "Finance",
+        "Industry and Supply",
+        "Home Affairs",
+        "Education"
       ],
       "correct": 1,
-      "explanation": "National Statistics Day is celebrated on June 29th to honor Professor Prasanta Chandra Mahalanobis, known as the 'Father of Indian Statistics' for his significant contributions to statistical science and economic planning in India. V.K.R.V. Rao was an economist, C.R. Rao is another renowned statistician, and R.A. Fisher was a British statistician."
+      "explanation": "Dr. Syama Prasad Mookerjee served as the Minister for Industry and Supply in Prime Minister Jawaharlal Nehru's interim cabinet. He resigned from the cabinet in 1950 in protest against the Liaquat-Nehru Pact."
     },
     {
       "id": "q2",
       "num": "02",
-      "topic": "Health",
-      "q": "India's broadened fight against anaemia now emphasizes a 'lifecycle approach'. Which of the following best describes this approach?",
+      "topic": "Sports",
+      "q": "Who was the first recipient of the Rajiv Gandhi Khel Ratna Award (now Major Dhyan Chand Khel Ratna Award), established in 1991-92?",
       "opts": [
-        "Focusing solely on treating anaemia in pregnant women.",
-        "Prioritizing detection and treatment of severe anaemia cases in hospitals.",
-        "Preventing anaemia across every stage of life, including pre-pregnancy.",
-        "Distributing iron supplements only to school-going children."
+        "Sachin Tendulkar",
+        "Viswanathan Anand",
+        "Geet Sethi",
+        "Leander Paes"
       ],
-      "correct": 2,
-      "explanation": "The lifecycle approach to combating anaemia shifts the focus from mere treatment to comprehensive prevention across all stages of life, starting even before pregnancy. This includes interventions for adolescents, pregnant women, lactating mothers, and young children, addressing the issue holistically."
+      "correct": 1,
+      "explanation": "Viswanathan Anand, India's first Chess Grandmaster (1988), was the inaugural recipient of the Rajiv Gandhi Khel Ratna Award in 1991-92 for his outstanding achievements in chess."
     },
     {
       "id": "q3",
       "num": "03",
-      "topic": "Polity",
-      "q": "Sonam Wangchuk recently began an indefinite hunger strike at Jantar Mantar. What is his primary demand related to national examinations?",
+      "topic": "Culture & Dance",
+      "q": "The famous Jagannath Temple of Puri, recently in the news regarding the Rath Yatra dispute, was constructed in the 12th century by which ruler of the Eastern Ganga Dynasty?",
       "opts": [
-        "Implementation of a new education policy for Ladakh.",
-        "Resignation of the Union Education Minister over alleged exam irregularities.",
-        "Increased funding for educational institutions in remote areas.",
-        "Abolition of all competitive examinations in India."
+        "Narasimhadeva I",
+        "Anantavarman Chodaganga Deva",
+        "Rajaraja Chola I",
+        "Prataparudra Deva"
       ],
       "correct": 1,
-      "explanation": "Sonam Wangchuk's hunger strike at Jantar Mantar is primarily to press for the resignation of Union Education Minister Dharmendra Pradhan, citing alleged irregularities in national examinations, particularly NEET UG. He is also advocating for constitutional safeguards for Ladakh."
+      "explanation": "The Jagannath Temple of Puri was built in the 12th century AD by King Anantavarman Chodaganga Deva of the Eastern Ganga Dynasty. Narasimhadeva I built the Konark Sun Temple."
     },
     {
       "id": "q4",
       "num": "04",
-      "topic": "Environment",
-      "q": "The Kerala Forest Department recently reclaimed land in Kolukkumalai under which specific legislation?",
+      "topic": "Appointments",
+      "q": "Who was the first Foreign Secretary of independent India, serving from 1948 to 1952?",
       "opts": [
-        "Wildlife Protection Act, 1972",
-        "Forest Rights Act, 2006",
-        "Kerala Private Forests (Vesting and Assignment) Act, 1971",
-        "Environmental Protection Act, 1986"
+        "K. P. S. Menon",
+        "Subimal Dutt",
+        "Y. D. Gundevia",
+        "Chokila Iyer"
       ],
-      "correct": 2,
-      "explanation": "The land in Kolukkumalai was reclaimed under the Kerala Private Forests (Vesting and Assignment) Act, 1971. This act allows the state to take over private forests for public purposes, primarily conservation and management. The other acts are central legislations with different objectives."
+      "correct": 0,
+      "explanation": "K. P. S. Menon (Kumara Padmanabha Sivasankara Menon) served as the first Foreign Secretary of independent India from 1948 to 1952. Chokila Iyer was the first female Foreign Secretary (2001)."
     },
     {
       "id": "q5",
       "num": "05",
-      "topic": "International Relations",
-      "q": "The US and Iran have agreed to de-escalate tensions and hold talks in Qatar concerning which strategically vital waterway?",
+      "topic": "Books & Authors",
+      "q": "The book 'The Golden Road: How Ancient India Transformed the World', which highlights India's historical cultural export, is authored by which of the following?",
       "opts": [
-        "Suez Canal",
-        "Strait of Malacca",
-        "Strait of Hormuz",
-        "Bab-el-Mandeb Strait"
+        "Ramachandra Guha",
+        "Shashi Tharoor",
+        "William Dalrymple",
+        "Amitav Ghosh"
       ],
       "correct": 2,
-      "explanation": "The talks between the US and Iran, to be hosted by Qatar, are aimed at de-escalating the dispute over the Strait of Hormuz. This strait is a critical choke point for global oil shipments, connecting the Persian Gulf to the open ocean. The other options are also important waterways but not the subject of these specific talks."
+      "explanation": "'The Golden Road' is authored by the acclaimed historian William Dalrymple. The book details India's cultural, mathematical, and religious influence across Asia from 250 BC to 1200 AD."
     },
     {
       "id": "q6",
       "num": "06",
-      "topic": "Environment",
-      "q": "A recent report highlighted Meta's platforms as a market for wildlife trafficking. Which international convention primarily aims to regulate the international trade in endangered species?",
+      "topic": "Heritage Sites",
+      "q": "The Lipulekh Pass, a key route for the Kailash Mansarovar Yatra, forms a tri-junction between which of the following three regions/countries?",
       "opts": [
-        "Kyoto Protocol",
-        "Montreal Protocol",
-        "CITES",
-        "Ramsar Convention"
+        "India, Nepal, and Bhutan",
+        "India, China (Tibet), and Nepal",
+        "India, China (Tibet), and Bhutan",
+        "India, Nepal, and Bangladesh"
       ],
-      "correct": 2,
-      "explanation": "The Convention on International Trade in Endangered Species of Wild Fauna and Flora (CITES) is the international agreement that aims to ensure that international trade in specimens of wild animals and plants does not threaten their survival. The Kyoto Protocol deals with greenhouse gas emissions, the Montreal Protocol with ozone-depleting substances, and the Ramsar Convention with wetlands."
+      "correct": 1,
+      "explanation": "Lipulekh Pass is a Himalayan pass situated at a tri-junction between India (Uttarakhand), China (Tibet), and Nepal. It is a key route for trade and the Kailash Mansarovar pilgrimage."
     },
     {
       "id": "q7",
       "num": "07",
       "topic": "Polity",
-      "q": "The political discourse around custodial deaths in Andhra Pradesh primarily invokes which fundamental right guaranteed by the Indian Constitution?",
+      "q": "Under which Ministry of the Government of India does the Central Waqf Council, established in 1964, function as an advisory body?",
       "opts": [
-        "Right to Equality (Article 14)",
-        "Right to Freedom of Speech (Article 19)",
-        "Right to Life and Personal Liberty (Article 21)",
-        "Right to Constitutional Remedies (Article 32)"
+        "Ministry of Home Affairs",
+        "Ministry of Culture",
+        "Ministry of Minority Affairs",
+        "Ministry of Law and Justice"
       ],
       "correct": 2,
-      "explanation": "Custodial deaths are a grave violation of the 'Right to Life and Personal Liberty' guaranteed under Article 21 of the Indian Constitution, which includes the right to live with human dignity and protection from arbitrary state action. While other rights are important, Article 21 is most directly implicated in cases of custodial violence."
+      "explanation": "The Central Waqf Council is a statutory body established in 1964 by the Government of India under the Waqf Act, and it functions under the administrative control of the Ministry of Minority Affairs."
     },
     {
       "id": "q8",
       "num": "08",
-      "topic": "Sports",
-      "q": "Jaspal Rana, whose mother recently passed away, was a legendary Indian athlete in which sport, known for winning 15 medals at the Commonwealth Games?",
+      "topic": "Economy",
+      "q": "Under the 15th Finance Commission's horizontal devolution formula, which Indian state has been allocated the highest share of central taxes?",
       "opts": [
-        "Boxing",
-        "Wrestling",
-        "Shooting",
-        "Archery"
+        "Bihar",
+        "Madhya Pradesh",
+        "Maharashtra",
+        "Uttar Pradesh"
       ],
-      "correct": 2,
-      "explanation": "Jaspal Rana was a celebrated Indian shooter. He is renowned for his achievements in shooting, including winning 15 medals at the Commonwealth Games and representing India at the 1996 Atlanta Olympics."
+      "correct": 3,
+      "explanation": "Uttar Pradesh has been allocated the highest share of central taxes (17.9%) under the 15th Finance Commission's horizontal devolution formula, primarily due to its large population and distance criteria."
     },
     {
       "id": "q9",
       "num": "09",
-      "topic": "Culture & Dance",
-      "q": "At the BET Awards 2026, which artist won the award for Best Female Hip Hop Artist?",
+      "topic": "Science",
+      "q": "World Bee Day is celebrated globally on May 20 to commemorate the birth anniversary of Anton Janša, a pioneer of modern apiculture. Which international organization officially declared this day?",
       "opts": [
-        "Megan Thee Stallion",
-        "Nicki Minaj",
-        "Cardi B",
-        "Latto"
+        "UNEP",
+        "UNESCO",
+        "FAO (Food and Agriculture Organization)",
+        "WHO"
       ],
       "correct": 2,
-      "explanation": "Cardi B won the award for Best Female Hip Hop Artist at the BET Awards 2026. The BET Awards celebrate achievements by African Americans and other minorities in music, acting, sports, and other fields of entertainment."
+      "explanation": "The United Nations General Assembly, on the recommendation of the Food and Agriculture Organization (FAO), declared May 20 as World Bee Day in December 2017 to raise awareness about the importance of pollinators."
     },
     {
       "id": "q10",
       "num": "10",
-      "topic": "Disasters",
-      "q": "Which South American country recently experienced twin major earthquakes causing extensive destruction and a high death toll, particularly in La Guaira?",
+      "topic": "Environment",
+      "q": "The Central Ground Water Authority (CGWA) of India was constituted under which of the following legislations?",
       "opts": [
-        "Chile",
-        "Peru",
-        "Colombia",
-        "Venezuela"
+        "Water (Prevention and Control of Pollution) Act, 1974",
+        "Environment (Protection) Act, 1986",
+        "National Water Policy, 2012",
+        "Disaster Management Act, 2005"
       ],
-      "correct": 3,
-      "explanation": "Venezuela was recently impacted by twin major earthquakes that caused significant destruction in areas like La Guaira, north of Caracas, with the death toll nearing 1500. The other countries are also prone to earthquakes but were not the subject of this specific news."
+      "correct": 1,
+      "explanation": "The Central Ground Water Authority (CGWA) was constituted under Section 3(3) of the Environment (Protection) Act, 1986, to regulate and control groundwater development and management in the country."
     },
     {
       "id": "q11",
       "num": "11",
-      "topic": "Appointments",
-      "q": "Which of the following bodies is primarily responsible for inquiring into allegations of corruption against public functionaries at the Union level in India?",
+      "topic": "Awards",
+      "q": "The prestigious Pen Pinter Prize, established in 2009, is awarded annually by English PEN in memory of which Nobel Prize-winning playwright?",
       "opts": [
-        "National Human Rights Commission (NHRC)",
-        "Central Vigilance Commission (CVC)",
-        "Comptroller and Auditor General (CAG)",
-        "Lokpal"
+        "Harold Pinter",
+        "Samuel Beckett",
+        "George Bernard Shaw",
+        "Eugene O'Neill"
       ],
-      "correct": 3,
-      "explanation": "The Lokpal, established under the Lokpal and Lokayukta Act, 2013, is specifically mandated to inquire into allegations of corruption against public functionaries, including the Prime Minister, Ministers, and Members of Parliament. The CVC advises on vigilance, NHRC deals with human rights, and CAG audits government accounts."
+      "correct": 0,
+      "explanation": "The Pen Pinter Prize was established in 2009 by English PEN in memory of the Nobel Prize-winning British playwright Harold Pinter, who was a passionate advocate for human rights."
     },
     {
       "id": "q12",
       "num": "12",
-      "topic": "Books & Authors",
-      "q": "Which book, a winner of the Pulitzer Prize for General Nonfiction, explores the history of mass extinction events and argues that humanity is causing a sixth mass extinction?",
+      "topic": "Defence",
+      "q": "In July 2026, Russia launched fresh attacks on Kyiv ahead of a key NATO summit. In which country is the July 2026 NATO summit scheduled to be hosted?",
       "opts": [
-        "'Silent Spring' by Rachel Carson",
-        "'The Sixth Extinction: An Unnatural History' by Elizabeth Kolbert",
-        "'Sapiens: A Brief History of Humankind' by Yuval Noah Harari",
-        "'Collapse: How Societies Choose to Fail or Succeed' by Jared Diamond"
+        "Germany",
+        "Turkey",
+        "United States",
+        "Lithuania"
       ],
       "correct": 1,
-      "explanation": "'The Sixth Extinction: An Unnatural History' by Elizabeth Kolbert won the 2015 Pulitzer Prize for General Nonfiction and details the ongoing mass extinction event driven by human activities. 'Silent Spring' is a seminal work on pesticides, 'Sapiens' is about human history, and 'Collapse' discusses societal failures."
-    },
-    {
-      "id": "q13",
-      "num": "13",
-      "topic": "Heritage Sites",
-      "q": "The Western Ghats, a UNESCO World Heritage Site, is recognized primarily for its status as a:",
-      "opts": [
-        "Cultural landscape with ancient temples.",
-        "Site of significant historical battles.",
-        "Global biodiversity hotspot.",
-        "Location of unique geological formations for mining."
-      ],
-      "correct": 2,
-      "explanation": "The Western Ghats were inscribed as a UNESCO World Heritage Site in 2012 primarily for their outstanding universal value as one of the world's eight 'hottest hotspots' of biological diversity. It is a natural heritage site, not primarily cultural or historical in its UNESCO designation."
+      "explanation": "As reported in the news, the fresh Russian missile and drone attacks on Kyiv occurred ahead of the scheduled NATO summit in Turkey."
     }
   ],
   "mainsQuestions": [
     {
       "num": "01",
-      "paperTag": "GS-2 | 250 Words",
-      "q": "Critically analyze India's 'lifecycle approach' to combating anaemia. What are the key challenges in its implementation, and how can inter-sectoral convergence be strengthened to achieve better health outcomes?",
-      "hint": "Key angles: Define lifecycle approach → Benefits (holistic, preventive) → Challenges (awareness, access, infrastructure, behavioral change, funding) → Strengthening convergence (health, WCD, WASH, education, technology, community participation)."
+      "paperTag": "GS-2 | Polity & Governance",
+      "q": "Examine the statutory and administrative framework governing Waqf properties in India. In light of recent administrative reforms, discuss the challenges of ensuring transparency, inclusivity, and secular principles in the management of religious trusts.",
+      "hint": "Key angles: Waqf Act 1995 provisions → Role of State Waqf Boards and Central Waqf Council → Inclusion of non-minority members and its legal validity under Articles 25 & 26 → Balancing religious autonomy with state regulation for public interest."
     },
     {
       "num": "02",
-      "paperTag": "GS-3 | 250 Words",
-      "q": "The recent incidents of elephant killings and forest land reclamation in Kerala highlight persistent challenges in human-wildlife coexistence and forest governance. Discuss the effectiveness of existing legal frameworks and suggest measures for sustainable management of such conflicts.",
-      "hint": "Key angles: Causes of conflict (habitat loss, fragmentation, retaliatory killings) → Legal frameworks (WPA 1972, Project Elephant, state acts like Kerala Private Forests Act) → Effectiveness (gaps, enforcement issues) → Measures (corridor protection, community involvement, early warning systems, compensation, scientific management, land use planning)."
+      "paperTag": "GS-3 | Indian Economy",
+      "q": "A 'Revenue Surplus' budget is often projected as a sign of robust fiscal health. However, analyze how a revenue surplus can sometimes mask structural deficiencies in a state's developmental spending, particularly with respect to capital asset creation.",
+      "hint": "Key angles: Definition of Revenue Surplus vs. Fiscal Deficit → How under-spending on social sectors (health, education) artificially inflates surplus → Importance of Capital Expenditure (CapEx) for long-term GDP growth → Recommendations of the Finance Commission on fiscal consolidation."
     },
     {
       "num": "03",
-      "paperTag": "GS-2, GS-4 | 250 Words",
-      "q": "Protests like Sonam Wangchuk's underscore the growing demand for accountability in public administration, especially concerning national examinations. Examine the ethical dimensions of such issues and the role of civil society in upholding transparency and good governance.",
-      "hint": "Key angles: Ethical dimensions (fairness, meritocracy, public trust, integrity of institutions, moral responsibility of officials) → Role of civil society (advocacy, awareness, monitoring, demanding reforms, right to protest) → Challenges (politicization, misinformation) → Way forward (strengthening oversight, grievance redressal, ethical leadership)."
+      "paperTag": "GS-1 & GS-3 | Geography & Environment",
+      "q": "With over half of India's agriculture remaining rainfed, monsoon variability poses a severe threat to water and food security. Discuss the geographical factors contributing to India's deepening water stress and suggest sustainable groundwater management strategies.",
+      "hint": "Key angles: Spatial and temporal distribution of Indian Monsoon → Over-exploitation of groundwater (sugarcane/rice cultivation nexus) → Role of Central Ground Water Authority (CGWA) → Solutions: Micro-irrigation, rainwater harvesting, crop diversification, and community-led water budgeting."
     }
   ],
   "summaryTable": [
     {
       "num": 1,
-      "topic": "Anaemia Fight",
-      "data": "India adopts lifecycle approach for prevention across all life stages, not just treatment.",
+      "topic": "MP Waqf Board Reorganisation",
+      "data": "Sanwar Patel appointed Chairman; Hindu members included for the first time.",
       "source": "The Hindu",
-      "exams": "UPSC, SSC, State PSC",
-      "gs": "GS-2"
+      "exams": "UPSC, State PSC",
+      "gs": "GS-2 Polity"
     },
     {
       "num": 2,
-      "topic": "Sonam Wangchuk Protest",
-      "data": "Indefinite hunger strike at Jantar Mantar demanding Union Education Minister's resignation over exam irregularities.",
-      "source": "Livemint",
-      "exams": "UPSC, SSC, State PSC",
-      "gs": "GS-2"
+      "topic": "UP Revenue Surplus",
+      "data": "Analysis shows surplus is driven by low capital spending and high central transfers.",
+      "source": "The Hindu",
+      "exams": "UPSC, Banking",
+      "gs": "GS-3 Economy"
     },
     {
       "num": 3,
-      "topic": "Kerala Elephant Deaths",
-      "data": "Continued human-induced elephant killings in Parambikulam-Munnar-Malayattoor region, often involving explosives.",
-      "source": "The Hindu",
-      "exams": "UPSC, SSC, State PSC",
-      "gs": "GS-3"
+      "topic": "India's Water Stress",
+      "data": "Monsoon dependency and groundwater depletion lead to urban water rationing.",
+      "source": "Livemint",
+      "exams": "UPSC, SSC CGL",
+      "gs": "GS-3 Environment"
     },
     {
       "num": 4,
-      "topic": "Kerala Forest Land",
-      "data": "Forest Dept. reclaimed 42.72 hectares in Kolukkumalai under Kerala Private Forests (Vesting and Assignment) Act, 1971.",
-      "source": "The Hindu",
-      "exams": "UPSC, State PSC",
-      "gs": "GS-3"
+      "topic": "Bee Hotels Study",
+      "data": "Artificial nests reveal high diversity of solitary bees, crucial for urban pollination.",
+      "source": "Times of India",
+      "exams": "UPSC, SSC CGL",
+      "gs": "GS-3 Science"
     },
     {
       "num": 5,
-      "topic": "US-Iran De-escalation",
-      "data": "US and Iran agree to ceasefire; Qatar to host talks in Doha on Strait of Hormuz maritime passage.",
-      "source": "TOI",
-      "exams": "UPSC, SSC, Banking",
-      "gs": "GS-2"
+      "topic": "US-Iran Talks",
+      "data": "Islamabad to host technical talks on nuclear program and sanctions relief on July 11.",
+      "source": "Times of India",
+      "exams": "UPSC, Banking",
+      "gs": "GS-2 IR"
     },
     {
       "num": 6,
-      "topic": "Global Heatwaves",
-      "data": "Dangerous heatwaves in US and Europe (melting roads in France, buckling tracks in Germany) due to climate change.",
-      "source": "Livemint, TOI",
-      "exams": "UPSC, SSC",
-      "gs": "GS-1, GS-3"
+      "topic": "Pen Pinter Prize",
+      "data": "Literary award by English PEN; Arundhati Roy won the 2024 edition.",
+      "source": "English PEN",
+      "exams": "SSC CGL, Banking",
+      "gs": "GK"
     },
     {
       "num": 7,
-      "topic": "Wildlife Trafficking",
-      "data": "Report exposes Meta platforms with 20,000 ads for 260,000 illegal wildlife products.",
-      "source": "TOI",
-      "exams": "UPSC, SSC",
-      "gs": "GS-3"
+      "topic": "Syama Prasad Mookerjee",
+      "data": "125th birth anniversary observed; founder of Jana Sangh and first Industry Minister.",
+      "source": "Livemint",
+      "exams": "UPSC, SSC CGL",
+      "gs": "GS-1 History"
     },
     {
       "num": 8,
-      "topic": "Custodial Deaths AP",
-      "data": "Opposition attacks Andhra Pradesh government over alleged excesses and custodial deaths, raising human rights concerns.",
-      "source": "The Hindu",
-      "exams": "UPSC, State PSC",
-      "gs": "GS-2"
+      "topic": "FIDE Chess Championship",
+      "data": "D. Gukesh is the youngest challenger; FIDE HQ is in Lausanne, Switzerland.",
+      "source": "FIDE",
+      "exams": "SSC CGL, Railways",
+      "gs": "GK"
     },
     {
       "num": 9,
-      "topic": "Jaspal Rana",
-      "data": "Indian shooting legend, won 15 Commonwealth Games medals; his mother Shyama Devi recently passed away.",
+      "topic": "Rath Yatra Dispute",
+      "data": "Puri Gajapati urges ISKCON to align global Rath Yatra with Ashadha Shukla Dwitiya.",
       "source": "Livemint",
-      "exams": "SSC, State PSC",
-      "gs": "GS-1"
+      "exams": "UPSC, State PSC",
+      "gs": "GS-1 Culture"
     },
     {
       "num": 10,
-      "topic": "BET Awards 2026",
-      "data": "Cardi B won Best Female Hip Hop Artist, Teyana Taylor Best Actress at the Los Angeles event.",
-      "source": "Livemint",
-      "exams": "SSC",
-      "gs": "GS-1"
+      "topic": "Vikram Misri",
+      "data": "Appointed as India's new Foreign Secretary, succeeding Vinay Mohan Kwatra.",
+      "source": "MEA",
+      "exams": "SSC CGL, Banking",
+      "gs": "GS-2 Polity"
     },
     {
       "num": 11,
-      "topic": "National Statistics Day",
-      "data": "Observed on June 29th, birth anniversary of P.C. Mahalanobis, 'Father of Indian Statistics'.",
-      "source": "GK",
-      "exams": "UPSC, SSC, Banking",
-      "gs": "GS-1, GS-3"
+      "topic": "The Golden Road",
+      "data": "New book by William Dalrymple on India's ancient cultural and mathematical export.",
+      "source": "Bloomsbury",
+      "exams": "SSC CGL, Banking",
+      "gs": "GK"
     },
     {
       "num": 12,
-      "topic": "The Sixth Extinction",
-      "data": "Elizabeth Kolbert's Pulitzer-winning book on human-caused mass extinctions, relevant to current environmental crises.",
-      "source": "GK",
-      "exams": "UPSC, SSC",
-      "gs": "GS-3"
+      "topic": "Kailash Mansarovar Yatra",
+      "data": "Yatra begins via upgraded, largely vehicle-based Lipulekh Pass in Uttarakhand.",
+      "source": "Livemint",
+      "exams": "UPSC, SSC CGL",
+      "gs": "GS-1 Geography"
     }
   ]
 }
