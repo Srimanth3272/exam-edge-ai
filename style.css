@@ -73,7 +73,7 @@ body{
   background:var(--bg-primary);
   color:var(--text-primary);
   line-height:1.65;
-  overflow-x:hidden;
+  overflow-x:clip;
   font-size:15px;
   /* Subtle paper-like texture overlay */
   background-image:

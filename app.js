@@ -718,3 +718,32 @@ async function initiatePayment() {
 // Call on startup
 updateAuthUI();
 
+/* -----------------------------------------------
+   MULTILINGUAL SUPPORT (Google Translate)
+   ----------------------------------------------- */
+function setLanguageActiveState() {
+  const match = document.cookie.match(/(^|;)\s*googtrans=([^;]+)/);
+  let lang = 'en';
+  if (match) {
+    const val = decodeURIComponent(match[2]); // e.g. /en/hi
+    const parts = val.split('/');
+    if (parts.length > 2 && parts[2]) lang = parts[2];
+  }
+  document.querySelectorAll('.lang-btn').forEach(btn => btn.classList.remove('active'));
+  const activeBtn = document.getElementById(`btn-lang-${lang}`);
+  if (activeBtn) activeBtn.classList.add('active');
+}
+
+function translatePage(lang) {
+  const domain = window.location.hostname;
+  if(lang === 'en') {
+      document.cookie = `googtrans=/en/en; path=/; domain=${domain}`;
+      document.cookie = `googtrans=/en/en; path=/`;
+  } else {
+      document.cookie = `googtrans=/en/${lang}; path=/; domain=${domain}`;
+      document.cookie = `googtrans=/en/${lang}; path=/`;
+  }
+  window.location.reload();
+}
+
+document.addEventListener('DOMContentLoaded', setLanguageActiveState);
