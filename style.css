@@ -704,3 +704,53 @@ a:hover{text-decoration:underline;}
 .locked-message { position: absolute; bottom: 30px; left: 50%; transform: translateX(-50%); z-index: 20; text-align: center; width: 100%; }
 .locked-message p { color: #fbbf24; font-weight: bold; margin-bottom: 12px; font-size: 1.1rem; }
 
+/* ----------------------------------------
+   LANGUAGE SELECTOR
+   ---------------------------------------- */
+.lang-selector {
+  display: flex;
+  align-items: center;
+  background: rgba(212,168,71,0.08);
+  border: 1px solid rgba(212,168,71,0.25);
+  border-radius: 50px;
+  overflow: hidden;
+}
+.lang-btn {
+  background: transparent;
+  border: none;
+  color: var(--text-secondary);
+  font-size: 11.5px;
+  font-weight: 700;
+  padding: 6px 12px;
+  cursor: pointer;
+  transition: var(--transition);
+  font-family: var(--font-main);
+}
+.lang-btn:hover {
+  background: rgba(212,168,71,0.1);
+  color: var(--text-primary);
+}
+.lang-btn.active {
+  background: linear-gradient(135deg, rgba(212,168,71,0.3), rgba(79,156,249,0.2));
+  color: var(--accent-gold-light);
+}
+
+/* ----------------------------------------
+   GOOGLE TRANSLATE OVERRIDES (Hide default UI)
+   ---------------------------------------- */
+.goog-te-banner-frame.skiptranslate, 
+.goog-te-gadget-icon, 
+#goog-gt-tt {
+  display: none !important;
+}
+body {
+  top: 0px !important;
+}
+.goog-tooltip, .goog-tooltip:hover {
+  display: none !important;
+}
+.goog-text-highlight {
+  background-color: transparent !important;
+  border: none !important;
+  box-shadow: none !important;
+}
