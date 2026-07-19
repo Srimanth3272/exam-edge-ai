@@ -147,7 +147,7 @@
 
       <!-- ARCHIVE NAV -->
       <div class="archive-nav no-print">
-        <button class="arch-btn" onclick="alert('Previous edition will be available in the archive section.')">← Previous Day</button>
+        <button class="arch-btn" onclick="showPreviousSummaryModal()">← Previous Day</button>
         <span class="arch-date" id="archiveDate">📅 24 June 2026</span>
         <button class="arch-btn" id="nextDayBtn" disabled>Next Day →</button>
       </div>
@@ -1344,6 +1344,35 @@
         <div class="modal-actions">
           <button class="btn-primary" onclick="submitErrorReport()">Submit Report</button>
           <button class="btn-secondary" onclick="closeModal()">Cancel</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ════════════════════════════════════════
+       PREVIOUS DAY SUMMARY MODAL
+       ════════════════════════════════════════ -->
+  <div class="modal-overlay" id="previousSummaryModal" style="display:none">
+    <div class="modal-box" style="max-width: 800px; max-height: 90vh; overflow-y: auto;">
+      <div class="modal-header">
+        <h3>📅 Previous Day Summary</h3>
+        <button class="modal-close" onclick="closePreviousSummaryModal()">✕</button>
+      </div>
+      <div class="modal-body">
+        <div class="summary-table-wrap">
+          <table class="summary-table" id="previousSummaryTable">
+            <thead>
+              <tr>
+                <th>#</th>
+                <th>Topic</th>
+                <th>Key Data Points</th>
+                <th>Source</th>
+              </tr>
+            </thead>
+            <tbody>
+              <!-- Populated by JS -->
+            </tbody>
+          </table>
         </div>
       </div>
     </div>

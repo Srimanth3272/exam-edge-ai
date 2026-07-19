@@ -244,6 +244,38 @@ function downloadPDF() {
   }, 1000);
 }
 
+// ── PREVIOUS DAY SUMMARY MODAL ────────────────────────
+const previousDayData = [
+  { num: '01', topic: 'International Day of Yoga', data: '12th Edition | Theme: "Yoga for Healthy Ageing" | 3 Crore+ participants', source: 'PIB' },
+  { num: '02', topic: 'Padma Awards 2026', data: 'Mammootty, Alka Yagnik → Padma Bhushan | Rohit Sharma, Savita Punia → Padma Shri', source: 'Rashtrapati Bhavan' },
+  { num: '03', topic: 'Core Sector Growth', data: 'May 2026: 0.5% (21-month low) | Coal steepest fall (-9.3%)', source: 'OEA, MoC&I' },
+  { num: '04', topic: 'RBI Liquidity Actions', data: '₹1.41 trillion injected via 7-day VRR auction at 5.26%', source: 'RBI' },
+  { num: '05', topic: 'BRICS HOSA Meet', data: 'Venue: Bengaluru | Theme: Resilience, Innovation, Cooperation', source: 'ISRO' }
+];
+
+function showPreviousSummaryModal() {
+  const modal = document.getElementById('previousSummaryModal');
+  const tbody = document.querySelector('#previousSummaryTable tbody');
+  
+  if (tbody) {
+    tbody.innerHTML = previousDayData.map(item => `
+      <tr>
+        <td>${item.num}</td>
+        <td style="font-weight:600; color:var(--text-primary);">${item.topic}</td>
+        <td style="color:var(--text-secondary);">${item.data}</td>
+        <td><span class="src-link" style="display:inline-block">${item.source}</span></td>
+      </tr>
+    `).join('');
+  }
+  
+  if (modal) modal.style.display = 'flex';
+}
+
+function closePreviousSummaryModal() {
+  const modal = document.getElementById('previousSummaryModal');
+  if (modal) modal.style.display = 'none';
+}
+
 // ── ERROR REPORTING ───────────────────────────────────
 let currentErrorCardId = '';
 let currentErrorCardTitle = '';
@@ -353,11 +385,17 @@ function updateStickyOffsets() {
 document.addEventListener('click', (e) => {
   const modal = document.getElementById('errorModal');
   if (modal && e.target === modal) closeModal();
+  
+  const prevModal = document.getElementById('previousSummaryModal');
+  if (prevModal && e.target === prevModal) closePreviousSummaryModal();
 });
 
 // ── KEYBOARD SHORTCUTS ────────────────────────────────
 document.addEventListener('keydown', (e) => {
-  if (e.key === 'Escape') closeModal();
+  if (e.key === 'Escape') {
+    closeModal();
+    closePreviousSummaryModal();
+  }
   if (e.ctrlKey && e.key === 'p') { e.preventDefault(); downloadPDF(); }
 });
 

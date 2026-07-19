@@ -7,13 +7,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700;800&display=swap');
 
 :root {
-  /* ── Classic Elegant Dark Palette ── */
-  --bg-primary: #0b0e1a;
-  --bg-secondary: #0f1322;
-  --bg-card: #131929;
-  --bg-card-hover: #182038;
-  --bg-glass: rgba(255,255,255,0.03);
-  --bg-glass-hover: rgba(255,255,255,0.055);
+  /* ── Minimalistic Light Palette ── */
+  --bg-primary: #f8fafc;
+  --bg-secondary: #f1f5f9;
+  --bg-card: #ffffff;
+  --bg-card-hover: #f1f5f9;
+  --bg-glass: rgba(0,0,0,0.02);
+  --bg-glass-hover: rgba(0,0,0,0.04);
 
   /* ── Rich Accent Palette ── */
   --accent-gold: #d4a847;
@@ -44,15 +44,15 @@
   --cat-staticgk: #16a085;
 
   /* ── Text ── */
-  --text-primary: #ede9e0;
-  --text-secondary: #9ca3b8;
-  --text-muted: #596070;
+  --text-primary: #0f172a;
+  --text-secondary: #334155;
+  --text-muted: #64748b;
 
   /* ── Borders & Shadows ── */
-  --border-subtle: rgba(212,168,71,0.08);
-  --border-card: rgba(212,168,71,0.13);
+  --border-subtle: rgba(0,0,0,0.08);
+  --border-card: rgba(0,0,0,0.1);
 
-  --shadow-card: 0 6px 30px rgba(0,0,0,0.55);
+  --shadow-card: 0 4px 15px rgba(0,0,0,0.05);
   --shadow-glow: 0 0 32px rgba(212,168,71,0.1);
   --shadow-gold: 0 0 24px rgba(212,168,71,0.18);
   --radius-card: 16px;
@@ -67,7 +67,7 @@
 *{margin:0;padding:0;box-sizing:border-box;}
 html{scroll-behavior:smooth;}
 
-/* ── Classic Elegant Body Background ── */
+/* ── Minimalistic Body Background ── */
 body{
   font-family:var(--font-main);
   background:var(--bg-primary);
@@ -75,12 +75,6 @@ body{
   line-height:1.65;
   overflow-x:clip;
   font-size:15px;
-  /* Subtle paper-like texture overlay */
-  background-image:
-    radial-gradient(ellipse at 20% 10%, rgba(212,168,71,0.04) 0%, transparent 55%),
-    radial-gradient(ellipse at 80% 90%, rgba(79,156,249,0.04) 0%, transparent 55%),
-    radial-gradient(ellipse at 50% 50%, rgba(155,125,212,0.03) 0%, transparent 70%);
-  background-attachment: fixed;
 }
 
 ::-webkit-scrollbar{width:5px;}
@@ -115,7 +109,7 @@ a:hover{text-decoration:underline;}
 
 /* ── HEADER ─────────────────────────── */
 .site-header{
-  background:rgba(11,14,26,0.97);
+  background:rgba(255,255,255,0.97);
   backdrop-filter:blur(24px);
   border-bottom:1px solid var(--border-card);
   padding:13px 0;
@@ -153,7 +147,7 @@ a:hover{text-decoration:underline;}
 
 /* ── HERO ───────────────────────────── */
 .hero-strip{
-  background:linear-gradient(135deg,#0e1428 0%,#1a0f28 45%,#0f1a22 100%);
+  background:var(--bg-secondary);
   border-bottom:1px solid var(--border-card);
   padding:44px 0 32px;
   position:relative;overflow:hidden;
@@ -161,9 +155,6 @@ a:hover{text-decoration:underline;}
 /* Classic decorative pattern */
 .hero-strip::before{
   content:'';position:absolute;top:0;left:0;right:0;bottom:0;
-  background:
-    radial-gradient(ellipse at 15% 50%,rgba(212,168,71,0.07) 0%,transparent 55%),
-    radial-gradient(ellipse at 85% 20%,rgba(155,125,212,0.06) 0%,transparent 50%);
   pointer-events:none;
 }
 /* Elegant horizontal rule top */
@@ -178,7 +169,7 @@ a:hover{text-decoration:underline;}
   font-size:clamp(26px,5vw,44px);
   font-weight:900;
   letter-spacing:-1.5px;
-  background:linear-gradient(135deg,#ede9e0 0%,var(--accent-gold-light) 45%,#c4a8ff 100%);
+  background:linear-gradient(135deg,#0f172a 0%,var(--accent-gold) 45%,#6b21a8 100%);
   -webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;
   line-height:1.1;
 }
@@ -233,7 +224,7 @@ a:hover{text-decoration:underline;}
 
 /* ── TAB NAV ─────────────────────────── */
 .tab-nav{
-  background:rgba(11,14,26,0.97);
+  background:rgba(255,255,255,0.97);
   border-bottom:1px solid var(--border-card);
   backdrop-filter:blur(12px);
   position:sticky;top:110px;z-index:90;
@@ -297,7 +288,7 @@ a:hover{text-decoration:underline;}
   border:1px solid var(--border-card);
   border-radius:var(--radius-card);
   overflow:hidden;margin-bottom:22px;
-  box-shadow:var(--shadow-card);
+  box-shadow: 0 4px 15px rgba(0,0,0,0.2);
   transition:var(--transition);
   animation:fadeIn 0.35s ease-out both;
   position:relative;
@@ -679,11 +670,15 @@ a:hover{text-decoration:underline;}
   .site-header{top:42px;}
   .tab-nav{top:105px;}
   .footer-inner{grid-template-columns:1fr;}
+  .hero-strip { padding: 30px 0 20px; }
+  .card-body { padding: 16px; }
 }
 
 @media(max-width:480px){
   .header-actions{flex-direction:column;align-items:flex-start;gap:8px;}
   .footer-inner{grid-template-columns:1fr;}
+  .hero-title { font-size: 24px; }
+  .stat-chip { padding: 6px 12px; }
 }
 
 /* ----------------------------------------
