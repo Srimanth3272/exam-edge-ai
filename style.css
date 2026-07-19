@@ -660,6 +660,69 @@ a:hover{text-decoration:underline;}
   }
 }
 
+/* ----------------------------------------
+   ONBOARDING & PERSONALIZATION
+   ---------------------------------------- */
+.onboard-option {
+  display: flex; align-items: center; gap: 10px;
+  padding: 14px; background: var(--bg-glass);
+  border: 1px solid var(--border-subtle);
+  border-radius: var(--radius-sm);
+  cursor: pointer; transition: var(--transition);
+  font-size: 14px; color: var(--text-primary);
+  font-weight: 600;
+}
+.onboard-option:hover {
+  background: var(--bg-glass-hover);
+  border-color: var(--accent-gold);
+}
+.onboard-option input[type="radio"] {
+  accent-color: var(--accent-gold);
+  transform: scale(1.2);
+}
+
+/* ----------------------------------------
+   PYQ FUNNEL & WEAKNESS DETECTOR
+   ---------------------------------------- */
+.pyq-funnel {
+  margin: 16px 0; background: var(--bg-primary);
+  border: 1px solid var(--border-subtle);
+  border-radius: var(--radius-sm); padding: 14px 18px;
+}
+.pyq-funnel summary {
+  font-size: 13px; font-weight: 700; color: var(--accent-purple);
+  text-transform: uppercase; cursor: pointer; user-select: none;
+  list-style: none; display: flex; align-items: center; gap: 8px;
+}
+.pyq-funnel summary::-webkit-details-marker { display: none; }
+.pyq-funnel summary::before { content: '▶'; font-size: 10px; transition: transform 0.2s; }
+.pyq-funnel[open] summary::before { transform: rotate(90deg); }
+
+.pyq-flow {
+  margin-top: 16px; display: flex; flex-direction: column; gap: 8px;
+  border-left: 2px dashed rgba(155,125,212,0.3); padding-left: 16px;
+  position: relative;
+}
+.pyq-step {
+  font-size: 13px; color: var(--text-secondary); position: relative;
+}
+.pyq-step::before {
+  content: ''; position: absolute; left: -21px; top: 6px;
+  width: 8px; height: 8px; background: var(--accent-purple);
+  border-radius: 50%; box-shadow: 0 0 0 2px var(--bg-primary);
+}
+.pyq-step strong { color: var(--text-primary); display: block; font-size: 11.5px; text-transform: uppercase; margin-bottom: 2px; }
+
+.weakness-table {
+  width: 100%; border-collapse: collapse; margin-top: 20px;
+  background: var(--bg-glass); border-radius: var(--radius-sm); overflow: hidden;
+}
+.weakness-table th { background: rgba(0,0,0,0.03); padding: 10px 14px; text-align: left; font-size: 11px; text-transform: uppercase; color: var(--text-muted); }
+.weakness-table td { padding: 12px 14px; font-size: 13px; border-top: 1px solid var(--border-subtle); color: var(--text-primary); font-weight: 600; }
+.status-strong { color: #10b981; }
+.status-average { color: #f59e0b; }
+.status-weak { color: #ef4444; }
+
 /* ── RESPONSIVE ─────────────────────── */
 @media(max-width:768px){
   .hero-inner{flex-direction:column;}

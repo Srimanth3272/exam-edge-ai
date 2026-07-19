@@ -70,7 +70,7 @@
        ════════════════════════════════════════ -->
   <section class="hero-strip">
     <div class="container hero-inner">
-      <div class="hero-left">
+      <div class="hero-left" id="heroDefault">
         <h1 class="hero-title">Daily Current Affairs</h1>
         <p class="hero-subtitle">Exam-Oriented | 100% Free | All Government Exams Covered</p>
 
@@ -96,6 +96,25 @@
           <div class="stat-chip"><span class="stat-num">80</span><span class="stat-label">MCQs</span></div>
           <div class="stat-chip"><span class="stat-num">15+</span><span class="stat-label">Sources</span></div>
           <div class="stat-chip"><span class="stat-num">FREE</span><span class="stat-label">Always</span></div>
+        </div>
+      </div>
+      
+      <!-- PERSONALIZED DASHBOARD -->
+      <div class="hero-left" id="heroPersonalized" style="display:none;">
+        <p class="hero-subtitle" style="margin-bottom: 4px; color: var(--accent-gold); font-weight: 700;">Good Evening 👋</p>
+        <h1 class="hero-title" id="persExamName">SSC CGL Preparation</h1>
+        
+        <div class="countdown-box" style="display:inline-block; background:rgba(0,0,0,0.05); border:1px solid var(--border-card); padding:8px 16px; border-radius:50px; margin: 12px 0 20px;">
+          <span style="font-size:13px; font-weight:700; color:var(--text-primary);">⏳ Exam in: <span id="persExamDays" style="color:var(--accent-gold);">126</span> days</span>
+        </div>
+        
+        <div class="today-tasks" style="background:var(--bg-glass); border:1px solid var(--border-subtle); padding:16px; border-radius:var(--radius-sm);">
+          <h4 style="font-size:12.5px; text-transform:uppercase; color:var(--text-secondary); margin-bottom:10px;">📋 Today's Tasks</h4>
+          <div style="display:flex; gap:12px; flex-wrap:wrap;">
+            <label style="display:flex; align-items:center; gap:8px; font-size:13px; cursor:pointer;"><input type="checkbox" id="taskRead" style="accent-color:var(--accent-gold);"> Read <span id="persTopicCount">5</span> High-Yield Topics</label>
+            <label style="display:flex; align-items:center; gap:8px; font-size:13px; cursor:pointer;"><input type="checkbox" id="taskQuiz" style="accent-color:var(--accent-gold);"> Attempt Topic-wise MCQs</label>
+            <label style="display:flex; align-items:center; gap:8px; font-size:13px; cursor:pointer;"><input type="checkbox" id="taskPYQ" style="accent-color:var(--accent-gold);"> Analyze 2 PYQ Concepts</label>
+          </div>
         </div>
       </div>
       <div class="hero-right no-print">
@@ -264,6 +283,18 @@
               <div class="exam-spec-item"><span class="es-exam">Defence NDA/CDS</span><span class="es-note">International awareness — UN resolutions</span></div>
             </div>
           </div>
+
+          <!-- PYQ FUNNEL -->
+          <details class="pyq-funnel">
+            <summary>🧠 AI PYQ Linker: See How This Topic is Asked</summary>
+            <div class="pyq-flow">
+              <div class="pyq-step"><strong>Current Affair</strong>International Day of Yoga (Theme & Venue)</div>
+              <div class="pyq-step"><strong>Static Concept</strong>UN General Assembly Resolutions, Soft Power Diplomacy</div>
+              <div class="pyq-step"><strong>Previous Year Questions</strong>UPSC CSE 2015, SSC CGL 2022, IBPS PO 2023</div>
+              <div class="pyq-step"><strong>Expected Question Pattern</strong>Statement-based MCQ (UPSC), Direct Theme MCQ (SSC)</div>
+            </div>
+            <button class="btn-primary" style="margin-top:16px;" onclick="document.getElementById('section-mcq').scrollIntoView({behavior:'smooth'})">Practice Now ↓</button>
+          </details>
         </div>
       </article>
 
@@ -1443,6 +1474,44 @@
       <p style="color: #e2e8f0; margin-bottom: 20px;">Get full access to all topic cards, the entire MCQ bank, and exclusive static GK links for just ₹29/month.</p>
       <div class="price-tag" style="font-size: 2.5rem; font-weight: 800; color: #fff; margin-bottom: 24px;">₹29 <span style="font-size: 1rem; color: #a0aec0; font-weight: 400;">/ month</span></div>
       <button class="btn-primary pulse" style="width: 100%; background: linear-gradient(135deg, #10b981 0%, #059669 100%); font-size: 1.1rem; padding: 14px;" onclick="initiatePayment()">Pay with Razorpay</button>
+    </div>
+  </div>
+
+  <!-- ════════════════════════════════════════
+       ONBOARDING MODAL
+       ════════════════════════════════════════ -->
+  <div id="onboardingModal" class="modal-overlay" style="display: none; z-index: 10001; background: var(--bg-primary);">
+    <div class="modal-box" style="max-width: 500px; padding: 40px 30px; text-align: center; border: none; box-shadow: var(--shadow-card);">
+      
+      <!-- Step 1: Forced Minimum -->
+      <div id="onboardStep1">
+        <h2 style="font-family: var(--font-heading); font-size: 24px; color: var(--text-primary); margin-bottom: 8px;">Target Your Preparation 🎯</h2>
+        <p style="color: var(--text-secondary); font-size: 14px; margin-bottom: 24px;">Select your primary exam to get personalized AI insights and custom PYQ mapping.</p>
+        
+        <div style="display:grid; grid-template-columns: 1fr 1fr; gap: 12px; text-align: left; margin-bottom: 24px;">
+          <label class="onboard-option"><input type="radio" name="targetExam" value="UPSC CSE"> UPSC CSE</label>
+          <label class="onboard-option"><input type="radio" name="targetExam" value="SSC CGL"> SSC CGL</label>
+          <label class="onboard-option"><input type="radio" name="targetExam" value="Banking PO"> Banking PO</label>
+          <label class="onboard-option"><input type="radio" name="targetExam" value="RRB NTPC"> RRB NTPC</label>
+          <label class="onboard-option"><input type="radio" name="targetExam" value="APPSC/TSPSC"> State PSC</label>
+          <label class="onboard-option"><input type="radio" name="targetExam" value="Defence (NDA/CDS)"> Defence</label>
+        </div>
+        
+        <button class="btn-primary" style="width: 100%;" onclick="nextOnboardingStep()">Continue →</button>
+      </div>
+
+      <!-- Step 2: Skippable Extended -->
+      <div id="onboardStep2" style="display:none;">
+        <h2 style="font-family: var(--font-heading); font-size: 24px; color: var(--text-primary); margin-bottom: 8px;">Almost there! ✨</h2>
+        <p style="color: var(--text-secondary); font-size: 14px; margin-bottom: 24px;">Create a free account to save your AI Weakness Reports across devices.</p>
+        
+        <input type="text" id="onboardName" class="auth-input" placeholder="Your Name (Optional)" style="background:var(--bg-primary); color:var(--text-primary);" />
+        <input type="email" id="onboardEmail" class="auth-input" placeholder="Email Address (Optional)" style="background:var(--bg-primary); color:var(--text-primary);" />
+        
+        <button class="btn-primary" style="width: 100%; margin-bottom: 12px;" onclick="finishOnboarding()">Complete Setup</button>
+        <p class="auth-switch" onclick="finishOnboarding()">Skip for now</p>
+      </div>
+      
     </div>
   </div>
 

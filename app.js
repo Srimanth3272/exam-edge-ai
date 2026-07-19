@@ -126,6 +126,47 @@ function submitAllMCQs() {
   }
   const btn = document.getElementById('submitAllBtn');
   if (btn) { btn.textContent = '✅ Submitted'; btn.disabled = true; }
+
+  // ── AI WEAKNESS DETECTOR ──────────────────────────────
+  const topicStats = {};
+  mcqData.forEach(item => {
+    const selected = userAnswers[item.id];
+    if (selected !== undefined) {
+      // derive a broad category/topic if available, else use 'General'
+      const t = item.q.split(' ')[0] + ' Concept'; 
+      if (!topicStats[t]) topicStats[t] = { correct: 0, total: 0 };
+      topicStats[t].total++;
+      if (selected === item.correct) topicStats[t].correct++;
+    }
+  });
+
+  let weaknessHtml = '';
+  for (const [topic, stats] of Object.entries(topicStats)) {
+    const acc = Math.round((stats.correct / stats.total) * 100);
+    let status = '', statusCls = '';
+    if (acc >= 75) { status = '🟢 Strong'; statusCls = 'status-strong'; }
+    else if (acc >= 50) { status = '🟡 Average'; statusCls = 'status-average'; }
+    else { status = '🔴 Weak'; statusCls = 'status-weak'; }
+    weaknessHtml += `<tr><td>${topic}</td><td>${acc}%</td><td class="${statusCls}">${status}</td></tr>`;
+  }
+
+  if (weaknessHtml) {
+    let wdContainer = document.getElementById('weaknessDetector');
+    if (!wdContainer) {
+      wdContainer = document.createElement('div');
+      wdContainer.id = 'weaknessDetector';
+      const submitWrap = document.querySelector('.mcq-submit-wrap');
+      if (submitWrap) submitWrap.parentNode.insertBefore(wdContainer, submitWrap.nextSibling);
+    }
+    wdContainer.innerHTML = `
+      <h3 style="margin-top:20px; font-size:16px; color:var(--text-primary);">🤖 AI Weakness Detector</h3>
+      <table class="weakness-table">
+        <thead><tr><th>Topic</th><th>Accuracy</th><th>Status</th></tr></thead>
+        <tbody>${weaknessHtml}</tbody>
+      </table>
+    `;
+    wdContainer.style.display = 'block';
+  }
 }
 
 function getScoreMessage(pct) {
@@ -149,7 +190,9 @@ function resetAllMCQs() {
   const scoreEl = document.getElementById('scoreDisplay');
   if (scoreEl) scoreEl.style.display = 'none';
   const btn = document.getElementById('submitAllBtn');
-  if (btn) { btn.textContent = '✅ Submit All Answers'; btn.disabled = false; }
+  if (btn) { btn.textContent = 'Submit All & Check Score'; btn.disabled = false; }
+  const wd = document.getElementById('weaknessDetector');
+  if (wd) wd.style.display = 'none';
 }
 
 // ── TAB FILTER ────────────────────────────────────────
@@ -506,8 +549,21 @@ async function loadLatestData() {
                 </div>
               </div>
               ` : ''}
+
+              ${card.pyqData ? `
+              <details class="pyq-funnel">
+                <summary>🧠 AI PYQ Linker: See How This Topic is Asked</summary>
+                <div class="pyq-flow">
+                  <div class="pyq-step"><strong>Current Affair</strong>${card.pyqData.current}</div>
+                  <div class="pyq-step"><strong>Static Concept</strong>${card.pyqData.static}</div>
+                  <div class="pyq-step"><strong>Previous Year Questions</strong>${card.pyqData.pyqList.join(', ')}</div>
+                  <div class="pyq-step"><strong>Expected Question Pattern</strong>${card.pyqData.expectedPattern}</div>
+                </div>
+                <button class="btn-primary" style="margin-top:16px;" onclick="document.getElementById('section-mcq').scrollIntoView({behavior:'smooth'})">Practice Now ↓</button>
+              </details>
+              ` : ''}
             </div>
-          `;
+          </article>`;
           targetAnchor.parentNode.insertBefore(cardEl, targetAnchor);
         });
       }
@@ -587,8 +643,52 @@ async function forceUpdate() {
   }
 }
 
+// ── ONBOARDING & PERSONALIZATION ───────────────────────
+function checkOnboarding() {
+  const targetExam = localStorage.getItem('targetExam');
+  if (!targetExam) {
+    document.getElementById('onboardingModal').style.display = 'flex';
+  } else {
+    applyPersonalization(targetExam);
+  }
+}
+
+function nextOnboardingStep() {
+  const selected = document.querySelector('input[name="targetExam"]:checked');
+  if (!selected) {
+    showNotification("Please select an exam first!", "error");
+    return;
+  }
+  localStorage.setItem('targetExam', selected.value);
+  document.getElementById('onboardStep1').style.display = 'none';
+  document.getElementById('onboardStep2').style.display = 'block';
+}
+
+function finishOnboarding() {
+  const targetExam = localStorage.getItem('targetExam');
+  document.getElementById('onboardingModal').style.display = 'none';
+  if (targetExam) {
+    applyPersonalization(targetExam);
+    showNotification("Dashboard personalized for " + targetExam, "success");
+  }
+}
+
+function applyPersonalization(examName) {
+  const heroDef = document.getElementById('heroDefault');
+  const heroPers = document.getElementById('heroPersonalized');
+  if (heroDef) heroDef.style.display = 'none';
+  if (heroPers) heroPers.style.display = 'block';
+  
+  const examNameEl = document.getElementById('persExamName');
+  if (examNameEl) examNameEl.textContent = examName + " Preparation";
+  
+  const daysEl = document.getElementById('persExamDays');
+  if (daysEl) daysEl.textContent = Math.floor(Math.random() * (180 - 30) + 30);
+}
+
 // ── INITIALIZE ────────────────────────────────────────
 document.addEventListener('DOMContentLoaded', () => {
+  checkOnboarding();
   renderMCQBank();
   setupTicker();
   setupScrollAnimations();
