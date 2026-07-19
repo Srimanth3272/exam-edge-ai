@@ -686,9 +686,32 @@ function applyPersonalization(examName) {
   if (daysEl) daysEl.textContent = Math.floor(Math.random() * (180 - 30) + 30);
 }
 
+// ── DYNAMIC PYQ INJECTOR ──────────────────────────────
+function injectDynamicPYQs() {
+  const pyqDB = [
+    '📌 <em>PYQ: "What is the repo rate?" (SSC CGL 2022)</em>',
+    '📌 <em>PYQ: "Which article deals with Election Commission?" (UPSC Prelims 2018)</em>',
+    '📌 <em>PYQ: "Where is the HQ of ISRO?" (RRB NTPC 2019)</em>',
+    '📌 <em>PYQ: "Who won the Nobel Peace Prize in 2014?" (Banking PO 2015)</em>',
+    '📌 <em>PYQ: "What is the function of the Finance Commission?" (APPSC 2020)</em>',
+    '📌 <em>PYQ: "Which organization is responsible for combating desertification?" (UPSC CSE Prelims 2016)</em>',
+    '📌 <em>PYQ: "What is the rank of India in Human Development Index?" (State PSC 2021)</em>'
+  ];
+  
+  document.querySelectorAll('.staticgk-points').forEach(ul => {
+    if (!ul.innerHTML.includes('📌 <em>PYQ:')) {
+      const randomPYQ = pyqDB[Math.floor(Math.random() * pyqDB.length)];
+      const li = document.createElement('li');
+      li.innerHTML = `<span style="color:var(--accent-gold); font-size: 11px;">${randomPYQ}</span>`;
+      ul.appendChild(li);
+    }
+  });
+}
+
 // ── INITIALIZE ────────────────────────────────────────
 document.addEventListener('DOMContentLoaded', () => {
   checkOnboarding();
+  injectDynamicPYQs();
   renderMCQBank();
   setupTicker();
   setupScrollAnimations();
