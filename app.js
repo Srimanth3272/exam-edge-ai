@@ -673,6 +673,7 @@ document.addEventListener('DOMContentLoaded', () => {
   setupTicker();
   setupScrollAnimations();
   updateStickyOffsets();
+  initGoogleAuth();
 
   // Load latest dynamic data from server
   loadLatestData();
@@ -754,7 +755,7 @@ function toggleAuthMode() {
   const forgotLink = document.getElementById("forgotPasswordLink");
   if (forgotLink) forgotLink.style.display = isLoginMode ? "block" : "none";
   
-  const googleBtn = document.getElementById("googleAuthBtn");
+  const googleBtn = document.getElementById("g_id_signin_btn");
   if (googleBtn) googleBtn.style.display = isLoginMode ? "none" : "flex";
 }
 
@@ -770,15 +771,73 @@ function toggleForgotPassword() {
   }
 }
 
-function handlePasswordReset() {
+async function handlePasswordReset() {
   const email = document.getElementById("resetEmail").value;
-  if (!email) return alert("Please enter your email address.");
-  alert(`Password reset link sent to ${email}`);
-  toggleForgotPassword();
+  if (!email) return showNotification("Please enter your email address.", "error");
+  
+  try {
+    const res = await fetch("/api/forgot-password", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ email })
+    });
+    const data = await res.json();
+    if(data.success) {
+      showNotification(data.message, "success");
+      toggleForgotPassword();
+    } else {
+      showNotification(data.error, "error");
+    }
+  } catch(e) {
+    showNotification("Failed to send reset link.", "error");
+  }
 }
 
-function handleGoogleAuth() {
-  alert("Redirecting to Google Sign Up...");
+async function initGoogleAuth() {
+  try {
+    const res = await fetch('/api/config');
+    const data = await res.json();
+    if (data.googleClientId && data.googleClientId !== 'YOUR_GOOGLE_CLIENT_ID_HERE') {
+      google.accounts.id.initialize({
+        client_id: data.googleClientId,
+        callback: handleCredentialResponse
+      });
+      google.accounts.id.renderButton(
+        document.getElementById("g_id_signin_btn"),
+        { theme: "outline", size: "large", width: 340 }
+      );
+    } else {
+      console.warn("Google Client ID not configured.");
+    }
+  } catch (e) {
+    console.error("Failed to load Google Config", e);
+  }
+}
+
+async function handleCredentialResponse(response) {
+  try {
+    const res = await fetch("/api/google-auth", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ token: response.credential })
+    });
+    const data = await res.json();
+    if (data.success) {
+      currentUserToken = data.token;
+      isUserSubscribed = data.isSubscribed;
+      localStorage.setItem("examedge_token", data.token);
+      localStorage.setItem("examedge_subscribed", data.isSubscribed);
+      closeAuthModal();
+      updateAuthUI();
+      loadLatestData();
+      if(!isUserSubscribed) openSubModal();
+      showNotification("Successfully logged in with Google!", "success");
+    } else {
+      showNotification(data.error, "error");
+    }
+  } catch (e) {
+    showNotification("Google Authentication failed.", "error");
+  }
 }
 
 async function handleAuth() {

@@ -8,7 +8,18 @@ const bcrypt = require('bcryptjs');
 const jwt = require('jsonwebtoken');
 const Razorpay = require('razorpay');
 const crypto = require('crypto');
+const { OAuth2Client } = require('google-auth-library');
+const nodemailer = require('nodemailer');
 require('dotenv').config();
+
+const googleClient = new OAuth2Client(process.env.GOOGLE_CLIENT_ID);
+const transporter = nodemailer.createTransport({
+  service: 'gmail',
+  auth: {
+    user: process.env.EMAIL_USER || '',
+    pass: process.env.EMAIL_PASS || ''
+  }
+});
 
 const app = express();
 const PORT = process.env.PORT || 3000;
@@ -46,9 +57,12 @@ mongoose.connect(MONGODB_URI)
 
 const userSchema = new mongoose.Schema({
   email: { type: String, required: true, unique: true },
-  password: { type: String, required: true },
+  password: { type: String, required: false },
   isSubscribed: { type: Boolean, default: false },
-  subscriptionExpiry: { type: Date, default: null }
+  subscriptionExpiry: { type: Date, default: null },
+  resetToken: String,
+  resetTokenExpiry: Date,
+  isGoogleUser: { type: Boolean, default: false }
 });
 const User = mongoose.model('User', userSchema);
 
@@ -59,6 +73,65 @@ const razorpay = new Razorpay({
 });
 
 // ── AUTHENTICATION ROUTES ───────────────────────────────────
+app.get('/api/config', (req, res) => {
+  res.json({ googleClientId: process.env.GOOGLE_CLIENT_ID });
+});
+
+app.post('/api/google-auth', async (req, res) => {
+  try {
+    const { token } = req.body;
+    const ticket = await googleClient.verifyIdToken({
+      idToken: token,
+      audience: process.env.GOOGLE_CLIENT_ID
+    });
+    const payload = ticket.getPayload();
+    const email = payload['email'];
+
+    let user = await User.findOne({ email });
+    if (!user) {
+      user = new User({ email, isGoogleUser: true });
+      await user.save();
+    }
+    
+    const jwtToken = jwt.sign({ id: user._id, email: user.email }, JWT_SECRET);
+    res.json({ success: true, token: jwtToken, isSubscribed: user.isSubscribed });
+  } catch (err) {
+    console.error('Google Auth Error:', err);
+    res.status(401).json({ error: 'Invalid Google Token' });
+  }
+});
+
+app.post('/api/forgot-password', async (req, res) => {
+  try {
+    const { email } = req.body;
+    let user = await User.findOne({ email });
+    if (!user) return res.status(404).json({ error: 'User not found' });
+
+    const resetToken = crypto.randomBytes(32).toString('hex');
+    user.resetToken = resetToken;
+    user.resetTokenExpiry = Date.now() + 3600000; // 1 hour
+    await user.save();
+
+    const mailOptions = {
+      from: process.env.EMAIL_USER,
+      to: email,
+      subject: 'ExamEdge Password Reset',
+      text: `You requested a password reset.\n\nPlease copy this token to reset your password:\n\n${resetToken}\n\nIf you did not request this, please ignore this email.`
+    };
+
+    if (process.env.EMAIL_USER && process.env.EMAIL_USER.includes('@')) {
+      await transporter.sendMail(mailOptions);
+      res.json({ success: true, message: `Password reset link sent to ${email}` });
+    } else {
+      console.log('--- MOCK EMAIL SEND (Update .env EMAIL_USER to send real emails) ---');
+      console.log(mailOptions);
+      res.json({ success: true, message: `(Mock Mode) Reset token generated for ${email}. Check server logs.` });
+    }
+  } catch (err) {
+    console.error(err);
+    res.status(500).json({ error: 'Failed to process forgot password' });
+  }
+});
 app.post('/api/register', async (req, res) => {
   try {
     const { email, password } = req.body;

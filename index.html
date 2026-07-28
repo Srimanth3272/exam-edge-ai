@@ -1451,9 +1451,7 @@
 
         <button id="authSubmitBtn" class="btn-primary" style="width: 100%; margin-top: 10px;" onclick="handleAuth()">Submit</button>
         
-        <button id="googleAuthBtn" style="width: 100%; margin-top: 10px; display: none; background: #fff; color: #444; border: 1px solid #ccc; padding: 12px; border-radius: 8px; cursor: pointer; font-weight: 600; align-items:center; justify-content:center; gap: 8px;" onclick="handleGoogleAuth()">
-          <img src="https://upload.wikimedia.org/wikipedia/commons/5/53/Google_%22G%22_Logo.svg" width="18" height="18" alt="Google"> Sign up with Google
-        </button>
+        <div id="g_id_signin_btn" style="margin-top: 10px; width: 100%; display: none; justify-content: center;"></div>
 
         <p class="auth-switch" onclick="toggleAuthMode()">Need an account? Sign up</p>
       </div>
@@ -1481,6 +1479,7 @@
 
 
 
+  <script src="https://accounts.google.com/gsi/client" async defer></script>
   <script src="app.js"></script>
   
   <!-- Google Translate Script -->
