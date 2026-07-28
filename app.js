@@ -643,48 +643,6 @@ async function forceUpdate() {
   }
 }
 
-// ── ONBOARDING & PERSONALIZATION ───────────────────────
-function checkOnboarding() {
-  const targetExam = localStorage.getItem('targetExam');
-  if (!targetExam) {
-    document.getElementById('onboardingModal').style.display = 'flex';
-  } else {
-    applyPersonalization(targetExam);
-  }
-}
-
-function nextOnboardingStep() {
-  const selected = document.querySelector('input[name="targetExam"]:checked');
-  if (!selected) {
-    showNotification("Please select an exam first!", "error");
-    return;
-  }
-  localStorage.setItem('targetExam', selected.value);
-  document.getElementById('onboardStep1').style.display = 'none';
-  document.getElementById('onboardStep2').style.display = 'block';
-}
-
-function finishOnboarding() {
-  const targetExam = localStorage.getItem('targetExam');
-  document.getElementById('onboardingModal').style.display = 'none';
-  if (targetExam) {
-    applyPersonalization(targetExam);
-    showNotification("Dashboard personalized for " + targetExam, "success");
-  }
-}
-
-function applyPersonalization(examName) {
-  const heroDef = document.getElementById('heroDefault');
-  const heroPers = document.getElementById('heroPersonalized');
-  if (heroDef) heroDef.style.display = 'none';
-  if (heroPers) heroPers.style.display = 'block';
-  
-  const examNameEl = document.getElementById('persExamName');
-  if (examNameEl) examNameEl.textContent = examName + " Preparation";
-  
-  const daysEl = document.getElementById('persExamDays');
-  if (daysEl) daysEl.textContent = Math.floor(Math.random() * (180 - 30) + 30);
-}
 
 // ── DYNAMIC PYQ INJECTOR ──────────────────────────────
 function injectDynamicPYQs() {
@@ -710,7 +668,6 @@ function injectDynamicPYQs() {
 
 // ── INITIALIZE ────────────────────────────────────────
 document.addEventListener('DOMContentLoaded', () => {
-  checkOnboarding();
   injectDynamicPYQs();
   renderMCQBank();
   setupTicker();
