@@ -751,8 +751,8 @@ a:hover{text-decoration:underline;}
 .modal-box { background: var(--bg-card); padding: 32px; border-radius: 16px; width: 90%; max-width: 400px; border: 1px solid var(--border-color); position: relative; }
 .modal-close { position: absolute; top: 16px; right: 16px; background: transparent; border: none; color: #a0aec0; font-size: 1.2rem; cursor: pointer; }
 .modal-close:hover { color: #fff; }
-.auth-input { width: 100%; padding: 12px; margin-bottom: 16px; background: rgba(255,255,255,0.05); border: 1px solid var(--border-color); border-radius: 8px; color: #fff; font-family: inherit; font-size: 1rem; }
-.auth-input:focus { outline: none; border-color: var(--accent-blue); box-shadow: 0 0 0 3px rgba(59,130,246,0.2); }
+.auth-input { width: 100%; padding: 12px; margin-bottom: 16px; background: var(--bg-primary); border: 1px solid var(--border-subtle); border-radius: 8px; color: var(--text-primary); font-family: inherit; font-size: 1rem; transition: var(--transition); }
+.auth-input:focus { outline: none; border-color: var(--accent-gold); box-shadow: 0 0 0 3px rgba(212,168,71,0.2); }
 .auth-switch { color: var(--accent-blue); font-size: 0.9rem; text-align: center; margin-top: 16px; cursor: pointer; }
 .auth-switch:hover { text-decoration: underline; }
 .premium-btn { background: linear-gradient(135deg, #fbbf24 0%, #d97706 100%) !important; color: #fff !important; border: none !important; box-shadow: 0 4px 12px rgba(245, 158, 11, 0.3); }

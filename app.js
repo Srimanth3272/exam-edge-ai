@@ -790,7 +790,38 @@ function closeSubModal() {
 function toggleAuthMode() {
   isLoginMode = !isLoginMode;
   document.getElementById("authTitle").innerText = isLoginMode ? "Sign In" : "Sign Up";
+  const authSub = document.getElementById("authSubtitle");
+  if (authSub) authSub.innerText = isLoginMode ? "Log in to access your ExamEdge account." : "Create a new ExamEdge account.";
   document.querySelector(".auth-switch").innerText = isLoginMode ? "Need an account? Sign up" : "Already have an account? Sign in";
+  
+  const forgotLink = document.getElementById("forgotPasswordLink");
+  if (forgotLink) forgotLink.style.display = isLoginMode ? "block" : "none";
+  
+  const googleBtn = document.getElementById("googleAuthBtn");
+  if (googleBtn) googleBtn.style.display = isLoginMode ? "none" : "flex";
+}
+
+function toggleForgotPassword() {
+  const mainForm = document.getElementById("authMainForm");
+  const resetForm = document.getElementById("forgotPasswordForm");
+  if (mainForm.style.display === "none") {
+    mainForm.style.display = "block";
+    resetForm.style.display = "none";
+  } else {
+    mainForm.style.display = "none";
+    resetForm.style.display = "block";
+  }
+}
+
+function handlePasswordReset() {
+  const email = document.getElementById("resetEmail").value;
+  if (!email) return alert("Please enter your email address.");
+  alert(`Password reset link sent to ${email}`);
+  toggleForgotPassword();
+}
+
+function handleGoogleAuth() {
+  alert("Redirecting to Google Sign Up...");
 }
 
 async function handleAuth() {
