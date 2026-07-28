@@ -666,6 +666,14 @@ function injectDynamicPYQs() {
   });
 }
 
+function openMockTest() {
+  if (isUserSubscribed) {
+    window.location.href = "mock-test.html";
+  } else {
+    openSubModal();
+  }
+}
+
 // ── INITIALIZE ────────────────────────────────────────
 document.addEventListener('DOMContentLoaded', () => {
   injectDynamicPYQs();

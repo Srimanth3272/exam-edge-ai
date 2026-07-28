@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>International Affairs Mock Test - ExamEdge</title>
+  <title>International Affairs Mock - ExamEdge</title>
   
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -12,7 +12,7 @@
   <link rel="stylesheet" href="style.css">
   <style>
     .mock-container {
-      max-width: 900px;
+      max-width: 800px;
       margin: 40px auto;
       padding: 0 20px;
     }
@@ -46,103 +46,246 @@
       text-decoration: none;
       font-weight: 500;
     }
-    .question-card {
+    
+    /* Quiz UI */
+    .quiz-card {
       background: var(--bg-card);
       border: 1px solid var(--border-subtle);
-      border-radius: 12px;
-      padding: 24px;
-      margin-bottom: 20px;
-      box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+      border-radius: 16px;
+      padding: 32px;
+      box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.1);
+      display: none;
     }
-    .question-text {
-      font-size: 1.1rem;
+    .quiz-card.active {
+      display: block;
+      animation: fadeIn 0.4s ease;
+    }
+    
+    .progress-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 16px;
+      color: var(--text-secondary);
       font-weight: 600;
+      font-size: 0.95rem;
+    }
+    .progress-bar {
+      width: 100%;
+      height: 8px;
+      background: var(--bg-primary);
+      border-radius: 4px;
+      margin-bottom: 30px;
+      overflow: hidden;
+    }
+    .progress-fill {
+      height: 100%;
+      background: var(--primary);
+      width: 0%;
+      transition: width 0.3s ease;
+    }
+    
+    .question-text {
+      font-size: 1.25rem;
+      font-weight: 700;
       color: var(--text-primary);
-      margin-bottom: 20px;
+      margin-bottom: 24px;
       line-height: 1.6;
     }
+    
     .options-grid {
       display: grid;
       grid-template-columns: 1fr;
       gap: 12px;
-      margin-bottom: 20px;
+      margin-bottom: 24px;
     }
+    
     .option-btn {
       text-align: left;
-      padding: 14px 20px;
+      padding: 16px 20px;
       background: var(--bg-primary);
-      border: 1px solid var(--border-subtle);
-      border-radius: 8px;
+      border: 2px solid var(--border-subtle);
+      border-radius: 12px;
       color: var(--text-primary);
       cursor: pointer;
       transition: all 0.2s ease;
-      font-size: 1rem;
+      font-size: 1.05rem;
       display: flex;
       align-items: center;
+      font-weight: 500;
     }
-    .option-btn:hover {
+    .option-btn strong {
+      margin-right: 12px;
+      background: rgba(0,0,0,0.05);
+      padding: 4px 8px;
+      border-radius: 6px;
+    }
+    .option-btn:hover:not(.disabled) {
       border-color: var(--primary);
       background: rgba(59, 130, 246, 0.05);
+      transform: translateY(-2px);
     }
+    
     .option-btn.correct {
       background: rgba(16, 185, 129, 0.1);
       border-color: #10b981;
-      color: #10b981;
+      color: #065f46;
     }
+    .option-btn.correct strong { background: rgba(16, 185, 129, 0.2); }
+    
     .option-btn.incorrect {
       background: rgba(239, 68, 68, 0.1);
       border-color: #ef4444;
-      color: #ef4444;
+      color: #991b1b;
     }
+    .option-btn.incorrect strong { background: rgba(239, 68, 68, 0.2); }
+    
     .option-btn.disabled {
       pointer-events: none;
-      opacity: 0.8;
     }
+    .option-btn.dimmed {
+      opacity: 0.5;
+    }
+    
     .explanation-box {
       display: none;
       background: var(--bg-primary);
       border-left: 4px solid var(--primary);
-      padding: 16px;
-      border-radius: 0 8px 8px 0;
-      margin-top: 16px;
+      padding: 20px;
+      border-radius: 0 12px 12px 0;
+      margin-top: 20px;
+      margin-bottom: 24px;
     }
     .explanation-box.visible {
       display: block;
-      animation: fadeIn 0.3s ease;
+      animation: fadeIn 0.4s ease;
     }
     .explanation-title {
-      font-weight: 700;
+      font-weight: 800;
       color: var(--primary);
-      margin-bottom: 8px;
-      font-size: 0.9rem;
+      margin-bottom: 10px;
+      font-size: 0.95rem;
       text-transform: uppercase;
-      letter-spacing: 0.5px;
+      letter-spacing: 1px;
     }
     .explanation-text {
       color: var(--text-secondary);
-      font-size: 0.95rem;
-      line-height: 1.6;
+      font-size: 1rem;
+      line-height: 1.7;
       white-space: pre-line;
     }
+    
+    .next-btn {
+      display: none;
+      width: 100%;
+      padding: 16px;
+      background: linear-gradient(135deg, #3b82f6 0%, #2563eb 100%);
+      color: white;
+      border: none;
+      border-radius: 12px;
+      font-size: 1.1rem;
+      font-weight: 700;
+      cursor: pointer;
+      text-align: center;
+      box-shadow: 0 4px 12px rgba(59, 130, 246, 0.3);
+      transition: all 0.2s ease;
+    }
+    .next-btn:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 6px 16px rgba(59, 130, 246, 0.4);
+    }
+    .next-btn.visible {
+      display: block;
+      animation: fadeIn 0.4s ease;
+    }
+    
+    .result-card {
+      text-align: center;
+      padding: 40px 20px;
+    }
+    .result-score {
+      font-size: 4rem;
+      font-weight: 900;
+      color: var(--primary);
+      margin-bottom: 10px;
+    }
+    .result-text {
+      font-size: 1.2rem;
+      color: var(--text-secondary);
+      margin-bottom: 30px;
+    }
+    
     .loading-state {
       text-align: center;
-      padding: 40px;
+      padding: 60px;
       color: var(--text-secondary);
+      font-size: 1.2rem;
+    }
+    
+    /* Security Overlay */
+    #premiumOverlay {
+      position: fixed;
+      top: 0; left: 0; right: 0; bottom: 0;
+      background: var(--bg-primary);
+      z-index: 9999;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+    #premiumOverlay.hidden {
+      display: none;
     }
   </style>
 </head>
 <body class="light-mode">
+  
+  <div id="premiumOverlay">
+    <h2>Checking Premium Access...</h2>
+  </div>
+
   <div class="mock-container">
     <div class="mock-header">
-      <a href="index.html" class="back-btn">← Back</a>
-      <h1>International Affairs</h1>
-      <p>Interactive Mock Test • Generated from PDF</p>
+      <a href="index.html" class="back-btn">← Home</a>
+      <h1>International Affairs Mock</h1>
+      <p>Premium Interactive Test • <span id="totalQuestionsCount">0</span> Questions</p>
     </div>
     
-    <div id="questionsContainer">
-      <div class="loading-state">
-        <p>Loading questions...</p>
+    <div id="quizContainer">
+      <div class="loading-state" id="loadingState">
+        <p>Loading your mock test...</p>
       </div>
+      
+      <!-- Single Question Card -->
+      <div class="quiz-card" id="questionCard">
+        <div class="progress-header">
+          <span id="questionCounter">Question 1 of 40</span>
+          <span id="scoreCounter">Score: 0</span>
+        </div>
+        <div class="progress-bar">
+          <div class="progress-fill" id="progressFill"></div>
+        </div>
+        
+        <div class="question-text" id="questionText"></div>
+        <div class="options-grid" id="optionsGrid"></div>
+        
+        <div class="explanation-box" id="explanationBox">
+          <div class="explanation-title">Explanation</div>
+          <div class="explanation-text" id="explanationText"></div>
+        </div>
+        
+        <button class="next-btn" id="nextBtn" onclick="nextQuestion()">Next Question ➔</button>
+      </div>
+      
+      <!-- Result Card -->
+      <div class="quiz-card result-card" id="resultCard">
+        <h2>Test Complete! 🎉</h2>
+        <div class="result-score" id="finalScore">0/0</div>
+        <div class="result-text" id="finalMessage">Great effort!</div>
+        <button class="next-btn visible" onclick="window.location.reload()" style="margin-bottom: 12px;">🔄 Retake Test</button>
+        <button class="next-btn visible" onclick="window.location.href='index.html'" style="background: var(--bg-primary); color: var(--text-primary); border: 2px solid var(--border-subtle); box-shadow: none;">Return to Dashboard</button>
+      </div>
+      
     </div>
   </div>
 
