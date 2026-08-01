@@ -1,6 +1,9 @@
 let currentQuestionIndex = 0;
 let score = 0;
 let questionsData = [];
+let currentTopic = 'international';
+let jsonFile = 'international_affairs.json';
+let topicTitle = 'International Affairs Mock';
 
 document.addEventListener('DOMContentLoaded', () => {
   // 1. Premium Access Check
@@ -12,13 +15,31 @@ document.addEventListener('DOMContentLoaded', () => {
   } else {
     // Hide overlay
     document.getElementById("premiumOverlay").classList.add("hidden");
+    
+    // Parse URL for topic
+    const urlParams = new URLSearchParams(window.location.search);
+    const topic = urlParams.get('topic');
+    if (topic === 'polity') {
+      currentTopic = 'polity';
+      jsonFile = 'polity_governance.json';
+      topicTitle = 'Polity and Governance Mock';
+    } else if (topic === 'awards') {
+      currentTopic = 'awards';
+      jsonFile = 'awards_honours.json';
+      topicTitle = 'Awards and Honours Mock';
+    }
+    
+    // Update UI title
+    document.getElementById('mockPageTitle').innerText = topicTitle;
+    document.title = `${topicTitle} - ExamEdge`;
+    
     loadQuizData();
   }
 });
 
 async function loadQuizData() {
   try {
-    const res = await fetch('international_affairs.json');
+    const res = await fetch(jsonFile);
     if (!res.ok) throw new Error("Failed to load JSON");
     questionsData = await res.json();
     

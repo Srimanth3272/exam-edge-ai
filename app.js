@@ -668,10 +668,18 @@ function injectDynamicPYQs() {
 
 function openMockTest() {
   if (isUserSubscribed) {
-    window.location.href = "mock-test.html";
+    document.getElementById('topicModal').style.display = 'flex';
   } else {
     openSubModal();
   }
+}
+
+function closeTopicModal() {
+  document.getElementById('topicModal').style.display = 'none';
+}
+
+function startMockTest(topic) {
+  window.location.href = `mock-test.html?topic=${topic}`;
 }
 
 // ── INITIALIZE ────────────────────────────────────────

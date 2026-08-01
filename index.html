@@ -1483,6 +1483,28 @@
 
 
   <script src="https://accounts.google.com/gsi/client" async defer></script>
+  <!-- ════════════════════════════════════════
+       TOPIC SELECTION MODAL
+       ════════════════════════════════════════ -->
+  <div class="modal-overlay" id="topicModal">
+    <div class="modal-content">
+      <button class="modal-close" onclick="closeTopicModal()">✕</button>
+      <h2 style="margin-bottom: 20px; color: var(--primary);">Select Mock Test Topic</h2>
+      
+      <div style="display: flex; flex-direction: column; gap: 12px;">
+        <button class="btn-primary" onclick="startMockTest('international')" style="text-align: left; padding: 16px; font-size: 1.1rem; background: var(--bg-card); color: var(--text-primary); border: 2px solid var(--border-subtle);">
+          🌐 International Affairs
+        </button>
+        <button class="btn-primary" onclick="startMockTest('polity')" style="text-align: left; padding: 16px; font-size: 1.1rem; background: var(--bg-card); color: var(--text-primary); border: 2px solid var(--border-subtle);">
+          ⚖️ Polity and Governance
+        </button>
+        <button class="btn-primary" onclick="startMockTest('awards')" style="text-align: left; padding: 16px; font-size: 1.1rem; background: var(--bg-card); color: var(--text-primary); border: 2px solid var(--border-subtle);">
+          🏆 Awards and Honours
+        </button>
+      </div>
+    </div>
+  </div>
+
   <script src="app.js"></script>
   
   <!-- Google Translate Script -->
