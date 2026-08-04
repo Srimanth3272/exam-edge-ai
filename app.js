@@ -448,6 +448,24 @@ async function loadLatestData() {
     const res = await fetch('/api/latest-data');
     if (!res.ok) return;
     const data = await res.json();
+    
+    // ── SUBSCRIPTION STATUS CHECK ──────────────────────────
+    if (data.isSubscribed !== undefined) {
+      const prevSubStatus = isUserSubscribed;
+      isUserSubscribed = data.isSubscribed;
+      localStorage.setItem("examedge_subscribed", data.isSubscribed);
+      updateAuthUI();
+      
+      // If subscription expired, notify user and open upgrade modal
+      if (prevSubStatus === true && isUserSubscribed === false && currentUserToken) {
+        if (typeof showNotification === 'function') {
+          showNotification("Your Premium Subscription has expired.", "error");
+        } else {
+          alert("Your Premium Subscription has expired.");
+        }
+        if (typeof openSubModal === 'function') openSubModal();
+      }
+    }
 
     // 1. Update Dates
     const dateEl = document.getElementById('currentDate');
@@ -733,9 +751,10 @@ function updateAuthUI() {
   if(currentUserToken && authBtn) {
     authBtn.innerHTML = `<span>??</span> ${isUserSubscribed ? "Premium Active" : "Upgrade to Premium"}`;
     if(isUserSubscribed) {
-      authBtn.style.background = "linear-gradient(135deg, #10b981 0%, #059669 100%)";
+      authBtn.style.setProperty("background", "linear-gradient(135deg, #10b981 0%, #059669 100%)", "important");
       authBtn.onclick = () => alert("You have an active Premium Subscription!");
     } else {
+      authBtn.style.removeProperty("background");
       authBtn.onclick = openSubModal;
     }
   }

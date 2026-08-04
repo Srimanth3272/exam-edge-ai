@@ -159,7 +159,9 @@ app.post('/api/login', async (req, res) => {
 
     // Check if subscription expired
     let subStatus = user.isSubscribed;
-    if (subStatus && user.subscriptionExpiry < new Date()) {
+    if (user.email === 'sreemanthnagalakunta@gmail.com') {
+      subStatus = true;
+    } else if (subStatus && user.subscriptionExpiry < new Date()) {
       user.isSubscribed = false;
       await user.save();
       subStatus = false;
@@ -182,8 +184,14 @@ const verifyToken = async (req, res, next) => {
     const user = await User.findById(decoded.id);
     if (user) {
       req.userEmail = user.email;
-      if (user.isSubscribed && user.subscriptionExpiry > new Date()) {
+      if (user.email === 'sreemanthnagalakunta@gmail.com') {
         req.isSubscribed = true;
+      } else if (user.isSubscribed && user.subscriptionExpiry > new Date()) {
+        req.isSubscribed = true;
+      } else if (user.isSubscribed && user.subscriptionExpiry < new Date()) {
+        user.isSubscribed = false;
+        await user.save();
+        req.isSubscribed = false;
       }
     }
   } catch (err) {
@@ -248,16 +256,18 @@ app.post('/api/verify-payment', verifyToken, async (req, res) => {
 
 // ── GET LATEST DATA ENDPOINT ────────────────────────────────
 app.get('/api/latest-data', verifyToken, (req, res) => {
+  const isSub = req.isSubscribed ? true : false;
   if (cachedData) {
-    if (req.isSubscribed) {
+    if (isSub) {
       // Premium User: Gets all data
-      res.json(cachedData);
+      res.json({ ...cachedData, isSubscribed: true });
     } else {
       // Free User: Gets only ticker and 2 topics. Rest is blocked.
       const freemiumData = {
         ...cachedData,
         topicCards: cachedData.topicCards.slice(0, 2), // Only 2 free topics
-        mcqData: [] // No MCQs for free users
+        mcqData: [], // No MCQs for free users
+        isSubscribed: false
       };
       res.json(freemiumData);
     }
@@ -269,13 +279,14 @@ app.get('/api/latest-data', verifyToken, (req, res) => {
         const data = JSON.parse(fs.readFileSync(dataPath, 'utf-8'));
         cachedData = data;
         
-        if (req.isSubscribed) {
-          res.json(data);
+        if (isSub) {
+          res.json({ ...data, isSubscribed: true });
         } else {
           res.json({
             ...data,
             topicCards: data.topicCards.slice(0, 2),
-            mcqData: []
+            mcqData: [],
+            isSubscribed: false
           });
         }
       } else {
