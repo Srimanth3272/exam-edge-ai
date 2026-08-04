@@ -31,38 +31,38 @@
   <!-- ════════════════════════════════════════
        HEADER
        ════════════════════════════════════════ -->
-  <header class="site-header" id="top">
-    <div class="header-bg"></div>
-    <div class="container header-inner">
-      <div class="logo-wrap">
-        <div class="logo-icon">⚡</div>
+  <header class="site-header" id="top" style="background: #111; border-bottom: 1px solid #333;">
+    <div class="container header-inner" style="display: flex; align-items: center; justify-content: space-between; padding: 15px 0;">
+      <!-- Logo Redesigned to Circular Golden Badge -->
+      <div class="logo-wrap" style="display: flex; align-items: center; gap: 10px;">
+        <div class="logo-icon" style="width: 50px; height: 50px; background: linear-gradient(135deg, #fbbf24 0%, #d97706 100%); border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 24px; color: #fff; border: 2px solid #fff; box-shadow: 0 0 10px rgba(251,191,36,0.5);">
+          ⚡
+        </div>
         <div>
-          <div class="logo-text">ExamEdge <span class="logo-ai">AI</span></div>
-          <div class="logo-sub">Free Daily Current Affairs for All Government Exams</div>
+          <div class="logo-text" style="color: #fff; font-weight: 800; font-size: 1.2rem;">ExamEdge <span class="logo-ai" style="color: #fbbf24;">AI</span></div>
+          <div class="logo-sub" style="color: #aaa; font-size: 0.8rem;">Free Daily Current Affairs</div>
         </div>
       </div>
-      <div class="header-actions">
-        <div class="date-badge">
-          <span class="date-icon">📅</span>
-          <span id="currentDate">24 June 2026 | Tuesday</span>
-        </div>
+      
+      <!-- Existing Buttons Maintained -->
+      <div class="header-actions" style="display: flex; align-items: center; gap: 15px;">
         <div class="lang-selector">
           <button class="lang-btn active" id="btn-lang-en" onclick="translatePage('en')">EN</button>
           <button class="lang-btn" id="btn-lang-hi" onclick="translatePage('hi')">HI</button>
           <button class="lang-btn" id="btn-lang-te" onclick="translatePage('te')">TE</button>
         </div>
         <div id="google_translate_element" style="display: none;"></div>
-        <button class="btn-pdf" id="forceUpdateBtn" onclick="forceUpdate()" title="Force AI to scrape RSS feeds & update content now">
-          <span>🔄</span> Force AI Update
+        <button class="btn-pdf" id="forceUpdateBtn" onclick="forceUpdate()" title="Force AI to scrape RSS feeds & update content now" style="background: transparent; color: #fff; border: 1px solid #555;">
+          <span>🔄</span> Update
         </button>
-        <button class="btn-pdf" id="pdfBtn" onclick="downloadPDF()" title="Download Today's Edition as PDF">
-          <span>📄</span> Download PDF
+        <button class="btn-pdf" id="pdfBtn" onclick="downloadPDF()" title="Download Today's Edition as PDF" style="background: transparent; color: #fff; border: 1px solid #555;">
+          <span>📄</span> PDF
         </button>
-        <button class="btn-pdf" style="background: linear-gradient(135deg, #3b82f6 0%, #2563eb 100%); color: white; border: none; cursor: pointer;" onclick="openMockTest()" title="Take International Affairs Mock Test">
-          <span>🎯</span> Mock Test
+        <button class="btn-pdf" onclick="openMockTest()" title="Take Mock Test" style="background: transparent; color: #fff; border: 1px solid #555;">
+          <span>🎯</span> Mocks
         </button>
-        <button class="btn-pdf premium-btn" id="authBtn" onclick="openAuthModal()">
-          <span>👤</span> Login / Subscribe
+        <button class="btn-pdf premium-btn" id="authBtn" onclick="openAuthModal()" style="background: #fbbf24; color: #111; border: none; font-weight: bold; border-radius: 50%; width: 40px; height: 40px; padding: 0; display: flex; align-items: center; justify-content: center;">
+          <span>N</span>
         </button>
       </div>
     </div>
@@ -71,56 +71,82 @@
   <!-- ════════════════════════════════════════
        HERO
        ════════════════════════════════════════ -->
-  <section class="hero-strip">
-    <div class="container hero-inner">
-      <div class="hero-left" id="heroDefault">
-        <h1 class="hero-title">Daily Current Affairs</h1>
-        <p class="hero-subtitle">Exam-Oriented | 100% Free | All Government Exams Covered</p>
-
-        <!-- Exam Coverage Badges -->
-        <div class="exam-coverage-row">
-          <span class="ecov-badge">UPSC CSE</span>
-          <span class="ecov-badge">SSC CGL</span>
-          <span class="ecov-badge">SSC CHSL</span>
-          <span class="ecov-badge">Banking PO</span>
-          <span class="ecov-badge">RBI Grade B</span>
-          <span class="ecov-badge">NABARD</span>
-          <span class="ecov-badge">Railways</span>
-          <span class="ecov-badge">Defence</span>
-          <span class="ecov-badge">APPSC</span>
-          <span class="ecov-badge">TSPSC</span>
-          <span class="ecov-badge">State PSC</span>
-          <span class="ecov-badge">Insurance</span>
-          <span class="ecov-badge">CUET</span>
-        </div>
-
-        <div class="stats-row">
-          <div class="stat-chip"><span class="stat-num" id="topicCount">18</span><span class="stat-label">Topics</span></div>
-          <div class="stat-chip"><span class="stat-num">80</span><span class="stat-label">MCQs</span></div>
-          <div class="stat-chip"><span class="stat-num">15+</span><span class="stat-label">Sources</span></div>
-          <div class="stat-chip"><span class="stat-num">FREE</span><span class="stat-label">Always</span></div>
+  <!-- ════════════════════════════════════════
+       HERO (Redesigned Theme)
+       ════════════════════════════════════════ -->
+  <section class="hero-strip" style="background: linear-gradient(135deg, #111 0%, #1a1a1a 100%); padding: 50px 0 0; position: relative; overflow: hidden; border-bottom: none;">
+    <div class="container hero-inner" style="display: flex; align-items: center; justify-content: space-between; gap: 30px; position: relative; z-index: 1;">
+      
+      <!-- Left Content -->
+      <div class="hero-left" id="heroDefault" style="flex: 1; max-width: 600px; padding-bottom: 50px;">
+        <p style="color: #fbbf24; font-size: 1.1rem; margin-bottom: 10px; font-weight: 600;">guidance from ExamEdge AI</p>
+        <h1 class="hero-title" style="font-size: 2.5rem; line-height: 1.3; color: #fff; margin-bottom: 30px; font-weight: 700;">
+          Inspector है, Inspector बनायेंगे, selected है, selection दिलायेंगे।
+        </h1>
+        
+        <div style="display: flex; align-items: center; gap: 15px;">
+          <!-- Overlapping Avatars -->
+          <div style="display: flex;">
+            <div style="width: 40px; height: 40px; border-radius: 50%; background: #444; border: 2px solid #111; margin-left: -10px; z-index: 3;"></div>
+            <div style="width: 40px; height: 40px; border-radius: 50%; background: #555; border: 2px solid #111; margin-left: -10px; z-index: 2;"></div>
+            <div style="width: 40px; height: 40px; border-radius: 50%; background: #666; border: 2px solid #111; margin-left: -10px; z-index: 1;"></div>
+          </div>
+          <div>
+            <div style="color: #fbbf24; font-weight: 700; font-size: 1.1rem;">Mentored over 5 Million+ aspirants</div>
+            <div style="color: #aaa; font-size: 0.85rem;">preparing for SSC, Railway & Government Jobs.</div>
+          </div>
         </div>
       </div>
       
-
-      <div class="hero-right no-print">
-        <div class="accuracy-card">
-          <div class="ac-header">
-            <span class="ac-shield">🛡️</span>
-            <span class="ac-title">Data Accuracy System</span>
-          </div>
-          <div class="ac-legend">
-            <div class="ac-row"><span class="conf-dot green"></span><span>Official Govt Source (PIB/RBI/Ministry)</span></div>
-            <div class="ac-row"><span class="conf-dot yellow"></span><span>Cross-verified (2+ news sources)</span></div>
-            <div class="ac-row"><span class="conf-dot red"></span><span>Verify Independently Before Exam</span></div>
-          </div>
-          <div class="ac-footer">
-            <span class="verified-stamp">✅ Content verified before publication</span>
-          </div>
-        </div>
+      <!-- Right Content (Hero Image) -->
+      <div class="hero-right no-print" style="flex: 1; display: flex; justify-content: flex-end; align-items: flex-end; position: relative;">
+        <img src="hero_mentor.jpg" alt="ExamEdge AI Mentor" style="max-width: 100%; height: auto; max-height: 450px; object-fit: contain; mask-image: linear-gradient(to top, transparent 0%, black 10%); -webkit-mask-image: linear-gradient(to top, transparent 0%, black 10%);">
       </div>
     </div>
   </section>
+
+  <!-- ════════════════════════════════════════
+       STATS STRIP
+       ════════════════════════════════════════ -->
+  <section style="background: #222; border-bottom: 1px solid #333; padding: 30px 0;">
+    <div class="container">
+      <div style="display: flex; justify-content: space-between; align-items: center; text-align: center; flex-wrap: wrap; gap: 20px;">
+        
+        <div style="flex: 1; min-width: 150px; border-right: 1px solid #333;">
+          <div style="color: #fbbf24; font-size: 28px; margin-bottom: 10px;">🖥️</div>
+          <div style="color: #fbbf24; font-size: 1.2rem; font-weight: 700; margin-bottom: 5px;">Daily Live</div>
+          <div style="color: #aaa; font-size: 0.9rem;">Interactive classes</div>
+        </div>
+        
+        <div style="flex: 1; min-width: 150px; border-right: 1px solid #333;">
+          <div style="color: #fbbf24; font-size: 28px; margin-bottom: 10px;">📝</div>
+          <div style="color: #fbbf24; font-size: 1.2rem; font-weight: 700; margin-bottom: 5px;">10,000 +</div>
+          <div style="color: #aaa; font-size: 0.9rem;">Tests, sample papers & notes</div>
+        </div>
+        
+        <div style="flex: 1; min-width: 150px; border-right: 1px solid #333;">
+          <div style="color: #fbbf24; font-size: 28px; margin-bottom: 10px;">🎧</div>
+          <div style="color: #fbbf24; font-size: 1.2rem; font-weight: 700; margin-bottom: 5px;">24 x 7</div>
+          <div style="color: #aaa; font-size: 0.9rem;">Doubt solving sessions</div>
+        </div>
+        
+        <div style="flex: 1; min-width: 150px;">
+          <div style="color: #fbbf24; font-size: 28px; margin-bottom: 10px;">📖</div>
+          <div style="color: #fbbf24; font-size: 1.2rem; font-weight: 700; margin-bottom: 5px;">100 +</div>
+          <div style="color: #aaa; font-size: 0.9rem;">Books</div>
+        </div>
+        
+      </div>
+    </div>
+  </section>
+
+  <!-- FEATURES HEADER -->
+  <div class="container" style="text-align: center; margin: 40px auto 20px;">
+    <div style="display: inline-block; background: #fff; color: #111; padding: 5px 15px; font-weight: bold; border-radius: 4px; margin-bottom: 15px;">
+      OUR FEATURES
+    </div>
+    <h2 style="color: #fff; font-size: 2.5rem; font-weight: 800;">Everything You Need to Crack Government Exams</h2>
+  </div>
 
   <!-- ════════════════════════════════════════
        NAVIGATION TABS
@@ -1487,7 +1513,7 @@
        TOPIC SELECTION MODAL
        ════════════════════════════════════════ -->
   <div class="modal-overlay" id="topicModal">
-    <div class="modal-content">
+    <div class="modal-content" style="max-height: 80vh; overflow-y: auto;">
       <button class="modal-close" onclick="closeTopicModal()">✕</button>
       <h2 style="margin-bottom: 20px; color: var(--primary);">Select Mock Test Topic</h2>
       
@@ -1501,6 +1527,19 @@
         <button class="btn-primary" onclick="startMockTest('awards')" style="text-align: left; padding: 16px; font-size: 1.1rem; background: var(--bg-card); color: var(--text-primary); border: 2px solid var(--border-subtle);">
           🏆 Awards and Honours
         </button>
+        
+        <!-- NEW AUTO-GENERATED MOCKS -->
+        <button class="btn-primary" onclick="startMockTest('mock_1')" style="text-align: left; padding: 16px; font-size: 1.1rem; background: var(--bg-card); color: var(--text-primary); border: 2px solid var(--border-subtle);">📄 Mock Test 1</button>
+        <button class="btn-primary" onclick="startMockTest('mock_2')" style="text-align: left; padding: 16px; font-size: 1.1rem; background: var(--bg-card); color: var(--text-primary); border: 2px solid var(--border-subtle);">📄 Mock Test 2</button>
+        <button class="btn-primary" onclick="startMockTest('mock_3')" style="text-align: left; padding: 16px; font-size: 1.1rem; background: var(--bg-card); color: var(--text-primary); border: 2px solid var(--border-subtle);">📄 Mock Test 3</button>
+        <button class="btn-primary" onclick="startMockTest('mock_4')" style="text-align: left; padding: 16px; font-size: 1.1rem; background: var(--bg-card); color: var(--text-primary); border: 2px solid var(--border-subtle);">📄 Mock Test 4</button>
+        <button class="btn-primary" onclick="startMockTest('mock_5')" style="text-align: left; padding: 16px; font-size: 1.1rem; background: var(--bg-card); color: var(--text-primary); border: 2px solid var(--border-subtle);">📄 Mock Test 5</button>
+        <button class="btn-primary" onclick="startMockTest('mock_6')" style="text-align: left; padding: 16px; font-size: 1.1rem; background: var(--bg-card); color: var(--text-primary); border: 2px solid var(--border-subtle);">📄 Mock Test 6</button>
+        <button class="btn-primary" onclick="startMockTest('mock_7')" style="text-align: left; padding: 16px; font-size: 1.1rem; background: var(--bg-card); color: var(--text-primary); border: 2px solid var(--border-subtle);">📄 Mock Test 7</button>
+        <button class="btn-primary" onclick="startMockTest('mock_8')" style="text-align: left; padding: 16px; font-size: 1.1rem; background: var(--bg-card); color: var(--text-primary); border: 2px solid var(--border-subtle);">📄 Mock Test 8</button>
+        <button class="btn-primary" onclick="startMockTest('mock_9')" style="text-align: left; padding: 16px; font-size: 1.1rem; background: var(--bg-card); color: var(--text-primary); border: 2px solid var(--border-subtle);">📄 Mock Test 9</button>
+        <button class="btn-primary" onclick="startMockTest('mock_10')" style="text-align: left; padding: 16px; font-size: 1.1rem; background: var(--bg-card); color: var(--text-primary); border: 2px solid var(--border-subtle);">📄 Mock Test 10</button>
+        <button class="btn-primary" onclick="startMockTest('mock_11')" style="text-align: left; padding: 16px; font-size: 1.1rem; background: var(--bg-card); color: var(--text-primary); border: 2px solid var(--border-subtle);">📄 Mock Test 11</button>
       </div>
     </div>
   </div>

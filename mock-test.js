@@ -27,6 +27,11 @@ document.addEventListener('DOMContentLoaded', () => {
       currentTopic = 'awards';
       jsonFile = 'awards_honours.json';
       topicTitle = 'Awards and Honours Mock';
+    } else if (topic && topic.startsWith('mock_')) {
+      currentTopic = topic;
+      jsonFile = `${topic}.json`;
+      const num = topic.split('_')[1];
+      topicTitle = `Mock Test ${num}`;
     }
     
     // Update UI title
