@@ -30,8 +30,20 @@ document.addEventListener('DOMContentLoaded', () => {
     } else if (topic && topic.startsWith('mock_')) {
       currentTopic = topic;
       jsonFile = `${topic}.json`;
-      const num = topic.split('_')[1];
-      topicTitle = `Mock Test ${num}`;
+      const mockTitles = {
+        'mock_1': 'Indexes & Rankings',
+        'mock_2': 'Banking & Finance',
+        'mock_3': 'Awards & Honours',
+        'mock_4': 'Science & Technology',
+        'mock_5': 'Polity & Governance',
+        'mock_6': 'Sports & Games',
+        'mock_7': 'Books & Authors',
+        'mock_8': 'Defence & Security',
+        'mock_9': 'Business & Economy',
+        'mock_10': 'Environment & Schemes',
+        'mock_11': 'Union Budget & Survey'
+      };
+      topicTitle = mockTitles[topic] ? `${mockTitles[topic]} Mock` : `Mock Test ${topic.split('_')[1]}`;
     }
     
     // Update UI title
