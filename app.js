@@ -749,12 +749,19 @@ window.fetch = function() {
 function updateAuthUI() {
   const authBtn = document.getElementById("authBtn");
   if(currentUserToken && authBtn) {
-    authBtn.innerHTML = `<span>??</span> ${isUserSubscribed ? "Premium Active" : "Upgrade to Premium"}`;
+    authBtn.innerHTML = `<span>⭐</span> ${isUserSubscribed ? "Premium Active" : "Upgrade"}`;
+    authBtn.style.borderRadius = "8px";
+    authBtn.style.width = "auto";
+    authBtn.style.height = "auto";
+    authBtn.style.padding = "8px 16px";
+    
     if(isUserSubscribed) {
       authBtn.style.setProperty("background", "linear-gradient(135deg, #10b981 0%, #059669 100%)", "important");
+      authBtn.style.color = "#fff";
       authBtn.onclick = () => alert("You have an active Premium Subscription!");
     } else {
-      authBtn.style.removeProperty("background");
+      authBtn.style.setProperty("background", "#fbbf24", "important");
+      authBtn.style.color = "#111";
       authBtn.onclick = openSubModal;
     }
   }
