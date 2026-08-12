@@ -812,3 +812,4 @@ body {
   border: none !important;
   box-shadow: none !important;
 }
+@media (max-width: 500px) { .assoc-text { display: none !important; } .partner-logo img { height: 45px !important; } }
