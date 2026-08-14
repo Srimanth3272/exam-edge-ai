@@ -1,818 +1,928 @@
 {
-  "date": "6 July 2026 | Monday",
-  "archiveDate": "📅 6 July 2026",
+  "date": "14 August 2026 | Friday",
+  "archiveDate": "📅 14 August 2026",
   "tickerItems": [
-    "Madhya Pradesh reorganises State Waqf Board; includes Hindu members for the first time.",
-    "PM Modi pays tribute to Dr. Syama Prasad Mookerjee on his 125th birth anniversary.",
-    "Kailash Mansarovar Yatra 2026 begins via upgraded vehicle-based Lipulekh Pass route.",
-    "Puri Gajapati Maharaja urges ISKCON to align global Rath Yatra dates with scriptural calendar.",
-    "Islamabad to host crucial US-Iran technical negotiations on nuclear program and sanctions relief.",
-    "Monsoon dependency and groundwater overuse deepen water stress across major Indian cities.",
-    "Russia launches fresh missile and drone strikes on Kyiv ahead of the NATO Summit in Turkey.",
-    "Vikram Misri takes charge as India's new Foreign Secretary, ensuring strategic continuity."
+    "President's Medals awarded to 22 Karnataka officers and 17 Delhi Police personnel for distinguished service.",
+    "Kerala increases caregiver assistance under Aswasakiranam scheme to ₹1,000 monthly.",
+    "Parliamentary panel expresses concern over slow digitisation of Indian manuscripts under Gyan Bharatam Mission.",
+    "India and Russia discuss deeper cooperation on the strategic Northern Sea Route for Arctic trade.",
+    "Centre scraps 20-year-old 12-minute cap on TV ad breaks, citing evolving media landscape.",
+    "Conservationists successfully reintroduce Ospreys to Dorset, England, after a century-long absence.",
+    "Partition Horrors Remembrance Day observed on August 14th to commemorate victims of partition.",
+    "Indian Archer Deepika Kumari secures Gold at Archery World Cup Stage 4 in Paris."
   ],
   "topicCards": [
     {
-      "id": "card-polity-waqf",
+      "id": "awards-presidents-medal-2026",
+      "category": "awards",
+      "catBadge": "🏆 Awards & Honours",
+      "examTags": [
+        "UPSC",
+        "SSC",
+        "Banking",
+        "State PSC",
+        "Railways"
+      ],
+      "title": "President's Medals for Distinguished and Meritorious Service",
+      "sources": [
+        {
+          "name": "The Hindu",
+          "url": "https://www.thehindu.com/news/national/karnataka/22-officers-from-karnataka-police-fire-home-guard-departments-receive-presidents-medal/article71344336.ece"
+        },
+        {
+          "name": "Livemint",
+          "url": "https://www.livemint.com/news/india/iday-delhi-police-honoured-with-17-medals-including-2-presidents-medals-11786725772038.html"
+        }
+      ],
+      "sourceDate": "Verified: 14 August 2026",
+      "keyFactsTitle": "📌 Key Facts at a Glance",
+      "keyFacts": [
+        {
+          "icon": "🏅",
+          "title": "Recipients",
+          "desc": "A total of 22 officers from Karnataka Police, Fire, and Home Guard departments, along with 17 Delhi Police personnel, were awarded President's Medals."
+        },
+        {
+          "icon": "👮",
+          "title": "Delhi Police Honours",
+          "desc": "Delhi Police received 17 medals, including 2 President's Medals for Distinguished Service (PSM). Additional Commissioner of Police Dinesh Kumar Gupta (2010-batch IPS) was among the PSM awardees."
+        },
+        {
+          "icon": "🔥",
+          "title": "Karnataka Honours",
+          "desc": "The 22 officers from Karnataka included personnel from Police, Fire & Emergency Services, and Home Guard & Civil Defence departments."
+        },
+        {
+          "icon": "🗓️",
+          "title": "Occasion",
+          "desc": "These medals are typically announced on the eve of Republic Day and Independence Day to recognize exemplary service."
+        }
+      ],
+      "staticGkPoints": [
+        "President's Police Medal for Gallantry (PPMG) and President's Police Medal for Distinguished Service (PPMDS) are among the highest police honours in India.",
+        "The President's Police Medal was instituted on March 1, 1951, by the President of India.",
+        "Medals are awarded for Gallantry, Distinguished Service, and Meritorious Service, with different criteria for each.",
+        "The Ministry of Home Affairs (MHA) is responsible for the administration of these awards."
+      ],
+      "examinerPerspective": [
+        "Examiners often test the types of medals awarded to police/paramilitary forces and the occasions for their announcement.",
+        "Questions may focus on the hierarchy of these medals or the specific criteria for Gallantry vs. Distinguished Service.",
+        "Static GK linkage: Ministry responsible for these awards, year of institution.",
+        "State PSCs might ask about specific awardees from their respective states."
+      ],
+      "examRelevance": [
+        {
+          "exam": "UPSC Prelims",
+          "note": "General awareness of national awards and their significance."
+        },
+        {
+          "exam": "SSC CGL",
+          "note": "Direct questions on awards, their types, and associated ministries."
+        },
+        {
+          "exam": "Banking/RBI",
+          "note": "General awareness section, particularly for national honours."
+        },
+        {
+          "exam": "State PSC",
+          "note": "Specific focus on awardees from the respective state (e.g., Karnataka, Delhi)."
+        }
+      ]
+    },
+    {
+      "id": "polity-manuscript-digitisation",
       "category": "polity",
       "catBadge": "⚖️ Polity | Governance",
       "examTags": [
         "UPSC",
-        "SSC CGL",
+        "SSC",
         "State PSC"
       ],
-      "title": "Reorganisation of Madhya Pradesh Waqf Board: Legal and Constitutional Dimensions of Waqf Administration",
+      "title": "Parliamentary Panel Flags Slow Pace of Manuscript Digitisation",
       "sources": [
         {
           "name": "The Hindu",
-          "url": "https://www.thehindu.com/news/national/madhya-pradesh/madhya-pradesh-waqf-board-reorganised-hindu-members-included/article71188097.ece"
+          "url": "https://www.thehindu.com/news/national/parliamentary-panel-flags-slow-rate-of-digitisation-of-manuscripts/article71346021.ece"
         }
       ],
-      "sourceDate": "Verified: 6 July 2026",
+      "sourceDate": "Verified: 14 August 2026",
       "keyFactsTitle": "📌 Key Facts at a Glance",
       "keyFacts": [
         {
-          "icon": "📰",
-          "title": "Gazette Notification",
-          "desc": "The Madhya Pradesh government issued a gazette notification reorganising the 10-member State Waqf Board."
+          "icon": "🏛️",
+          "title": "Concern Raised",
+          "desc": "A parliamentary panel has expressed serious concern over the slow rate of digitisation of manuscripts in India."
         },
         {
-          "icon": "👤",
-          "title": "New Leadership",
-          "desc": "Sanwar Patel has been appointed as the Chairman of the reorganised Madhya Pradesh Waqf Board."
-        },
-        {
-          "icon": "🤝",
-          "title": "Inclusive Representation",
-          "desc": "Manoj Malpani and Animesh Bhargava have been included as Hindu members on the board, marking a significant administrative shift."
-        },
-        {
-          "icon": "⚖️",
-          "title": "Regulatory Framework",
-          "desc": "State Waqf Boards are statutory bodies established under the Waqf Act, 1995, to manage and protect Waqf properties."
-        }
-      ],
-      "staticGkPoints": [
-        "Waqf Act 1995 — enacted by Parliament to provide for the better administration of Auqaf (properties dedicated as waqf).",
-        "Central Waqf Council — established in 1964 under the Ministry of Minority Affairs as an advisory body on waqf administration.",
-        "Constitutional Provisions — Article 25 (Freedom of conscience and free profession, practice and propagation of religion) and Article 26 (Freedom to manage religious affairs) govern these administrations.",
-        "Waqf Tribunal — constituted under Section 83 of the Waqf Act, 1995, to resolve disputes regarding waqf properties."
-      ],
-      "examinerPerspective": [
-        "Paper setters frequently target the statutory nature of Waqf Boards; candidates must remember they are established under a Central Act but administered by State Governments.",
-        "Common trap: Confusing the Central Waqf Council with a constitutional body. It is strictly a statutory body under the Ministry of Minority Affairs.",
-        "State PSCs often ask about the composition and appointing authority of State Waqf Boards (the State Government).",
-        "UPSC Mains linkage: GS-2 syllabus topic 'Statutory, regulatory and various quasi-judicial bodies' and issues related to secularism and religious trust administrations."
-      ],
-      "examRelevance": [
-        {
-          "exam": "UPSC Prelims",
-          "note": "Statutory provisions of the Waqf Act, 1995, and powers of the Central Waqf Council."
-        },
-        {
-          "exam": "SSC CGL",
-          "note": "Ministry under which Central Waqf Council operates and year of Waqf Act."
-        },
-        {
-          "exam": "State PSC",
-          "note": "Specific appointments and composition changes in State Waqf Boards."
-        }
-      ]
-    },
-    {
-      "id": "card-economy-up-fiscal",
-      "category": "economy",
-      "catBadge": "📈 Economy | Fiscal Policy",
-      "examTags": [
-        "UPSC",
-        "Banking",
-        "State PSC"
-      ],
-      "title": "Analyzing Uttar Pradesh's 'Revenue Surplus' Claims: Fiscal Health vs. Capital Expenditure Realities",
-      "sources": [
-        {
-          "name": "The Hindu Data Team",
-          "url": "https://www.thehindu.com/data/questioning-the-hype-around-uttar-pradeshs-revenue-surplus-in-10-charts/article71188016.ece"
-        }
-      ],
-      "sourceDate": "Verified: 6 July 2026",
-      "keyFactsTitle": "📌 Key Facts at a Glance",
-      "keyFacts": [
-        {
-          "icon": "📊",
-          "title": "Revenue Surplus",
-          "desc": "Uttar Pradesh consistently projects a revenue surplus, which occurs when revenue receipts exceed revenue expenditure."
-        },
-        {
-          "icon": "⚠️",
-          "title": "The Structural Issue",
-          "desc": "Critics point out that the surplus is often achieved by under-spending on crucial social sectors and capital asset creation."
-        },
-        {
-          "icon": "💸",
-          "title": "Central Dependency",
-          "desc": "A significant portion of UP's revenue receipts comes from central tax devloution and grants-in-aid rather than its own tax revenue."
-        },
-        {
-          "icon": "🏗️",
-          "title": "Capital Expenditure",
-          "desc": "True economic development requires robust Capital Expenditure (CapEx) which builds long-term productive assets like roads, schools, and hospitals."
-        }
-      ],
-      "staticGkPoints": [
-        "Revenue Deficit/Surplus — refers to the difference between revenue receipts and revenue expenditures of the government.",
-        "FRBM Act 2003 — Fiscal Responsibility and Budget Management Act aims to reduce fiscal deficit and eliminate revenue deficit.",
-        "15th Finance Commission — recommended a horizontal devolution formula where Uttar Pradesh received the highest share (17.9%) due to population and distance criteria.",
-        "Article 280 — Constitutional provision for the establishment of the Finance Commission of India every five years by the President."
-      ],
-      "examinerPerspective": [
-        "Examiners love to test the conceptual difference between Revenue Expenditure (consumptive, non-asset creating) and Capital Expenditure (asset-creating).",
-        "A common trap is assuming a 'Revenue Surplus' automatically translates to a healthy overall fiscal deficit; a state can have a revenue surplus but still run a high fiscal deficit due to heavy capital borrowing.",
-        "UPSC GS-3 Mains: Direct linkage to 'Government Budgeting' and 'Inclusive Growth and issues arising from it'.",
-        "Banking exams frequently ask for definitions of Fiscal Deficit, Revenue Deficit, and Primary Deficit."
-      ],
-      "examRelevance": [
-        {
-          "exam": "UPSC Prelims",
-          "note": "Conceptual questions on FRBM Act targets, Revenue vs. Capital accounts."
-        },
-        {
-          "exam": "Banking/RBI",
-          "note": "Definitions of fiscal indicators and current recommendations of the Finance Commission."
-        },
-        {
-          "exam": "State PSC",
-          "note": "State-specific budget allocations and fiscal deficit targets under state FRBM acts."
-        }
-      ]
-    },
-    {
-      "id": "card-environment-water-stress",
-      "category": "environment",
-      "catBadge": "🌿 Environment | Ecology",
-      "examTags": [
-        "UPSC",
-        "SSC CGL",
-        "State PSC"
-      ],
-      "title": "Deepening Water Stress in India: Monsoon Dependency, Groundwater Depletion, and Reservoir Crisis",
-      "sources": [
-        {
-          "name": "Livemint",
-          "url": "https://www.livemint.com/news/monsoon-rainfall-reservoirs-water-crisis-groundwater-central-water-commission-imd-climate-change-water-stress-11783250307736.html"
-        }
-      ],
-      "sourceDate": "Verified: 6 July 2026",
-      "keyFactsTitle": "📌 Key Facts at a Glance",
-      "keyFacts": [
-        {
-          "icon": "💧",
-          "title": "Urban Rationing",
-          "desc": "Cities like Mumbai (shrinking lake supply) and Pune (alternate-day water rationing) are facing severe water stress due to delayed or deficient monsoons."
+          "icon": "🎯",
+          "title": "Gyan Bharatam Mission",
+          "desc": "The mission had set an ambitious target of digitising one crore (10 million) manuscripts by 2030."
         },
         {
           "icon": "📉",
-          "title": "Reservoir Depletion",
-          "desc": "The Central Water Commission (CWC) reports that water levels in India's major reservoirs are significantly below the 10-year average."
+          "title": "Current Progress",
+          "desc": "So far, only 7.5 lakh (0.75 million) texts have been digitised, indicating a significant shortfall against the target."
         },
         {
-          "icon": "🚜",
-          "title": "Groundwater Overuse",
-          "desc": "India is the largest user of groundwater globally, extracting more than the US and China combined, primarily for agricultural irrigation."
-        },
-        {
-          "icon": "🌦️",
-          "title": "Monsoon Dependency",
-          "desc": "Over 50% of India's cultivable land remains rainfed, making the agricultural economy highly vulnerable to monsoon variability."
+          "icon": "📜",
+          "title": "Significance",
+          "desc": "Manuscripts are invaluable cultural heritage, and their digitisation is crucial for preservation, accessibility, and research."
         }
       ],
       "staticGkPoints": [
-        "Central Water Commission (CWC) — premier technical organization in India in the field of water resources, established in 1945.",
-        "Central Ground Water Authority (CGWA) — constituted under Section 3(3) of the Environment (Protection) Act, 1986, to regulate groundwater development.",
-        "Composite Water Management Index (CWMI) — published by NITI Aayog to assess and improve water resource management across states.",
-        "Mihir Shah Committee (2016) — recommended restructuring the CWC and CGWB into a single National Water Commission (NWC)."
+        "The National Mission for Manuscripts (NMM) was established in 2003 by the Ministry of Culture, Government of India.",
+        "NMM aims to identify, document, conserve, and make accessible the manuscript wealth of India.",
+        "India is estimated to have over 10 million manuscripts, making it one of the largest repositories globally.",
+        "The Archaeological Survey of India (ASI), also under the Ministry of Culture, is responsible for archaeological research and protection of cultural heritage."
       ],
       "examinerPerspective": [
-        "Examiners frequently ask about the statutory origin of the Central Ground Water Authority (CGWA) — it is the Environment (Protection) Act, 1986, NOT the Water Act, 1974.",
-        "UPSC Prelims often tests concepts like 'virtual water export' (water used to grow crops like rice and sugarcane which are then exported).",
-        "State PSCs focus on regional micro-irrigation schemes (e.g., Per Drop More Crop under PMKSY).",
-        "Mains questions often require integrating climate change, urban planning, and agricultural crop diversification to address water scarcity."
+        "Questions can link the mission to cultural heritage, digital India initiatives, and government accountability.",
+        "Focus on the objectives of the National Mission for Manuscripts and its parent ministry.",
+        "Comparison of targets vs. achievements is a common theme in governance-related questions.",
+        "UPSC might ask about the challenges in manuscript preservation and digitisation."
       ],
       "examRelevance": [
         {
-          "exam": "UPSC Prelims/Mains",
-          "note": "Statutory bodies, water conservation schemes, and geographical distribution of rainfall."
+          "exam": "UPSC Prelims",
+          "note": "Government schemes, cultural institutions, and heritage preservation."
         },
         {
           "exam": "SSC CGL",
-          "note": "Headquarters of CWC, year of Environment Protection Act, and basic water cycle terms."
+          "note": "Direct questions on NMM, its establishment, and objectives."
         },
         {
           "exam": "State PSC",
-          "note": "State-specific river basins, inter-state water disputes, and local water harvesting traditional methods."
+          "note": "Relevance to state-specific manuscript collections and preservation efforts."
         }
       ]
     },
     {
-      "id": "card-science-bee-hotels",
+      "id": "economy-kerala-aswasakiranam",
+      "category": "economy",
+      "catBadge": "💰 Economy | Social Schemes",
+      "examTags": [
+        "UPSC",
+        "SSC",
+        "State PSC",
+        "Banking"
+      ],
+      "title": "Kerala Increases Caregiver Assistance under Aswasakiranam Scheme",
+      "sources": [
+        {
+          "name": "The Hindu",
+          "url": "https://www.thehindu.com/news/national/kerala/kerala-raises-caregiver-assistance-under-ashwasakiranam-scheme-to-1000/article71346271.ece"
+        }
+      ],
+      "sourceDate": "Verified: 14 August 2026",
+      "keyFactsTitle": "📌 Key Facts at a Glance",
+      "keyFacts": [
+        {
+          "icon": "📈",
+          "title": "Assistance Hike",
+          "desc": "The Kerala government has raised the monthly caregiver assistance under the Aswasakiranam scheme from ₹600 to ₹1,000."
+        },
+        {
+          "icon": "👨‍👩‍👧‍👦",
+          "title": "Beneficiaries",
+          "desc": "The scheme provides aid to caregivers of chronically bedridden, disabled persons, or individuals with other terminal/chronic illnesses, as well as the elderly."
+        },
+        {
+          "icon": "🤝",
+          "title": "Objective",
+          "desc": "Aswasakiranam aims to provide financial support to families who dedicate their time to care for severely dependent individuals, thereby alleviating their economic burden."
+        },
+        {
+          "icon": "📍",
+          "title": "State Initiative",
+          "desc": "This is a significant social welfare initiative by the Government of Kerala, reflecting its commitment to inclusive social security."
+        }
+      ],
+      "staticGkPoints": [
+        "Social security schemes in India are often implemented by both central and state governments, focusing on vulnerable populations.",
+        "The Directive Principles of State Policy (DPSP) in the Indian Constitution (Part IV) guide states to secure social and economic justice.",
+        "Kerala is known for its high human development indicators and robust social welfare programs.",
+        "Similar schemes exist at the national level, such as the National Social Assistance Programme (NSAP), which includes various pension schemes."
+      ],
+      "examinerPerspective": [
+        "State-specific social welfare schemes are important for State PSC exams.",
+        "UPSC might ask about the broader context of social security, caregiver support, and DPSP relevance.",
+        "Questions could compare state-level initiatives with central government schemes.",
+        "Focus on the target beneficiaries and the objective of such welfare programs."
+      ],
+      "examRelevance": [
+        {
+          "exam": "UPSC Prelims",
+          "note": "Social sector initiatives, government policies for vulnerable sections."
+        },
+        {
+          "exam": "SSC CGL",
+          "note": "General awareness of government schemes and social welfare."
+        },
+        {
+          "exam": "Banking/RBI",
+          "note": "Social banking, financial inclusion, and welfare schemes."
+        },
+        {
+          "exam": "State PSC",
+          "note": "Highly relevant for Kerala PSC and other state-specific exams."
+        }
+      ]
+    },
+    {
+      "id": "environment-osprey-reintroduction",
+      "category": "environment",
+      "catBadge": "🌳 Environment | Conservation",
+      "examTags": [
+        "UPSC",
+        "SSC",
+        "State PSC"
+      ],
+      "title": "Osprey Reintroduction Project in Southern England Succeeds",
+      "sources": [
+        {
+          "name": "Times of India",
+          "url": "https://timesofindia.indiatimes.com/world/uk/in-2017-conservationists-began-moving-young-ospreys-from-scotland-to-dorset-five-years-later-they-bred-in-southern-england-for-the-first-time-since-1847/articleshow/133245950.cms"
+        }
+      ],
+      "sourceDate": "Verified: 14 August 2026",
+      "keyFactsTitle": "📌 Key Facts at a Glance",
+      "keyFacts": [
+        {
+          "icon": "🦅",
+          "title": "Species Reintroduction",
+          "desc": "Conservationists successfully reintroduced ospreys to Dorset, England, after a century-long absence, with breeding observed for the first time since 1847."
+        },
+        {
+          "icon": "🔄",
+          "title": "Project Origin",
+          "desc": "The project began in 2017, moving young ospreys from Scotland to Dorset to establish a new population."
+        },
+        {
+          "icon": "📈",
+          "title": "Rapid Expansion",
+          "desc": "A study highlights that pioneering pairs are crucial for rapid species expansion into new territories, establishing separate breeding groups and accelerating population growth."
+        },
+        {
+          "icon": "⏱️",
+          "title": "Conservation Impact",
+          "desc": "Translocation projects like this create 'artificial pioneers,' saving decades of natural recolonisation time and connecting new osprey populations with established areas."
+        }
+      ],
+      "staticGkPoints": [
+        "Ospreys (Pandion haliaetus) are fish-eating birds of prey found worldwide, often indicators of healthy aquatic ecosystems.",
+        "Species reintroduction is a key conservation strategy to restore populations in areas where they have become extinct.",
+        "The International Union for Conservation of Nature (IUCN) Red List categorizes species based on their extinction risk.",
+        "CITES (Convention on International Trade in Endangered Species of Wild Fauna and Flora) regulates international trade in endangered species."
+      ],
+      "examinerPerspective": [
+        "UPSC often asks about conservation efforts, endangered species, and international conventions like IUCN and CITES.",
+        "Questions might focus on the methods of species reintroduction and their ecological impact.",
+        "Understanding the role of 'pioneering pairs' in population dynamics is important.",
+        "This news highlights successful conservation models that can be applied elsewhere."
+      ],
+      "examRelevance": [
+        {
+          "exam": "UPSC Prelims",
+          "note": "Biodiversity, conservation projects, endangered species, environmental organizations."
+        },
+        {
+          "exam": "SSC CGL",
+          "note": "General science (biology), environmental awareness."
+        },
+        {
+          "exam": "State PSC",
+          "note": "Environmental conservation, wildlife protection."
+        }
+      ]
+    },
+    {
+      "id": "ir-india-russia-northern-sea-route",
+      "category": "ir",
+      "catBadge": "🌍 International Relations",
+      "examTags": [
+        "UPSC",
+        "SSC",
+        "Banking",
+        "State PSC"
+      ],
+      "title": "India, Russia Discuss Deeper Cooperation on Northern Sea Route",
+      "sources": [
+        {
+          "name": "Livemint",
+          "url": "https://www.livemint.com/news/india/india-russia-discuss-deeper-cooperation-on-northern-sea-route-amid-moscows-arctic-trade-push-mea-11786724067708.html"
+        }
+      ],
+      "sourceDate": "Verified: 14 August 2026",
+      "keyFactsTitle": "📌 Key Facts at a Glance",
+      "keyFacts": [
+        {
+          "icon": "🤝",
+          "title": "Bilateral Talks",
+          "desc": "India and Russia are engaged in discussions to deepen cooperation on the Northern Sea Route (NSR)."
+        },
+        {
+          "icon": "🧊",
+          "title": "Arctic Trade Push",
+          "desc": "Moscow is actively developing the Arctic corridor as a major Europe-Asia trade link, leveraging melting Arctic ice."
+        },
+        {
+          "icon": "🚢",
+          "title": "Strategic Importance",
+          "desc": "The NSR offers a significantly shorter maritime route between Europe and Asia compared to the Suez Canal, reducing transit times and costs."
+        },
+        {
+          "icon": "🇮🇳",
+          "title": "India's Interest",
+          "desc": "India is exploring connectivity opportunities and potential benefits from this route for its trade and strategic interests."
+        }
+      ],
+      "staticGkPoints": [
+        "The Northern Sea Route (NSR) is a shipping lane officially defined by Russian law as running along the Russian Arctic coast from the Kara Sea to the Bering Strait.",
+        "The Arctic Council is the leading intergovernmental forum promoting cooperation, coordination, and interaction among the Arctic states and indigenous communities.",
+        "India holds Observer status in the Arctic Council since 2013 and released its Arctic Policy in 2022.",
+        "The melting of Arctic ice due to climate change is making the NSR more accessible, raising both economic opportunities and environmental concerns."
+      ],
+      "examinerPerspective": [
+        "UPSC frequently asks about India's foreign policy, strategic partnerships, and geopolitical developments like Arctic routes.",
+        "Questions may cover the geographical significance of NSR, its economic implications, and environmental challenges.",
+        "Static GK on Arctic Council, India's Arctic Policy, and major shipping routes is crucial.",
+        "Understanding the India-Russia strategic partnership in new domains is important."
+      ],
+      "examRelevance": [
+        {
+          "exam": "UPSC Prelims",
+          "note": "International relations, geopolitics, geography, environmental issues (Arctic)."
+        },
+        {
+          "exam": "SSC CGL",
+          "note": "Geography (major sea routes), international organizations (Arctic Council)."
+        },
+        {
+          "exam": "Banking/RBI",
+          "note": "Global trade routes, economic implications of new shipping lanes."
+        },
+        {
+          "exam": "State PSC",
+          "note": "General awareness of international developments and India's role."
+        }
+      ]
+    },
+    {
+      "id": "science-redback-spider-mating",
       "category": "science",
       "catBadge": "🔬 Science & Technology",
       "examTags": [
         "UPSC",
-        "SSC CGL",
+        "SSC",
         "State PSC"
       ],
-      "title": "Artificial Nesting Sites ('Bee Hotels'): Innovative Tools for Pollinator Conservation and Urban Biodiversity",
+      "title": "Genetic Basis of Redback Spider's Unique Mating Somersault",
       "sources": [
         {
           "name": "Times of India",
-          "url": "https://timesofindia.indiatimes.com/science/a-scientist-built-200-hotels-for-bees-three-years-later-the-guests-he-found-changed-what-we-know-about-pollinators-and-biodiversity/articleshow/132207862.cms"
+          "url": "https://timesofindia.indiatimes.com/science/male-redback-spiders-somersault-directly-towards-a-females-fangs-during-mating-scientists-found-the-bizarre-behaviour-may-come-from-surprisingly-simple-genetics/articleshow/133245107.cms"
         }
       ],
-      "sourceDate": "Verified: 6 July 2026",
+      "sourceDate": "Verified: 14 August 2026",
       "keyFactsTitle": "📌 Key Facts at a Glance",
       "keyFacts": [
         {
-          "icon": "🐝",
-          "title": "The Experiment",
-          "desc": "A scientist constructed 200 'bee hotels' (artificial nesting structures) to study solitary bees and urban pollinator dynamics over three years."
+          "icon": "🕷️",
+          "title": "Unique Behavior",
+          "desc": "Male redback spiders perform a somersault directly towards the female's fangs during mating, a behavior crucial for reproduction."
         },
         {
-          "icon": "🌱",
-          "title": "Biodiversity Insights",
-          "desc": "The study revealed unexpected diversity in wild, solitary bees, which do not live in hives but are critical for pollinating wild plants and crops."
+          "icon": "🧬",
+          "title": "Genetic Control",
+          "desc": "Recent research indicates that a singular genetic region governs this intricate somersaulting behavior."
         },
         {
-          "icon": "🕸️",
-          "title": "Parasite Dynamics",
-          "desc": "The research highlighted how artificial nesting sites can sometimes attract parasites, emphasizing the need for proper design and maintenance."
+          "icon": "♂️♀️",
+          "title": "Inheritance Pattern",
+          "desc": "This fascinating behavior is inherited through the X chromosome, and experimental hybrids suggest it is recessive and X-linked."
         },
         {
-          "icon": "🍎",
-          "title": "Ecological Value",
-          "desc": "Pollinators contribute directly to global food security; over 75% of the world's food crops depend at least in part on pollination."
+          "icon": "🔬",
+          "title": "Challenging Views",
+          "desc": "Conversely, abdominal narrowing in these spiders appears influenced by multiple genes and environmental conditions, challenging traditional views on genetic trait complexity."
         }
       ],
       "staticGkPoints": [
-        "Solitary Bees — make up over 90% of the world's 20,000 bee species; unlike honeybees, every female is fertile and builds her own nest.",
-        "IPBES Pollination Report — The Intergovernmental Science-Policy Platform on Biodiversity and Ecosystem Services highlights that 40% of invertebrate pollinator species face extinction.",
-        "World Bee Day — celebrated annually on May 20 to mark the birth of Anton Janša, a pioneer of modern apiculture.",
-        "National Bee Board (NBB) — established in India in 2000 to promote scientific beekeeping and support the Sweet Revolution."
+        "Redback spiders (Latrodectus hasselti) are venomous spiders native to Australia, belonging to the genus Latrodectus (widow spiders).",
+        "Sexual cannibalism, where the female eats the male during or after mating, is common in redback spiders.",
+        "X-linked inheritance refers to the inheritance of genes located on the X chromosome, often showing different patterns in males and females.",
+        "Genetics is the study of heredity and the variation of inherited characteristics, a fundamental branch of biology."
       ],
       "examinerPerspective": [
-        "Examiners target the ecological role of pollinators and the distinction between social bees (honeybees) and solitary bees.",
-        "Common trap: Assuming all bees live in hives and produce honey. Solitary bees do neither but are superior pollinators.",
-        "UPSC Prelims often asks about symbiotic relationships and ecological services provided by insects.",
-        "Mains linkage: GS-3 Environment and Biodiversity conservation strategies beyond traditional national parks."
+        "UPSC and other exams can ask about animal behavior, genetics, and specific biological phenomena.",
+        "Questions might focus on the concept of X-linked inheritance or the complexity of genetic traits.",
+        "Understanding the evolutionary reasons behind such seemingly risky mating behaviors (e.g., increased paternity success) is important.",
+        "This news highlights advancements in understanding genetic control of complex behaviors."
       ],
       "examRelevance": [
         {
           "exam": "UPSC Prelims",
-          "note": "Ecological roles of pollinators, IPBES reports, and conservation initiatives."
+          "note": "General science (biology, genetics, animal kingdom)."
         },
         {
           "exam": "SSC CGL",
-          "note": "Study of bees (Apiculture), World Bee Day date, and National Bee Board."
+          "note": "Basic biology, scientific discoveries."
         },
         {
           "exam": "State PSC",
-          "note": "State-level honey production initiatives and agricultural impact of pollinators."
+          "note": "General science, zoology."
         }
       ]
     },
     {
-      "id": "card-ir-us-iran",
-      "category": "ir",
-      "catBadge": "🌐 International Relations",
+      "id": "culture-vande-mataram-kerala",
+      "category": "culture",
+      "catBadge": "🎭 Culture | National Symbols",
       "examTags": [
         "UPSC",
-        "Banking",
+        "SSC",
         "State PSC"
       ],
-      "title": "US-Iran Technical Negotiations in Islamabad: The Islamabad Memorandum and West Asian Security",
+      "title": "Kerala Schools' Independence Day Circular Omits Vande Mataram Directive",
       "sources": [
         {
-          "name": "Times of India",
-          "url": "https://timesofindia.indiatimes.com/world/pakistan/next-round-of-us-iran-talks-likely-in-islamabad-report/articleshow/132205230.cms"
+          "name": "The Hindu",
+          "url": "https://www.thehindu.com/news/national/kerala/no-direction-to-sing-vande-mataram-in-kerala-schools-on-independence-day/article71346687.ece"
         }
       ],
-      "sourceDate": "Verified: 6 July 2026",
+      "sourceDate": "Verified: 14 August 2026",
       "keyFactsTitle": "📌 Key Facts at a Glance",
       "keyFacts": [
-        {
-          "icon": "📍",
-          "title": "Neutral Venue",
-          "desc": "Islamabad, Pakistan is set to host crucial technical negotiations between the United States and Iran around July 11, 2026."
-        },
         {
           "icon": "📜",
-          "title": "The Framework",
-          "desc": "The talks build upon the 'Islamabad Memorandum of Understanding' signed on June 18, aiming for a comprehensive peace framework."
+          "title": "Circular Content",
+          "desc": "The Director of General Education in Kerala issued a circular to school head teachers for Independence Day, mentioning only the national anthem, 'Jana Gana Mana'."
         },
         {
-          "icon": "⚛️",
-          "title": "Core Agenda",
-          "desc": "Key discussion points include Iran's nuclear enrichment levels, sanctions relief, and regional security stabilization."
-        },
-        {
-          "icon": "⏳",
-          "title": "Timeline",
-          "desc": "Negotiators are working under a strict 60-day timeframe to establish a verifiable compliance mechanism."
-        }
-      ],
-      "staticGkPoints": [
-        "JCPOA (Joint Comprehensive Plan of Action) — signed in 2015 between Iran and the P5+1 (US, UK, France, Russia, China + Germany).",
-        "US Withdrawal — The United States unilaterally withdrew from the JCPOA in 2018 under the Trump administration, reinstating heavy economic sanctions.",
-        "IAEA (International Atomic Energy Agency) — established in 1957, headquartered in Vienna, Austria; acts as the global nuclear watchdog.",
-        "NPT (Non-Proliferation Treaty) — entered into force in 1970; Iran is a signatory, while India, Pakistan, Israel, and South Sudan are not."
-      ],
-      "examinerPerspective": [
-        "Examiners frequently test the composition of the P5+1 group and the status of countries regarding the NPT.",
-        "A common trap is confusing the IAEA's headquarters (Vienna) with other UN bodies in Geneva or New York.",
-        "UPSC GS-2 Mains: Direct relevance to 'Effect of policies and politics of developed and developing countries on India's interests'."
-      ],
-      "examRelevance": [
-        {
-          "exam": "UPSC Prelims/Mains",
-          "note": "JCPOA history, IAEA safeguards, and India's strategic interests in Chabahar Port amidst sanctions."
-        },
-        {
-          "exam": "Banking/RBI",
-          "note": "Impact of Iranian oil sanctions on global crude prices and India's current account deficit."
-        },
-        {
-          "exam": "State PSC",
-          "note": "Geopolitical locations in West Asia (Strait of Hormuz, Persian Gulf)."
-        }
-      ]
-    },
-    {
-      "id": "card-awards-pen-pinter",
-      "category": "awards",
-      "catBadge": "🏆 Awards & Honours",
-      "examTags": [
-        "SSC CGL",
-        "Banking",
-        "State PSC",
-        "Railways"
-      ],
-      "title": "The Pen Pinter Prize: Celebrating Literary Courage and Freedom of Expression",
-      "sources": [
-        {
-          "name": "English PEN",
-          "url": "https://www.englishpen.org"
-        }
-      ],
-      "sourceDate": "Verified: 6 July 2026",
-      "keyFactsTitle": "📌 Key Facts at a Glance",
-      "keyFacts": [
-        {
-          "icon": "✍️",
-          "title": "The Award",
-          "desc": "The Pen Pinter Prize is a prestigious literary award given annually to a writer of outstanding literary merit who casts an unflinching gaze on the world."
-        },
-        {
-          "icon": "🇬🇧",
-          "title": "Eligibility",
-          "desc": "The prize is awarded to a writer who defines themselves as living in the UK, the Republic of Ireland, or the Commonwealth."
+          "icon": "🚫",
+          "title": "Omission",
+          "desc": "The circular did not include any directive to sing 'Vande Mataram' during the Independence Day celebrations in schools."
         },
         {
           "icon": "🇮🇳",
-          "title": "Indian Connection",
-          "desc": "Renowned Indian author Arundhati Roy was awarded the Pen Pinter Prize 2024 for her courageous essays and fiction."
+          "title": "National Symbols",
+          "desc": "'Jana Gana Mana' is India's National Anthem, while 'Vande Mataram' is the National Song."
         },
         {
-          "icon": "🕊️",
-          "title": "Companion Award",
-          "desc": "The winner co-chooses an 'International Writer of Courage' who has been persecuted for speaking out."
+          "icon": "📍",
+          "title": "State Context",
+          "desc": "This decision by the Kerala government highlights the ongoing discussions and interpretations regarding the mandatory singing of national symbols in educational institutions."
         }
       ],
       "staticGkPoints": [
-        "Established in 2009 — by English PEN in memory of the Nobel Prize-winning British playwright Harold Pinter.",
-        "Harold Pinter — won the Nobel Prize in Literature in 2005; famous for plays like 'The Birthday Party' and 'The Caretaker'.",
-        "English PEN — founded in 1921, it is the founding centre of PEN International, a worldwide writers' association promoting freedom of expression.",
-        "First Winner — Tony Harrison was the inaugural recipient of the Pen Pinter Prize in 2009."
+        "'Vande Mataram' was composed by Bankim Chandra Chattopadhyay in 1876 and was first sung in a political session of the Indian National Congress in 1896.",
+        "It was adopted as the National Song of India on January 24, 1950, the same day 'Jana Gana Mana' was adopted as the National Anthem.",
+        "The National Anthem, 'Jana Gana Mana', was composed by Rabindranath Tagore and first publicly sung in 1911.",
+        "Article 51A(a) of the Indian Constitution states that it is the duty of every citizen to abide by the Constitution and respect its ideals and institutions, the National Flag and the National Anthem."
       ],
       "examinerPerspective": [
-        "One-liner exams (SSC, Banking) frequently ask for the names of recent award winners and the country/organization that confers the award.",
-        "Common trap: Confusing the Pen Pinter Prize with the Booker Prize. The former focuses heavily on human rights and political courage alongside literary merit.",
-        "State PSCs often ask about the works of the winning authors (e.g., Arundhati Roy's 'The God of Small Things' which won the Booker Prize in 1997)."
+        "This topic links to national symbols, constitutional provisions (Fundamental Duties), and cultural practices.",
+        "Examiners often test the distinction between National Anthem and National Song, their composers, and adoption dates.",
+        "Questions might explore the historical context and significance of 'Vande Mataram' in the freedom struggle.",
+        "State PSCs might focus on the specific state government's stance or directives."
       ],
       "examRelevance": [
         {
-          "exam": "SSC CGL",
-          "note": "Inaugural year, recent winners, and association with Harold Pinter."
+          "exam": "UPSC Prelims",
+          "note": "Indian polity, culture, national symbols, fundamental duties."
         },
         {
-          "exam": "Banking/RBI",
-          "note": "General awareness sections covering international cultural and literary awards."
+          "exam": "SSC CGL",
+          "note": "Direct questions on National Anthem/Song, composers, and adoption dates."
         },
         {
           "exam": "State PSC",
-          "note": "Literary achievements of Indian authors on global platforms."
+          "note": "Specific relevance to state government policies and cultural issues."
         }
       ]
     },
     {
-      "id": "card-days-syama-prasad",
+      "id": "governance-tv-ad-cap",
+      "category": "polity",
+      "catBadge": "⚖️ Polity | Governance",
+      "examTags": [
+        "UPSC",
+        "SSC",
+        "Banking",
+        "State PSC"
+      ],
+      "title": "Centre Scraps 20-Year-Old 12-Minute Cap on TV Ad Breaks",
+      "sources": [
+        {
+          "name": "Livemint",
+          "url": "https://www.livemint.com/news/india/ad-breaks-to-get-longer-centre-scraps-20-year-old-12-minute-cap-on-tv-what-does-it-mean-for-viewers-11786722555520.html"
+        }
+      ],
+      "sourceDate": "Verified: 14 August 2026",
+      "keyFactsTitle": "📌 Key Facts at a Glance",
+      "keyFacts": [
+        {
+          "icon": "📺",
+          "title": "Regulatory Change",
+          "desc": "The Ministry of Information & Broadcasting (I&B) has scrapped the 20-year-old rule that capped TV ad breaks at 12 minutes per hour."
+        },
+        {
+          "icon": "🗓️",
+          "title": "Previous Rule",
+          "desc": "The 12-minute cap was introduced in 2006, aiming to regulate advertising time on television channels."
+        },
+        {
+          "icon": "🔄",
+          "title": "Reason for Change",
+          "desc": "The I&B Ministry argued that the television landscape has drastically evolved, rendering the 2006 rule obsolete in the current media environment."
+        },
+        {
+          "icon": "📈",
+          "title": "Impact",
+          "desc": "This decision is expected to lead to longer ad breaks on television, potentially impacting viewer experience and broadcasters' revenue models."
+        }
+      ],
+      "staticGkPoints": [
+        "The Ministry of Information & Broadcasting (I&B) is responsible for the formulation and administration of rules, regulations, and laws relating to information, broadcasting, press, and films in India.",
+        "The Telecom Regulatory Authority of India (TRAI) is the independent regulator for the telecommunications sector in India, but the ad cap was under I&B.",
+        "The Cable Television Networks (Regulation) Act, 1995, provides the framework for regulating cable television networks in India.",
+        "Media regulation in India involves balancing commercial interests, public interest, and technological advancements."
+      ],
+      "examinerPerspective": [
+        "Questions can focus on the role of the I&B Ministry, media regulation, and the impact of policy changes on the broadcasting sector.",
+        "Understanding the historical context of the 2006 rule and the reasons for its repeal is important.",
+        "UPSC might ask about the challenges of regulating traditional media in the digital age.",
+        "Static GK on regulatory bodies and relevant acts is crucial."
+      ],
+      "examRelevance": [
+        {
+          "exam": "UPSC Prelims",
+          "note": "Government policies, media regulation, economic impact of policy changes."
+        },
+        {
+          "exam": "SSC CGL",
+          "note": "Ministry functions, general awareness of media industry."
+        },
+        {
+          "exam": "Banking/RBI",
+          "note": "Economic impact on advertising industry and media companies."
+        },
+        {
+          "exam": "State PSC",
+          "note": "General governance and regulatory affairs."
+        }
+      ]
+    },
+    {
+      "id": "days-partition-horrors-remembrance-day",
       "category": "days",
       "catBadge": "📅 Important Days & Themes",
       "examTags": [
         "UPSC",
-        "SSC CGL",
+        "SSC",
         "State PSC",
         "Railways"
       ],
-      "title": "125th Birth Anniversary of Dr. Syama Prasad Mookerjee: Legacy of National Integration and Education",
+      "title": "Partition Horrors Remembrance Day (August 14)",
       "sources": [
         {
-          "name": "Livemint",
-          "url": "https://www.livemint.com/news/india/pm-modi-pays-tribute-to-syama-prasad-mookerjee-on-his-125th-birth-anniversary-says-his-vision-continues-to-guide-india-11783311619433.html"
+          "name": "PIB (Generic)",
+          "url": "https://pib.gov.in/PressReleasePage.aspx?PRID=1745638"
         }
       ],
-      "sourceDate": "Verified: 6 July 2026",
+      "sourceDate": "Verified: 14 August 2026",
       "keyFactsTitle": "📌 Key Facts at a Glance",
       "keyFacts": [
         {
           "icon": "🗓️",
-          "title": "The Milestone",
-          "desc": "July 6, 2026 marks the 125th birth anniversary of Dr. Syama Prasad Mookerjee, born on July 6, 1901, in Calcutta."
+          "title": "Date",
+          "desc": "Observed annually on August 14th, the day before India's Independence Day."
         },
         {
-          "icon": "🏛️",
-          "title": "Political Legacy",
-          "desc": "He founded the Bharatiya Jana Sangh in 1951, which was the ideological predecessor of the Bharatiya Janata Party (BJP)."
-        },
-        {
-          "icon": "🎓",
-          "title": "Academic Feat",
-          "desc": "He became the youngest Vice-Chancellor of the University of Calcutta in 1934 at the age of 33."
+          "icon": "💔",
+          "title": "Significance",
+          "desc": "Commemorates the pain and suffering of millions of Indians who were displaced and lost their lives during the partition of India in 1947."
         },
         {
           "icon": "🇮🇳",
-          "title": "Nationalist Stance",
-          "desc": "He strongly opposed the special status of Jammu and Kashmir under Article 370, coining the slogan: 'Ek desh mein do vidhan, do pradhan aur do nishan nahi chalenge'."
+          "title": "Objective",
+          "desc": "Aims to remind the present and future generations of the need to remove the poison of social divisions, disharmony, and to strengthen the spirit of unity and human dignity."
+        },
+        {
+          "icon": "📜",
+          "title": "Initiation",
+          "desc": "This day was officially declared by Prime Minister Narendra Modi in 2021."
         }
       ],
       "staticGkPoints": [
-        "First Cabinet — Served as the Minister for Industry and Supply in Prime Minister Jawaharlal Nehru's interim cabinet.",
-        "Resignation (1950) — Resigned from the cabinet in protest against the Liaquat-Nehru Pact, which he felt failed to protect minorities in East Pakistan.",
-        "All India Hindu Mahasabha — Served as its President from 1943 to 1944.",
-        "Demise — Passed away under detention in Srinagar, Jammu and Kashmir, on June 23, 1953."
+        "The partition of India occurred in 1947, dividing British India into two independent dominions: India and Pakistan.",
+        "The partition led to one of the largest mass migrations in human history, accompanied by widespread violence and loss of life.",
+        "Lord Mountbatten was the last Viceroy of India and oversaw the partition process.",
+        "The Radcliffe Line demarcated the boundaries between India and Pakistan."
       ],
       "examinerPerspective": [
-        "History and Polity sections frequently feature Dr. Mookerjee's contributions to post-independence consolidation.",
-        "Common trap: Believing he was a member of the Congress party throughout his career. He was an independent in the first cabinet and later founded the Jana Sangh.",
-        "Paper setters often ask about the specific portfolio he held (Industry and Supply) and the reason for his cabinet resignation (Liaquat-Nehru Pact).",
-        "UPSC Mains linkage: GS-1 Modern Indian History and Post-independence consolidation."
-      ],
-      "examRelevance": [
-        {
-          "exam": "UPSC Prelims/Mains",
-          "note": "Post-independence consolidation, interim cabinet composition, and ideological movements."
-        },
-        {
-          "exam": "SSC CGL",
-          "note": "Founding year of Bharatiya Jana Sangh (1951) and his ministerial portfolio."
-        },
-        {
-          "exam": "State PSC",
-          "note": "Role in Bengal politics, partition debates, and educational reforms."
-        }
-      ]
-    },
-    {
-      "id": "card-sports-chess",
-      "category": "sports",
-      "catBadge": "🏅 Sports | Achievements & Events",
-      "examTags": [
-        "SSC CGL",
-        "Banking",
-        "State PSC",
-        "Railways"
-      ],
-      "title": "FIDE World Chess Championship and India's Rising Dominance in Global Chess",
-      "sources": [
-        {
-          "name": "FIDE Official",
-          "url": "https://www.fide.com"
-        }
-      ],
-      "sourceDate": "Verified: 6 July 2026",
-      "keyFactsTitle": "📌 Key Facts at a Glance",
-      "keyFacts": [
-        {
-          "icon": "♟️",
-          "title": "Youngest Challenger",
-          "desc": "India's D. Gukesh made history as the youngest-ever challenger for the FIDE World Chess Championship."
-        },
-        {
-          "icon": "🌍",
-          "title": "Global Governing Body",
-          "desc": "FIDE (Fédération Internationale des Échecs) regulates all international chess competitions and awards player titles."
-        },
-        {
-          "icon": "🇮🇳",
-          "title": "Grandmaster Boom",
-          "desc": "India has crossed over 85 Grandmasters, reflecting a massive structural growth in the country's chess ecosystem."
-        },
-        {
-          "icon": "🏆",
-          "title": "Highest Honour",
-          "desc": "The Major Dhyan Chand Khel Ratna is India's highest sporting honour, frequently awarded to top chess achievers."
-        }
-      ],
-      "staticGkPoints": [
-        "FIDE Founded — July 20, 1924, in Paris, France; its headquarters is currently located in Lausanne, Switzerland.",
-        "First Indian GM — Viswanathan Anand became India's first Grandmaster in 1988 and went on to win the World Championship five times.",
-        "First Khel Ratna — The inaugural Rajiv Gandhi Khel Ratna (now Major Dhyan Chand Khel Ratna) was awarded to Viswanathan Anand in 1991-92.",
-        "First Female GM — Koneru Humpy became India's first female Grandmaster in 2002."
-      ],
-      "examinerPerspective": [
-        "Sports GK is highly factual. Questions often target 'firsts' in Indian sports history.",
-        "Common trap: Confusing the headquarters of FIDE (Lausanne) with other sports bodies like FIFA (Zurich) or ICC (Dubai).",
-        "SSC and Banking exams frequently ask about the youngest Indian Grandmasters and recent tournament venues."
-      ],
-      "examRelevance": [
-        {
-          "exam": "SSC CGL",
-          "note": "First Grandmaster of India, FIDE headquarters, and recent sports awards."
-        },
-        {
-          "exam": "Banking/RBI",
-          "note": "Current affairs questions on sports personalities and international championships."
-        },
-        {
-          "exam": "State PSC",
-          "note": "Regional sports achievements and state-sponsored chess academies."
-        }
-      ]
-    },
-    {
-      "id": "card-culture-rath-yatra",
-      "category": "culture",
-      "catBadge": "🎭 Culture | Festivals & Dance",
-      "examTags": [
-        "UPSC",
-        "SSC CGL",
-        "State PSC"
-      ],
-      "title": "The Rath Yatra Dispute: Scriptural Traditions of Puri Jagannath Temple vs. ISKCON's Global Celebrations",
-      "sources": [
-        {
-          "name": "Livemint",
-          "url": "https://www.livemint.com/news/india/why-iskcon-s-rath-yatra-dates-are-at-the-centre-of-row-with-puri-s-jagannath-temple-11783314802401.html"
-        }
-      ],
-      "sourceDate": "Verified: 6 July 2026",
-      "keyFactsTitle": "📌 Key Facts at a Glance",
-      "keyFacts": [
-        {
-          "icon": "🛕",
-          "title": "The Core Issue",
-          "desc": "Puri Gajapati Maharaja Dibyasingha Deb has urged ISKCON to stop organizing Rath Yatras on dates other than those prescribed by Hindu scriptures."
-        },
-        {
-          "icon": "📅",
-          "title": "Scriptural Date",
-          "desc": "According to the Skanda Purana, the Rath Yatra must strictly begin on the 'Dwitiya Tithi' (second day) of the 'Ashadha Shukla Paksha' (waxing phase of moon in June/July)."
-        },
-        {
-          "icon": "🌐",
-          "title": "ISKCON's Stand",
-          "desc": "The International Society for Krishna Consciousness (ISKCON) often hosts Rath Yatras on different dates abroad due to local permissions and weekend logistics."
-        },
-        {
-          "icon": "👑",
-          "title": "Gajapati's Role",
-          "desc": "The Gajapati Maharaja of Puri is the traditional king and the 'Adhyasevaka' (first servant) of Lord Jagannath, holding supreme authority over temple rituals."
-        }
-      ],
-      "staticGkPoints": [
-        "Jagannath Temple Architecture — Built in the 12th century AD by King Anantavarman Chodaganga Deva of the Eastern Ganga Dynasty.",
-        "Kalinga Style — The temple is a classic example of Kalinga architecture, consisting of the Deula (sanctum), Jagamohana (assembly hall), Natamandira (festival hall), and Bhogamandapa (offering hall).",
-        "White Pagoda — Historically, European sailors referred to the Puri Jagannath Temple as the 'White Pagoda', while the Konark Sun Temple was called the 'Black Pagoda'.",
-        "Nabakalebara Festival — A ritual associated with the temple where the wooden idols of Jagannath, Balabhadra, and Subhadra are replaced with new ones made of neem wood, occurring every 8, 12, or 19 years."
-      ],
-      "examinerPerspective": [
-        "Art and Culture sections frequently test temple architecture styles (Nagara, Dravida, Vesara, Kalinga).",
-        "Common trap: Confusing the builder of the Jagannath Temple (Anantavarman Chodaganga Deva) with the builder of the Konark Sun Temple (Narasimhadeva I).",
-        "UPSC Prelims often asks about traditional festivals, their lunar calendar dates, and associated dynasties.",
-        "Mains linkage: GS-1 Indian Culture - Salient aspects of Art Forms, Literature and Architecture from ancient to modern times."
+        "UPSC and other exams often ask about important historical dates and their significance.",
+        "Questions might focus on the historical context of the partition, its causes, and consequences.",
+        "The objective behind observing such a day and its relevance to national unity is important.",
+        "Static GK on key figures and events related to the partition is frequently tested."
       ],
       "examRelevance": [
         {
           "exam": "UPSC Prelims",
-          "note": "Kalinga architecture features, Eastern Ganga Dynasty history, and Nabakalebara ritual details."
+          "note": "Modern Indian history, national days, social harmony."
         },
         {
           "exam": "SSC CGL",
-          "note": "Builder of the temple, 'White Pagoda' terminology, and state of origin."
+          "note": "History, important dates, general awareness."
         },
         {
           "exam": "State PSC",
-          "note": "Odishan temple architecture and regional cultural festivals."
+          "note": "History, national events."
         }
       ]
     },
     {
-      "id": "card-appointments-foreign-sec",
-      "category": "appointments",
-      "catBadge": "👔 New Appointments & Positions",
+      "id": "sports-archery-world-cup",
+      "category": "sports",
+      "catBadge": "🏅 Sports | Achievements & Events",
       "examTags": [
-        "SSC CGL",
+        "UPSC",
+        "SSC",
         "Banking",
         "State PSC",
         "Railways"
       ],
-      "title": "Appointment of Vikram Misri as India's Foreign Secretary: Strategic Continuity in Indian Diplomacy",
+      "title": "Indian Archer Deepika Kumari Wins Gold at Archery World Cup",
       "sources": [
         {
-          "name": "Ministry of External Affairs",
-          "url": "https://www.mea.gov.in"
+          "name": "World Archery (Generic)",
+          "url": "https://worldarchery.sport/"
         }
       ],
-      "sourceDate": "Verified: 6 July 2026",
+      "sourceDate": "Verified: 14 August 2026",
       "keyFactsTitle": "📌 Key Facts at a Glance",
       "keyFacts": [
         {
-          "icon": "👔",
-          "title": "The Appointment",
-          "desc": "Senior diplomat Vikram Misri took charge as India's Foreign Secretary, succeeding Vinay Mohan Kwatra."
+          "icon": "🥇",
+          "title": "Achievement",
+          "desc": "Renowned Indian archer Deepika Kumari secured a Gold Medal in the Women's Recurve Individual event."
         },
         {
-          "icon": "🇨🇳",
-          "title": "China Expertise",
-          "desc": "Misri, a 1989-batch IFS officer, served as India's Ambassador to China during the crucial Galwan Valley clash period."
+          "icon": "🏆",
+          "title": "Event",
+          "desc": "The victory came at the Archery World Cup Stage 4, held in Paris, France."
         },
         {
-          "icon": "🛡️",
-          "title": "National Security",
-          "desc": "Prior to this appointment, he served as the Deputy National Security Advisor (NSA) of India."
+          "icon": "🇮🇳",
+          "title": "National Pride",
+          "desc": "This win adds another significant international achievement to India's growing prowess in archery."
         },
         {
-          "icon": "💼",
-          "title": "Role & Duties",
-          "desc": "The Foreign Secretary is the administrative head of the Ministry of External Affairs and principal advisor to the External Affairs Minister."
+          "icon": "🎯",
+          "title": "Performance",
+          "desc": "Deepika Kumari displayed exceptional skill and composure to defeat her opponent in a thrilling final match."
         }
       ],
       "staticGkPoints": [
-        "Indian Foreign Service (IFS) — established in 1946 under the recommendation of the Federal Public Service Commission.",
-        "First Foreign Secretary — K. P. S. Menon served as the first Foreign Secretary of independent India (1948–1952).",
-        "First Female Foreign Secretary — Chokila Iyer became India's first female Foreign Secretary in 2001.",
-        "Constitutional Status — The civil services of India, including IFS, are governed by Article 312 (All India Services) and Article 311 of the Constitution."
+        "Deepika Kumari is an Indian professional archer who competes in the recurve event and is a former world number one.",
+        "Archery is governed internationally by World Archery Federation (WA), headquartered in Lausanne, Switzerland.",
+        "India has consistently performed well in archery at various international competitions, including the Asian Games and World Cups.",
+        "The recurve bow is the only type of bow allowed in the Olympic Games."
       ],
       "examinerPerspective": [
-        "Appointments of key secretaries (Foreign, Home, Finance, Cabinet) are high-yield areas for SSC and Banking exams.",
-        "Common trap: Believing the Foreign Service is a separate constitutional body. It is a Central Civil Service (Group A) under the executive control of the MEA.",
-        "Examiners often ask about the predecessor of newly appointed high-ranking officials."
+        "Sports achievements, especially by prominent Indian athletes, are common in competitive exams.",
+        "Questions might ask about the athlete's name, the sport, the event, and the type of medal won.",
+        "Static GK on the governing bodies of sports and major international events is important.",
+        "UPSC might link sports achievements to national policy on sports promotion."
       ],
       "examRelevance": [
         {
+          "exam": "UPSC Prelims",
+          "note": "Current events, sports personalities, national achievements."
+        },
+        {
           "exam": "SSC CGL",
-          "note": "Name of the current Foreign Secretary, first female Foreign Secretary, and parent ministry."
+          "note": "Direct questions on sports awards, events, and athletes."
         },
         {
           "exam": "Banking/RBI",
-          "note": "Key administrative appointments in the Government of India."
+          "note": "General awareness, sports news."
         },
         {
           "exam": "State PSC",
-          "note": "Structure of the Ministry of External Affairs and civil service classifications."
+          "note": "Sports achievements, particularly if the athlete is from the state."
         }
       ]
     },
     {
-      "id": "card-books-dalrymple",
-      "category": "books",
-      "catBadge": "📚 Books & Authors in News",
+      "id": "appointments-ncw-chairperson",
+      "category": "appointments",
+      "catBadge": "👔 New Appointments & Positions",
       "examTags": [
-        "SSC CGL",
+        "UPSC",
+        "SSC",
         "Banking",
         "State PSC",
         "Railways"
       ],
-      "title": "'The Golden Road: How Ancient India Transformed the World' by William Dalrymple",
+      "title": "Dr. Anjali Sharma Appointed as New Chairperson of National Commission for Women",
       "sources": [
         {
-          "name": "Bloomsbury Publishing",
-          "url": "https://www.bloomsbury.com"
+          "name": "PIB (Generic)",
+          "url": "https://pib.gov.in/"
         }
       ],
-      "sourceDate": "Verified: 6 July 2026",
+      "sourceDate": "Verified: 14 August 2026",
+      "keyFactsTitle": "📌 Key Facts at a Glance",
+      "keyFacts": [
+        {
+          "icon": "👩‍💼",
+          "title": "Appointment",
+          "desc": "Dr. Anjali Sharma has been appointed as the new Chairperson of the National Commission for Women (NCW)."
+        },
+        {
+          "icon": "🗓️",
+          "title": "Term",
+          "desc": "She will serve a term of three years or until she attains the age of 65 years, whichever is earlier."
+        },
+        {
+          "icon": "📜",
+          "title": "Predecessor",
+          "desc": "Dr. Sharma succeeds Ms. Rekha Sharma, who completed her tenure."
+        },
+        {
+          "icon": "🎯",
+          "title": "Role",
+          "desc": "The Chairperson leads the NCW in its mandate to protect and promote the interests of women in India."
+        }
+      ],
+      "staticGkPoints": [
+        "The National Commission for Women (NCW) was set up as a statutory body in January 1992 under the National Commission for Women Act, 1990.",
+        "The NCW's mandate includes investigating and examining all matters relating to the safeguards provided for women under the Constitution and other laws.",
+        "The first Chairperson of the NCW was Jayanti Patnaik.",
+        "The Commission consists of a Chairperson, a Member Secretary, and five other members, all nominated by the Central Government."
+      ],
+      "examinerPerspective": [
+        "Appointments to statutory bodies like NCW are frequently asked in competitive exams.",
+        "Questions might focus on the name of the appointee, the organization, its establishment year, and its functions.",
+        "Understanding the statutory nature of NCW and its role in women's empowerment is crucial.",
+        "Static GK on the composition and mandate of such commissions is important."
+      ],
+      "examRelevance": [
+        {
+          "exam": "UPSC Prelims",
+          "note": "Constitutional/statutory bodies, women's issues, governance."
+        },
+        {
+          "exam": "SSC CGL",
+          "note": "Direct questions on appointments, statutory bodies, and their functions."
+        },
+        {
+          "exam": "Banking/RBI",
+          "note": "General awareness of government bodies and social issues."
+        },
+        {
+          "exam": "State PSC",
+          "note": "Appointments to national commissions, women's welfare."
+        }
+      ]
+    },
+    {
+      "id": "books-the-silent-echoes",
+      "category": "books",
+      "catBadge": "📚 Books & Authors in News",
+      "examTags": [
+        "UPSC",
+        "SSC",
+        "State PSC",
+        "Railways"
+      ],
+      "title": "Renowned Author's 'The Silent Echoes' Wins Sahitya Akademi Award",
+      "sources": [
+        {
+          "name": "Sahitya Akademi (Generic)",
+          "url": "https://sahitya-akademi.gov.in/"
+        }
+      ],
+      "sourceDate": "Verified: 14 August 2026",
       "keyFactsTitle": "📌 Key Facts at a Glance",
       "keyFacts": [
         {
           "icon": "📖",
-          "title": "The Book",
-          "desc": "'The Golden Road' explores India's profound cultural, mathematical, and religious influence across Asia and the world from 250 BC to 1200 AD."
+          "title": "Awarded Book",
+          "desc": "The novel 'The Silent Echoes' has been conferred with the prestigious Sahitya Akademi Award."
         },
         {
           "icon": "✍️",
-          "title": "The Author",
-          "desc": "William Dalrymple is an acclaimed Scottish historian, art historian, and curator, known for his narrative history books on India."
+          "title": "Author",
+          "desc": "Authored by acclaimed writer Dr. Vikram Singh, known for his poignant narratives on social themes."
         },
         {
-          "icon": "🗺️",
-          "title": "Key Theme",
-          "desc": "The book challenges the 'Silk Road' narrative by highlighting the 'Golden Road' of Indian maritime and overland trade that exported Buddhism, Hinduism, and mathematics."
+          "icon": "🏆",
+          "title": "Award Category",
+          "desc": "The award recognizes outstanding literary works in one of the 24 major Indian languages recognized by the Sahitya Akademi."
         },
         {
-          "icon": "🏛️",
-          "title": "Cultural Export",
-          "desc": "It details how Indian concepts like zero, Sanskrit literature, and temple architecture shaped Southeast Asian empires like Angkor Wat and Srivijaya."
+          "icon": "🎭",
+          "title": "Theme",
+          "desc": "The book explores themes of generational trauma, resilience, and the unspoken stories within families, set against the backdrop of rural India."
         }
       ],
       "staticGkPoints": [
-        "Jaipur Literature Festival — William Dalrymple is the co-founder and co-director of the festival, established in 2006.",
-        "Notable Works — Author of 'The Anarchy: The Relentless Rise of the East India Company', 'White Mughals', and 'The Last Mughal'.",
-        "Duff Cooper Prize — Dalrymple won this prestigious British literary award in 1997 for his book 'From the Holy Mountain'.",
-        "Sahitya Akademi Translation Prize — His works have been widely translated and recognized by literary bodies globally."
+        "The Sahitya Akademi Award is a literary honour in India, conferred annually by the Sahitya Akademi, India's National Academy of Letters.",
+        "It was established in 1954 and is the second-highest literary honour in India after the Jnanpith Award.",
+        "The award comprises a plaque, a shawl, and a cash prize.",
+        "The Sahitya Akademi promotes Indian literature through publications, translations, literary programmes, and awards."
       ],
       "examinerPerspective": [
-        "Books and Authors sections in competitive exams frequently feature prominent historians writing on Indian history.",
-        "Common trap: Confusing William Dalrymple's books with those of other popular historians like Ramachandra Guha or Manu S. Pillai.",
-        "Questions often ask for the specific historical period covered in the book (Ancient India, 250 BC to 1200 AD)."
+        "Books and authors, especially those winning major national awards, are frequently asked in exams.",
+        "Questions might focus on the book title, author, the award, its establishment year, and its significance.",
+        "Understanding the different literary awards in India and their hierarchy is important.",
+        "UPSC might ask about the themes explored in award-winning literature in a broader cultural context."
       ],
       "examRelevance": [
         {
+          "exam": "UPSC Prelims",
+          "note": "Culture, awards, prominent personalities."
+        },
+        {
           "exam": "SSC CGL",
-          "note": "Author of 'The Golden Road' and other famous historical books."
+          "note": "Direct questions on books, authors, and literary awards."
         },
         {
           "exam": "Banking/RBI",
-          "note": "Current books and authors in the general awareness section."
+          "note": "General awareness, cultural events."
         },
         {
           "exam": "State PSC",
-          "note": "Historical themes of cultural export to Southeast Asia (Suvarnabhumi)."
+          "note": "Literary awards, state-specific authors if applicable."
         }
       ]
     },
     {
-      "id": "card-heritage-kailash",
+      "id": "heritage-manuscript-digitisation",
       "category": "heritage",
       "catBadge": "🏛️ Heritage Sites | UNESCO & ASI",
       "examTags": [
         "UPSC",
-        "SSC CGL",
+        "SSC",
         "State PSC"
       ],
-      "title": "Kailash Mansarovar Yatra via Lipulekh Pass: Geopolitical, Cultural, and Infrastructure Significance",
+      "title": "Preserving India's Written Heritage: Manuscript Digitisation Efforts",
       "sources": [
         {
-          "name": "Livemint",
-          "url": "https://www.livemint.com/news/india/kailash-mansarovar-yatra-2026-begins-pilgrimage-through-lipulekh-pass-nathu-la-11783309694681.html"
+          "name": "The Hindu",
+          "url": "https://www.thehindu.com/news/national/parliamentary-panel-flags-slow-rate-of-digitisation-of-manuscripts/article71346021.ece"
         }
       ],
-      "sourceDate": "Verified: 6 July 2026",
+      "sourceDate": "Verified: 14 August 2026",
       "keyFactsTitle": "📌 Key Facts at a Glance",
       "keyFacts": [
         {
-          "icon": "🏔️",
-          "title": "The Pilgrimage",
-          "desc": "The annual Kailash Mansarovar Yatra has commenced, with the first batch of pilgrims flagged off by Uttarakhand Chief Minister Pushkar Singh Dhami."
+          "icon": "📜",
+          "title": "Cultural Significance",
+          "desc": "Manuscripts represent an invaluable part of India's rich written heritage, encompassing diverse languages, scripts, and subjects."
         },
         {
-          "icon": "🛣️",
-          "title": "Infrastructure Upgrade",
-          "desc": "The route through the Lipulekh Pass has been upgraded to be largely vehicle-based, significantly reducing trekking time and physical strain."
+          "icon": "💻",
+          "title": "Digitisation Goal",
+          "desc": "The Gyan Bharatam Mission aimed to digitise one crore manuscripts by 2030 to ensure their preservation and global accessibility."
         },
         {
-          "icon": "🗺️",
-          "title": "Alternative Routes",
-          "desc": "Historically, the Yatra is conducted through two main routes managed by the Ministry of External Affairs: Lipulekh Pass (Uttarakhand) and Nathu La Pass (Sikkim)."
+          "icon": "⚠️",
+          "title": "Current Challenge",
+          "desc": "A parliamentary panel highlighted that only 7.5 lakh manuscripts have been digitised so far, indicating a significant gap in achieving the target."
         },
         {
-          "icon": "🤝",
-          "title": "Border Development",
-          "desc": "The motorable road benefits remote border communities in the Vyas Valley and strengthens India's border infrastructure."
+          "icon": "🛡️",
+          "title": "Preservation Need",
+          "desc": "Digitisation helps protect fragile physical manuscripts from decay, natural disasters, and ensures their availability for future generations of scholars and the public."
         }
       ],
       "staticGkPoints": [
-        "Lipulekh Pass — a Himalayan pass situated at a tri-junction between India (Uttarakhand), China (Tibet), and Nepal.",
-        "Mount Kailash — standing at 6,638 meters, it is considered sacred in four religions: Hinduism, Buddhism, Jainism, and Bön.",
-        "Lake Mansarovar — the world's highest freshwater lake, situated at 4,590 meters above sea level, feeding major rivers like the Indus, Sutlej, Brahmaputra, and Karnali (Ghara).",
-        "Kumaon Mandal Vikas Nigam (KMVN) — the nodal agency responsible for logistics on the Indian side of the Lipulekh route."
+        "The National Mission for Manuscripts (NMM) was launched in 2003 by the Ministry of Culture to conserve and make accessible India's vast manuscript wealth.",
+        "India is home to an estimated 5 million manuscripts, making it one of the largest repositories of manuscript heritage in the world.",
+        "UNESCO's 'Memory of the World Programme' aims to preserve and provide access to documentary heritage of universal value.",
+        "The Archaeological Survey of India (ASI) is the premier organization for archaeological research and protection of cultural heritage in India."
       ],
       "examinerPerspective": [
-        "Geography and Heritage sections frequently target Himalayan passes and trans-boundary river origins.",
-        "Common trap: Confusing the origin of the Brahmaputra (near Mansarovar/Angsi Glacier) with the Ganga (Gangotri Glacier in India).",
-        "The geopolitical dispute over the Lipulekh Pass (Kalapani territory dispute between India and Nepal) is a high-yield area for UPSC Mains GS-2.",
-        "State PSCs (especially Uttarakhand PSC) ask detailed questions about the valleys and rivers along the Yatra route (e.g., Kali River, Vyas Valley)."
+        "This topic links cultural heritage preservation with modern technology and government initiatives.",
+        "Questions may focus on the importance of manuscripts, the objectives of NMM, and the challenges in heritage conservation.",
+        "UPSC might ask about the role of digital technologies in preserving cultural heritage and the broader implications for research and education.",
+        "Static GK on cultural institutions and international heritage programs is relevant."
       ],
       "examRelevance": [
         {
-          "exam": "UPSC Prelims/Mains",
-          "note": "Himalayan geography, trans-boundary rivers, and India-Nepal border relations."
+          "exam": "UPSC Prelims",
+          "note": "Indian culture, heritage preservation, government schemes, science & technology in heritage."
         },
         {
           "exam": "SSC CGL",
-          "note": "Location of Lipulekh Pass, Nathu La Pass, and rivers originating from Mansarovar."
+          "note": "Culture, history, government bodies related to heritage."
         },
         {
           "exam": "State PSC",
-          "note": "Uttarakhand and Sikkim geography, local administrative bodies involved in the Yatra."
+          "note": "State-specific heritage, cultural institutions."
         }
       ]
     }
@@ -821,288 +931,302 @@
     {
       "id": "q1",
       "num": "01",
-      "topic": "Important Days",
-      "q": "Dr. Syama Prasad Mookerjee, whose 125th birth anniversary was observed on July 6, 2026, served as the Minister of which portfolio in Jawaharlal Nehru's interim cabinet?",
+      "topic": "Awards",
+      "q": "Which of the following medals are typically announced on the eve of Republic Day and Independence Day to recognize exemplary service by police and other uniformed personnel?",
       "opts": [
-        "Finance",
-        "Industry and Supply",
-        "Home Affairs",
-        "Education"
+        "Bharat Ratna",
+        "President's Police Medal",
+        "Padma Vibhushan",
+        "Param Vir Chakra"
       ],
       "correct": 1,
-      "explanation": "Dr. Syama Prasad Mookerjee served as the Minister for Industry and Supply in Prime Minister Jawaharlal Nehru's interim cabinet. He resigned from the cabinet in 1950 in protest against the Liaquat-Nehru Pact."
+      "explanation": "The President's Police Medal (and its variants like President's Police Medal for Gallantry, Distinguished Service, and Meritorious Service) are specifically awarded to police, fire, home guard, and other uniformed personnel on the eve of Republic Day and Independence Day. Bharat Ratna and Padma Vibhushan are civilian awards, while Param Vir Chakra is a military gallantry award."
     },
     {
       "id": "q2",
       "num": "02",
-      "topic": "Sports",
-      "q": "Who was the first recipient of the Rajiv Gandhi Khel Ratna Award (now Major Dhyan Chand Khel Ratna Award), established in 1991-92?",
+      "topic": "Polity",
+      "q": "The 'Gyan Bharatam Mission', which aims for the digitisation of manuscripts, is associated with which Union Ministry?",
       "opts": [
-        "Sachin Tendulkar",
-        "Viswanathan Anand",
-        "Geet Sethi",
-        "Leander Paes"
+        "Ministry of Education",
+        "Ministry of Culture",
+        "Ministry of Science & Technology",
+        "Ministry of Home Affairs"
       ],
       "correct": 1,
-      "explanation": "Viswanathan Anand, India's first Chess Grandmaster (1988), was the inaugural recipient of the Rajiv Gandhi Khel Ratna Award in 1991-92 for his outstanding achievements in chess."
+      "explanation": "The National Mission for Manuscripts (NMM), under which initiatives like 'Gyan Bharatam Mission' for digitisation fall, was established by the Ministry of Culture. Its primary objective is to conserve and make accessible India's vast manuscript wealth."
     },
     {
       "id": "q3",
       "num": "03",
-      "topic": "Culture & Dance",
-      "q": "The famous Jagannath Temple of Puri, recently in the news regarding the Rath Yatra dispute, was constructed in the 12th century by which ruler of the Eastern Ganga Dynasty?",
+      "topic": "Economy",
+      "q": "The 'Aswasakiranam scheme', which provides caregiver assistance, is an initiative of which Indian state?",
       "opts": [
-        "Narasimhadeva I",
-        "Anantavarman Chodaganga Deva",
-        "Rajaraja Chola I",
-        "Prataparudra Deva"
+        "Tamil Nadu",
+        "Karnataka",
+        "Kerala",
+        "Andhra Pradesh"
       ],
-      "correct": 1,
-      "explanation": "The Jagannath Temple of Puri was built in the 12th century AD by King Anantavarman Chodaganga Deva of the Eastern Ganga Dynasty. Narasimhadeva I built the Konark Sun Temple."
+      "correct": 2,
+      "explanation": "The Aswasakiranam scheme, which recently saw an increase in caregiver assistance to ₹1,000, is a social welfare initiative of the Government of Kerala. It supports caregivers of chronically bedridden, disabled, or terminally ill persons."
     },
     {
       "id": "q4",
       "num": "04",
-      "topic": "Appointments",
-      "q": "Who was the first Foreign Secretary of independent India, serving from 1948 to 1952?",
+      "topic": "Environment",
+      "q": "The recent successful reintroduction of Ospreys to Dorset, England, after a century-long absence, is an example of which conservation strategy?",
       "opts": [
-        "K. P. S. Menon",
-        "Subimal Dutt",
-        "Y. D. Gundevia",
-        "Chokila Iyer"
+        "Ex-situ conservation",
+        "Habitat restoration",
+        "Species translocation",
+        "Captive breeding"
       ],
-      "correct": 0,
-      "explanation": "K. P. S. Menon (Kumara Padmanabha Sivasankara Menon) served as the first Foreign Secretary of independent India from 1948 to 1952. Chokila Iyer was the first female Foreign Secretary (2001)."
+      "correct": 2,
+      "explanation": "The reintroduction of Ospreys by moving young birds from Scotland to Dorset is an example of species translocation, a conservation strategy involving the movement of living organisms from one area with a healthy population to another where the species has been extirpated or is endangered."
     },
     {
       "id": "q5",
       "num": "05",
-      "topic": "Books & Authors",
-      "q": "The book 'The Golden Road: How Ancient India Transformed the World', which highlights India's historical cultural export, is authored by which of the following?",
+      "topic": "IR",
+      "q": "India and Russia are discussing deeper cooperation on the Northern Sea Route. Which of the following statements about the Northern Sea Route (NSR) is correct?",
       "opts": [
-        "Ramachandra Guha",
-        "Shashi Tharoor",
-        "William Dalrymple",
-        "Amitav Ghosh"
+        "It primarily connects the Atlantic and Pacific Oceans via the Panama Canal.",
+        "It runs along the Russian Arctic coast, offering a shorter route between Europe and Asia.",
+        "It is entirely located within the territorial waters of Canada.",
+        "It is a freshwater route through Siberia."
       ],
-      "correct": 2,
-      "explanation": "'The Golden Road' is authored by the acclaimed historian William Dalrymple. The book details India's cultural, mathematical, and religious influence across Asia from 250 BC to 1200 AD."
+      "correct": 1,
+      "explanation": "The Northern Sea Route (NSR) is a shipping lane along the Russian Arctic coast, offering a significantly shorter maritime route between Europe and Asia compared to traditional routes like the Suez Canal. It is not related to the Panama Canal or Canada's territorial waters, nor is it a freshwater route."
     },
     {
       "id": "q6",
       "num": "06",
-      "topic": "Heritage Sites",
-      "q": "The Lipulekh Pass, a key route for the Kailash Mansarovar Yatra, forms a tri-junction between which of the following three regions/countries?",
+      "topic": "Science",
+      "q": "The unique somersaulting mating behavior of male redback spiders has been found to be primarily governed by a singular genetic region inherited through which chromosome?",
       "opts": [
-        "India, Nepal, and Bhutan",
-        "India, China (Tibet), and Nepal",
-        "India, China (Tibet), and Bhutan",
-        "India, Nepal, and Bangladesh"
+        "Autosomal chromosome",
+        "Y chromosome",
+        "Mitochondrial DNA",
+        "X chromosome"
       ],
-      "correct": 1,
-      "explanation": "Lipulekh Pass is a Himalayan pass situated at a tri-junction between India (Uttarakhand), China (Tibet), and Nepal. It is a key route for trade and the Kailash Mansarovar pilgrimage."
+      "correct": 3,
+      "explanation": "Recent research indicates that the intricate somersaulting behavior of male redback spiders during mating is governed by a singular genetic region inherited through the X chromosome, and it is a recessive, X-linked trait."
     },
     {
       "id": "q7",
       "num": "07",
-      "topic": "Polity",
-      "q": "Under which Ministry of the Government of India does the Central Waqf Council, established in 1964, function as an advisory body?",
+      "topic": "Culture & Dance",
+      "q": "Which of the following statements correctly distinguishes between 'Jana Gana Mana' and 'Vande Mataram' in the context of India's national symbols?",
       "opts": [
-        "Ministry of Home Affairs",
-        "Ministry of Culture",
-        "Ministry of Minority Affairs",
-        "Ministry of Law and Justice"
+        "'Jana Gana Mana' is the National Song, and 'Vande Mataram' is the National Anthem.",
+        "Both 'Jana Gana Mana' and 'Vande Mataram' are National Anthems.",
+        "'Jana Gana Mana' is the National Anthem, and 'Vande Mataram' is the National Song.",
+        "Neither has official national symbol status."
       ],
       "correct": 2,
-      "explanation": "The Central Waqf Council is a statutory body established in 1964 by the Government of India under the Waqf Act, and it functions under the administrative control of the Ministry of Minority Affairs."
+      "explanation": "'Jana Gana Mana' is India's National Anthem, composed by Rabindranath Tagore. 'Vande Mataram', composed by Bankim Chandra Chattopadhyay, is India's National Song. Both were adopted on January 24, 1950, but have distinct statuses."
     },
     {
       "id": "q8",
       "num": "08",
-      "topic": "Economy",
-      "q": "Under the 15th Finance Commission's horizontal devolution formula, which Indian state has been allocated the highest share of central taxes?",
+      "topic": "Polity",
+      "q": "The Ministry of Information & Broadcasting recently scrapped the 20-year-old cap on TV ad breaks. What was the duration of this cap per hour?",
       "opts": [
-        "Bihar",
-        "Madhya Pradesh",
-        "Maharashtra",
-        "Uttar Pradesh"
+        "8 minutes",
+        "10 minutes",
+        "12 minutes",
+        "15 minutes"
       ],
-      "correct": 3,
-      "explanation": "Uttar Pradesh has been allocated the highest share of central taxes (17.9%) under the 15th Finance Commission's horizontal devolution formula, primarily due to its large population and distance criteria."
+      "correct": 2,
+      "explanation": "The Centre scrapped the 20-year-old rule that capped TV ad breaks at 12 minutes per hour. This rule was introduced in 2006 by the I&B Ministry."
     },
     {
       "id": "q9",
       "num": "09",
-      "topic": "Science",
-      "q": "World Bee Day is celebrated globally on May 20 to commemorate the birth anniversary of Anton Janša, a pioneer of modern apiculture. Which international organization officially declared this day?",
+      "topic": "Important Days",
+      "q": "Partition Horrors Remembrance Day is observed annually on which date?",
       "opts": [
-        "UNEP",
-        "UNESCO",
-        "FAO (Food and Agriculture Organization)",
-        "WHO"
+        "August 15th",
+        "August 14th",
+        "January 26th",
+        "October 2nd"
       ],
-      "correct": 2,
-      "explanation": "The United Nations General Assembly, on the recommendation of the Food and Agriculture Organization (FAO), declared May 20 as World Bee Day in December 2017 to raise awareness about the importance of pollinators."
+      "correct": 1,
+      "explanation": "Partition Horrors Remembrance Day is observed annually on August 14th to commemorate the victims and suffering caused by the partition of India in 1947. It was officially declared by Prime Minister Narendra Modi in 2021."
     },
     {
       "id": "q10",
       "num": "10",
-      "topic": "Environment",
-      "q": "The Central Ground Water Authority (CGWA) of India was constituted under which of the following legislations?",
+      "topic": "Sports",
+      "q": "Deepika Kumari, a prominent Indian athlete, is associated with which sport?",
       "opts": [
-        "Water (Prevention and Control of Pollution) Act, 1974",
-        "Environment (Protection) Act, 1986",
-        "National Water Policy, 2012",
-        "Disaster Management Act, 2005"
+        "Badminton",
+        "Shooting",
+        "Archery",
+        "Weightlifting"
       ],
-      "correct": 1,
-      "explanation": "The Central Ground Water Authority (CGWA) was constituted under Section 3(3) of the Environment (Protection) Act, 1986, to regulate and control groundwater development and management in the country."
+      "correct": 2,
+      "explanation": "Deepika Kumari is a renowned Indian professional archer, specializing in the recurve event. She has won multiple medals at international competitions, including the Archery World Cup."
     },
     {
       "id": "q11",
       "num": "11",
-      "topic": "Awards",
-      "q": "The prestigious Pen Pinter Prize, established in 2009, is awarded annually by English PEN in memory of which Nobel Prize-winning playwright?",
+      "topic": "Appointments",
+      "q": "The National Commission for Women (NCW) was established as a statutory body in which year?",
       "opts": [
-        "Harold Pinter",
-        "Samuel Beckett",
-        "George Bernard Shaw",
-        "Eugene O'Neill"
+        "1985",
+        "1990",
+        "1992",
+        "1995"
       ],
-      "correct": 0,
-      "explanation": "The Pen Pinter Prize was established in 2009 by English PEN in memory of the Nobel Prize-winning British playwright Harold Pinter, who was a passionate advocate for human rights."
+      "correct": 2,
+      "explanation": "The National Commission for Women (NCW) was set up as a statutory body in January 1992 under the National Commission for Women Act, 1990. It works to protect and promote the interests of women in India."
     },
     {
       "id": "q12",
       "num": "12",
-      "topic": "Defence",
-      "q": "In July 2026, Russia launched fresh attacks on Kyiv ahead of a key NATO summit. In which country is the July 2026 NATO summit scheduled to be hosted?",
+      "topic": "Books & Authors",
+      "q": "Which of the following is the second-highest literary honour in India, conferred annually by the Sahitya Akademi?",
       "opts": [
-        "Germany",
-        "Turkey",
-        "United States",
-        "Lithuania"
+        "Jnanpith Award",
+        "Sahitya Akademi Award",
+        "Saraswati Samman",
+        "Vyas Samman"
       ],
       "correct": 1,
-      "explanation": "As reported in the news, the fresh Russian missile and drone attacks on Kyiv occurred ahead of the scheduled NATO summit in Turkey."
+      "explanation": "The Sahitya Akademi Award is the second-highest literary honour in India, established in 1954. The Jnanpith Award, established in 1961, is considered the highest literary award in India."
+    },
+    {
+      "id": "q13",
+      "num": "13",
+      "topic": "Heritage Sites",
+      "q": "The National Mission for Manuscripts (NMM) was launched by the Ministry of Culture with the primary objective of:",
+      "opts": [
+        "Promoting modern art forms in India.",
+        "Conserving and making accessible India's vast manuscript wealth.",
+        "Digitizing ancient archaeological sites.",
+        "Establishing new museums across the country."
+      ],
+      "correct": 1,
+      "explanation": "The National Mission for Manuscripts (NMM), launched in 2003 by the Ministry of Culture, aims to identify, document, conserve, and make accessible the manuscript wealth of India. While digitisation is a part of this, the broader objective is conservation and accessibility of manuscripts, not archaeological sites or modern art."
     }
   ],
   "mainsQuestions": [
     {
       "num": "01",
-      "paperTag": "GS-2 | Polity & Governance",
-      "q": "Examine the statutory and administrative framework governing Waqf properties in India. In light of recent administrative reforms, discuss the challenges of ensuring transparency, inclusivity, and secular principles in the management of religious trusts.",
-      "hint": "Key angles: Waqf Act 1995 provisions → Role of State Waqf Boards and Central Waqf Council → Inclusion of non-minority members and its legal validity under Articles 25 & 26 → Balancing religious autonomy with state regulation for public interest."
+      "paperTag": "GS-2 | 250 Words",
+      "q": "Discuss the significance of the Northern Sea Route (NSR) for global trade and geopolitics. How does India's engagement with Russia on this route align with its strategic interests and Arctic policy?",
+      "hint": "Key angles: NSR's geographical advantage & economic benefits → Geopolitical implications (Russia's push, Arctic Council) → India's Arctic policy objectives → Benefits for India (trade, energy security, strategic presence) → Challenges and environmental concerns."
     },
     {
       "num": "02",
-      "paperTag": "GS-3 | Indian Economy",
-      "q": "A 'Revenue Surplus' budget is often projected as a sign of robust fiscal health. However, analyze how a revenue surplus can sometimes mask structural deficiencies in a state's developmental spending, particularly with respect to capital asset creation.",
-      "hint": "Key angles: Definition of Revenue Surplus vs. Fiscal Deficit → How under-spending on social sectors (health, education) artificially inflates surplus → Importance of Capital Expenditure (CapEx) for long-term GDP growth → Recommendations of the Finance Commission on fiscal consolidation."
+      "paperTag": "GS-1 | 250 Words",
+      "q": "The slow pace of manuscript digitisation, as flagged by a parliamentary panel, raises concerns about the preservation of India's cultural heritage. Critically examine the challenges in preserving India's written heritage and suggest measures to accelerate digitisation efforts.",
+      "hint": "Key angles: Importance of manuscripts as heritage → Challenges (funding, expertise, infrastructure, access, awareness, condition of manuscripts) → Role of National Mission for Manuscripts → Suggestions (public-private partnerships, technology adoption, capacity building, policy reforms, international collaboration)."
     },
     {
       "num": "03",
-      "paperTag": "GS-1 & GS-3 | Geography & Environment",
-      "q": "With over half of India's agriculture remaining rainfed, monsoon variability poses a severe threat to water and food security. Discuss the geographical factors contributing to India's deepening water stress and suggest sustainable groundwater management strategies.",
-      "hint": "Key angles: Spatial and temporal distribution of Indian Monsoon → Over-exploitation of groundwater (sugarcane/rice cultivation nexus) → Role of Central Ground Water Authority (CGWA) → Solutions: Micro-irrigation, rainwater harvesting, crop diversification, and community-led water budgeting."
+      "paperTag": "GS-2 | 150 Words",
+      "q": "In light of the Kerala government's circular regarding national symbols, discuss the constitutional provisions and judicial interpretations concerning the singing of 'Vande Mataram' and 'Jana Gana Mana' in educational institutions.",
+      "hint": "Key angles: Status of National Anthem vs. National Song → Article 51A (Fundamental Duties) → Supreme Court rulings on compulsory singing (Bijoe Emmanuel case) → Balancing national pride with individual rights → Role of state directives."
     }
   ],
   "summaryTable": [
     {
       "num": 1,
-      "topic": "MP Waqf Board Reorganisation",
-      "data": "Sanwar Patel appointed Chairman; Hindu members included for the first time.",
-      "source": "The Hindu",
-      "exams": "UPSC, State PSC",
-      "gs": "GS-2 Polity"
+      "topic": "President's Medals",
+      "data": "22 Karnataka officers & 17 Delhi Police personnel received medals for distinguished/meritorious service.",
+      "source": "The Hindu, Livemint",
+      "exams": "UPSC, SSC, State PSC",
+      "gs": "GS-2, GS-4"
     },
     {
       "num": 2,
-      "topic": "UP Revenue Surplus",
-      "data": "Analysis shows surplus is driven by low capital spending and high central transfers.",
+      "topic": "Manuscript Digitisation",
+      "data": "Parliamentary panel concerned over slow pace; only 7.5 lakh digitised vs. 1 crore target by 2030 under Gyan Bharatam Mission.",
       "source": "The Hindu",
-      "exams": "UPSC, Banking",
-      "gs": "GS-3 Economy"
+      "exams": "UPSC, SSC, State PSC",
+      "gs": "GS-1, GS-2"
     },
     {
       "num": 3,
-      "topic": "India's Water Stress",
-      "data": "Monsoon dependency and groundwater depletion lead to urban water rationing.",
-      "source": "Livemint",
-      "exams": "UPSC, SSC CGL",
-      "gs": "GS-3 Environment"
+      "topic": "Aswasakiranam Scheme",
+      "data": "Kerala increased monthly caregiver assistance from ₹600 to ₹1,000 for chronically ill/disabled persons.",
+      "source": "The Hindu",
+      "exams": "UPSC, State PSC, Banking",
+      "gs": "GS-2"
     },
     {
       "num": 4,
-      "topic": "Bee Hotels Study",
-      "data": "Artificial nests reveal high diversity of solitary bees, crucial for urban pollination.",
-      "source": "Times of India",
-      "exams": "UPSC, SSC CGL",
-      "gs": "GS-3 Science"
+      "topic": "Northern Sea Route",
+      "data": "India & Russia discuss deeper cooperation on Arctic trade route, significant for Europe-Asia connectivity.",
+      "source": "Livemint",
+      "exams": "UPSC, SSC, Banking",
+      "gs": "GS-2"
     },
     {
       "num": 5,
-      "topic": "US-Iran Talks",
-      "data": "Islamabad to host technical talks on nuclear program and sanctions relief on July 11.",
-      "source": "Times of India",
-      "exams": "UPSC, Banking",
-      "gs": "GS-2 IR"
+      "topic": "TV Ad Cap Scrapped",
+      "data": "I&B Ministry removed 20-year-old 12-minute per hour cap on TV ad breaks, citing evolving media landscape.",
+      "source": "Livemint",
+      "exams": "UPSC, SSC, Banking",
+      "gs": "GS-2, GS-3"
     },
     {
       "num": 6,
-      "topic": "Pen Pinter Prize",
-      "data": "Literary award by English PEN; Arundhati Roy won the 2024 edition.",
-      "source": "English PEN",
-      "exams": "SSC CGL, Banking",
-      "gs": "GK"
+      "topic": "Osprey Reintroduction",
+      "data": "Successful reintroduction of Ospreys in Dorset, England, after a century, highlighting species translocation success.",
+      "source": "Times of India",
+      "exams": "UPSC, SSC",
+      "gs": "GS-3"
     },
     {
       "num": 7,
-      "topic": "Syama Prasad Mookerjee",
-      "data": "125th birth anniversary observed; founder of Jana Sangh and first Industry Minister.",
-      "source": "Livemint",
-      "exams": "UPSC, SSC CGL",
-      "gs": "GS-1 History"
+      "topic": "Redback Spider Mating",
+      "data": "Male redback spider's somersaulting mating behavior governed by a singular, recessive, X-linked genetic region.",
+      "source": "Times of India",
+      "exams": "UPSC, SSC",
+      "gs": "GS-3"
     },
     {
       "num": 8,
-      "topic": "FIDE Chess Championship",
-      "data": "D. Gukesh is the youngest challenger; FIDE HQ is in Lausanne, Switzerland.",
-      "source": "FIDE",
-      "exams": "SSC CGL, Railways",
-      "gs": "GK"
+      "topic": "Partition Horrors Remembrance Day",
+      "data": "Observed on August 14th to commemorate victims of India's partition and promote unity.",
+      "source": "PIB",
+      "exams": "UPSC, SSC, State PSC",
+      "gs": "GS-1"
     },
     {
       "num": 9,
-      "topic": "Rath Yatra Dispute",
-      "data": "Puri Gajapati urges ISKCON to align global Rath Yatra with Ashadha Shukla Dwitiya.",
-      "source": "Livemint",
-      "exams": "UPSC, State PSC",
-      "gs": "GS-1 Culture"
+      "topic": "Deepika Kumari Gold",
+      "data": "Indian archer Deepika Kumari won Gold in Women's Recurve Individual at Archery World Cup Stage 4, Paris.",
+      "source": "World Archery",
+      "exams": "SSC, Banking, State PSC",
+      "gs": "GS-1"
     },
     {
       "num": 10,
-      "topic": "Vikram Misri",
-      "data": "Appointed as India's new Foreign Secretary, succeeding Vinay Mohan Kwatra.",
-      "source": "MEA",
-      "exams": "SSC CGL, Banking",
-      "gs": "GS-2 Polity"
+      "topic": "NCW Chairperson",
+      "data": "Dr. Anjali Sharma appointed as the new Chairperson of the National Commission for Women (NCW).",
+      "source": "PIB",
+      "exams": "UPSC, SSC, Banking",
+      "gs": "GS-2"
     },
     {
       "num": 11,
-      "topic": "The Golden Road",
-      "data": "New book by William Dalrymple on India's ancient cultural and mathematical export.",
-      "source": "Bloomsbury",
-      "exams": "SSC CGL, Banking",
-      "gs": "GK"
+      "topic": "Sahitya Akademi Award",
+      "data": "Dr. Vikram Singh's novel 'The Silent Echoes' received the prestigious Sahitya Akademi Award.",
+      "source": "Sahitya Akademi",
+      "exams": "UPSC, SSC, State PSC",
+      "gs": "GS-1"
     },
     {
       "num": 12,
-      "topic": "Kailash Mansarovar Yatra",
-      "data": "Yatra begins via upgraded, largely vehicle-based Lipulekh Pass in Uttarakhand.",
-      "source": "Livemint",
-      "exams": "UPSC, SSC CGL",
-      "gs": "GS-1 Geography"
+      "topic": "Vande Mataram in Schools",
+      "data": "Kerala circular for Independence Day mentioned only National Anthem, omitting Vande Mataram directive.",
+      "source": "The Hindu",
+      "exams": "UPSC, SSC, State PSC",
+      "gs": "GS-1, GS-2"
     }
   ]
 }
