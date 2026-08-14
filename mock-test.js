@@ -19,31 +19,22 @@ document.addEventListener('DOMContentLoaded', () => {
     // Parse URL for topic
     const urlParams = new URLSearchParams(window.location.search);
     const topic = urlParams.get('topic');
-    if (topic === 'polity') {
-      currentTopic = 'polity';
-      jsonFile = 'polity_governance.json';
-      topicTitle = 'Polity and Governance Mock';
-    } else if (topic === 'awards') {
-      currentTopic = 'awards';
-      jsonFile = 'awards_honours.json';
-      topicTitle = 'Awards and Honours Mock';
-    } else if (topic && topic.startsWith('mock_')) {
+    
+    if (topic && topic.startsWith('mock_group_')) {
       currentTopic = topic;
       jsonFile = `${topic}.json`;
       const mockTitles = {
-        'mock_1': 'Indexes & Rankings',
-        'mock_2': 'Banking & Finance',
-        'mock_3': 'Awards & Honours',
-        'mock_4': 'Science & Technology',
-        'mock_5': 'Polity & Governance',
-        'mock_6': 'Sports & Games',
-        'mock_7': 'Books & Authors',
-        'mock_8': 'Defence & Security',
-        'mock_9': 'Business & Economy',
-        'mock_10': 'Environment & Schemes',
-        'mock_11': 'Union Budget & Survey'
+        'mock_group_1': 'Indexes, Reports & International Affairs',
+        'mock_group_2_3': 'Economy, Banking, Science & Tech',
+        'mock_group_4': 'Awards, Honours & Sports',
+        'mock_group_5': 'Polity, Governance & Environment',
+        'mock_group_6': 'Books, Authors & Miscellaneous'
       };
-      topicTitle = mockTitles[topic] ? `${mockTitles[topic]} Mock` : `Mock Test ${topic.split('_')[1]}`;
+      topicTitle = mockTitles[topic] ? `${mockTitles[topic]} Mock` : `Mock Test`;
+    } else {
+      currentTopic = 'mock_group_1';
+      jsonFile = 'mock_group_1.json';
+      topicTitle = 'Indexes, Reports & International Affairs Mock';
     }
     
     // Update UI title
