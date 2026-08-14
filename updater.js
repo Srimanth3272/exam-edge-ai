@@ -94,19 +94,21 @@ async function updateCurrentAffairs() {
     const prompt = `
 You are a Senior Paper Setter and Expert Educator for Indian Government Competitive Examinations (UPSC CSE, SSC CGL, Banking PO, RBI Grade B, Railways, Defence NDA/CDS, APPSC, TSPSC and all State PSCs).
 
-I will provide you with a list of recent news articles scraped from major Indian news publications today.
+I will provide you with a list of recent news articles scraped from major Indian official publications today (PIB, RBI, etc).
 Your task is to analyze these news items and generate a COMPREHENSIVE, PREMIUM daily current affairs study package formatted strictly as a JSON object.
 
 Here are the news items:
-${JSON.stringify(newsItems.slice(0, 18), null, 2)}
+${JSON.stringify(newsItems.slice(0, 25), null, 2)}
 
 You must return ONLY a raw JSON object matching the exact structure below. Do NOT include any markdown formatting, explanation, or conversational text outside the JSON block.
 
 CRITICAL INSTRUCTIONS:
-1. Generate topic cards for ALL 12 categories listed — not just polity/economy. ALWAYS generate at least one card for: days (important days with themes), sports (recent sports news/achievements), culture (festivals, dance forms, cultural events), appointments (new govt/intl appointments), books (books and authors in news), heritage (UNESCO/ASI sites in news).
-2. For each card, include "staticGkPoints" — these are STATIC GK facts that LINK to the current affairs topic. Examples: founding year, constitutional article, world ranking, India's first, headquarters, governing body, year established.
-3. Generate at least 12 MCQs covering ALL topic categories — at least 1 MCQ each from: days, sports, culture, appointments, books, heritage, plus the original categories.
-4. MCQ topics MUST be listed as their category name (e.g. "Sports", "Important Days", "Culture & Dance", "Appointments", "Books & Authors", "Heritage Sites").
+1. STRICTLY DEDUPLICATE: Do NOT include duplicate news items or multiple questions on the exact same news topic. Merge related facts into a single topic card.
+2. USE ONLY OFFICIAL FACTS: Rely solely on data provided by official resources. Do not use unverified or duplicate commercial news.
+3. Generate topic cards for ALL 12 categories listed — not just polity/economy. ALWAYS generate at least one card for: days (important days with themes), sports (recent sports news/achievements), culture (festivals, dance forms, cultural events), appointments (new govt/intl appointments), books (books and authors in news), heritage (UNESCO/ASI sites in news).
+4. For each card, include "staticGkPoints" — these are STATIC GK facts that LINK to the current affairs topic. Examples: founding year, constitutional article, world ranking, India's first, headquarters, governing body, year established.
+5. Generate at least 12 MCQs covering ALL topic categories. Ensure both the question and explanation are perfectly accurate and don't collide concepts.
+6. MCQ topics MUST be listed as their category name (e.g. "Sports", "Important Days", "Culture & Dance", "Appointments", "Books & Authors", "Heritage Sites").
 
 REQUIRED JSON STRUCTURE:
 {

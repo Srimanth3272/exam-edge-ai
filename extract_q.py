@@ -1,164 +1,83 @@
 import json
-import re
-import random
+import os
 import sys
+import google.generativeai as genai
+from dotenv import load_dotenv
 
-def parse_text(input_file, output_file):
-    with open(input_file, "r", encoding="utf-8") as f:
-        raw_lines = [line.strip() for line in f if line.strip()]
-        
-    # Clean watermarks
-    lines = []
-    for line in raw_lines:
-        if "+91" in line or "PARMAR" in line or "For queries" in line or "For calling" in line or "Under Content section" in line or "राष्ट्रीयपुरस्कार" in line:
-            continue
-        lines.append(line)
-        
-    questions = []
-    
-    # Split into blocks by "A)"
-    blocks = []
-    current_block = []
-    for line in lines:
-        if line.startswith("A)"):
-            blocks.append(current_block)
-            current_block = [line]
-        else:
-            current_block.append(line)
-    if current_block:
-        blocks.append(current_block)
-        
-    if len(blocks) < 2:
-        print(f"[{output_file}] No questions found.")
-        return
-        
-    # Block 0 is the text of Question 1
-    q1_text = " ".join(blocks[0])
-    q1_text = re.sub(r'^\d+\.\s*', '', q1_text)
-    
-    for i in range(1, len(blocks)):
-        block = blocks[i]
-        
-        # Parse options
-        options = {}
-        options["A"] = block[0][2:].strip()
-        
-        idx = 1
-        while idx < len(block):
-            if block[idx].startswith("B)"):
-                options["B"] = block[idx][2:].strip()
-            elif block[idx].startswith("C)"):
-                options["C"] = block[idx][2:].strip()
-            elif block[idx].startswith("D)"):
-                options["D"] = block[idx][2:].strip()
-            else:
-                if "B" in options and "C" in options and "D" in options:
-                    break
-            idx += 1
-            
-        # The rest of this block is Explanation for the CURRENT question, and text for the NEXT question
-        rest = block[idx:]
-        
-        # Skip question number if present
-        if len(rest) > 0 and re.match(r'^\d+\.$', rest[0]):
-            rest = rest[1:]
-            
-        # If this is the last block, all of 'rest' is explanation
-        if i == len(blocks) - 1:
-            exp_lines = rest
-            next_q_text = ""
-        else:
-            # We need to split 'rest' into exp_lines and next_q_text
-            # Find the last bullet point
-            last_bullet_idx = -1
-            for j in range(len(rest)):
-                if rest[j].startswith("•"):
-                    last_bullet_idx = j
-                    
-            if last_bullet_idx == -1:
-                # No bullet points found? Just assume the last 2 lines are the next question
-                split_idx = max(0, len(rest) - 2)
-            else:
-                # The explanation might wrap after the last bullet.
-                # Look for a line that seems like a new question.
-                # A new question usually has a '?' or doesn't start with a lowercase letter.
-                split_idx = last_bullet_idx + 1
-                for j in range(last_bullet_idx + 1, len(rest)):
-                    # if the line contains a ?, it's definitely part of the question
-                    if "?" in rest[j] or rest[j].endswith(":") or re.search(r'[\u0900-\u097F]', rest[j]):
-                        # Wait, hindi chars usually mean new question because the last bullet is English!
-                        # The PDF usually has Hindi bullet then English bullet. So the last bullet is English.
-                        # If a line has Hindi chars and doesn't start with a bullet, it's the next question!
-                        if re.search(r'[\u0900-\u097F]', rest[j]):
-                            split_idx = j
-                            break
-                        if "?" in rest[j]:
-                            split_idx = j
-                            break
-                            
-            exp_lines = rest[:split_idx]
-            next_q_text = " ".join(rest[split_idx:])
-            next_q_text = re.sub(r'^\d+\.\s*', '', next_q_text)
-            
-        # Save the CURRENT question
-        # We need the q_text from the PREVIOUS block's next_q_text
-        if i == 1:
-            current_q_text = q1_text
-        else:
-            current_q_text = prev_next_q_text
-            
-        save_question(questions, current_q_text, options, exp_lines)
-        
-        prev_next_q_text = next_q_text
+load_dotenv()
 
-    print(f"[{output_file}] Extracted {len(questions)} questions.")
-    
-    random.shuffle(questions)
-    
-    with open(output_file, "w", encoding="utf-8") as f:
-        json.dump(questions, f, indent=4, ensure_ascii=False)
+def parse_with_gemini(input_file, output_file):
+    api_key = os.getenv("GEMINI_API_KEY")
+    if not api_key:
+        print("Error: GEMINI_API_KEY not found in .env file.")
+        sys.exit(1)
         
-def save_question(questions, q_text, options, exp_lines):
-    correct = "A"
-    exp_text = " ".join(exp_lines).lower()
+    genai.configure(api_key=api_key)
     
-    best_match = None
-    earliest_index = 999999
+    try:
+        with open(input_file, "r", encoding="utf-8") as f:
+            raw_text = f.read()
+    except Exception as e:
+        print(f"Error reading {input_file}: {e}")
+        sys.exit(1)
+        
+    model = genai.GenerativeModel('gemini-2.5-flash')
     
-    for opt, text in options.items():
-        parts = text.split("/")
-        for part in parts:
-            part_clean = part.strip().lower()
-            if len(part_clean) < 2: continue
-            
-            idx = exp_text.find(part_clean)
-            if idx != -1 and idx < earliest_index:
-                earliest_index = idx
-                best_match = opt
-                
-    if best_match:
-        correct = best_match
-    else:
-        for opt, text in options.items():
-            parts = text.split("/")
-            if len(parts) > 1:
-                words = parts[-1].strip().lower().split()
-                if len(words) > 0:
-                    idx = exp_text.find(words[0])
-                    if idx != -1 and idx < earliest_index:
-                        earliest_index = idx
-                        correct = opt
+    prompt = """
+You are an expert educational content parser. I will provide you with raw text extracted from a Mock Test PDF.
+Your task is to parse this text and return a perfectly formatted JSON array of questions.
 
-    if options and q_text.strip():
-        questions.append({
-            "question": q_text.strip(),
-            "options": options,
-            "correct": correct,
-            "explanation": "\n".join(exp_lines)
-        })
+CRITICAL INSTRUCTIONS:
+1. EXCLUSIVELY ENGLISH: Translate any Hindi or non-English text to English. The output JSON must be 100% in English.
+2. NO COLLISIONS: Each JSON object must represent exactly ONE question. Do not merge or collide 2 or 3 questions into a single object.
+3. ACCURACY: Ensure the 'correct' option matches the explanation provided in the text. Ensure the explanation is logically sound and accurate.
+4. FORMAT: You MUST return ONLY a raw JSON array. No markdown, no conversational text.
+
+The JSON array must have this structure:
+[
+  {
+    "question": "What is the capital of India?",
+    "options": {
+      "A": "Mumbai",
+      "B": "New Delhi",
+      "C": "Kolkata",
+      "D": "Chennai"
+    },
+    "correct": "B",
+    "explanation": "New Delhi is the capital of India."
+  }
+]
+
+Here is the raw text from the mock test:
+"""
+
+    print(f"Sending {len(raw_text)} characters to Gemini for parsing...")
+    try:
+        response = model.generate_content(prompt + raw_text)
+        result_text = response.text.strip()
+        
+        if result_text.startswith('```json'):
+            result_text = result_text.replace('```json', '', 1)
+        if result_text.startswith('```'):
+            result_text = result_text.replace('```', '', 1)
+        if result_text.endswith('```'):
+            result_text = result_text[:-3]
+            
+        result_text = result_text.strip()
+        
+        questions = json.loads(result_text)
+        
+        with open(output_file, "w", encoding="utf-8") as f:
+            json.dump(questions, f, indent=4, ensure_ascii=False)
+            
+        print(f"Successfully extracted {len(questions)} questions and saved to {output_file}")
+        
+    except Exception as e:
+        print(f"Error during AI parsing: {e}")
+        sys.exit(1)
 
 if __name__ == "__main__":
     if len(sys.argv) < 3:
         print("Usage: python extract_q.py <input.txt> <output.json>")
     else:
-        parse_text(sys.argv[1], sys.argv[2])
+        parse_with_gemini(sys.argv[1], sys.argv[2])
