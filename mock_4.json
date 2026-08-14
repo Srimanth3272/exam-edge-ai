@@ -1,380 +1,380 @@
 [
     {
-        "question": "सुपिधा की मेजबानी नहीं करता है। (Maharashtra: Acts as a prime financial powerhouse, but does not host this upcoming full-stack AI facility.) 5G उपयोगकतााओं की कुल संख्या के मामले में भारत ने िैस्श्िक स्तर पर कौन सा स्थान हालसल ककया है? / What rank has India achieved globally in terms of the total number of 5G users?",
+        "question": "What rank has India achieved globally in terms of the total number of 5G users?",
         "options": {
-            "A": "पहला / First",
-            "B": "दूसरा / Second",
-            "C": "तीसरा / Third",
-            "D": "चौथा / Fourth"
+            "A": "First",
+            "B": "Second",
+            "C": "Third",
+            "D": "Fourth"
         },
         "correct": "B",
-        "explanation": "5G उपयोगकतााओं में भारत का स्थान\n• िहरी और ग्रामीण दोनों दूरसंचार क्षेत्रों में बड़े पैमाने पर बुननयादी ढांचे की तैनाती के कारण भारत ने\nसकक्रय 5G नेटिका उपभोक्ताओं के मामले में िैस्श्िक स्तर पर दूसरा (Second) स्थान सिलतापूिाक\nहालसल ककया है। (Driven by massive infrastructure deployment across both urban and rural\ntelecoms, India has successfully secured the Second position globally in terms of active 5G\nnetwork consumers.)\n• First: चीन घरेलू 5G सब्सकक्रप्िन की उच्चतम पूणा संख्या के साथ िैस्श्िक मीर्रक में अग्रणी बना हुआ है।\n(First: China continues to lead the global metrics with the highest absolute numbers of\ndomestic 5G subscriptions.)"
+        "explanation": "5G          (Second)\n(Driven by massive infrastructure deployment across both urban and rural\ntelecoms, India has successfully secured the Second position globally in terms of active 5G\nnetwork consumers.)\nFirst:   5G\n(First: China continues to lead the global metrics with the highest absolute numbers of\ndomestic 5G subscriptions.)"
     },
     {
-        "question": "कर र्दया गया है। (Dakshin Gangotri: India's very first Antarctic station, currently decommissioned.) इसरो (ISRO) की सेमीकंडक्टर लैब द्िारा पिकलसत भारत की पहली स्िदेिी रूप से ननलमात माइक्रोगचप का नाम क्या है? / What is the name of India's first indigenously manufactured microchip developed by ISRO's Semiconductor Lab?",
+        "question": "What is the name of India's first indigenously manufactured microchip developed by ISRO's Semiconductor Lab?",
         "options": {
-            "A": "पिक्रम-32 / Vikram-32",
-            "B": "ध्रुि64 / DHRUV64",
-            "C": "पिक्रम-1 / Vikram-1",
-            "D": "ए2000 / A2000"
+            "A": "Vikram-32",
+            "B": "DHRUV64",
+            "C": "Vikram-1",
+            "D": "A2000"
         },
         "correct": "A",
-        "explanation": "'पिक्रम-32' स्िदेिी माइक्रोगचप\n• 'पिक्रम-32' (Vikram-32) इसरो की सेमीकंडक्टर लैब (ISRO Semiconductor Lab) द्िारा पिकलसत पहली\nपूरी तरह से स्िदेिी ननलमात माइक्रोगचप का नाम है। (Refers to the first fully indigenous microchip\nmanufactured by ISRO's Semiconductor Lab.)\n• DHRUV64: सी-डैक द्िारा ननलमात 64-बबट माइक्रोप्रोसेसर है। (The 64-bit microprocessor built by C-\nDAC.)\n• पिक्रम-1: स्काईरूट एयरोस्पेस द्िारा बनाया गया एक व्यािसानयक अंतररक्ष प्रक्षेपण यान है। (A\ncommercial space launch vehicle built by Skyroot.)\n• A2000: नेत्रा सेमी (Netra Semi) द्िारा लॉन्च ककया गया एआई लसस्टम-ऑन-गचप (SoC) है। (The AI\nSystem-on-Chip launched by Netra Semi.)"
+        "explanation": "'-32' (Vikram-32)     (ISRO Semiconductor Lab)\n(Refers to the first fully indigenous microchip\nmanufactured by ISRO's Semiconductor Lab.)\nDHRUV64: -   64-   (The 64-bit microprocessor built by C-\nDAC.)\n1:            (A\ncommercial space launch vehicle built by Skyroot.)\nA2000:   (Netra Semi)      -- (SoC)  (The AI\nSystem-on-Chip launched by Netra Semi.)"
     },
     {
-        "question": "यहााँ इस डाका मैटर क्लाउड की खोज नहीं हुई थी। (Andromeda Galaxy: The closest large spiral galaxy to the Milky Way, but not where this dark matter cloud was discovered.) ककस किनटेक प्लेटिॉमा को हाल ही में भारतीय ररजिा बैंक (RBI) से क्रॉस-बॉडार पेमेंट एग्रीगेटर (PA- CB) के रूप में काया करने की औपचाररक पररचालन मंजूरी लमली है? / Which fintech platform recently received formal operating approval from the Reserve Bank of India (RBI) to function as a Cross-Border Payment Aggregator (PA-CB)?",
+        "question": "Which fintech platform recently received formal operating approval from the Reserve Bank of India (RBI) to function as a Cross-Border Payment Aggregator (PA-CB)?",
         "options": {
-            "A": "पीबी किनटेक / PB Fintech",
-            "B": "स्काईडो (Skydo)",
-            "C": "कैमस (Camus)",
-            "D": "इन्िीबीम एिेन्यूज (Infibeam Avenues)"
+            "A": "PB Fintech",
+            "B": "(Skydo)",
+            "C": "(Camus)",
+            "D": "(Infibeam Avenues)"
         },
         "correct": "A",
-        "explanation": "क्रॉस-बॉडार पेमेंट एग्रीगेटर\n• किनटेक प्लेटिॉमा 'इन्िीबीम एिेन्यूज' (Infibeam Avenues) को भारतीय ररजिा बैंक (RBI) से एक\nलाइसेंस प्राप्त क्रॉस-बॉडार पेमेंट एग्रीगेटर (PA-CB) के रूप में काम करने के ललए पिननयामक प्रागधकरण\nप्राप्त हुआ है। (The RBI granted regulatory authorization to Infibeam Avenues to conduct\noperations as a licensed Cross-Border Payment Aggregator (PA-CB).)\n• PB Fintech: पॉललसीबाजार (PolicyBazaar) के पीछे की मूल कॉपोरेट इकाई है, स्जसे यह लाइसेंस प्राप्त\nनहीं हुआ है। (PB Fintech: The parent corporate entity behind PolicyBazaar, not the recipient of\nthis license.)\n• Skydo & Camus: प्रनतयोगी परीक्षाओं में सूचीबद्ध िैकस्ल्पक घरेलू पित्तीय प्रौद्योगगकी और बबललंग नाम"
+        "explanation": "' ' (Infibeam Avenues)     (RBI)\n(PA-CB)\n(The RBI granted regulatory authorization to Infibeam Avenues to conduct\noperations as a licensed Cross-Border Payment Aggregator (PA-CB).)\nPB Fintech:  (PolicyBazaar)       ,\n(PB Fintech: The parent corporate entity behind PolicyBazaar, not the recipient of\nthis license.)\nSkydo & Camus:"
     },
     {
-        "question": "हाल ही में लॉन्च ककए गए दुननया के पहले डॉक्टर-संचाललत एआई (AI) स्िास््य सेिा पाररस्स्थनतकी तंत्र का नाम क्या है? / What is the name of the world's first doctor-operated AI healthcare ecosystem launched recently?",
+        "question": "What is the name of the world's first doctor-operated AI healthcare ecosystem launched recently?",
         "options": {
-            "A": "आईलाइि कनेक्ट (iLive Connect)",
-            "B": "साही (SAHI)",
-            "C": "बोध (BODH)",
-            "D": "बबरसा-101 (BIRSA-101)"
+            "A": "(iLive Connect)",
+            "B": "(SAHI)",
+            "C": "(BODH)",
+            "D": "101 (BIRSA-101)"
         },
         "correct": "A",
-        "explanation": "iLive Connect\n• 'iLive Connect' दुननया का पहला डॉक्टर-संचाललत एआई हेल्थकेयर पाररस्स्थनतकी तंत्र है, स्जसे डॉ. राहुल\nचंदोला और डॉ. पििेक कुमार द्िारा पिकलसत ककया गया है। ('iLive Connect' is the world's first\ndoctor-driven AI healthcare ecosystem, developed by Dr. Rahul Chandola and Dr. Viveka\nKumar.)\n• SAHI और BODH: केंद्रीय स्िास््य मंत्री जे.पी. नड्डा द्िारा स्िास््य सेिा में नैनतक, साक्ष्य-आधाररत\nएआई के उपयोग के ललए लॉन्च ककए गए प्लेटिॉमा हैं। (SAHI & BODH: Platforms launched by Union\nHealth Minister JP Nadda for ethical, evidence-based AI usage in healthcare.)\n• BIRSA-101: लसकल सेल एनीलमया के ललए CSIR-IGIB द्िारा पिकलसत भारत की पहली स्िदेिी जीन"
+        "explanation": "iLive Connect\n'iLive Connect'    -     ,  .\n('iLive Connect' is the world's first\ndoctor-driven AI healthcare ecosystem, developed by Dr. Rahul Chandola and Dr. Viveka\nKumar.)\nSAHI  BODH:    ..      , -\n(SAHI & BODH: Platforms launched by Union\nHealth Minister JP Nadda for ethical, evidence-based AI usage in healthcare.)\nBIRSA-101:      CSIR-IGIB"
     },
     {
-        "question": "ग्रेने रोबोर्टक्स (Grene Robotics) द्िारा पिकलसत भारत के पहले पूणा रूप से स्िायत्त, एआई- संचाललत एंटी-ड्रोन गश्ती िाहन (anti-drone patrol vehicle) का नाम क्या है? / What is the name of India's first fully autonomous, AI-powered anti-drone patrol vehicle developed by Grene Robotics?",
+        "question": "What is the name of India's first fully autonomous, AI-powered anti-drone patrol vehicle developed by Grene Robotics?",
         "options": {
-            "A": "इंद्रजाल",
-            "B": "बबरसा-101",
-            "C": "ध्रुि64",
-            "D": "एंकार"
+            "A": "",
+            "B": "101",
+            "C": "64",
+            "D": ""
         },
         "correct": "A",
-        "explanation": "इंद्रजाल एंटी-ड्रोन िाहन\n• 'इंद्रजाल' (Indrajal) ग्रेने रोबोर्टक्स (Grene Robotics) द्िारा पिकलसत भारत का पहला पूरी तरह से\nमोबाइल और एआई-एकीकृत एंटी-ड्रोन लसस्टम है जो स्िायत्त खतरों को रोकने के ललए डडजाइन ककया गया\nहै। (Indrajal is India's first mobile, AI-integrated anti-drone system designed to intercept\nautonomous threats developed by Grene Robotics.)\n• BIRSA-101: एक स्िदेिी लसकल-सेल जीन थेरेपी पररयोजना है। (BIRSA-101: An indigenous sickle-cell\ngene therapy project.)\n• DHRUV64: सी-डैक कंप्यूर्टंग माइक्रोप्रोसेसर है। (DHRUV64: The C-DAC computing\nmicroprocessor.)\n• ANCHOR: आईआईटी मद्रास द्िारा ननलमात मानि मस्स्तष्ट्क स्तंभ का 3D एटलस प्रोजेक्ट है। (ANCHOR:\nThe 3D human brainstem atlas project by IIT Madras.)"
+        "explanation": "'' (Indrajal)   (Grene Robotics)\n(Indrajal is India's first mobile, AI-integrated anti-drone system designed to intercept\nautonomous threats developed by Grene Robotics.)\nBIRSA-101:   -     (BIRSA-101: An indigenous sickle-cell\ngene therapy project.)\nDHRUV64: -    (DHRUV64: The C-DAC computing\nmicroprocessor.)\nANCHOR:         3D    (ANCHOR:\nThe 3D human brainstem atlas project by IIT Madras.)"
     },
     {
-        "question": "भारतीय नौसेना ने 26 िरिरी 2026 को ककस एंटी-सबमरीन िारिेयर िैलो िॉटर क्राफ्ट (ASW- SWC) कािेट को कमीिन ककया? / Which Anti-Submarine Warfare Shallow Water Craft (ASW-SWC) corvette did the Indian Navy commission on February 26, 2026?",
+        "question": "Which Anti-Submarine Warfare Shallow Water Craft (ASW-SWC) corvette did the Indian Navy commission on February 26, 2026?",
         "options": {
-            "A": "आईएनएस अंजदीप / INS Anjadip",
-            "B": "आईएनएस दूनागगरी / INS Dunagiri",
-            "C": "आईएनएस अररधमन / INS Aridhaman",
-            "D": "आईएनएस तारागगरर / INS Taragiri"
+            "A": "INS Anjadip",
+            "B": "INS Dunagiri",
+            "C": "INS Aridhaman",
+            "D": "INS Taragiri"
         },
         "correct": "A",
-        "explanation": "आईएनएस अंजादीप (INS Anjadip)\n• भारतीय नौसेना ने 26 िरिरी 2026 को अपने तीसरे अत्याधुननक एंटी-सबमरीन िारिेयर िैलो िाटर\nक्राफ्ट (ASW-SWC) कािेट 'आईएनएस अंजादीप' (INS Anjadip) को कमीिन ककया। (INS Anjadip was\nofficially commissioned by the Indian Navy as its third state-of-the-art Anti-Submarine\nWarfare Shallow Water Craft.)\n• आईएनएस दूनागगरी: जीआरएसई (GRSE) द्िारा ननलमात और डडलीिर ककया गया पांचिां नीलगगरी-\nक्लास स्टील्थ किगेट है। (INS Dunagiri: The fifth Nilgiri-class stealth frigate delivered by GRSE.)\n• आईएनएस अररदमन: अप्रैल 2026 में िालमल की गई भारत की तीसरी परमाणु-संचाललत बैललस्स्टक\nलमसाइल पनडुब्बी (SSBN) है। (INS Aridhaman: India's third nuclear-powered ballistic missile\nsubmarine joined in April 2026.)\n• आईएनएस तारागगरी: पििाखापत्तनम के नेिल डॉकयाडा में कमीिन ककया गया एक स्टील्थ किगेट है।\n(INS Taragiri: A stealth frigate commissioned at the Naval Dockyard in Visakhapatnam.)"
+        "explanation": "(INS Anjadip)\n26  2026     -\n(ASW-SWC)  ' ' (INS Anjadip)    (INS Anjadip was\nofficially commissioned by the Indian Navy as its third state-of-the-art Anti-Submarine\nWarfare Shallow Water Craft.)\n(GRSE)        -\n(INS Dunagiri: The fifth Nilgiri-class stealth frigate delivered by GRSE.)\n2026        -\n(SSBN)  (INS Aridhaman: India's third nuclear-powered ballistic missile\nsubmarine joined in April 2026.)\n(INS Taragiri: A stealth frigate commissioned at the Naval Dockyard in Visakhapatnam.)"
     },
     {
-        "question": "केंद्रीय पयाािरण मंत्रालय ने ककस नदी पर 260 मेगािाट की दुलहस्ती चरण-II जलपिद्युत पररयोजना (Dulhasti Stage-II Hydroelectric Project) को मंजूरी दी है? / On which river has the Union Ministry of Environment approved the 260 MW Dulhasti Stage-II Hydroelectric Project?",
+        "question": "On which river has the Union Ministry of Environment approved the 260 MW Dulhasti Stage-II Hydroelectric Project?",
         "options": {
-            "A": "गचनाब नदी / Chenab River",
-            "B": "लोर्हत नदी / Lohit River",
-            "C": "मरुसुदर नदी / Marusudar River",
-            "D": "लसंधु नदी / Indus River"
+            "A": "Chenab River",
+            "B": "Lohit River",
+            "C": "Marusudar River",
+            "D": "Indus River"
         },
         "correct": "A",
-        "explanation": "दुलहस्ती स्टेज-II जलपिद्युत पररयोजना\n• केंद्रीय पयाािरण मंत्रालय ने जम्मू-कश्मीर में गचनाब नदी (Chenab River) पर 260 मेगािाट (MW) की\nदुलहस्ती स्टेज-II जलपिद्युत पररयोजना को मंजूरी दी है। (The Dulhasti Stage-II project has been\nsanctioned on the Chenab River in Jammu & Kashmir.)\n• लोर्हत नदी: अरुणाचल प्रदेि में 1,200 मेगािाट की कलाई-II जलपिद्युत पररयोजना का स्थल है। (The\nsite for the 1,200 MW Kalai-II Hydropower Project in Arunachal Pradesh.)\n• मरुसुदर नदी: िह नदी है स्जससे दुलहस्ती स्टेज-II पररयोजना पाकल दुल पररयोजना के माध्यम से पानी"
+        "explanation": "(Chenab River)  260  (MW)\nII       (The Dulhasti Stage-II project has been\nsanctioned on the Chenab River in Jammu & Kashmir.)\n1,200   -II      (The\nsite for the 1,200 MW Kalai-II Hydropower Project in Arunachal Pradesh.)"
     },
     {
-        "question": "ककया गया है। (IIT Patna: Inaugurated Bihar's first 'PARAM Rudra' supercomputer.) भारत के पहले स्िदेिी और पररष्ट्कृत िीडडयो-टू-टेक्स्ट एआई (AI) मॉडल का नाम क्या है? What is the name of India's first indigenous and sophisticated video-to-text AI model?",
+        "question": "(IIT Patna: Inaugurated Bihar's first 'PARAM Rudra' supercomputer.)       --  (AI)     ? What is the name of India's first indigenous and sophisticated video-to-text AI model?",
         "options": {
-            "A": "आइला (AILA) / AILA",
-            "B": "िाणी (Vaani) / Vaani",
-            "C": "ध्रुि64 (DHRUV64)",
-            "D": "इंद्रजाल / Indrajal"
+            "A": "AILA",
+            "B": "Vaani",
+            "C": "64 (DHRUV64)",
+            "D": "Indrajal"
         },
         "correct": "B",
-        "explanation": "'िाणी' एआई मॉडल\n• 'िाणी' (Vaani) भारत के पहले पूणातः स्िदेिी और पररष्ट्कृत िीडडयो-टू-टेक्स्ट एआई मॉडल का नाम है।\n(Vaani is the name of India's first completely indigenous and highly refined video-to-text AI\nmodel.)\n• AILA: आईआईटी र्दल्ली द्िारा जमान और डेननि िैज्ञाननकों के साथ पिकलसत एक एआई लैब सहायक\nप्रणाली है। (AILA: An AI lab assistant system developed by IIT Delhi with German and Danish\nscientists.)\n• DHRUV64: सी-डैक (C-DAC) द्िारा ननलमात भारत का पहला स्िदेिी 64-बबट 1.0 GHz माइक्रोप्रोसेसर है।\n(DHRUV64: India's first indigenous 64-bit 1.0 GHz microprocessor by C-DAC.)\n• इंद्रजाल (Indrajal): ग्रेने रोबोर्टक्स द्िारा पिकलसत एक पूरी तरह से मोबाइल और एआई-संचाललत एंटी-"
+        "explanation": "'' (Vaani)        --\n(Vaani is the name of India's first completely indigenous and highly refined video-to-text AI\nmodel.)\n(AILA: An AI lab assistant system developed by IIT Delhi with German and Danish\nscientists.)\nDHRUV64: - (C-DAC)       64- 1.0 GHz\n(DHRUV64: India's first indigenous 64-bit 1.0 GHz microprocessor by C-DAC.)\n(Indrajal):           - -"
     },
     {
-        "question": "गूगल ने अपना सबसे बड़ा िैस्श्िक एआई हाडािेयर केंद्र (Global AI Hardware Center) कहााँ खोला है? / Where has Google opened its largest global AI Hardware Center?",
+        "question": "Where has Google opened its largest global AI Hardware Center?",
         "options": {
-            "A": "भारत / India",
-            "B": "ताइिान / Taiwan",
-            "C": "गुरुग्राम / Gurugram",
-            "D": "दुबई / Dubai"
+            "A": "India",
+            "B": "Taiwan",
+            "C": "Gurugram",
+            "D": "Dubai"
         },
         "correct": "A",
-        "explanation": "क्िांटम डायमंड माइक्रोस्कोप (QDM)\n• आईआईटी बॉम्बे (IIT Bombay) के पी-क्िेस्ट (P-Quest) समूह ने भारत का पहला स्िदेिी क्िांटम डायमंड\nमाइक्रोस्कोप (QDM) पिकलसत ककया है। (The P-Quest group from IIT Bombay built India's first\nindigenous Quantum Diamond Microscope (QDM).)\n• आईआईटी र्दल्ली: अपनी एआई सहायक प्रणाली 'AILA' के ललए जाना जाता है। (IIT Delhi: Known for\nthe AI assistant system 'AILA'.)\n• आईआईटी मद्रास: संयुक्त राष्ट्र उत्कृष्ट्टता केंद्र और मस्स्तष्ट्क स्तंभ के 3D मानगचत्रण पर सहयोग ककया।\n(IIT Madras: Collaborated on the UN Center of Excellence and brainstem 3D mapping.)\n• आईआईटी पटना: राष्ट्रीय सुपरकंप्यूर्टंग लमिन के तहत परम रुद्र सुपरकंप्यूटर स्थापपत ककया गया है।\n(IIT Patna: Housed the PARAM Rudra supercomputer under the National Supercomputing\nMission.)"
+        "explanation": "(IIT Bombay)  - (P-Quest)\n(QDM)    (The P-Quest group from IIT Bombay built India's first\nindigenous Quantum Diamond Microscope (QDM).)\n'AILA'      (IIT Delhi: Known for\nthe AI assistant system 'AILA'.)\n(IIT Madras: Collaborated on the UN Center of Excellence and brainstem 3D mapping.)\n(IIT Patna: Housed the PARAM Rudra supercomputer under the National Supercomputing\nMission.)"
     },
     {
-        "question": "करने के ललए चुना गया स्थान है। (Jamnagar: Chosen by Meta, Tata, and Reliance to set up a massive 168 MW AI data center.) भारत अपना चौथा अंटाकार्टक अनुसंधान स्टेिन बना रहा है। इसका नाम क्या है? India is building its fourth Antarctic research station. What is its name?",
+        "question": "(Jamnagar: Chosen by Meta, Tata, and Reliance to set up a massive 168 MW AI data center.)             ? India is building its fourth Antarctic research station. What is its name?",
         "options": {
-            "A": "मैत्री / Maitri",
-            "B": "भारती / Bharati",
-            "C": "मैत्री-II / Maitri-II",
-            "D": "दक्षक्षण गंगोत्री / Dakshin Gangotri"
+            "A": "Maitri",
+            "B": "Bharati",
+            "C": "Maitri-II",
+            "D": "Dakshin Gangotri"
         },
         "correct": "A",
-        "explanation": "अंटाकार्टक अनुसंधान स्टेिन 'मैत्री-II'\n• भारत अंटाकार्टका में अपना चौथा अनुसंधान केंद्र बनाने की तैयारी कर रहा है, स्जसे आगधकाररक तौर पर\n'मैत्री-II' (Maitri-II) नाम र्दया गया है, और इसका ननमााण 2029 से 2032 के बीच पूरा होना लक्षक्षत है।\n(India is actively constructing its fourth research installation in Antarctica, officially named\n'Maitri-II', targeted for completion between 2029 and 2032.)\n• भारती: भारत का पहले से संचाललत सकक्रय अनुसंधान स्टेिन है। (Bharati: Pre-existing active\noperational Indian research station in Antarctica.)\n• दक्षक्षण गंगोत्री: भारत का सबसे पहला अंटाकार्टक स्टेिन था, स्जसे अब सेिामुक्त (Decommissioned)"
+        "explanation": "'-II' (Maitri-II)    ,    2029  2032\n(India is actively constructing its fourth research installation in Antarctica, officially named\n'Maitri-II', targeted for completion between 2029 and 2032.)\n(Bharati: Pre-existing active\noperational Indian research station in Antarctica.)\n(Decommissioned)"
     },
     {
-        "question": "3028)। (Sandhayak-class: Survey and mapping vessels built by GRSE.) भारत ने एमआईआरिी (MIRV) तकनीक से लैस अस्ग्न-V लमसाइल का सिल परीक्षण ककया। MIRV का पूणा रूप क्या है? / India successfully tested the Agni-V missile equipped with MIRV technology. What does the acronym MIRV stand for?",
+        "question": "India successfully tested the Agni-V missile equipped with MIRV technology. What does the acronym MIRV stand for?",
         "options": {
-            "A": "मस्ल्टपल इंडडपेंडेंटली टारगेटेड री-एंरी व्हीकल / Multiple Independently Targeted Re-entry",
-            "B": "मैरीटाइम इंटरनेिनल ररकोननसेंस िेसल / Maritime International Reconnaissance Vessel",
-            "C": "मॉड्यूलर इंटरसेप्टर रॉकेट व्हीकल / Modular Interceptor Rocket Vehicle",
-            "D": "मल्टी-डायरेक्िनल इंटेललजेंट रोिर व्हीकल / Multi-directional Intelligent Rover Vehicle"
+            "A": "Multiple Independently Targeted Re-entry",
+            "B": "Maritime International Reconnaissance Vessel",
+            "C": "Modular Interceptor Rocket Vehicle",
+            "D": "Multi-directional Intelligent Rover Vehicle"
         },
         "correct": "A",
-        "explanation": "• भारत ने एमआईआरिी (MIRV) तकनीक से लैस अस्ग्न-V लमसाइल का सिल परीक्षण ककया है, जहााँ\nMIRV का पूरा नाम 'Multiple Independently Targeted Re-entry Vehicle' है। (India successfully\ntested the Agni-V missile equipped with MIRV technology, which stands for Multiple\nIndependently Targeted Re-entry Vehicle.)\n• यह तकनीक एक ही बैललस्स्टक लमसाइल को कई परमाणु हगथयार (Warheads) ले जाने की अनुमनत देती"
+        "explanation": "(MIRV)    -V      ,\nMIRV    'Multiple Independently Targeted Re-entry Vehicle'  (India successfully\ntested the Agni-V missile equipped with MIRV technology, which stands for Multiple\nIndependently Targeted Re-entry Vehicle.)\n(Warheads)"
     },
     {
-        "question": "ककया। (Germany and Denmark: Collaborated with IIT Delhi to develop the 'AILA' AI system.) भारत की पहली एआई (AI) और डडस्जटल-संचाललत बैंक िाखा ककस राज्य में खोली गई? In which state was India’s first AI and digital-driven bank branch opened?",
+        "question": "(Germany and Denmark: Collaborated with IIT Delhi to develop the 'AILA' AI system.)     (AI)  -       ? In which state was India’s first AI and digital-driven bank branch opened?",
         "options": {
-            "A": "असम / Assam",
-            "B": "आंध्र प्रदेि / Andhra Pradesh",
-            "C": "ओडडिा / Odisha",
-            "D": "केरल / Kerala"
+            "A": "Assam",
+            "B": "Andhra Pradesh",
+            "C": "Odisha",
+            "D": "Kerala"
         },
         "correct": "A",
-        "explanation": "AI और डडस्जटल संचाललत बैंक िाखा\n• भारत की पहली एआई (AI) और डडस्जटल-संचाललत बैंक िाखा का उद्घाटन असम (Assam) राज्य में\nककया गया है। (India's first AI and digital-powered bank branch was inaugurated in the state of\nAssam.)\n• आंध्र प्रदेि: अमरािती में भारत का पहला क्िांटम कंप्यूटर लॉन्च ककया। (Andhra Pradesh: Launched\nIndia's first quantum computer at Amaravati.)\n• ओडडिा: भुिनेश्िर में भारत की पहली एंड-टू-एंड लसललकॉन काबााइड सेमीकंडक्टर सुपिधा का उद्घाटन\nककया। (Odisha: Inaugurated India's first end-to-end Silicon Carbide semiconductor facility in\nBhubaneswar.)\n• केरल: अरालम िन्यजीि अभ्यारण्य को राज्य का पहला नततली अभ्यारण्य घोपित ककया। (Kerala:\nDeclared the Aralam Wildlife Sanctuary as the state's first butterfly sanctuary.)"
+        "explanation": "(AI)  -      (Assam)\n(India's first AI and digital-powered bank branch was inaugurated in the state of\nAssam.)\n(Andhra Pradesh: Launched\nIndia's first quantum computer at Amaravati.)\n(Odisha: Inaugurated India's first end-to-end Silicon Carbide semiconductor facility in\nBhubaneswar.)\n(Kerala:\nDeclared the Aralam Wildlife Sanctuary as the state's first butterfly sanctuary.)"
     },
     {
-        "question": "करने के ललए चुना गया स्थान है। (Jamnagar: Chosen by Meta, Tata, and Reliance to set up a massive 168 MW AI data center.) भारत की पहली 3 मेगािाट-घंटा क्षमता िाली िैनेडडयम रेडॉक्स फ्लो बैटरी (Vanadium Redox Flow Battery) का उद्घाटन कहााँ ककया गया था? / Where has India's first 3 Megawatt-hour capacity Vanadium Redox Flow Battery inaugurated?",
+        "question": "Where has India's first 3 Megawatt-hour capacity Vanadium Redox Flow Battery inaugurated?",
         "options": {
-            "A": "ग्रेटर नोएडा / Greater Noida",
-            "B": "भुिनेश्िर / Bhubaneswar",
-            "C": "हैदराबाद / Hyderabad",
-            "D": "जामनगर / Jamnagar"
+            "A": "Greater Noida",
+            "B": "Bhubaneswar",
+            "C": "Hyderabad",
+            "D": "Jamnagar"
         },
         "correct": "A",
-        "explanation": "िैनेडडयम रेडॉक्स फ्लो बैटरी\n• भारत की पहली बड़े पैमाने की 3 मेगािाट-घंटा (3 MWh) क्षमता िाली िैनेडडयम रेडॉक्स फ्लो बैटरी का\nउद्घाटन ग्रेटर नोएडा (Greater Noida) में ककया गया। (India's first large-scale 3 MWh Vanadium\nRedox Flow Battery was launched in Greater Noida.)\n• भुिनेश्िर: निननलमात लसललकॉन काबााइड सेमीकंडक्टर इकाई का स्थल है। (Bhubaneswar: Site of the\nnewly opened Silicon Carbide semiconductor unit.)\n• हैदराबाद: यहााँ रेलिे पिश्लेिण और प्रलिक्षण ढांचा 'CHIRAG' स्स्थत है। (Hyderabad: Houses the\nCHIRAG railway analysis and training framework.)\n• जामनगर: मेटा, टाटा और ररलायंस द्िारा एक पििाल 168 मेगािाट (MW) का एआई डेटा सेंटर स्थापपत"
+        "explanation": "3 - (3 MWh)\n(Greater Noida)    (India's first large-scale 3 MWh Vanadium\nRedox Flow Battery was launched in Greater Noida.)\n(Bhubaneswar: Site of the\nnewly opened Silicon Carbide semiconductor unit.)\n'CHIRAG'   (Hyderabad: Houses the\nCHIRAG railway analysis and training framework.)\n168  (MW)"
     },
     {
-        "question": "काम कर रही है। (TelePIX: A South Korean satellite company working alongside Bellatrix Aerospace.) भारतीय सेना ने हाल ही में ड्रोन तकनीक, उन्नत बैटरी और सामररक इकाइयों से लैस एक पििेि आधुननक युद्ध इकाई खड़ी की है। इसे क्या कहा जाता है? / The Indian Army recently raised a specialized modern warfare unit equipped with drone technology, advanced batteries, and tactical units. What is it called?",
+        "question": "The Indian Army recently raised a specialized modern warfare unit equipped with drone technology, advanced batteries, and tactical units. What is it called?",
         "options": {
-            "A": "रुद्र बब्रगेड / Rudra Brigade",
-            "B": "भैरि बटाललयन / Bhairav Battalion",
-            "C": "अस्ग्न िेग / Agni Veg",
-            "D": "आइला लसस्टम्स / AILA Systems"
+            "A": "Rudra Brigade",
+            "B": "Bhairav Battalion",
+            "C": "Agni Veg",
+            "D": "AILA Systems"
         },
         "correct": "B",
-        "explanation": "भैरि बटाललयन (Bhairav Battalion)\n• भारतीय सेना ने अपनी रैंकों को आधुननक बनाने, ड्रोन तकनीक और िैकस्ल्पक बबजली क्षमताओं का\nउपयोग करने के ललए एक पििेि युद्ध इकाई 'भैरि बटाललयन' (Bhairav Battalion) का गठन ककया है।\n(The Indian Army raised the 'Bhairav Battalion' to modernize its ranks using advanced drone\ntechnology and alternative power capabilities.)\n• रुद्र बब्रगेड: िह मूल सैन्य िॉमेिन है स्जसके तहत भैरि बटाललयन संचाललत होती है। (Rudra Brigade:\nThe parent military formation under which the Bhairav Battalion operates.)\n• अस्ग्न िेग: भारतीय सेना द्िारा खरीदे गए 106 जेट-संचाललत कालमकेज ड्रोनों का कोडनेम है। (Agni Veg:\nThe codename for the 106 jet-powered kamikaze drones procured by the Indian Army.)\n• AILA लसस्टम्स: आईआईटी र्दल्ली द्िारा ननलमात एआई प्रयोगिाला प्लेटिॉमा है। (AILA Systems: The\nAI laboratory platform created by IIT Delhi.)"
+        "explanation": "(Bhairav Battalion)\n' ' (Bhairav Battalion)\n(The Indian Army raised the 'Bhairav Battalion' to modernize its ranks using advanced drone\ntechnology and alternative power capabilities.)\n(Rudra Brigade:\nThe parent military formation under which the Bhairav Battalion operates.)\n106 -      (Agni Veg:\nThe codename for the 106 jet-powered kamikaze drones procured by the Indian Army.)\nAILA :         (AILA Systems: The\nAI laboratory platform created by IIT Delhi.)"
     },
     {
-        "question": "रक्षा मंत्री राजनाथ लसंह के नेतृत्ि में अप्रैल 2026 में कमीिन ककया गया आईएनएस अररधमन (INS Aridhaman), नौसैननक जहाजों के ककस िगा से संबंगधत है? / INS Aridhaman, commissioned in April 2026 under the leadership of Raksha Mantri Rajnath Singh, belongs to which class of naval vessels?",
+        "question": "INS Aridhaman, commissioned in April 2026 under the leadership of Raksha Mantri Rajnath Singh, belongs to which class of naval vessels?",
         "options": {
-            "A": "कलिरी-क्लास पारंपररक पनडुस्ब्बयां / Scorpene-class Conventional Submarines",
-            "B": "अररहंत-क्लास परमाणु बैललस्स्टक लमसाइल पनडुस्ब्बयां (SSBN) / Arihant-class Nuclear",
-            "C": "नीलगगरी-क्लास स्टील्थ किगेट्स / Nilgiri-class Stealth Frigates",
-            "D": "संधायक-क्लास हाइड्रोग्राकिक सिेक्षण जहाज / Sandhayak-class Hydrographic Survey"
+            "A": "Scorpene-class Conventional Submarines",
+            "B": "Arihant-class Nuclear",
+            "C": "Nilgiri-class Stealth Frigates",
+            "D": "Sandhayak-class Hydrographic Survey"
         },
         "correct": "B",
-        "explanation": "Vessels\n27.\nआईएनएस अररदमन (INS Aridhaman)\n• अप्रैल 2026 में रक्षा मंत्री राजनाथ लसंह के नेतृत्ि में कमीिन ककया गया 'आईएनएस अररदमन' अररहंत-\nक्लास की परमाणु बैललस्स्टक लमसाइल पनडुब्बी (SSBN) श्रेणी से संबंगधत है, जो आईएनएस अररहंत और\nआईएनएस अररघाट के बाद तीसरी पनडुब्बी है। (INS Aridhaman is India's third indigenous nuclear-\npowered ballistic missile submarine, following INS Arihant and INS Arighat, belonging to the\nArihant-class SSBNs.)\n• स्कॉपीन-क्लास: डीजल-इलेस्क्रक अटैक पनडुस्ब्बयों की श्रेणी है, जो परमाणु-सक्षम नहीं होती हैं।\n(Scorpene-class: Diesel-electric attack submarines, not nuclear-capable.)\n• नीलगगरी-क्लास: दूनागगरी और तारागगरी जैसे सतह पर मुकाबला करने िाले स्टील्थ युद्धपोतों की श्रेणी\nहै। (Nilgiri-class: Surface combatant stealth warships like Dunagiri and Taragiri.)\n• संधायक-क्लास: जीआरएसई द्िारा ननलमात सिेक्षण और मानगचत्रण जहाजों की श्रेणी है (जैसे लिप याडा"
+        "explanation": "Vessels\n27.\n(INS Aridhaman)\n2026            ' ' -\n(SSBN)    ,\n(INS Aridhaman is India's third indigenous nuclear-\npowered ballistic missile submarine, following INS Arihant and INS Arighat, belonging to the\nArihant-class SSBNs.)\n(Scorpene-class: Diesel-electric attack submarines, not nuclear-capable.)\n(Nilgiri-class: Surface combatant stealth warships like Dunagiri and Taragiri.)"
     },
     {
-        "question": "ड्रोन पेरोल िाहन है। (Indrajal: A fully mobile and AI-powered anti-drone patrol vehicle by Grene Robotics.) ककन दो क्षेत्रों के िैज्ञाननकों ने दुननया की पहली पररचालन परमाणु घड़ी (nuclear clock) बनाने के ललए थोररयम-229 का उपयोग ककया? / Scientists from which two regions utilized Thorium- 229 to create the world's first operational nuclear clock?",
+        "question": "Scientists from which two regions utilized Thorium- 229 to create the world's first operational nuclear clock?",
         "options": {
-            "A": "अमेररका और भारत / US and India",
-            "B": "यूरोप और चीन / Europe and China",
-            "C": "जापान और दक्षक्षण कोररया / Japan and South Korea",
-            "D": "जमानी और डेनमाका / Germany and Denmark"
+            "A": "US and India",
+            "B": "Europe and China",
+            "C": "Japan and South Korea",
+            "D": "Germany and Denmark"
         },
         "correct": "B",
-        "explanation": "पिश्ि की पहली ऑपरेिनल न्यूस्क्लयर क्लॉक\n• यूरोप और चीन (Europe and China) के िैज्ञाननकों ने थोररयम-229  का उपयोग करके दुननया की पहली\nकाम करने िाली परमाणु घड़ी बनाई है। (Scientists from Europe and China collaborated to build\nthe world's first functional nuclear clock using Thorium-229.)\n• अमेररका और भारत: अमेररका ने आईआईटी मद्रास को एक संयुक्त उत्कृष्ट्टता केंद्र के रूप में नालमत ककया\nहै। (US and India: The US named IIT Madras as a Joint Center of Excellence.)\n• जापान और दक्षक्षण कोररया: दक्षक्षण कोररया ने दुननया का पहला रोबोट लभक्षु 'गाबी' (Gabi) पेि ककया है।\n(Japan and South Korea: South Korea introduced the world's first robot monk 'Gabi'.)\n• जमानी और डेनमाका: इन्होंने आईआईटी र्दल्ली के साथ 'AILA' एआई प्रणाली पिकलसत करने में सहयोग"
+        "explanation": "(Europe and China)    -229\n(Scientists from Europe and China collaborated to build\nthe world's first functional nuclear clock using Thorium-229.)\n(US and India: The US named IIT Madras as a Joint Center of Excellence.)\n'' (Gabi)\n(Japan and South Korea: South Korea introduced the world's first robot monk 'Gabi'.)\n'AILA'"
     },
     {
-        "question": "भारत का पहला परमाणु इंजीननयररंग डडजाइन उत्कृष्ट्टता केंद्र (Nuclear Engineering Design Center of Excellence) कहााँ स्थापपत ककया जा रहा है? / Where is India's first Nuclear Engineering Design Center of Excellence being established?",
+        "question": "Where is India's first Nuclear Engineering Design Center of Excellence being established?",
         "options": {
-            "A": "आईआईटी मद्रास / IIT Madras",
-            "B": "आईआईटी रोपड़ / IIT Ropar",
-            "C": "आईआईटी हैदराबाद / IIT Hyderabad",
-            "D": "आईआईटी पटना / IIT Patna"
+            "A": "IIT Madras",
+            "B": "IIT Ropar",
+            "C": "IIT Hyderabad",
+            "D": "IIT Patna"
         },
         "correct": "C",
-        "explanation": "न्यूस्क्लयर इंजीननयररंग डडजाइन सेंटर ऑि एक्सीलेंस\n• भारत का पहला न्यूस्क्लयर engineering डडजाइन सेंटर ऑि एक्सीलेंस आईआईटी हैदराबाद (IIT\nHyderabad) में स्थापपत ककया जा रहा है। (India's first Nuclear Engineering Design Center of\nExcellence is being established at IIT Hyderabad.)\n• आईआईटी मद्रास (IIT Madras): इसने मानि मस्स्तष्ट्क स्तंभ का दुननया का सबसे पिस्तृत 3D एटलस\n'एंकर' (ANCHOR) जारी ककया है। (IIT Madras: Released 'ANCHOR', the world's most detailed 3D\natlas of the human brainstem.)\n• आईआईटी रोपड़ (IIT Ropar): इसने भारत का पहला एकीकृत कृपि खुकिया पाररस्स्थनतकी तंत्र लॉन्च\nककया है। (IIT Ropar: Launched India's first integrated agricultural intelligence ecosystem.)\n• आईआईटी पटना (IIT Patna): यहााँ बबहार का पहला 'परम रुद्र' (PARAM Rudra) सुपरकंप्यूटर स्थापपत"
+        "explanation": "engineering       (IIT\nHyderabad)       (India's first Nuclear Engineering Design Center of\nExcellence is being established at IIT Hyderabad.)\n(IIT Madras):          3D\n'' (ANCHOR)    (IIT Madras: Released 'ANCHOR', the world's most detailed 3D\natlas of the human brainstem.)\n(IIT Ropar):\n(IIT Ropar: Launched India's first integrated agricultural intelligence ecosystem.)\n(IIT Patna):     ' ' (PARAM Rudra)"
     },
     {
-        "question": "इन्िास्रक्चर स्थापपत करने के ललए है। (Artemis V: Planned for 2028 to deploy the Lunar Terrain Vehicle and set up base infrastructures.) कौन सा देि िांनतपूणा अंतररक्ष अन्िेिण के ललए नासा के नेतृत्ि िाले आटेलमस समझौते (Artemis Accords) पर आगधकाररक तौर पर हस्ताक्षर करने िाला 63िां देि बन गया? / Which country became the 63rd nation to officially sign the NASA-led Artemis Accords for peaceful space exploration?",
+        "question": "Which country became the 63rd nation to officially sign the NASA-led Artemis Accords for peaceful space exploration?",
         "options": {
-            "A": "भारत / India",
-            "B": "जॉडान / Jordan",
-            "C": "दक्षक्षण कोररया / South Korea",
-            "D": "इटली / Italy"
+            "A": "India",
+            "B": "Jordan",
+            "C": "South Korea",
+            "D": "Italy"
         },
         "correct": "B",
-        "explanation": "आटेलमस समझौता हस्ताक्षरकताा\n• जॉडान (Hashemite Kingdom of Jordan) िांनतपूणा अंतररक्ष अन्िेिण के ललए नासा के नेतृत्ि िाले\nआटेलमस समझौते पर आगधकाररक रूप से हस्ताक्षर करने िाला दुननया का 63िां देि बन गया है। (The\nHashemite Kingdom of Jordan officially signed the Artemis Accords at NASA Headquarters,\nbecoming the 63rd member state.)\n• इंडडया: पहले से ही आटेलमस ढांचे का एक हस्ताक्षरकताा सदस्य देि है। (India: Already a signatory\nmember of the Artemis framework.)\n• दक्षक्षण कोररया: टेलीपपक्स (TelePIX) जैसी अंतररक्ष खुकिया संपपत्तयों की तैनाती में िालमल है। (South\nKorea: Involved in the deployment of space intelligence assets like TelePIX.)\n• इटली: एएसआई (ASI) के माध्यम से कॉस्मो-स्काईमेड जैसे प्रोजेक्ट्स पर िैस्श्िक स्तर पर साझेदारी कर"
+        "explanation": "(Hashemite Kingdom of Jordan)\n63     (The\nHashemite Kingdom of Jordan officially signed the Artemis Accords at NASA Headquarters,\nbecoming the 63rd member state.)\n(India: Already a signatory\nmember of the Artemis framework.)\n(TelePIX)          (South\nKorea: Involved in the deployment of space intelligence assets like TelePIX.)\n(ASI)    -"
     },
     {
-        "question": "जलिायु और आपदा ननगरानी के ललए नासा और इसरो द्िारा लगभग 1.5 बबललयन डॉलर की लागत से कौन सा संयुक्त उपग्रह लमिन पिकलसत ककया गया था? / Which joint satellite mission costing approximately $1.5 billion was developed by NASA and ISRO for climate and disaster monitoring?",
+        "question": "Which joint satellite mission costing approximately $1.5 billion was developed by NASA and ISRO for climate and disaster monitoring?",
         "options": {
-            "A": "रामसेस लमिन / Ramses Mission",
-            "B": "ननसार (NISAR)",
-            "C": "रूमी-1 (RHUMI-1)",
-            "D": "जीएसएलिी-एि14 / GSLV-F14"
+            "A": "Ramses Mission",
+            "B": "(NISAR)",
+            "C": "1 (RHUMI-1)",
+            "D": "GSLV-F14"
         },
         "correct": "A",
-        "explanation": "ननसार उपग्रह लमिन\n• नासा और इसरो (NASA-ISRO) द्िारा संयुक्त रूप से लगभग 1.5 बबललयन डॉलर की लागत से पिकलसत\n'ननसार' (NISAR) उपग्रह पयाािरण में बदलािों को रैक करने और आपदाओं के प्रबंधन के ललए GSLV Mk II\nके माध्यम से लॉन्च ककया गया एक सहयोगी प्रोजेक्ट है। (The NASA-ISRO NISAR satellite is a\ncollaborative project valued at around $1.5 billion launched via GSLV Mk II for tracking\nenvironmental shifts and managing disasters.)\n• Ramses Mission: क्षुद्रग्रह अपोकिस (2029) को लक्षक्षत करने िाला एक क्षुद्रग्रह अध्ययन लमिन है स्जस\nपर इसरो, ईएसए (ESA) के साथ सहयोग कर रहा है। (Ramses Mission: An asteroid study mission\ntargeting asteroid Apophis (2029) on which ISRO is collaborating with ESA.)\n• RHUMI-1: भारत के पहले पुन: प्रयोज्य हाइबब्रड रॉकेट (Reusable Hybrid Rocket) के रूप में प्रलसद्ध है।\n(RHUMI-1: Noted as India's first reusable hybrid rocket.)\n• GSLV-F14: जनिरी 2025 में लॉन्च की गई पिलिष्ट्ट रॉकेट लमिन उड़ान है। (GSLV-F14: The specific\nrocket mission flight launched in January 2025.)"
+        "explanation": "(NASA-ISRO)      1.5\n'' (NISAR)              GSLV Mk II\n(The NASA-ISRO NISAR satellite is a\ncollaborative project valued at around $1.5 billion launched via GSLV Mk II for tracking\nenvironmental shifts and managing disasters.)\nRamses Mission:   (2029)\n(ESA)       (Ramses Mission: An asteroid study mission\ntargeting asteroid Apophis (2029) on which ISRO is collaborating with ESA.)\nRHUMI-1:    :    (Reusable Hybrid Rocket)\n(RHUMI-1: Noted as India's first reusable hybrid rocket.)\nGSLV-F14:  2025          (GSLV-F14: The specific\nrocket mission flight launched in January 2025.)"
     },
     {
-        "question": "तकनीक पिकलसत की है। (IIT Guwahati: Developed a new technology to track glacier hazards in the Eastern Himalayas.) ककस संस्थान ने भारत का पहला एकीकृत कृपि खुकिया पाररस्स्थनतकी तंत्र (integrated agricultural intelligence ecosystem) लॉन्च ककया? / Which institution launched India's first integrated agricultural intelligence ecosystem?",
+        "question": "Which institution launched India's first integrated agricultural intelligence ecosystem?",
         "options": {
-            "A": "आईआईटी रोपड़ / IIT Ropar",
-            "B": "आईआईएम अहमदाबाद / IIM Ahmedabad",
-            "C": "एम्स र्दल्ली / AIIMS Delhi",
-            "D": "रमन ररसचा इंस्टीट्यूट / Raman Research Institute"
+            "A": "IIT Ropar",
+            "B": "IIM Ahmedabad",
+            "C": "AIIMS Delhi",
+            "D": "Raman Research Institute"
         },
         "correct": "A",
-        "explanation": "एकीकृत कृपि खुकिया पाररस्स्थनतकी तंत्र\n• देि का पहला एकीकृत कृपि खुकिया पाररस्स्थनतकी तंत्र आईआईटी रोपड़ (IIT Ropar) द्िारा लॉन्च ककया\nगया है। (The country's first integrated agricultural intelligence ecosystem was launched by IIT\nRopar.)\n• आईआईएम अहमदाबाद: दुबई में अपना पहला अंतरराष्ट्रीय पररसर खोला। (IIM Ahmedabad: Opened\nits first international campus in Dubai.)\n• एम्स र्दल्ली: देि की पहली पोटेबल मैग्नेर्टक रेजोनेंस इमेस्जंग (MRI) प्रणाली स्थापपत की। (AIIMS\nDelhi: Setup India's first portable Magnetic Resonance Imaging (MRI) system.)\n• रमन ररसचा इंस्टीट्यूट: बेंगलुरु में परमाणुओं को ठंडा करने के ललए RDSNS तकनीक पिकलसत की।\n(Raman Research Institute: Developed the RDSNS technology to cool atoms in Bengaluru.)"
+        "explanation": "(IIT Ropar)\n(The country's first integrated agricultural intelligence ecosystem was launched by IIT\nRopar.)\n(IIM Ahmedabad: Opened\nits first international campus in Dubai.)\n(MRI)    (AIIMS\nDelhi: Setup India's first portable Magnetic Resonance Imaging (MRI) system.)\n(Raman Research Institute: Developed the RDSNS technology to cool atoms in Bengaluru.)"
     },
     {
-        "question": "माउंट एटना (Mount Etna), जो 2026 में लािा उत्सजान के साथ किर से अत्यगधक सकक्रय हो गया, ककस द्िीप के तट पर स्स्थत है? / Mount Etna, which became highly active again with lava emissions in 2026, is located on the coast of which island?",
+        "question": "Mount Etna, which became highly active again with lava emissions in 2026, is located on the coast of which island?",
         "options": {
-            "A": "रीयूननयन द्िीप / Reunion Island",
-            "B": "लसलसली, इटली / Sicily (Italy)",
-            "C": "लुजोन, किलीपींस / Luzon (Philippines)",
-            "D": "अंडमान द्िीप समूह / Andaman Islands"
+            "A": "Reunion Island",
+            "B": "Sicily (Italy)",
+            "C": "Luzon (Philippines)",
+            "D": "Andaman Islands"
         },
         "correct": "A",
-        "explanation": "माउंट एटना ज्िालामुखी\n• माउंट एटना (Mount Etna) एक प्रलसद्ध स्रैटोिोलकैनो है, जो इटली के लसलसली (Sicily, Italy) द्िीप के\nपूिी तट पर स्स्थत है, और 2026 में लािा उत्सजान के साथ किर से अत्यगधक सकक्रय हो गया है। (Mount\nEtna is a famous stratovolcano located on the eastern coast of Sicily, Italy.)\n• रीयूननयन द्िीप: र्हंद महासागर में स्स्थत 'पपटन डी ला िोरनैस' (Piton de la Fournaise) ज्िालामुखी\nका घर है। (Home to the 'Piton de la Fournaise' volcano in the Indian Ocean.)\n• लुजोन (किलीपींस): अत्यगधक अस्स्थर 'मेयन ज्िालामुखी' (Mayon Volcano) का स्थान है। (Location of\nthe highly volatile Mayon Volcano.)\n• अंडमान द्िीप समूह: डडगलीपुर में स्स्थत दुलाभ सकक्रय कीचड़ ज्िालामुखी (Active Mud Volcano) का"
+        "explanation": "(Mount Etna)    ,     (Sicily, Italy)\n2026             (Mount\nEtna is a famous stratovolcano located on the eastern coast of Sicily, Italy.)\n'   ' (Piton de la Fournaise)\n(Home to the 'Piton de la Fournaise' volcano in the Indian Ocean.)\n():   ' ' (Mayon Volcano)    (Location of\nthe highly volatile Mayon Volcano.)\n(Active Mud Volcano)"
     },
     {
-        "question": "प्राप्त करेगी। (The river from which the Dulhasti Stage-II project will draw water via the Pakal Dul project.) भारतीय रेलिे ने हाल ही में अपनी मर्हला कमाचाररयों के ललए कौन सा ऐप लॉन्च ककया है? Which app has the Indian Railways recently launched for its women employees?",
+        "question": "(The river from which the Dulhasti Stage-II project will draw water via the Pakal Dul project.)                 ? Which app has the Indian Railways recently launched for its women employees?",
         "options": {
-            "A": "िाइन ऐप / SHINE App",
-            "B": "सेफ्टी ऐप / SAFETY App",
-            "C": "रेल केयर ऐप / RAIL CARE App",
-            "D": "नारी पािर ऐप / NARI POWER App"
+            "A": "SHINE App",
+            "B": "SAFETY App",
+            "C": "RAIL CARE App",
+            "D": "NARI POWER App"
         },
         "correct": "A",
-        "explanation": "िाइन (SHINE) ऐप\n• भारतीय रेलिे ने 8 माचा 2026 को अंतरााष्ट्रीय मर्हला र्दिस के अिसर पर अपनी मर्हला कमाचाररयों की\nसुरक्षा के ललए 'SHINE' ऐप लॉन्च ककया है। (The Indian Railways launched the SHINE app on March\n8, 2026, to coincide with International Women's Day.)\n• यह डडस्जटल प्लेटिॉमा मानि संसाधन प्रबंधन प्रणाली (HRMS) से एकीकृत है, जो मर्हला कमाचाररयों को"
+        "explanation": "(SHINE)\n8  2026\n'SHINE'     (The Indian Railways launched the SHINE app on March\n8, 2026, to coincide with International Women's Day.)\n(HRMS)   ,"
     },
     {
-        "question": "रहा है। (Italy: Partnering globally via ASI on projects like COSMO-SkyMed.) िीआईपी पररिहन और खोज ि बचाि (SAR) संचालन के ललए एचएएल (HAL) द्िारा पिकलसत नया 5.5-टन श्रेणी का ट्पिन-इंजन, बहु-भूलमका उपयोगगता हेलीकॉप्टर (multi-role utility helicopter) कहलाता है:",
+        "question": "(Italy: Partnering globally via ASI on projects like COSMO-SkyMed.)       (SAR)     (HAL)    5.5-   -, -   (multi-role utility helicopter)  :",
         "options": {
-            "A": "ध्रुि-एनजी (Dhruv-NG)",
-            "B": "पिक्रम-32 / Vikram-32",
-            "C": "रुद्रम-II (RudraM-II)",
-            "D": "ध्रुि64 (DHRUV64)"
+            "A": "(Dhruv-NG)",
+            "B": "Vikram-32",
+            "C": "II (RudraM-II)",
+            "D": "64 (DHRUV64)"
         },
         "correct": "B",
-        "explanation": "ध्रुि-एनजी हेलीकॉप्टर\n• ध्रुि-एनजी (Dhruv-NG - Next Generation) र्हंदुस्तान एयरोनॉर्टक्स लललमटेड (HAL) द्िारा खोज ि\nबचाि (SAR), एयर एम्बुलेंस और िीआईपी पररिहन कायों के ललए पिकलसत एक नया 5.5-टन श्रेणी का\nट्पिन-इंजन, मल्टी-रोल यूर्टललटी हेलीकॉप्टर है। (The Dhruv-NG (Next Generation) is a 5.5-ton\nmulti-role helicopter built by HAL for search-and-rescue (SAR), air ambulance, and VIP\ntransport duties.)\n• पिक्रम-32: इसरो (ISRO) द्िारा पिकलसत ककया गया लसललकॉन माइक्रोगचप है। (Vikram-32: The silicon\nmicrochip developed by ISRO.)\n• RudraM-II: डीआरडीओ (DRDO) द्िारा परीक्षण की गई हिा से सतह पर मार करने िाली एंटी-रेडडएिन\nलमसाइल है। (RudraM-II: The air-to-surface anti-radiation missile tested by DRDO.)\n• DHRUV64: सी-डैक (C-DAC) द्िारा ननलमात 64-बबट कंप्यूर्टंग माइक्रोप्रोसेसर है। (DHRUV64: The 64-bit\ncomputing microprocessor from C-DAC.)"
+        "explanation": "(Dhruv-NG - Next Generation)    (HAL)\n(SAR),            5.5-\n(The Dhruv-NG (Next Generation) is a 5.5-ton\nmulti-role helicopter built by HAL for search-and-rescue (SAR), air ambulance, and VIP\ntransport duties.)\n32:  (ISRO)        (Vikram-32: The silicon\nmicrochip developed by ISRO.)\nRudraM-II:  (DRDO)            -\n(RudraM-II: The air-to-surface anti-radiation missile tested by DRDO.)\nDHRUV64: - (C-DAC)   64-    (DHRUV64: The 64-bit\ncomputing microprocessor from C-DAC.)"
     },
     {
-        "question": "पररिोधन तकनीक (Multi-Purpose Decontamination Technology) हस्तांतररत की थी। (Bharat Forge & Metaltech: Industrial manufacturing firms to which DRDO transferred its Multi- Purpose Decontamination Technology.) KALPANA3201 और पिक्रम 3201 क्या हैं, स्जन्हें हाल ही में अंतररक्ष इलेक्रॉननक्स में उजागर ककया गया था? / What are KALPANA3201 and Vikram 3201, which were recently highlighted in space electronics?",
+        "question": "What are KALPANA3201 and Vikram 3201, which were recently highlighted in space electronics?",
         "options": {
-            "A": "िस्क्त (SHAKTI) आककाटेक्चर पर आधाररत 32-बबट स्पेस माइक्रोप्रोसेसर / 32-bit space",
-            "B": "ननजी स्टाटाअप्स द्िारा लॉन्च ककए गए पुन: प्रयोज्य हाइबब्रड रॉकेट / Reusable hybrid rockets",
-            "C": "बहुउद्देश्यीय पररिोधन सॉफ्टिेयर प्रोटोकॉल / Multi-purpose decontamination software",
-            "D": "जीन-संपार्दत कृपि िसल पिपिधताएं / Gene-edited agricultural crop variations"
+            "A": "32-bit space",
+            "B": "Reusable hybrid rockets",
+            "C": "Multi-purpose decontamination software",
+            "D": "Gene-edited agricultural crop variations"
         },
         "correct": "B",
-        "explanation": "कल्पना3201 और पिक्रम 3201\n• अंतररक्ष इलेक्रॉननक्स के क्षेत्र में चगचात 'KALPANA3201' और 'Vikram 3201' िस्क्त (SHAKTI)\nआककाटेक्चर का उपयोग करने िाली अंतररक्ष प्रणाललयों के ललए पििेि रूप से इंजीननयर ककए गए 32-बबट\nस्पेस माइक्रोप्रोसेसर हैं। (KALPANA3201 and Vikram 3201 are highly specialized 32-bit\nmicroprocessors engineered explicitly for space systems utilizing the SHAKTI architecture.)\n• पुन: प्रयोज्य हाइबब्रड रॉकेट: यह राहुमी-1 (RHUMI-1) जैसे िाहनों की कायाात्मक श्रेणी का िणान करता है।\n(Reusable hybrid rockets: Describes the functional category of vehicles like RHUMI-1.)\n• बहुउद्देिीय पररिोधन सॉफ्टिेयर प्रोटोकॉल: यह हाडािेयर से असंबंगधत है; डीआरडीओ भौनतक\nरासायननक/जैपिक पररिोधन प्रौद्योगगककयों को संभालता है। (Multi-purpose decontamination\nsoftware protocols: Unrelated to hardware; DRDO handles physical chemical/biological\ndecontamination technologies.)\n• जीन-संपार्दत कृपि िसल पिपिधताएं: यह CRISPR-व्युत्पन्न DRR धान 100 चािल जैसी ककस्मों के"
+        "explanation": "3201   3201\n'KALPANA3201'  'Vikram 3201'  (SHAKTI)\n(KALPANA3201 and Vikram 3201 are highly specialized 32-bit\nmicroprocessors engineered explicitly for space systems utilizing the SHAKTI architecture.)\n1 (RHUMI-1)\n(Reusable hybrid rockets: Describes the functional category of vehicles like RHUMI-1.)\n(Multi-purpose decontamination\nsoftware protocols: Unrelated to hardware; DRDO handles physical chemical/biological\ndecontamination technologies.)\nCRISPR- DRR  100"
     },
     {
-        "question": "भारत का पहला स्िदेिी रूप से पिकलसत क्िांटम डायमंड माइक्रोस्कोप (QDM) ककस आईआईटी की एक टीम द्िारा बनाया गया था? / India's first indigenously developed Quantum Diamond Microscope (QDM) was built by a group from which IIT?",
+        "question": "India's first indigenously developed Quantum Diamond Microscope (QDM) was built by a group from which IIT?",
         "options": {
-            "A": "आईआईटी बॉम्बे / IIT Bombay",
-            "B": "आईआईटी र्दल्ली / IIT Delhi",
-            "C": "आईआईटी मद्रास / IIT Madras",
-            "D": "आईआईटी पटना / IIT Patna"
+            "A": "IIT Bombay",
+            "B": "IIT Delhi",
+            "C": "IIT Madras",
+            "D": "IIT Patna"
         },
         "correct": "A",
-        "explanation": "िैनेडडयम रेडॉक्स फ्लो बैटरी\n• भारत की पहली बड़े पैमाने की 3 मेगािाट-घंटा (3 MWh) क्षमता िाली िैनेडडयम रेडॉक्स फ्लो बैटरी का\nउद्घाटन ग्रेटर नोएडा (Greater Noida) में ककया गया। (India's first large-scale 3 MWh Vanadium\nRedox Flow Battery was launched in Greater Noida.)\n• भुिनेश्िर: निननलमात लसललकॉन काबााइड सेमीकंडक्टर इकाई का स्थल है। (Bhubaneswar: Site of the\nnewly opened Silicon Carbide semiconductor unit.)\n• हैदराबाद: यहााँ रेलिे पिश्लेिण और प्रलिक्षण ढांचा 'CHIRAG' स्स्थत है। (Hyderabad: Houses the\nCHIRAG railway analysis and training framework.)\n• जामनगर: मेटा, टाटा और ररलायंस द्िारा एक पििाल 168 मेगािाट (MW) का एआई डेटा सेंटर स्थापपत"
+        "explanation": "3 - (3 MWh)\n(Greater Noida)    (India's first large-scale 3 MWh Vanadium\nRedox Flow Battery was launched in Greater Noida.)\n(Bhubaneswar: Site of the\nnewly opened Silicon Carbide semiconductor unit.)\n'CHIRAG'   (Hyderabad: Houses the\nCHIRAG railway analysis and training framework.)\n168  (MW)"
     },
     {
-        "question": "ककस आईआईटी (IIT) ने अमेररका में डीप टेक स्टाटाअप्स को बढािा देने के ललए अपना पहला अंतरााष्ट्रीय केंद्र लॉन्च ककया? / Which IIT launched its first international center to support deep tech startups in America?",
+        "question": "Which IIT launched its first international center to support deep tech startups in America?",
         "options": {
-            "A": "आईआईटी र्दल्ली / IIT Delhi",
-            "B": "आईआईटी मद्रास / IIT Madras",
-            "C": "आईआईटी खड़गपुर / IIT Kharagpur",
-            "D": "आईआईटी गुिाहाटी / IIT Guwahati"
+            "A": "IIT Delhi",
+            "B": "IIT Madras",
+            "C": "IIT Kharagpur",
+            "D": "IIT Guwahati"
         },
         "correct": "B",
-        "explanation": "आईआईटी मद्रास का अंतरााष्ट्रीय केंद्र\n• आईआईटी मद्रास (IIT Madras) ने अमेररका (USA) में डीप टेक स्टाटाअप्स को बढािा देने के ललए अपना\nपहला अंतरााष्ट्रीय केंद्र िुरू ककया है। (IIT Madras launched its first international center in the USA\nto give a boost to deep tech startups.)\n• आईआईटी र्दल्ली: दुननया की पहली एआई लैब सहायक प्रणाली 'AILA' पिकलसत की। (IIT Delhi:\nDeveloped the world's first AI Lab Assistant system 'AILA'.)\n• आईआईटी गुिाहाटी: पूिी र्हमालय में र्हमनद खतरों (Glacier Hazards) को रैक करने के ललए एक नई"
+        "explanation": "(IIT Madras)   (USA)\n(IIT Madras launched its first international center in the USA\nto give a boost to deep tech startups.)\n'AILA'   (IIT Delhi:\nDeveloped the world's first AI Lab Assistant system 'AILA'.)\n(Glacier Hazards)"
     },
     {
-        "question": "आगामी 'आटेलमस II' (Artemis II) अंतररक्ष लमिन के संबंध में सही कथन चुनें:",
+        "question": "' II' (Artemis II)        :",
         "options": {
-            "A": "यह एक मंगल अन्िेिण लमिन है / It is a Mars exploration mission",
-            "B": "यह पहला पूणा रोबोर्टक लमिन है / It is the first fully robotic mission",
-            "C": "यह आटेलमस कायाक्रम का पहला चालक दल िाला चंद्र लमिन है / It is the first crewed lunar",
-            "D": "उपरोक्त में से कोई नहीं / None of the above"
+            "A": "It is a Mars exploration mission",
+            "B": "It is the first fully robotic mission",
+            "C": "It is the first crewed lunar",
+            "D": "None of the above"
         },
         "correct": "A",
-        "explanation": "आटेलमस II लमिन की प्रकृनत\n• आगामी अंतररक्ष लमिन 'आटेलमस II' (Artemis II) आटेलमस कायाक्रम का पहला मानियुक्त चंद्र लमिन\nहै, स्जसे सतह पर संभापित लैंडडंग से पहले हाडािेयर सुरक्षा प्रोिाइल की जांच करने के ललए चंद्र फ्लाईबाय\nपरीक्षण के रूप में डडजाइन ककया गया है। (Artemis II is structurally slated to serve as the historic\nfirst crewed mission (and the first crewed lunar flyby test within the contemporary lunar\ntrajectory architecture) designed to clear hardware safety profiles for eventual surface\ntouchdowns.)\n• यह मंगल अन्िेिण लमिन है: गलत है; संपूणा तात्काललक आटेलमस ढांचा रणनीनतक रूप से चंद्र अन्िेिण\nके ललए मैप ककया गया है। (It is a Mars exploration mission: Incorrect; the entire immediate\nArtemis framework is strategically mapped out for lunar exploration.)\n• यह पहला पूरी तरह से रोबोर्टक लमिन है: गलत है; आटेलमस I ने एक मानि रर्हत उड़ान परीक्षण के रूप में"
+        "explanation": "' II' (Artemis II)\n(Artemis II is structurally slated to serve as the historic\nfirst crewed mission (and the first crewed lunar flyby test within the contemporary lunar\ntrajectory architecture) designed to clear hardware safety profiles for eventual surface\ntouchdowns.)\n(It is a Mars exploration mission: Incorrect; the entire immediate\nArtemis framework is strategically mapped out for lunar exploration.)"
     },
     {
-        "question": "प्राप्त हुई थी। (Manipur: The location where 'Project Hinichi' successfully yielded its first green pea crop. हाल ही की सीएजी (CAG) ररपोटा के अनुसार, जम्मू-कश्मीर में पपछले कुछ दिकों में 697 में से ककतनी आद्राभूलमयााँ (wetlands) पूरी तरह से गायब हो गई हैं? / According to the recent CAG report, how many wetlands out of 697 have completely vanished over the last few decades in Jammu & Kashmir?",
+        "question": "According to the recent CAG report, how many wetlands out of 697 have completely vanished over the last few decades in Jammu & Kashmir?",
         "options": {
-            "A": "203 आद्राभूलमयााँ / 203 wetlands",
-            "B": "315 आद्राभूलमयााँ / 315 wetlands",
-            "C": "518 आद्राभूलमयााँ / 518 wetlands",
-            "D": "80 आद्राभूलमयााँ / 80 wetlands"
+            "A": "203 wetlands",
+            "B": "315 wetlands",
+            "C": "518 wetlands",
+            "D": "80 wetlands"
         },
         "correct": "B",
-        "explanation": "जम्मू-कश्मीर आद्राभूलम (Wetlands) का नुकसान\n• हाल ही में आई कैग (CAG) की ररपोटा के अनुसार, जम्मू-कश्मीर में सिेक्षण की गई कुल 697 आद्राभूलमयों\nमें से 315 पूरी तरह से पिलुप्त हो चुकी हैं और 203 अत्यगधक रूप से लसकुड़ चुकी हैं। (Out of the baseline\n697 wetlands surveyed in Jammu and Kashmir, 315 have vanished completely, and 203 have\ndrastically shrunk.)\n• 518 आद्राभूलमयां: भारी रूप से क्षनतग्रस्त या नष्ट्ट हो चुके जल ननकायों की संयुक्त संख्या है। (The\ncombined tally of heavily degraded or lost water bodies.)\n• 80 आद्राभूलमयां: िन पिभाग के प्रत्यक्ष प्रिासन के तहत आने िाले प्राचीन जल ननकायों की संख्या है। (The\nnumber of pristine wetlands under the direct administration of the forest department.)"
+        "explanation": "(Wetlands)\n(CAG)    , -      697\n315         203       (Out of the baseline\n697 wetlands surveyed in Jammu and Kashmir, 315 have vanished completely, and 203 have\ndrastically shrunk.)\n518 :               (The\ncombined tally of heavily degraded or lost water bodies.)\n80 :                (The\nnumber of pristine wetlands under the direct administration of the forest department.)"
     },
     {
-        "question": "थेरेपी है। (BIRSA-101: India's first indigenous gene therapy developed by CSIR-IGIB for Sickle Cell Anemia.) स्जयो (Jio) देि के पहले स्िदेिी एआई प्लेटिॉमा के रूप में कौन सा प्लेटिॉमा लॉन्च करेगा? Which platform will Jio launch as the country's first indigenous AI platform?",
+        "question": "(BIRSA-101: India's first indigenous gene therapy developed by CSIR-IGIB for Sickle Cell Anemia.)  (Jio)              ? Which platform will Jio launch as the country's first indigenous AI platform?",
         "options": {
-            "A": "'पीपल िस्टा' / 'People First'",
-            "B": "'म्यूज स्पाका' / 'Muse Spark'",
-            "C": "'एमएआई-रांसक्राइब-1' / 'MAI-Transcribe-1'",
-            "D": "'इंडक्यूए' / 'IndQA'"
+            "A": "'People First'",
+            "B": "'Muse Spark'",
+            "C": "'MAI-Transcribe-1'",
+            "D": "'IndQA'"
         },
         "correct": "A",
-        "explanation": "स्जयो का 'पीपल िस्टा' एआई प्लेटिॉमा\n• ररलायंस स्जयो ने घोिणा की है कक िह 'पीपल िस्टा' (People First) नाम से देि का पहला स्िदेिी एआई\nप्लेटिॉमा लॉन्च करेगा। (Jio announced it will launch 'People First', slated to be India's first\nindigenous AI platform.)\n• 'Muse Spark': मेटा (Meta) द्िारा लॉन्च ककया गया एआई मॉडल है। ('Muse Spark': An AI model\nlaunched by Meta.)\n• 'MAI-Transcribe-1': माइक्रोसॉफ्ट द्िारा पिकलसत एक रांसकक्रप्िन एआई मॉडल है। ('MAI-Transcribe-\n1': A transcription AI model developed by Microsoft.)\n• 'IndQA': भारतीय भािाओं के मूल्यांकन के ललए सिाम एआई (Sarvam AI) द्िारा लॉन्च ककया गया एक"
+        "explanation": "' ' (People First)\n(Jio announced it will launch 'People First', slated to be India's first\nindigenous AI platform.)\n'Muse Spark':  (Meta)        ('Muse Spark': An AI model\nlaunched by Meta.)\n'MAI-Transcribe-1':         ('MAI-Transcribe-\n1': A transcription AI model developed by Microsoft.)\n'IndQA':         (Sarvam AI)"
     },
     {
-        "question": "लॉन्च साइट से अलग है। (IIT Madras: Developed the 'PARAM SHAKTI' funding framework under the NSM, but is distinct from the CAR-T launch site.) भारतीय अंतररक्ष अनुसंधान संगठन (ISRO) ने अंतरग्रहीय आिास स्स्थनतयों (interplanetary habitat conditions) को अनुकरण करने के ललए भारत का पहला एनालॉग स्पेस लमिन कहााँ िुरू ककया? / Where did the Indian Space Research Organisation (ISRO) launch India’s first Analog Space Mission to simulate interplanetary habitat conditions?",
+        "question": "Where did the Indian Space Research Organisation (ISRO) launch India’s first Analog Space Mission to simulate interplanetary habitat conditions?",
         "options": {
-            "A": "लेह / Leh",
-            "B": "धनुि / Dhanush",
-            "C": "बेंगलुरु / Bengaluru",
-            "D": "श्रीहररकोटा / Sriharikota"
+            "A": "Leh",
+            "B": "Dhanush",
+            "C": "Bengaluru",
+            "D": "Sriharikota"
         },
         "correct": "A",
-        "explanation": "भारत का पहला एनालॉग स्पेस लमिन\n• भारतीय अंतररक्ष अनुसंधान संगठन (ISRO) ने अन्य ग्रहों की नकल करने िाली अत्यगधक आिास\nस्स्थनतयों का अनुकरण और अध्ययन करने के ललए लेह (Leh) में भारत का पहला एनालॉग स्पेस लमिन\nस्थापपत ककया है। (ISRO established India's first Analog Space Mission in Leh to simulate and\nstudy extreme habitat conditions mimicking other planets.)\n• Dhanush: अस्ग्नकुल (Agnikul) द्िारा उपयोग ककए जाने िाले भारत के पहले ननजी अंतररक्ष लॉन्च पैड\nका नाम है। (Dhanush: The name of India's first private space launch pad used by Agnikul.)\n• बेंगलुरु: इसरो (ISRO) का प्रिासननक मुख्यालय है। (Bengaluru: The administrative headquarters of\nISRO.)\n• श्रीहररकोटा: भारत का प्राथलमक उपग्रह प्रक्षेपण केंद्र (सतीि धिन अंतररक्ष केंद्र) है। (Sriharikota: The\nprimary satellite launch center (Satish Dhawan Space Centre) of India.)"
+        "explanation": "(ISRO)\n(ISRO established India's first Analog Space Mission in Leh to simulate and\nstudy extreme habitat conditions mimicking other planets.)\nDhanush:  (Agnikul)\n(Dhanush: The name of India's first private space launch pad used by Agnikul.)\n(ISRO)     (Bengaluru: The administrative headquarters of\nISRO.)\n(   )  (Sriharikota: The\nprimary satellite launch center (Satish Dhawan Space Centre) of India.)"
     },
     {
-        "question": "जो लागचत-1 पररयोजना से अलग हैं। (NEHU Shillong & Manipur University: Major university hubs located in Meghalaya and Manipur respectively, distinct from the Lachit-1 project.) भारत का पहला िुल-स्टैक संप्रभु कृबत्रम बुद्गधमत्ता (Sovereign Artificial Intelligence - AI) पाका कहााँ स्थापपत ककया जाएगा? / Where will India's first full-stack sovereign Artificial Intelligence (AI) park be established?",
+        "question": "Where will India's first full-stack sovereign Artificial Intelligence (AI) park be established?",
         "options": {
-            "A": "कनााटक / Karnataka",
-            "B": "तलमलनाडु / Tamil Nadu",
-            "C": "महाराष्ट्र / Maharashtra",
-            "D": "तेलंगाना / Telangana"
+            "A": "Karnataka",
+            "B": "Tamil Nadu",
+            "C": "Maharashtra",
+            "D": "Telangana"
         },
         "correct": "D",
-        "explanation": "भारत का पहला सॉिरेन एआई पाका\n• व्यापक देिी कम्प्यूटेिनल बुननयादी ढांचा और स्थानीयकृत डेटा लसस्टम प्रदान करने के उद्देश्य से भारत\nका पहला िुल-स्टैक सॉिरेन आर्टाकिलियल इंटेललजेंस (AI) पाका तेलंगाना (Telangana) में स्थापपत ककया\nजाएगा। (India's first full-stack sovereign Artificial Intelligence (AI) park is slated to be set up in\nTelangana. This project aims to provide comprehensive native computational infrastructure\nand localized data systems.)\n• कनााटक: बेंगलुरु में अपने आईटी हब के ललए भारी रूप से पहचाना जाता है, लेककन यह इस पििेि सॉिरेन\nएआई पाका के ललए ननर्दाष्ट्ट स्थान नहीं है। (Karnataka: Recognized heavily for its IT hub in\nBengaluru, but is not the location designated for this particular sovereign AI park.)\n• तलमलनाडु: प्रमुख इलेक्रॉननक पिननमााण क्लस्टरों को प्रदलिात करता है, लेककन इस पररयोजना के संदभा\nमें गलत है। (Tamil Nadu: Features major electronic manufacturing clusters, but is incorrect in\nthe context of this project.)\n• महाराष्ट्र: एक प्रमुख पित्तीय पािरहाउस के रूप में काया करता है, लेककन इस आगामी िुल-स्टैक एआई"
+        "explanation": "(AI)   (Telangana)\n(India's first full-stack sovereign Artificial Intelligence (AI) park is slated to be set up in\nTelangana. This project aims to provide comprehensive native computational infrastructure\nand localized data systems.)\n(Karnataka: Recognized heavily for its IT hub in\nBengaluru, but is not the location designated for this particular sovereign AI park.)\n(Tamil Nadu: Features major electronic manufacturing clusters, but is incorrect in\nthe context of this project.)"
     },
     {
-        "question": "है। (A deep-sea exploration vehicle: Refers to the 'Bhavsagar' deep-sea storage project framework.) 'VERVE-102' क्या है, स्जसने नैदाननक मानि परीक्षणों (clinical human trials) में प्रिेि ककया है? / What is 'VERVE-102', which has entered clinical human trials?",
+        "question": "What is 'VERVE-102', which has entered clinical human trials?",
         "options": {
-            "A": "उच्च एलडीएल (LDL) कोलेस्रॉल को लक्षक्षत करने िाली एक इन-पििो 'बेस एडडर्टंग' जीन थेरेपी /",
-            "B": "खतरनाक बेबेलसयोलसस र्टक संक्रमण का मुकाबला करने के ललए पिकलसत एक टीका / A",
-            "C": "स्रोक के रोगगयों के ललए एक एआई-संचाललत नैदाननक अनुप्रयोग / An AI-powered",
-            "D": "हरी मटर की िसलों के ललए एक पििेि कृपि कीटनािक / A specialized agricultural"
+            "A": "(LDL)       - ' '   /",
+            "B": "A",
+            "C": "An AI-powered",
+            "D": "A specialized agricultural"
         },
         "correct": "C",
-        "explanation": "pesticide for green pea crops\n36.\nVERVE-102 जीन थेरेपी\n• 'VERVE-102' एक प्रयोगात्मक इन-पििो 'बेस एडडर्टंग' जीन थेरेपी है स्जसने स्क्लननकल मानि परीक्षणों\nमें प्रिेि ककया है और यह उच्च एलडीएल कोलेस्रॉल को स्थायी रूप से कम करने के ललए ललिर में PCSK9\nजीन को बंद करने का काया करती है। (VERVE-102 is an experimental in-vivo gene editing therapy\ndesigned to turn off the PCSK9 gene in the liver to permanently lower dangerous LDL\ncholesterol.)\n• बेबेलसयोलसस के ललए टीका: बेबेलसयोलसस एक र्टक-जननत बीमारी है, लेककन इसका इलाज VERVE-102\nद्िारा नहीं ककया जाता है। (A vaccine for Babesiosis: Babesiosis is a tick-borne disease\nmentioned in the text, but it is not treated by VERVE-102.)\n• एक एआई-संचाललत नैदाननक उपकरण: पिश्ि स्िास््य सभा ने स्रोक देखभाल पर संकल्प पाररत ककए,\nलेककन यह इस जीन थेरेपी से अलग है। (An AI-powered diagnostic application: The World Health\nAssembly passed resolutions on stroke care, but it is separate from this gene therapy.)\n• एक पििेि कृपि कीटनािक: मानि बायोमेडडकल थेरेप्यूर्टक्स से पूरी तरह असंबंगधत है। (A specialized\nagricultural pesticide: Unrelated to human biomedical therapeutics.)"
+        "explanation": "pesticide for green pea crops\n36.\nVERVE-102\n'VERVE-102'   - ' '\n(VERVE-102 is an experimental in-vivo gene editing therapy\ndesigned to turn off the PCSK9 gene in the liver to permanently lower dangerous LDL\ncholesterol.)\nVERVE-102\n(A vaccine for Babesiosis: Babesiosis is a tick-borne disease\nmentioned in the text, but it is not treated by VERVE-102.)\n(An AI-powered diagnostic application: The World Health\nAssembly passed resolutions on stroke care, but it is separate from this gene therapy.)\n(A specialized\nagricultural pesticide: Unrelated to human biomedical therapeutics.)"
     },
     {
-        "question": "है, स्जनमें से प्रत्येक अलग-अलग, स्ितंत्र लक्ष्यों पर सटीक प्रहार करने में सक्षम होते हैं। (MIRV technology allows a single ballistic missile to carry multiple nuclear warheads, each capable of striking separate, independent targets.) इटली की अंतररक्ष एजेंसी (ASI) के ललए स्पेसएक्स (SpaceX) द्िारा भूमध्यसागरीय बेलसन (Mediterranean Basin) के ललए लॉन्च ककए गए पृ्िी अिलोकन उपग्रह तारामंडल का नाम क्या है? / What is the name of the earth observation satellite constellation launched for the Mediterranean Basin by SpaceX for Italy's Space Agency (ASI)?",
+        "question": "What is the name of the earth observation satellite constellation launched for the Mediterranean Basin by SpaceX for Italy's Space Agency (ASI)?",
         "options": {
-            "A": "ईओएस-एन1 / EOS-N1",
-            "B": "कॉस्मो-स्काईमेड (COSMO-SkyMed)",
-            "C": "सोलर-1 / SOLAR-1",
-            "D": "टेलीपपक्स (TelePIX)"
+            "A": "EOS-N1",
+            "B": "(COSMO-SkyMed)",
+            "C": "SOLAR-1",
+            "D": "(TelePIX)"
         },
         "correct": "B",
-        "explanation": "कॉस्मो-स्काईमेड (COSMO-SkyMed) सैटेलाइट\n• स्पेसएक्स (SpaceX) ने इटली की अंतररक्ष एजेंसी (ASI) के ललए भूमध्यसागरीय बेलसन (Mediterranean\nBasin) की ननगरानी हेतु 'COSMO-SkyMed' नामक पृ्िी अिलोकन उपग्रह (EOS) तारामंडल का तीसरा\nफ्लाइट मॉडल लॉन्च ककया है। (SpaceX launched the second-generation 'COSMO-SkyMed' Earth\nObservation Satellite constellation flight model 3 for Italy's Space Agency.)\n• EOS-N1: इसरो का एक उपग्रह लमिन था स्जसे जनिरी 2026 में लॉन्च के समय ललफ्ट-ऑि पििलता\n(Failure) का सामना करना पड़ा था। (EOS-N1: An ISRO satellite mission that suffered a launch lift-\noff failure in January 2026.)\n• SOLAR-1: संयुक्त राज्य अमेररका द्िारा सकक्रय ककया गया एक पििेि सैन्य अंतररक्ष मौसम ननगरानी\nउपग्रह है। (SOLAR-1: A special military space weather monitoring satellite activated by the\nUnited States.)\n• टेलीपपक्स (TelePIX): एक दक्षक्षण कोररयाई उपग्रह कंपनी है जो बेलार्रक्स एयरोस्पेस के साथ लमलकर"
+        "explanation": "(COSMO-SkyMed)\n(SpaceX)      (ASI)     (Mediterranean\nBasin)    'COSMO-SkyMed'     (EOS)\n(SpaceX launched the second-generation 'COSMO-SkyMed' Earth\nObservation Satellite constellation flight model 3 for Italy's Space Agency.)\nEOS-N1:         2026     -\n(Failure)      (EOS-N1: An ISRO satellite mission that suffered a launch lift-\noff failure in January 2026.)\nSOLAR-1:\n(SOLAR-1: A special military space weather monitoring satellite activated by the\nUnited States.)\n(TelePIX):"
     },
     {
-        "question": "संक्रमण से जुड़ी है। (Meningoencephalitis: A severe brain inflammation linked to the Acanthamoeba infections in Kerala.) गचककत्सा िब्द 'ब्रेन-ईर्टंग अमीबा' (Brain-Eating Amoeba), स्जसके कारण 2026 के दौरान केरल में संक्रमण में िृद्गध हुई, ककस मुक्त-जीपित अमीबा जीन (free-living amoeba genus) को संदलभात करता है? / The medical term 'Brain-Eating Amoeba', which caused a rise in infections in Kerala during 2026, refers to which free-living amoeba genus?",
+        "question": "The medical term 'Brain-Eating Amoeba', which caused a rise in infections in Kerala during 2026, refers to which free-living amoeba genus?",
         "options": {
-            "A": "एकैंथअमीबा (Acanthamoeba) / Acanthamoeba",
-            "B": "बेबेलसया (Babesia) / Babesia",
-            "C": "थोररयम (Thorium) / Thorium",
-            "D": "हूलॉक / Hoolock"
+            "A": "Acanthamoeba",
+            "B": "Babesia",
+            "C": "Thorium",
+            "D": "Hoolock"
         },
         "correct": "A",
-        "explanation": "मस्स्तष्ट्क खाने िाला अमीबा\n• केरल में ििा 2026 के दौरान मेननंगोएन्सेिलाइर्टस के मामलों में िृद्गध दजा करने िाला गचककत्सीय िब्द\n'ब्रेन-ईर्टंग अमीबा' (मस्स्तष्ट्क खाने िाला अमीबा) मुक्त रहने िाले 'अकांतअमीबा' (Acanthamoeba)\nप्रजानत को संदलभात करता है जो आमतौर पर दूपित पानी में पाया जाता है। (Kerala recorded a spike in\nmeningoencephalitis cases caused by Acanthamoeba, a free-living amoeba commonly found\nin contaminated water.)\n• Babesia: गगर के िेरों की मौत के ललए स्जम्मेदार रक्त परजीिी है। (Babesia: The blood parasite\nresponsible for the Gir lion deaths.)\n• Thorium: परमाणु घडड़यों  में इस्तेमाल होने िाला एक रासायननक तत्ि है। (Thorium: A chemical\nelement used in nuclear clocks.\n• Hoolock: असम में पाए जाने िाले लुप्तप्राय पस्श्चमी हूलॉक गगब्बन प्राइमेट को संदलभात करता है।\n(Hoolock: Refers to the Western Hoolock Gibbon primate found in Assam.)"
+        "explanation": "'- ' (   )    '' (Acanthamoeba)\n(Kerala recorded a spike in\nmeningoencephalitis cases caused by Acanthamoeba, a free-living amoeba commonly found\nin contaminated water.)\nBabesia:            (Babesia: The blood parasite\nresponsible for the Gir lion deaths.)\nThorium:            (Thorium: A chemical\nelement used in nuclear clocks.\nHoolock:\n(Hoolock: Refers to the Western Hoolock Gibbon primate found in Assam.)"
     },
     {
-        "question": "का प्रिासक नहीं है। (Kerala: Houses the Thumba Equatorial Rocket Launching Station (TERLS), but is not the administrator of Hope Island projects.) भारत स्पेस-बेस्ड सपिालांस-3 (SBS-3) कायाक्रम के तहत ककतने जासूसी उपग्रह (spy satellites) लॉन्च करने की योजना बना रहा है? / How many spy satellites is India planning to launch under the Space-Based Surveillance-3 (SBS-3) program?",
+        "question": "How many spy satellites is India planning to launch under the Space-Based Surveillance-3 (SBS-3) program?",
         "options": {
             "A": "52",
             "B": "36",
@@ -382,54 +382,54 @@
             "D": "60"
         },
         "correct": "C",
-        "explanation": "स्पेस-बेस्डसपिालांस-3 (SBS-3)\nमहत्िाकांक्षीस्पेस-बेस्डसपिालांस-3 (SBS-3) रक्षाऔरखुकियाउद्यमकेतहतभारत 48 उन्नत जासूसी\nउपग्रहों(Spy Satellites) केएकसमस्न्िततारामंडलकोतैनातकरनेकीयोजनाबनारहाहै।(Under the\nambitious Space-Based Surveillance-3 (SBS-3) defense and intelligence enterprise, India plans\nto deploy a coordinated constellation of 48 advanced spy satellites.)\nहाल ही में िाललयामाला में इसरो के ललस्क्िड प्रोपल्िन लसस्टम सेंटर (LPSC) को 'आकािा 300' 3D\nपप्रंटर ककसने सौंपा है? / Who has recently handed over the 'Akasha 300' 3D printer to\nISRO's Liquid Propulsion Systems Centre (LPSC) in Valiamala?\n(a) स्पेसटाइम 4D / Spacetime 4D\n(b) डीआरडीओ / DRDO\n(c) र्हंदुस्तान एयरोनॉर्टक्स लललमटेड / Hindustan Aeronautics Limited\n(d) टाटा एडिांस्ड लसस्टम्स / Tata Advanced Systems\n56.\nआकाि 300 3D पप्रंटर\n• स्पेसटाइम 4D (Spacetime 4D) ने इसरो के िललयामाला स्स्थत ललस्क्िड प्रोपल्िन लसस्टम सेंटर (LPSC)\nको 'आकाि 300' (Akasha 300) नामक एक स्िदेिी रूप से पिकलसत, बड़े पैमाने का औद्योगगक 3D पप्रंटर\nसौंपा है जो इंजन प्रोटोटाइप और रॉकेट ननमााण को तेज करने में मदद करेगा। ('Akasha 300' is an\nindigenously developed, large-scale industrial 3D printer delivered to ISRO’s LPSC facility. It\nspecializes in additive manufacturing of complex aerospace components, helping speed up\nengine prototyping and rocket manufacturing timelines by Spacetime 4D.)\n• DRDO: भारत का अग्रणी रक्षा अनुसंधान संगठन है, जो िाणणस्ज्यक अंतररक्ष पिंग को मिीनरी देने के\nबजाय सैन्य प्रौद्योगगककयों और हगथयारों पर ध्यान केंर्द्रत करता है। (DRDO: India's premier defense\nresearch organization, focused primarily on military technologies and armaments rather than\ndelivering machinery to commercial space wings.)\n• HAL: एक राज्य के स्िालमत्ि िाली एयरोस्पेस र्दग्गज कंपनी है जो मुख्य रूप से लड़ाकू पिमानों,\nहेलीकॉप्टरों और भारी संरचनाओं का ननमााण करती है, न कक िाणणस्ज्यक 3D पप्रंर्टंग मिीनरी का पिकास\nकरती है। (HAL: A state-owned aerospace giant that primarily manufactures fighter aircraft,\nhelicopters, and heavy structures rather than developing commercial 3D printing machinery.)\n• Tata Advanced Systems: टाटा समूह की एक ननजी रक्षा और एयरोस्पेस पिननमााण िाखा है जो\nएयरोस्रक्चर और लसस्टम डडजाइन करती है लेककन आकािा लसस्टम की ननमााता नहीं है। (Tata\nAdvanced Systems: A private defense and aerospace manufacturing arm of the Tata Group\nthat designs aerostructures and systems but is not the creator of the Akasha system.)\nहाल ही में पिकलसत फ्लोर्टंग ललडार बॉय (Floating LiDAR Buoy) का ककसके द्िारा सिलतापूिाक\nपरीक्षण ककया गया था? / By whom was the recently developed Floating LiDAR Buoy\nsuccessfully tested?\n(a) राष्ट्रीय महासागर प्रौद्योगगकी संस्थान (NIOT) / National Institute of Ocean Technology\n(NIOT)\n(b) भारतीय अंतररक्ष अनुसंधान संगठन / Indian Space Research Organisation\n(c) रक्षा अनुसंधान एिं पिकास संगठन / Defence Research and Development Organisation\n(d) एनआईओ (NIO) / NIO\n57.\nफ्लोर्टंग ललडार बॉय परीक्षण\n• राष्ट्रीय महासागर प्रौद्योगगकी संस्थान (NIOT) ने अपतटीय पिन ऊजाा प्रनतष्ट्ठानों के पिकास का समथान\nकरने के ललए देि के पहले स्िदेिी फ्लोर्टंग ललडार (Floating LiDAR) बॉय लसस्टम को सिलतापूिाक\nतैनात और सत्यापपत ककया है। (NIOT successfully deployed and validated India's first indigenous\nFloating LiDAR (Light Detection and Ranging) Buoy system. This system measures offshore\nwind profiles, ocean currents, and weather parameters to support the development of\noffshore wind energy installations.)\n• ISRO: समुद्री-बॉय पिन बुननयादी ढांचे के बजाय अंतररक्ष अन्िेिण, उपग्रह पररननयोजन और ऊपरी-\nिायुमंडलीय डेटा पर ध्यान केंर्द्रत करता है। (ISRO: Focuses on space exploration, satellite\ndeployment, and upper-atmospheric data rather than marine-buoy wind infrastructure.)\n• DRDO: िाणणस्ज्यक समुद्री पिन मानगचत्रण के बजाय राष्ट्रीय रक्षा प्रणाललयों, नौसेना सोनार और नौसेना\nहगथयारों पर ध्यान केंर्द्रत करता है। (DRDO: Focuses on national defense systems, naval sonar,\nand naval weapons rather than commercial maritime wind mapping.)\n• NIO: राष्ट्रीय समुद्र पिज्ञान संस्थान समुद्री जीि पिज्ञान, भूपिज्ञान और रासायननक समुद्र पिज्ञान की\nखोज करता है, न कक फ्लोर्टंग पिंड LiDAR उपकरण की इंजीननयररंग करता है। (NIO: The National\nInstitute of Oceanography explores marine biology, geology, and chemical oceanography\nrather than engineering floating wind LiDAR equipment.)\nहाल ही में 'पसानल कंप्यूटर' (Personal Computer) एआई एजेंट ककसने लॉन्च ककया? / Who\nrecently launched the 'Personal Computer' AI agent?\n(a) ओपनएआई / OpenAI\n(b) परप्लेस्क्सटी / Perplexity\n(c) गूगल / Google\n(d) माइक्रोसॉफ्ट / Microsoft\n58.\nपसानल कंप्यूटर' एआई एजेंट\n• पपालेस्क्सटी (Perplexity) ने अपने \"Personal Computer\" लसस्टम की पििेिता िाला एक उन्नत\nपाररस्स्थनतकी तंत्र लॉन्च ककया है जो एक मैक लमनी (Mac Mini) जैसे पििेि हाडािेयर इंटरिेस के माध्यम\nसे स्थानीय रूप से काम करता है और डेस्कटॉप पर जर्टल कायों को स्िायत्त रूप से ननष्ट्पार्दत करता है।\n(Perplexity launched an advanced ecosystem featuring its \"Personal Computer\" system.\nRunning locally via specialized hardware interfaces (like a Mac Mini), it acts as an\nautonomous digital proxy that coordinates multiple AI models to perform complex, multi-\nstep tasks natively on a user's desktop.)\nहाल ही में भारतीय अंतररक्ष अनुसंधान संगठन (ISRO) ने CE-20 क्रायोजेननक इंजन का\nसिलतापूिाक परीक्षण ककया। सही कथन चुनें:\n(a) यह परीक्षण इसरो प्रोपल्िन कॉम्प्लेक्स, महेंद्रगगरर, तलमलनाडु में आयोस्जत ककया गया था। /\nThis test was conducted at the ISRO Propulsion Complex, Mahendragiri, Tamil Nadu.\n(b) यह परीक्षण श्रीहररकोटा, आंध्र प्रदेि में आयोस्जत ककया गया था। / This test was conducted\nat Sriharikota, Andhra Pradesh.\n(c) परीक्षण के दौरान, इंजन ने 165 सेकंड के ललए काम ककया और लगभग 22 टन का थ्रस्ट उत्पन्न\nककया। / During the test, the engine operated for 165 seconds and generated\napproximately 22 tons of thrust.\n(d) (a) और (c) दोनों\n(e) केिल (c)\n59.\nCE-20 क्रायोजेननक इंजन परीक्षण\n• भारतीय अंतररक्ष अनुसंधान संगठन (ISRO) ने भारत के LVM3 रॉकेट के ऊपरी क्रायोजेननक चरण को\nिस्क्त देने िाले भारी-भरकम CE-20 क्रायोजेननक इंजन का सिल परीक्षण महेंद्रगगरर, तलमलनाडु में स्स्थत\nसमपपात इसरो प्रोपल्िन कॉम्प्लेक्स (IPRC) सुपिधा में ककया। (The CE-20 cryogenic engine is the\nheavy-duty engine powering the upper cryogenic stage of India’s LVM3 rocket. All specialized\nliquid fuel and cryogenic engine hot tests are officially carried out at the dedicated ISRO\nPropulsion Complex (IPRC) facility located in Mahendragiri.)\n• Sriharikota: यह सतीि धिन अंतररक्ष केंद्र (SDSC) है, जो भारत के प्राथलमक रॉकेट लॉन्च स्थल के रूप में\nकाया करता है, न कक जमीनी स्तर के इंजन अिगध के हॉट-िायररंग के ललए परीक्षण मैदान के रूप में।\n(Sriharikota: This is the Satish Dhawan Space Centre (SDSC), which serves as India's primary\nrocket launch site, not the testing ground for ground-level engine duration hot-firings.)\nहाल ही में स्िच्छता ननगरानी और स्िचाललत ररपोर्टिंग उपकरण - 'स्माटा' (Swachhata\nMonitoring & Automated Reporting Tool - SMART) ककसने लॉन्च ककया? / Who recently\nlaunched the Swachhata Monitoring & Automated Reporting Tool (SMART)?\n(a) र्दल्ली छािनी बोडा / Delhi Cantonment Board\n(b) र्दल्ली नगर ननगम / Delhi Municipal Corporation\n(c) स्िच्छ भारत लमिन 3.0 / Swachh Bharat Mission 3.0\n(d) नई र्दल्ली नगर पाललका पररिद / New Delhi Municipal Council\n60.\nस्माटा (SMART) प्लेटिॉमा\n• र्दल्ली छािनी बोडा (Delhi Cantonment Board) ने सािाजननक स्िच्छता ररपोर्टिंग को डडस्जटल बनाने,\nिास्तपिक समय में सिाई चक्रों को रैक करने और सािाजननक स्िास््य संचालन को प्रभािी ढंग से\nप्रबंगधत करने के ललए 'SMART' प्लेटिॉमा पेि ककया है। (The Delhi Cantonment Board (DCB)\nintroduced the SMART platform to digitize public sanitation reporting, allowing automated\ndata analytics to track real-time cleaning cycles, resolve complaints, and manage public\nhealth operations effectively.)\n• MCD: र्दल्ली के व्यापक नगर ननगम क्षेत्रों के ललए नागररक सेिाओं का प्रबंधन करता है लेककन इस सटीक\nउपकरण से अलग डडस्जटल पोटाल संचाललत करता है। (MCD: Manages civic services for the wider\nmunicipal corporation zones of Delhi but operates distinct digital portals separate from this\nexact tool.)\n• Swachh Bharat Mission 3.0: केंद्र सरकार द्िारा संचाललत िृहद राष्ट्रव्यापी नीनतगत छत्र ढांचे का\nप्रनतननगधत्ि करता है, न कक ककसी नगरपाललका प्रभाग द्िारा स्थानीय रूप से िुरू ककया गया एक पिलिष्ट्ट\nउपकरण। (Swachh Bharat Mission 3.0: Represents the macro nationwide policy umbrella\nframework run by the Union Government rather than a specific tool launched locally by a\nmunicipal division.)\n• NDMC: लुर्टयंस र्दल्ली के िीआईपी क्षेत्रों को ननयंबत्रत करता है और नागररक रखरखाि ननगरानी के ललए\nअपने स्ियं के कस्टम अनुप्रयोगों पर ननभार करता है। (NDMC: Governs the VIP zones of Lutyens'\nDelhi and relies on its own custom applications for civic maintenance monitoring.)\nThankoo!"
+        "explanation": "3 (SBS-3)\n3 (SBS-3)  48\n(Spy Satellites) (Under the\nambitious Space-Based Surveillance-3 (SBS-3) defense and intelligence enterprise, India plans\nto deploy a coordinated constellation of 48 advanced spy satellites.)\n(LPSC)  ' 300' 3D\nWho has recently handed over the 'Akasha 300' 3D printer to\nISRO's Liquid Propulsion Systems Centre (LPSC) in Valiamala?\n(a)  4D / Spacetime 4D\n(b)  / DRDO\n(c)    / Hindustan Aeronautics Limited\n(d)    / Tata Advanced Systems\n56.\n300 3D\n4D (Spacetime 4D)          (LPSC)\n' 300' (Akasha 300)      ,     3D\n('Akasha 300' is an\nindigenously developed, large-scale industrial 3D printer delivered to ISRO’s LPSC facility. It\nspecializes in additive manufacturing of complex aerospace components, helping speed up\nengine prototyping and rocket manufacturing timelines by Spacetime 4D.)\nDRDO:       ,\n(DRDO: India's premier defense\nresearch organization, focused primarily on military technologies and armaments rather than\ndelivering machinery to commercial space wings.)\nHAL:               ,\n(HAL: A state-owned aerospace giant that primarily manufactures fighter aircraft,\nhelicopters, and heavy structures rather than developing commercial 3D printing machinery.)\nTata Advanced Systems:\nAdvanced Systems: A private defense and aerospace manufacturing arm of the Tata Group\nthat designs aerostructures and systems but is not the creator of the Akasha system.)\n(Floating LiDAR Buoy)\nBy whom was the recently developed Floating LiDAR Buoy\nsuccessfully tested?\n(a)     (NIOT) / National Institute of Ocean Technology\n(NIOT)\n(b)     / Indian Space Research Organisation\n(c)      / Defence Research and Development Organisation\n(d)  (NIO) / NIO\n57.\n(NIOT)\n(Floating LiDAR)\n(NIOT successfully deployed and validated India's first indigenous\nFloating LiDAR (Light Detection and Ranging) Buoy system. This system measures offshore\nwind profiles, ocean currents, and weather parameters to support the development of\noffshore wind energy installations.)\nISRO: -       ,    -\n(ISRO: Focuses on space exploration, satellite\ndeployment, and upper-atmospheric data rather than marine-buoy wind infrastructure.)\nDRDO:         ,\n(DRDO: Focuses on national defense systems, naval sonar,\nand naval weapons rather than commercial maritime wind mapping.)\nNIO:       ,\nLiDAR      (NIO: The National\nInstitute of Oceanography explores marine biology, geology, and chemical oceanography\nrather than engineering floating wind LiDAR equipment.)\n' ' (Personal Computer)     ? / Who\nrecently launched the 'Personal Computer' AI agent?\n(a)  / OpenAI\n(b)  / Perplexity\n(c)  / Google\n(d)  / Microsoft\n58.\n(Perplexity)   \"Personal Computer\"\n(Mac Mini)\n(Perplexity launched an advanced ecosystem featuring its \"Personal Computer\" system.\nRunning locally via specialized hardware interfaces (like a Mac Mini), it acts as an\nautonomous digital proxy that coordinates multiple AI models to perform complex, multi-\nstep tasks natively on a user's desktop.)\n(ISRO)  CE-20\n(a)     , ,       /\nThis test was conducted at the ISRO Propulsion Complex, Mahendragiri, Tamil Nadu.\n(b)   ,        / This test was conducted\nat Sriharikota, Andhra Pradesh.\n(c)   ,   165        22\nDuring the test, the engine operated for 165 seconds and generated\napproximately 22 tons of thrust.\n(d) (a)  (c)\n(e)  (c)\n59.\n(ISRO)    LVM3\nCE-20      ,\n(IPRC)    (The CE-20 cryogenic engine is the\nheavy-duty engine powering the upper cryogenic stage of India’s LVM3 rocket. All specialized\nliquid fuel and cryogenic engine hot tests are officially carried out at the dedicated ISRO\nPropulsion Complex (IPRC) facility located in Mahendragiri.)\nSriharikota:      (SDSC) ,\n(Sriharikota: This is the Satish Dhawan Space Centre (SDSC), which serves as India's primary\nrocket launch site, not the testing ground for ground-level engine duration hot-firings.)\n'' (Swachhata\nMonitoring & Automated Reporting Tool - SMART)   ? / Who recently\nlaunched the Swachhata Monitoring & Automated Reporting Tool (SMART)?\n(a)    / Delhi Cantonment Board\n(b)    / Delhi Municipal Corporation\n(c)    3.0 / Swachh Bharat Mission 3.0\n(d)      / New Delhi Municipal Council\n60.\n(SMART)\n(Delhi Cantonment Board)       ,\n'SMART'     (The Delhi Cantonment Board (DCB)\nintroduced the SMART platform to digitize public sanitation reporting, allowing automated\ndata analytics to track real-time cleaning cycles, resolve complaints, and manage public\nhealth operations effectively.)\n(MCD: Manages civic services for the wider\nmunicipal corporation zones of Delhi but operates distinct digital portals separate from this\nexact tool.)\nSwachh Bharat Mission 3.0:\n(Swachh Bharat Mission 3.0: Represents the macro nationwide policy umbrella\nframework run by the Union Government rather than a specific tool launched locally by a\nmunicipal division.)\n(NDMC: Governs the VIP zones of Lutyens'\nDelhi and relies on its own custom applications for civic maintenance monitoring.)\nThankoo!"
     },
     {
-        "question": "पस्श्चमी हूलॉक गगब्बन (Western Hoolock Gibbons) को रेलिे रैक सुरक्षक्षत रूप से पार करने में मदद करने के ललए होलोंगापार गगब्बन अभयारण्य में भारत का पहला कृबत्रम कैनोपी बब्रज बनाया गया था। यह ककस राज्य में स्स्थत है? / India's first artificial canopy bridge was constructed in the Hollongapar Gibbon Sanctuary to help Western Hoolock Gibbons safely cross railway tracks. In which state is this located?",
+        "question": "India's first artificial canopy bridge was constructed in the Hollongapar Gibbon Sanctuary to help Western Hoolock Gibbons safely cross railway tracks. In which state is this located?",
         "options": {
-            "A": "असम / Assam",
-            "B": "अरुणाचल प्रदेि / Arunachal Pradesh",
-            "C": "जम्मू और कश्मीर / Jammu & Kashmir",
-            "D": "मणणपुर / Manipur"
+            "A": "Assam",
+            "B": "Arunachal Pradesh",
+            "C": "Jammu & Kashmir",
+            "D": "Manipur"
         },
         "correct": "A",
-        "explanation": "होलोंगापार गगब्बन अभ्यारण्य का कैनोपी बब्रज\n• लुप्तप्राय पस्श्चमी हूलॉक गगब्बन (Western Hoolock Gibbon) आबादी को सुरक्षक्षत रूप से रेलिे पटररयों\nको पार करने में मदद करने के ललए असम (Assam) के जोरहाट स्जले में भारत का पहला कृबत्रम कैनोपी\nबब्रज बनाया गया है। (Located in the Jorhat district of Assam, this canopy bridge helps the\nendangered Western Hoolock Gibbon population cross dangerous rail lines safely.)\n• अरुणाचल प्रदेि: पििाल कलाई-II और कमला जलपिद्युत पररयोजनाओं का मेजबान राज्य है।\n(Arunachal Pradesh: Host state to the massive Kalai-II and Kamla hydroelectric projects.)\n• जम्मू-कश्मीर: कैग (CAG) की ररपोटा के अनुसार यहााँ 300 से अगधक आद्राभूलमयों (Wetlands) का नुकसान\nहुआ है। (Jammu & Kashmir: Suffered a loss of over 300 wetlands according to the CAG report.)\n• मणणपुर: िह स्थान है जहााँ 'प्रोजेक्ट र्हनाची' (Project Hinichi) के तहत हरी मटर की पहली सिल िसल"
+        "explanation": "(Western Hoolock Gibbon)\n(Assam)\n(Located in the Jorhat district of Assam, this canopy bridge helps the\nendangered Western Hoolock Gibbon population cross dangerous rail lines safely.)\n(Arunachal Pradesh: Host state to the massive Kalai-II and Kamla hydroelectric projects.)\n(CAG)      300    (Wetlands)\n(Jammu & Kashmir: Suffered a loss of over 300 wetlands according to the CAG report.)\n' ' (Project Hinichi)"
     },
     {
-        "question": "कैमूर िन्यजीि अभयारण्य (Kaimur Wildlife Sanctuary) ककस राज्य में स्स्थत है, स्जसे हाल ही में राज्य के दूसरे टाइगर ररजिा के रूप में पिकलसत करने की संरचनात्मक मंजूरी लमली है? / In which state is the Kaimur Wildlife Sanctuary, which recently received structural approval to be developed as the state's second Tiger Reserve, located?",
+        "question": "In which state is the Kaimur Wildlife Sanctuary, which recently received structural approval to be developed as the state's second Tiger Reserve, located?",
         "options": {
-            "A": "उत्तर प्रदेि / Uttar Pradesh",
-            "B": "बबहार / Bihar",
-            "C": "केरल / Kerala",
-            "D": "असम / Assam"
+            "A": "Uttar Pradesh",
+            "B": "Bihar",
+            "C": "Kerala",
+            "D": "Assam"
         },
         "correct": "B",
-        "explanation": "कैमूर िन्यजीि अभ्यारण्य\n• बबहार (Bihar) में स्स्थत कैमूर िन्यजीि अभ्यारण्य को राज्य के दूसरे टाइगर ररजिा के रूप में पिकलसत\nकरने की ढांचागत मंजूरी लमल गई है, जो िाल्मीकक टाइगर ररजिा (VTR) के अनतररक्त होगा। (The\nKaimur Wildlife Sanctuary, which recently received structural approval to be developed as the\nstate's second Tiger Reserve, is located in Bihar, adding to the Valmiki Tiger Reserve.)\n• उत्तर प्रदेि: पािाती आगरा पक्षी अभ्यारण्य का घर है। (Uttar Pradesh: Contains the Parvati Agra Bird\nSanctuary.)\n• केरल: अरालम िन्यजीि अभ्यारण्य (नया नाम: अरालम नततली अभ्यारण्य) का घर है। (Kerala: Home\nto the Aralam Wildlife Sanctuary, renamed Aralam Butterfly Sanctuary.)\n• असम: काजीरंगा राष्ट्रीय उद्यान और होलोंगापार गगब्बन अभ्यारण्य का घर है। (Assam: Home to\nKaziranga National Park and the Hollongapar Gibbon Sanctuary."
+        "explanation": "(Bihar)\n(VTR)    (The\nKaimur Wildlife Sanctuary, which recently received structural approval to be developed as the\nstate's second Tiger Reserve, is located in Bihar, adding to the Valmiki Tiger Reserve.)\n(Uttar Pradesh: Contains the Parvati Agra Bird\nSanctuary.)\n( :   )    (Kerala: Home\nto the Aralam Wildlife Sanctuary, renamed Aralam Butterfly Sanctuary.)\n(Assam: Home to\nKaziranga National Park and the Hollongapar Gibbon Sanctuary."
     },
     {
-        "question": "भारत का पहला एआई-संचाललत (AI-powered) हाइपरस्केल डेटा सेंटर कहााँ स्थापपत ककया जाएगा? / Where will India's first AI-powered hyperscale data center be established?",
+        "question": "Where will India's first AI-powered hyperscale data center be established?",
         "options": {
-            "A": "गुजरात / Gujarat",
-            "B": "तेलंगाना / Telangana",
-            "C": "कनााटक / Karnataka",
-            "D": "महाराष्ट्र / Maharashtra"
+            "A": "Gujarat",
+            "B": "Telangana",
+            "C": "Karnataka",
+            "D": "Maharashtra"
         },
         "correct": "A",
-        "explanation": "AI-संचाललत हाइपरस्केल डेटा सेंटर\n• भारत का पहला आर्टाकिलियल इंटेललजेंस (AI) संचाललत हाइपरस्केल डेटा सेंटर गुजरात राज्य में स्थापपत\nककया जाएगा। (India's first AI-powered hyperscale data center will be established in the state\nof Gujarat.)\n• तेलंगाना: भारत का पहला ननजी रॉकेट 'पिक्रम-1' लॉन्च करने के ललए प्रलसद्ध है। (Telangana: Famous\nfor launching India's first private rocket 'Vikram-1'.)\n• कनााटक: बेंगलुरु में स्स्थत अंतररक्ष प्रौद्योगगकी उत्कृष्ट्टता केंद्र का घर है। (Karnataka: Home to the\ncenter of space technology excellence in Bengaluru.)\n• महाराष्ट्र: नागपुर िहर में 'साइक्लोरॉन पररयोजना' को मंजूरी दी गई है। (Maharashtra: The state\nwhere the Cyclotron Project is approved in Nagpur.)"
+        "explanation": "(India's first AI-powered hyperscale data center will be established in the state\nof Gujarat.)\n'-1'       (Telangana: Famous\nfor launching India's first private rocket 'Vikram-1'.)\n(Karnataka: Home to the\ncenter of space technology excellence in Bengaluru.)\n' '      (Maharashtra: The state\nwhere the Cyclotron Project is approved in Nagpur.)"
     },
     {
-        "question": "'गाबी' (Gabi) नामक दुननया का पहला रोबोट लभक्षु ककस देि में स्स्थत एक मंर्दर में पेि ककया गया था? / The world's first robot monk, named 'Gabi', was introduced in a temple located in which country?",
+        "question": "The world's first robot monk, named 'Gabi', was introduced in a temple located in which country?",
         "options": {
-            "A": "जापान / Japan",
-            "B": "चीन / China",
-            "C": "दक्षक्षण कोररया / South Korea",
-            "D": "थाईलैंड / Thailand"
+            "A": "Japan",
+            "B": "China",
+            "C": "South Korea",
+            "D": "Thailand"
         },
         "correct": "C",
-        "explanation": "पिश्ि का पहला रोबोट लभक्षु 'गाबी'\n• दुननया के पहले रोबोट लभक्षु 'गाबी' (Gabi) का अनािरण दक्षक्षण कोररया (South Korea) में स्स्थत जोग्येसा\nमंर्दर में ककया गया है। (The robot monk 'Gabi' was unveiled at the Jogyesa Temple located in\nSouth Korea.)\n• जापान: भारत के साथ लमलकर GRAPES-3 म्यून टेलीस्कोप (Muon Telescope) पररयोजना पर सहयोग\nककया। (Japan: Cooperated on the GRAPES-3 Muon Telescope project alongside India.)\n• चीन: व्यािसानयक रूप से 'NEO' नामक ब्रेन-कंप्यूटर इंटरिेस (BCI) गचप पिकलसत की है। (China:\nDeveloped the 'NEO' commercial brain-computer interface chip.)\n• थाईलैंड: यह पीएसएलिी-सी62 उपग्रह प्रक्षेपणों के ललए एक अंतरराष्ट्रीय गंतव्य के रूप में िालमल रहा है।\n(Thailand: Participated as an international destination for PSLV-C62 satellite launches.)"
+        "explanation": "'' (Gabi)     (South Korea)\n(The robot monk 'Gabi' was unveiled at the Jogyesa Temple located in\nSouth Korea.)\nGRAPES-3   (Muon Telescope)\n(Japan: Cooperated on the GRAPES-3 Muon Telescope project alongside India.)\n'NEO'  -  (BCI)     (China:\nDeveloped the 'NEO' commercial brain-computer interface chip.)\n(Thailand: Participated as an international destination for PSLV-C62 satellite launches.)"
     },
     {
-        "question": "की खोज की है। (Amity University, Mohali: Researchers here discovered a new prion protein named SNG2.) हाल ही में लॉन्च ककए गए दुननया के पहले डॉक्टर-संचाललत एआई (AI) स्िास््य सेिा पाररस्स्थनतकी तंत्र का नाम क्या है? / What is the name of the world's first doctor-operated AI healthcare ecosystem launched recently?",
+        "question": "What is the name of the world's first doctor-operated AI healthcare ecosystem launched recently?",
         "options": {
             "A": "Lenacapavir",
             "B": "PathGenie",
@@ -437,171 +437,171 @@
             "D": "BIRSA 101"
         },
         "correct": "C",
-        "explanation": "लमजो एंडो 4000\n• \"लमजो एंडो 4000\" (Mizzo Endo 4000) न्यूनतम आक्रामक गचककत्सा संचालन के दौरान सटीकता में\nसुधार करने के ललए स्िदेिी रूप से ननलमात एक सस्जाकल रोबोर्टक प्रणाली है। (\"Mizzo Endo 4000\" is an\nindigenously engineered surgical robotic system built to improve accuracy during minimally\ninvasive medical operations.)\n• Lenacapavir: पििेि रूप से एचआईिी (HIV) की रोकथाम के ललए अमेररकी एिडीए (US FDA) द्िारा\nअनुमोर्दत एक दिा है। (Lenacapavir: A drug approved by the US FDA specifically for HIV\nprevention.)\n• PathGenie: दिा की खोज को तेज करने के ललए पिज्ञान और प्रौद्योगगकी मंत्रालय द्िारा िुरू की गई एक\nसॉफ्टिेयर प्रणाली है। (PathGenie: A software system launched by the Ministry of Science &\nTechnology for accelerating drug discovery.)\n• BIRSA 101: लसकल सेल रोग के इलाज के ललए डडजाइन की गई भारत की पहली स्िदेिी CRISPR जीन"
+        "explanation": "\"  4000\" (Mizzo Endo 4000)\n(\"Mizzo Endo 4000\" is an\nindigenously engineered surgical robotic system built to improve accuracy during minimally\ninvasive medical operations.)\nLenacapavir:     (HIV)       (US FDA)\n(Lenacapavir: A drug approved by the US FDA specifically for HIV\nprevention.)\nPathGenie:\n(PathGenie: A software system launched by the Ministry of Science &\nTechnology for accelerating drug discovery.)\nBIRSA 101:               CRISPR"
     },
     {
-        "question": "'प्रोजेक्ट र्हनाची' (Project Hinichi) का मुख्य उद्देश्य क्या है, स्जसने मणणपुर के चुराचााँदपुर स्जले में अपनी पहली िसल सिलतापूिाक पैदा की? / What is the core objective of 'Project Hinichi', which successfully yielded its first crop in the Churachandpur district of Manipur?",
+        "question": "What is the core objective of 'Project Hinichi', which successfully yielded its first crop in the Churachandpur district of Manipur?",
         "options": {
-            "A": "अिैध अिीम पोस्ता की खेती को र्टकाऊ हरी मटर की खेती से बदलना / To replace illegal",
-            "B": "बेबेलसयोलसस पैदा करने िाली परजीिी र्टक आबादी को खत्म करना / To eradicate the",
-            "C": "औद्योगगक क्षेत्रों में जैपिक काबान लसंक लगाना / To plant organic carbon sinks along",
-            "D": "स्थानीय आद्राभूलमयों से आक्रामक जल खरपतिारों को साि करना / To clear out invasive"
+            "A": "To replace illegal",
+            "B": "To eradicate the",
+            "C": "To plant organic carbon sinks along",
+            "D": "To clear out invasive"
         },
         "correct": "A",
-        "explanation": "water weeds from local wetlands\n39.\nप्रोजेक्टर्हनाची\nनारकोर्टक्सकंरोलब्यूरो(NCB) द्िारामणणपुरकेचुराचांदपुरस्जलेमेंिुरूककएगए'प्रोजेक्ट र्हनाची' का\nमुख्यउद्देश्य अिैध अिीम पोस्ता कीखेतीकोर्टकाऊहरीमटरकीखेतीसेबदलकरिैकस्ल्पक\nआजीपिकाप्रदानकरनाहै।\n(Project Hinichi was launched by the Narcotics Control Bureau (NCB) to provide sustainable\nalternative livelihoods by replacing illegal poppy fields with green peas.)\nककस टेक िमा ने भारत के प्रमुख एआई लसस्टम-ऑन-गचप (SoC) 'ए2000' (A2000) को लॉन्च करने\nके ललए गैर-लाभकारी स्टाटाअप नेटरा सेमी (Netra Semi) के साथ सहयोग ककया? / Which tech"
+        "explanation": "water weeds from local wetlands\n39.\n(NCB) ' '\n(Project Hinichi was launched by the Narcotics Control Bureau (NCB) to provide sustainable\nalternative livelihoods by replacing illegal poppy fields with green peas.)\n(SoC) '2000' (A2000)\n(Netra Semi)    ? / Which tech"
     },
     {
-        "question": "कायास्थल पर उत्पीड़न की लिकायतों को पूरी गोपनीयता के साथ कुिलतापूिाक और सुरक्षक्षत रूप से दजा करने की सुपिधा देता है और सुप्रीम कोटा के पििाखा गाइडलाइंस (1997) के अनुरूप है। (Integrated into HRMS, this digital platform allows female railway employees to log complaints regarding workplace harassment efficiently and securely while strictly maintaining confidentiality, aligning with the Supreme Court Vishakha Guidelines.) यात्रा के समय को आधा करने के ललए डडजाइन ककया गया नि-उद्घाटन 14 ककलोमीटर लंबा उन्नत िन्यजीि गललयारा (elevated wildlife corridor) र्दल्ली को ककस िहर से जोड़ता है? / The newly inaugurated 14-kilometer elevated wildlife corridor, designed to cut travel times by half, connects Delhi to which city?",
+        "question": "The newly inaugurated 14-kilometer elevated wildlife corridor, designed to cut travel times by half, connects Delhi to which city?",
         "options": {
-            "A": "देहरादून / Dehradun",
-            "B": "जयपुर / Jaipur",
-            "C": "गुरुग्राम / Gurugram",
-            "D": "चंडीगढ / Chandigarh"
+            "A": "Dehradun",
+            "B": "Jaipur",
+            "C": "Gurugram",
+            "D": "Chandigarh"
         },
         "correct": "A",
-        "explanation": "र्दल्ली-देहरादून एललिेटेड िाइल्डलाइि कॉररडोर\n• निननलमात 14 ककलोमीटर लंबा एललिेटेड िन्यजीि कॉररडोर र्दल्ली को देहरादून (Dehradun) िहर से\nजोड़ता है और यह राजाजी टाइगर ररजिा (Rajaji Tiger Reserve) से होकर गुजरता है। (The newly\ninaugurated 14-kilometer elevated wildlife corridor, designed to cut travel times by half,\nconnects Delhi to Dehradun, passing through the Rajaji Tiger Reserve.)\n• जयपुर: िह स्थान है जहााँ भारतीय सेना की 'भैरि बटाललयन' ने अपनी पहली सािाजननक उपस्स्थनत दजा\nकी थी। (Jaipur: The site where the Indian Army's Bhairav Battalion made its first public\nappearance.)\n• गुरुग्राम: भारत के पहले प्रीलमयम टेस्ला (Tesla) ऑटोमोर्टि हब का स्थान है। (Gurugram: The location\nof India's first premium Tesla automotive hub.)"
+        "explanation": "14         (Dehradun)\n(Rajaji Tiger Reserve)     (The newly\ninaugurated 14-kilometer elevated wildlife corridor, designed to cut travel times by half,\nconnects Delhi to Dehradun, passing through the Rajaji Tiger Reserve.)\n(Jaipur: The site where the Indian Army's Bhairav Battalion made its first public\nappearance.)\n(Tesla)      (Gurugram: The location\nof India's first premium Tesla automotive hub.)"
     },
     {
-        "question": "काया ककया था, जबकक आटेलमस II स्पष्ट्ट रूप से एक मानि चालक दल ले जाता है। (It is the first fully robotic mission: Incorrect; Artemis I served as an uncrewed flight test, whereas Artemis II explicitly carries a human crew.) ककस राज्य ने हाल ही में होप द्िीप (Hope Island) पर एक समपपात उपग्रह प्रक्षेपण सुपिधा के पिकास की घोिणा की? / Which state recently announced the development of a dedicated satellite launch facility on Hope Island?",
+        "question": "Which state recently announced the development of a dedicated satellite launch facility on Hope Island?",
         "options": {
-            "A": "तलमलनाडु / Tamil Nadu",
-            "B": "ओडडिा / Odisha",
-            "C": "आंध्र प्रदेि / Andhra Pradesh",
-            "D": "केरल / Kerala"
+            "A": "Tamil Nadu",
+            "B": "Odisha",
+            "C": "Andhra Pradesh",
+            "D": "Kerala"
         },
         "correct": "C",
-        "explanation": "होप आइलैंड सैटेलाइट लॉन्च सुपिधा\n• आंध्र प्रदेि (Andhra Pradesh) सरकार ने रणनीनतक रूप से होप आइलैंड पर स्स्थत एक समपपात उपग्रह\nप्रक्षेपण बुननयादी ढांचा सेटअप का ननमााण और पिस्तार करने की रणनीनतयों की आगधकाररक घोिणा की\nहै। (The government of Andhra Pradesh officially announced strategies to construct and scale\na dedicated satellite launch infrastructure setup stationed specifically on Hope Island.)\n• तलमलनाडु: आगामी कुलिेखरपट्र्टनम लॉन्चपैड साइट का घर है, जो होप आइलैंड से पूरी तरह से अलग\nहै। (Tamil Nadu: Home to the upcoming Kulasekarapattinam launchpad site, which is\ncompletely distinct from Hope Island.)\n• ओडडिा: अब्दुल कलाम द्िीप पर एकीकृत परीक्षण रेंज (ITR) के ललए व्यापक रूप से जाना जाता है, जो\nमुख्य रूप से नागररक अंतररक्ष उपग्रह पररसरों के बजाय लमसाइल परीक्षण की सुपिधा प्रदान करता है।\n(Odisha: Known widely for the Integrated Test Range (ITR) at Abdul Kalam Island, which\nprimarily facilitates missile testing rather than civilian space satellite complexes.)\n• केरल: थुम्बा भूमध्यरेखीय रॉकेट लॉस्न्चंग स्टेिन (TERLS) का घर है, लेककन होप आइलैंड पररयोजनाओं"
+        "explanation": "(Andhra Pradesh)\n(The government of Andhra Pradesh officially announced strategies to construct and scale\na dedicated satellite launch infrastructure setup stationed specifically on Hope Island.)\n(Tamil Nadu: Home to the upcoming Kulasekarapattinam launchpad site, which is\ncompletely distinct from Hope Island.)\n(ITR)        ,\n(Odisha: Known widely for the Integrated Test Range (ITR) at Abdul Kalam Island, which\nprimarily facilitates missile testing rather than civilian space satellite complexes.)\n(TERLS)   ,"
     },
     {
-        "question": "उस्ल्लणखत है। (Nvidia: Mentioned for its high-end RTX Spark chip series driving the global generative AI boom.) ककस संस्थान ने लक्षक्षत कैंसर उपचार के ललए डडजाइन की गई एक उपन्यास \"नैनो-कप\" ननमााण पिगध (nano-cup fabrication method) को सिलतापूिाक पिकलसत ककया? / Which institution successfully developed a novel “nano-cup” fabrication method designed for targeted cancer treatment?",
+        "question": "Which institution successfully developed a novel “nano-cup” fabrication method designed for targeted cancer treatment?",
         "options": {
-            "A": "भारतीय प्रौद्योगगकी संस्थान गुिाहाटी / Indian Institute of Technology Guwahati",
-            "B": "नैनो पिज्ञान और प्रौद्योगगकी संस्थान (INST) / Institute of Nano Science and Technology",
-            "C": "डीआरडीओ कानपुर / DRDO Kanpur",
-            "D": "एलमटी यूननिलसाटी, मोहाली / Amity University, Mohali"
+            "A": "Indian Institute of Technology Guwahati",
+            "B": "Institute of Nano Science and Technology",
+            "C": "DRDO Kanpur",
+            "D": "Amity University, Mohali"
         },
         "correct": "B",
-        "explanation": "नैनो-कप िैबब्रकेिन पिगध\n• इंस्टीट्यूट ऑि नैनो साइंस एंड टेक्नोलॉजी (INST) ने उन्नत कैंसर थेरेपी (Advanced Cancer Therapy)\nके ललए पििेि रूप से डडजाइन की गई एक नई \"नैनो-कप\" िैबब्रकेिन तकनीक का सिलतापूिाक पिकास\nककया है। (The Institute of Nano Science and Technology (INST) developed a novel \"nano-cup\"\nfabrication technique targeted specifically toward advanced cancer therapy.)\n• IIT Guwahati: गचककत्सा अनुप्रयोगों के ललए स्माटा पीएच-उत्तरदायी पेप्टाइड्स (pH-responsive\npeptides) पिकलसत ककए हैं। (IIT Guwahati: Developed smart pH-responsive peptides for\nmedical applications.)\n• DRDO Kanpur: समुद्री पानी को पीने योग्य पानी में बदलने के ललए एक पििेि अलिणीकरण णझल्ली\n(Desalination Membrane) पिकलसत की है। (DRDO Kanpur: Developed a specialized desalination\nmembrane to turn seawater into potable drinking water.)\n• Amity University, Mohali: यहााँ के िोधकतााओं ने SNG2 नामक एक नए पप्रयन प्रोटीन (Prion Protein)"
+        "explanation": "(INST)     (Advanced Cancer Therapy)\n(The Institute of Nano Science and Technology (INST) developed a novel \"nano-cup\"\nfabrication technique targeted specifically toward advanced cancer therapy.)\nIIT Guwahati:      -  (pH-responsive\npeptides)    (IIT Guwahati: Developed smart pH-responsive peptides for\nmedical applications.)\nDRDO Kanpur:\n(Desalination Membrane)    (DRDO Kanpur: Developed a specialized desalination\nmembrane to turn seawater into potable drinking water.)\nAmity University, Mohali:     SNG2      (Prion Protein)"
     },
     {
-        "question": "open बेंचमाका है। ('IndQA': An open AI benchmark launched by Sarvam AI to evaluate Indian languages.) 'ध्रुि64' (DHRUV64) नामक स्िदेिी 64-बबट 1.0 गीगाहट्ाज माइक्रोप्रोसेसर ककस संगठन द्िारा पिकलसत ककया गया है? / The indigenous 64-bit 1.0 GHz microprocessor named 'DHRUV64' has been developed by which organization?",
+        "question": "The indigenous 64-bit 1.0 GHz microprocessor named 'DHRUV64' has been developed by which organization?",
         "options": {
-            "A": "ग्रेने रोबोर्टक्स / Grene Robotics",
-            "B": "स्काईरूट एयरोस्पेस / Skyroot Aerospace",
-            "C": "सी-डैक, पुणे / C-DAC (Pune)",
-            "D": "इसरो सेमीकंडक्टर लैब / ISRO Semiconductor Lab"
+            "A": "Grene Robotics",
+            "B": "Skyroot Aerospace",
+            "C": "C-DAC (Pune)",
+            "D": "ISRO Semiconductor Lab"
         },
         "correct": "A",
-        "explanation": "गूगल का ग्लोबल एआई हाडािेयर सेंटर\n• गूगल (Google) ने ताइिान (Taiwan) में अपना सबसे बड़ा िैस्श्िक एआई हाडािेयर केंद्र खोलकर अपने\nपररचालन का पिस्तार ककया है। (Google expanded its operations by opening its biggest global AI\nhardware center in Taiwan.)\n• इंडडया: गूगल के आगामी प्रोजेक्ट्स का घर है, लेककन हाडािेयर हब ताइिान में स्थापपत ककया गया।\n(India: Home to Google's upcoming projects, but the hardware hub went to Taiwan.)\n• गुरुग्राम: भारत के पहले टेस्ला सेंटर (Tesla Center) का स्थान है। (Gurugram: Location of India's first\nTesla Center.)\n• दुबई: आईआईएम अहमदाबाद के पहले अंतरराष्ट्रीय पररसर का आयोजन स्थल है। (Dubai: Venue for\nIIM Ahmedabad's first international campus.)"
+        "explanation": "(Google)   (Taiwan)\n(Google expanded its operations by opening its biggest global AI\nhardware center in Taiwan.)\n(India: Home to Google's upcoming projects, but the hardware hub went to Taiwan.)\n(Tesla Center)    (Gurugram: Location of India's first\nTesla Center.)\n(Dubai: Venue for\nIIM Ahmedabad's first international campus.)"
     },
     {
         "question": "firm collaborated with the non-profit startup Netra Semi to launch India's prominent AI System-on-Chip (SoC) called 'A2000'?",
         "options": {
-            "A": "टीएसएमसी (TSMC)",
-            "B": "इंटेल / Intel",
-            "C": "एप्पल / Apple",
-            "D": "एनिीडडया / Nvidia"
+            "A": "(TSMC)",
+            "B": "Intel",
+            "C": "Apple",
+            "D": "Nvidia"
         },
         "correct": "B",
-        "explanation": "'A2000' एआई गचप\n• नॉन-प्रॉकिट स्टाटाअप 'नेत्रा सेमी' ने ताइिान सेमीकंडक्टर मैन्युिैक्चररंग कंपनी (TSMC) के 12nm\nप्रोसेस नोड का उपयोग करके भारत की प्रमुख एआई लसस्टम-ऑन-गचप (SoC) 'A2000' को पिकलसत\nककया है। (Netra Semi developed the A2000 chip using Taiwan Semiconductor Manufacturing\nCompany’s (TSMC) 12nm process node.)\n• Intel और Apple: प्रमुख अंतरराष्ट्रीय हाडािेयर ब्रांडों के रूप में उस्ल्लणखत हैं स्जनके साथ नए पिकलसत\nस्थानीय लसस्टम प्रनतस्पधाा करने का लक्ष्य रखते हैं। (Intel & Apple: Mentioned as major\ninternational hardware brands that the newly developed local systems aim to compete\nagainst.)\n• Nvidia: िैस्श्िक जेनरेर्टि एआई बूम को चलाने िाली अपनी हाई-एंड RTX स्पाका गचप श्रृंखला के ललए"
+        "explanation": "'A2000'\n' '      (TSMC)  12nm\n(SoC) 'A2000'\n(Netra Semi developed the A2000 chip using Taiwan Semiconductor Manufacturing\nCompany’s (TSMC) 12nm process node.)\nIntel  Apple:\n(Intel & Apple: Mentioned as major\ninternational hardware brands that the newly developed local systems aim to compete\nagainst.)\nNvidia:         - RTX"
     },
     {
-        "question": "ककस टेक र्दग्गज ने 'मेजोराना 2' (Majorana 2) नाम से एआई-डडजाइन की गई क्िांटम गचप लॉन्च की? / Which tech giant launched the AI-designed quantum chip named 'Majorana 2'?",
+        "question": "Which tech giant launched the AI-designed quantum chip named 'Majorana 2'?",
         "options": {
-            "A": "गूगल / Google",
-            "B": "माइक्रोसॉफ्ट / Microsoft",
-            "C": "ओपनएआई / OpenAI",
-            "D": "मेटा / Meta"
+            "A": "Google",
+            "B": "Microsoft",
+            "C": "OpenAI",
+            "D": "Meta"
         },
         "correct": "B",
-        "explanation": "'मेजोрана 2' क्िांटम गचप\n• र्दग्गज टेक कंपनी माइक्रोसॉफ्ट (Microsoft) ने 'मेजोрана 2' (Majorana 2) नाम से एआई-डडजाइन की\nगई क्िांटम गचप लॉन्च की है। (Tech giant Microsoft launched 'Majorana 2', an AI-designed\nquantum chip.)\n• यह माइक्रोसॉफ्ट डडस्किरी के सहयोग से पिकलसत की गई दूसरी पीढी की टोपोलॉस्जकल क्िांटम\nकंप्यूर्टंग गचप है। (It is a second-generation topological quantum computing chip developed\nwith Microsoft Discovery.)\n• गूगल (Google): इसने 'नैनो बनाना' (Nano Banana) नाम से एआई इमेज एडडर्टंग टूल लॉन्च ककया है।\n(Google: Launched the AI image editing tool 'Nano Banana'.)\n• ओपनएआई (OpenAI): इसने 'एटलस' (Atlas) नाम से नया ब्राउजर पेि ककया है। (OpenAI: Introduced\nthe new browser named 'Atlas'.)\n• मेटा (Meta): इसने 'म्यूज स्पाका' (Muse Spark) नामक नया एआई मॉडल पेि ककया है। (Meta:\nIntroduced the new AI model 'Muse Spark'.)"
+        "explanation": "'рана 2'\n(Microsoft)  'рана 2' (Majorana 2)   -\n(Tech giant Microsoft launched 'Majorana 2', an AI-designed\nquantum chip.)\n(It is a second-generation topological quantum computing chip developed\nwith Microsoft Discovery.)\n(Google):  ' ' (Nano Banana)\n(Google: Launched the AI image editing tool 'Nano Banana'.)\n(OpenAI):  '' (Atlas)        (OpenAI: Introduced\nthe new browser named 'Atlas'.)\n(Meta):  ' ' (Muse Spark)        (Meta:\nIntroduced the new AI model 'Muse Spark'.)"
     },
     {
-        "question": "स्थान है। (Location of the rare active mud volcano in Diglipur.) राष्ट्रीय सुपरकंप्यूर्टंग लमिन (NSM) के तहत संचाललत परम रुद्र (PARAM Rudra) सुपरकंप्यूटर ककस प्रसंस्करण गनत (processing speed) पर चलता है? / The PARAM Rudra supercomputer, operationalized under the National Supercomputing Mission (NSM), runs at what processing speed?",
+        "question": "The PARAM Rudra supercomputer, operationalized under the National Supercomputing Mission (NSM), runs at what processing speed?",
         "options": {
-            "A": "3.1 पेटाफ्लॉप्स",
-            "B": "838 टेराफ्लॉप्स",
-            "C": "1.0 गीगाफ्लॉप्स",
-            "D": "500 पेटाफ्लॉप्स"
+            "A": "3.1",
+            "B": "838",
+            "C": "1.0",
+            "D": "500"
         },
         "correct": "B",
-        "explanation": "• राष्ट्रीय सुपरकंप्यूर्टंग लमिन (NSM) के तहत संचाललत 'परम रुद्र' (PARAM Rudra) सुपरकंप्यूटर 838\nटेराफ्लॉप्स (838 Teraflops) की प्रोसेलसंग स्पीड पर काम करता है। (The text confirms that the\nPARAM Rudra supercomputer operates at a speed of 838 Teraflops.)\n• 3.1 पेटाफ्लॉप्स: आईआईटी खड़गपुर में स्स्थत 'परम िस्क्त' सुपरकंप्यूटर की कंप्यूर्टंग गनत क्षमता है।\n(The computing speed capacity of the 'PARAM Shakti' supercomputer at IIT Kharagpur.)\n• 1.0 गीगाफ्लॉप्स: ध्रुि64 माइक्रोप्रोसेसर की क्लॉक स्पीड (1.0 GHz) को दिााता है। (Refers to the clock\nspeed of the DHRUV64 microprocessor (1.0 GHz).)"
+        "explanation": "(NSM)    ' ' (PARAM Rudra)  838\n(838 Teraflops)        (The text confirms that the\nPARAM Rudra supercomputer operates at a speed of 838 Teraflops.)\n3.1 :     ' '\n(The computing speed capacity of the 'PARAM Shakti' supercomputer at IIT Kharagpur.)\n1.0 : 64     (1.0 GHz)    (Refers to the clock\nspeed of the DHRUV64 microprocessor (1.0 GHz).)"
     },
     {
-        "question": "हैं। (Skydo & Camus: Alternative domestic financial technology and billing names listed within competitive exams.) ककस िैक्षणणक संस्थान ने पूिोत्तर भारत से पिकलसत पहला उपग्रह \"लागचत-1\" (Lachit-1) सिलतापूिाक बनाया और लॉन्च ककया? / Which educational institution successfully built and launched \"Lachit-1\", the very first satellite developed from Northeast India?",
+        "question": "Which educational institution successfully built and launched \"Lachit-1\", the very first satellite developed from Northeast India?",
         "options": {
-            "A": "आईआईटी गुिाहाटी / IIT Guwahati",
-            "B": "असम डॉन बॉस्को यूननिलसाटी / Assam Don Bosco University",
-            "C": "नेहू (NEHU) लिलांग / NEHU Shillong",
-            "D": "मणणपुर पिश्िपिद्यालय / Manipur University"
+            "A": "IIT Guwahati",
+            "B": "Assam Don Bosco University",
+            "C": "NEHU Shillong",
+            "D": "Manipur University"
         },
         "correct": "B",
-        "explanation": "लागचत-1 उपग्रह\n• असम डॉन बॉस्को यूननिलसाटी (Assam Don Bosco University) ने पूिोत्तर भारत से पिकलसत पहले\nअंतररक्ष उपग्रह \"लागचत-1\" (Lachit-1) का सिलतापूिाक ननमााण ककया है, जो एक मील का पत्थर है।\n(\"Lachit-1\", representing a milestone as the premier space satellite originating from\nNortheast India, was built by Assam Don Bosco University.)\n• IIT Guwahati: स्माटा पीएच-उत्तरदायी पेप्टाइड्स पिकलसत ककए, लेककन इस उपग्रह का ननमााण नहीं\nककया। (IIT Guwahati: Developed smart pH-responsive peptides, but did not construct this\nsatellite.)\n• NEHU Shillong & Manipur University: मेघालय और मणणपुर में स्स्थत प्रमुख पिश्िपिद्यालय हब हैं,"
+        "explanation": "(Assam Don Bosco University)\n\"-1\" (Lachit-1)     ,\n(\"Lachit-1\", representing a milestone as the premier space satellite originating from\nNortheast India, was built by Assam Don Bosco University.)\nIIT Guwahati:  -   ,\n(IIT Guwahati: Developed smart pH-responsive peptides, but did not construct this\nsatellite.)\nNEHU Shillong & Manipur University:         ,"
     },
     {
-        "question": "ककस अंतररक्ष प्रौद्योगगकी कंपनी ने भारत के मानियुक्त गगनयान लमिन के ललए उपयोग ककए जाने िाले महत्िपूणा 'पिकास' (Vikas) इंजन की आपूनता की? / Which space technology company supplied the critical 'Vikas' engine used for India's crewed Gaganyaan mission?",
+        "question": "Which space technology company supplied the critical 'Vikas' engine used for India's crewed Gaganyaan mission?",
         "options": {
-            "A": "अस्ग्नकुल / Agnikul",
-            "B": "गोदरेज एयरोस्पेस / Godrej Aerospace",
-            "C": "भारत िोजा / Bharat Forge",
-            "D": "मेटलटेक / Metaltech"
+            "A": "Agnikul",
+            "B": "Godrej Aerospace",
+            "C": "Bharat Forge",
+            "D": "Metaltech"
         },
         "correct": "B",
-        "explanation": "पिकास इंजन ननमााता\n• गोदरेज एयरोस्पेस (Godrej Aerospace) िह औद्योगगक पिननमााण भागीदार कंपनी है स्जसने भारत के\nमानियुक्त गगनयान अंतररक्ष कैप्सूल लमिन के ललए आिश्यक तरल-ईंधन िाले 'पिकास' (Vikas) इंजन\nकी आपूनता की है। (Godrej Aerospace was the manufacturing partner that supplied the liquid-\nfueled Vikas engine required for the Gaganyaan space capsule mission.)\n• Agnikul: ननजी अंतररक्ष संस्था है स्जसने \"अस्ग्नबाण-SOrTeD\" (Agnibaan-SOrTeD) को सिलतापूिाक\nलॉन्च ककया। (Agnikul: Private space entity that successfully launched \"Agnibaan-SOrTeD\".)\n• Bharat Forge & Metaltech: िे पिननमााण िमें हैं स्जन्हें डीआरडीओ (DRDO) ने अपनी बहुउद्देिीय"
+        "explanation": "(Godrej Aerospace)\n'' (Vikas)\n(Godrej Aerospace was the manufacturing partner that supplied the liquid-\nfueled Vikas engine required for the Gaganyaan space capsule mission.)\nAgnikul:      \"-SOrTeD\" (Agnibaan-SOrTeD)\n(Agnikul: Private space entity that successfully launched \"Agnibaan-SOrTeD\".)\nBharat Forge & Metaltech:       (DRDO)"
     },
     {
-        "question": "पिजयिाड़ा के इंर्दरा गांधी स्टेडडयम से हाल ही में लॉन्च ककया गया 'पिस्टा' (VISTA) क्या है? / What is 'VISTA', which was recently launched from the Indira Gandhi Stadium in Vijayawada?",
+        "question": "What is 'VISTA', which was recently launched from the Indira Gandhi Stadium in Vijayawada?",
         "options": {
-            "A": "भारत का पहला स्िदेिी समतापमंडलीय सुपर-प्रेिर बैलून / India’s first indigenous",
-            "B": "एक नई एंटी-रेडडएिन हिा से सतह पर मार करने िाली लमसाइल / A new anti-radiation air-",
-            "C": "55 भािाओं को संभालने िाला एक एआई अनुिाद सॉफ्टिेयर / An AI translation software",
-            "D": "एक गहरे समुद्र में अन्िेिण िाहन / A deep-sea exploration vehicle"
+            "A": "India’s first indigenous",
+            "B": "A new anti-radiation air-",
+            "C": "An AI translation software",
+            "D": "A deep-sea exploration vehicle"
         },
         "correct": "A",
-        "explanation": "पिस्टा बैलून प्रोजेक्ट\n• 'VISTA' भारत का पहला स्िदेिी समतापमंडलीय सुपर-प्रेिर बैलून (Stratospheric Super-Pressure\nBalloon) है, स्जसे स्पेस स्टाटाअप रेड बैलून एयरोस्पेस के तहत SANA द्िारा पिजयिाड़ा के इंर्दरा गांधी\nस्टेडडयम से लॉन्च ककया गया था और यह 25 ककमी की ऊंचाई तक पहुंचा। ('VISTA' is India’s first\nindigenous stratospheric super-pressure balloon (SPB), launched by SANA under the space\nstartup Red Balloon Aerospace. It reached a height of 25 km.)\n• हिा से सतह पर मार करने िाली एंटी-रेडडएिन लमसाइल: यह पििरण रुद्रम-II (RudraM-II) को दिााता है।\n(A new anti-radiation missile: This describes RudraM-II.)\n• 55 भािाओं को संभालने िाला एआई अनुिाद सॉफ्टिेयर: यह गूगल के अनुिाद एआई को संदलभात करता\nहै। (An AI translation software handling 55 languages: Refers to Google's translation AI that\nhandles 55 languages.)\n• गहरे समुद्र में अन्िेिण िाहन: यह 'भिसागर' गहरे समुद्र में भंडारण पररयोजना ढांचे को संदलभात करता"
+        "explanation": "'VISTA'      -  (Stratospheric Super-Pressure\nBalloon) ,         SANA\n25      ('VISTA' is India’s first\nindigenous stratospheric super-pressure balloon (SPB), launched by SANA under the space\nstartup Red Balloon Aerospace. It reached a height of 25 km.)\nII (RudraM-II)\n(A new anti-radiation missile: This describes RudraM-II.)\n55       :\n(An AI translation software handling 55 languages: Refers to Google's translation AI that\nhandles 55 languages.)"
     },
     {
-        "question": "गगर िन पाररस्स्थनतकी तंत्र में ककस परजीिी र्टक-जननत बीमारी (parasitic tick-borne disease) के प्रकोप के कारण आठ िेर के िािकों की दुखद मृत्यु हो गई? / Eight lion cubs tragically died in the Gir forest ecosystem due to an outbreak of which parasitic tick-borne disease?",
+        "question": "Eight lion cubs tragically died in the Gir forest ecosystem due to an outbreak of which parasitic tick-borne disease?",
         "options": {
-            "A": "बेबेलसयोलसस (Babesiosis) / Babesiosis",
-            "B": "एकैंथअमीबा संक्रमण (Acanthamoeba infection) / Acanthamoeba infection",
-            "C": "लसकल सेल एनीलमया / Sickle Cell Anemia",
-            "D": "मेननन्गोएन्सेिलाइर्टस (Meningoencephalitis) / Meningoencephalitis"
+            "A": "Babesiosis",
+            "B": "Acanthamoeba infection",
+            "C": "Sickle Cell Anemia",
+            "D": "Meningoencephalitis"
         },
         "correct": "A",
-        "explanation": "बेबेलसयोलसस बीमारी\n• गगर िन पाररस्स्थनतकी तंत्र में र्टक-जननत परजीिी बीमारी 'बेबेलसयोलसस' (Babesiosis) के प्रकोप के\nकारण आठ िेर के बच्चों की दुखद मृत्यु हो गई, जो बेबेलिया परजीिी के कारण होती है और लाल रक्त\nकोलिकाओं को संक्रलमत करती है। (Babesiosis is a disease caused by the Babesia parasite and\nspread by ticks. It infects red blood cells and recently caused the deaths of eight lion cubs in\nGir.)\n• Acanthamoeba: केरल में स्िास््य संबंधी गचंताएं पैदा करने िाला मस्स्तष्ट्क खाने िाला अमीबा है।\n(Acanthamoeba: The brain-eating amoeba causing health concerns in Kerala.)\n• Sickle Cell Anemia: एक आनुिंलिक रक्त पिकार है स्जसका इलाज BIRSA-101 थेरेपी द्िारा ककया जाता\nहै। (Sickle Cell Anemia: A genetic blood disorder treated by the BIRSA-101 therapy.)\n• Meningoencephalitis: एक गंभीर मस्स्तष्ट्क सूजन है जो केरल में अकांतअमीबा (Acanthamoeba)"
+        "explanation": "'' (Babesiosis)\n(Babesiosis is a disease caused by the Babesia parasite and\nspread by ticks. It infects red blood cells and recently caused the deaths of eight lion cubs in\nGir.)\nAcanthamoeba:\n(Acanthamoeba: The brain-eating amoeba causing health concerns in Kerala.)\nSickle Cell Anemia:        BIRSA-101\n(Sickle Cell Anemia: A genetic blood disorder treated by the BIRSA-101 therapy.)\nMeningoencephalitis:          (Acanthamoeba)"
     },
     {
-        "question": "थेरेपी है। (BIRSA 101: India’s first indigenous CRISPR gene therapy designed to treat Sickle Cell Disease.) राष्ट्रपनत द्रौपदी मुमूा ने औपचाररक रूप से भारत की पहली स्िदेिी कार-टी सेल थेरेपी (CAR-T cell therapy) कहााँ लॉन्च की? / Where did President Droupadi Murmu formally launch India’s first indigenous CAR-T cell therapy?",
+        "question": "Where did President Droupadi Murmu formally launch India’s first indigenous CAR-T cell therapy?",
         "options": {
-            "A": "भारतीय प्रौद्योगगकी संस्थान बॉम्बे / Indian Institute of Technology Bombay",
-            "B": "भारतीय प्रौद्योगगकी संस्थान र्दल्ली / Indian Institute of Technology Delhi",
-            "C": "भारतीय पिज्ञान संस्थान बैंगलोर / Indian Institute of Science Bangalore",
-            "D": "भारतीय प्रौद्योगगकी संस्थान मद्रास / Indian Institute of Technology Madras"
+            "A": "Indian Institute of Technology Bombay",
+            "B": "Indian Institute of Technology Delhi",
+            "C": "Indian Institute of Science Bangalore",
+            "D": "Indian Institute of Technology Madras"
         },
         "correct": "A",
-        "explanation": "भारत की पहली स्िदेिी CAR-T सेल थेरेपी\n• राष्ट्रपनत द्रौपदी मुमूा ने भारतीय प्रौद्योगगकी संस्थान बॉम्बे (IIT Bombay) में कैंसर के इलाज के ललए\nभारत की पहली स्िदेिी CAR-T सेल कैंसर थेरेपी को औपचाररक रूप से लॉन्च ककया। (India’s very first\nindigenous CAR-T cell cancer therapy was officially launched by President Droupadi Murmu at\nIIT Bombay.)\n• IIT Delhi: एआई लैब अलसस्टेंट 'AILA' पिकलसत करने के ललए जाना जाता है, जबकक MeitY ने आईआईटी\nखड़गपुर में 'परम िस्क्त' सुपरकंप्यूटर लॉन्च ककया था। (IIT Delhi: Known for developing the AI Lab\nAssistant 'AILA', whereas MeitY launched the 'PARAM SHAKTI' supercomputer at IIT\nKharagpur.)\n• IISc Bangalore: एक प्रमुख अनुसंधान संस्थान है, लेककन यह इस पिलिष्ट्ट CAR-T थेरेपी का लॉन्च स्थल\nनहीं है। (IISc Bangalore: A premier research institute, but not the launch location for this\nspecific CAR-T therapy.)\n• IIT Madras: एनएसएम (NSM) के तहत 'परम िस्क्त' िंडडंग ढांचे को पिकलसत ककया, लेककन यह इस"
+        "explanation": "(IIT Bombay)\nCAR-T          (India’s very first\nindigenous CAR-T cell cancer therapy was officially launched by President Droupadi Murmu at\nIIT Bombay.)\nIIT Delhi:    'AILA'       ,  MeitY\n' '     (IIT Delhi: Known for developing the AI Lab\nAssistant 'AILA', whereas MeitY launched the 'PARAM SHAKTI' supercomputer at IIT\nKharagpur.)\nIISc Bangalore:     ,     CAR-T\n(IISc Bangalore: A premier research institute, but not the launch location for this\nspecific CAR-T therapy.)\nIIT Madras:  (NSM)   ' '     ,"
     },
     {
-        "question": "नासा (NASA) के ऐनतहालसक चालक दल िाले चंद्र फ्लाईबाई लमिन (crewed lunar flyby mission) का नाम क्या है, स्जसे अपोलो 13 के बाद से अंतररक्ष में मनुष्ट्यों द्िारा तय की गई सबसे लंबी दूरी का ररकॉडा तोड़ने की योजना है? / NASA's historic crewed lunar flyby mission, planned to break the record for the farthest distance traveled by humans in space since Apollo 13, is named what?",
+        "question": "NASA's historic crewed lunar flyby mission, planned to break the record for the farthest distance traveled by humans in space since Apollo 13, is named what?",
         "options": {
-            "A": "आटेलमस II (Artemis II)",
-            "B": "आटेलमस III (Artemis III)",
-            "C": "आटेलमस IV (Artemis IV)",
-            "D": "आटेलमस V (Artemis V)"
+            "A": "II (Artemis II)",
+            "B": "III (Artemis III)",
+            "C": "IV (Artemis IV)",
+            "D": "V (Artemis V)"
         },
         "correct": "A",
-        "explanation": "नासा का आटेलमस II लमिन\n• नासा (NASA) का ऐनतहालसक चालक दल िाला चंद्र फ्लाईबाय लमिन 'आटेलमस II' (Artemis II) है, जो\nअपोलो 13 के बाद अंतररक्ष में इंसानों द्िारा तय की गई सबसे दूर की दूरी का ररकॉडा तोड़ने के ललए तैयार\nहै। (Artemis II is NASA's planned 10-day crewed mission to orbit the Moon, flying over\n252,756 miles from Earth, surpassing Apollo 13's record.)\n• Artemis III: ििा 2027 के ललए ननधााररत िास्तपिक चालक दल िाला चंद्र लैंडडंग लमिन है। (Artemis III:\nThe actual crewed lunar landing mission scheduled for 2027.)\n• Artemis IV: ििा 2028 का लमिन है जो दूसरे चालक दल िाले लैंडडंग और गेटिे के साथ एकीकरण को\nलक्षक्षत करता है। (Artemis IV: The 2028 mission targeting the second crewed landing and\nintegration with the Gateway.)\n• Artemis V: ििा 2028 के ललए ननयोस्जत लमिन है जो चंद्र भूभाग िाहन को तैनात करने और बेस"
+        "explanation": "(NASA)         ' II' (Artemis II) ,\n(Artemis II is NASA's planned 10-day crewed mission to orbit the Moon, flying over\n252,756 miles from Earth, surpassing Apollo 13's record.)\nArtemis III:  2027            (Artemis III:\nThe actual crewed lunar landing mission scheduled for 2027.)\nArtemis IV:  2028\n(Artemis IV: The 2028 mission targeting the second crewed landing and\nintegration with the Gateway.)\nArtemis V:  2028"
     },
     {
-        "question": "निाचारों का िणान करता है। (Gene-edited agricultural crop variations: Describes innovations like the CRISPR-derived DRR Dhan 100 rice variety.) अंतररक्ष अिलोकन के संदभा में, नासा हबल स्पेस टेलीस्कोप ने ककस गैलेक्सी (आकािगंगा) के पास स्स्थत एक अद्पितीय तारापिहीन डाका मैटर क्लाउड (starless dark matter cloud) की खोज की? / In the context of space observation, the NASA Hubble Space Telescope discovered a unique starless dark matter cloud located near which galaxy?",
+        "question": "In the context of space observation, the NASA Hubble Space Telescope discovered a unique starless dark matter cloud located near which galaxy?",
         "options": {
-            "A": "मेलसयर 94 (Messier 94)",
-            "B": "मेलसयर 9",
-            "C": "क्लाउड-9",
-            "D": "एंड्रोमेडा गैलेक्सी / Andromeda Galaxy"
+            "A": "94 (Messier 94)",
+            "B": "9",
+            "C": "9",
+            "D": "Andromeda Galaxy"
         },
         "correct": "A",
-        "explanation": "स्टारलेस डाका मैटर क्लाउड\n• नासा के हबल स्पेस टेललस्कोप ने स्पाइरल गैलेक्सी मेलसयर 94 (Messier 94) के करीब ब्रहमांडीय\nननकटता में स्स्थत एक पूरी तरह से ताराहीन डाका मैटर क्लाउड की खोज और मानगचत्रण ककया है।\n(NASA's Hubble Space Telescope observed and mapped an entirely starless dark matter cloud\nlocated in close cosmic proximity to the spiral galaxy Messier 94.)\n• Andromeda Galaxy: आकािगंगा (Milky Way) के सबसे नजदीक की बड़ी सपपाल आकािगंगा है, लेककन"
+        "explanation": "94 (Messier 94)\n(NASA's Hubble Space Telescope observed and mapped an entirely starless dark matter cloud\nlocated in close cosmic proximity to the spiral galaxy Messier 94.)\nAndromeda Galaxy:  (Milky Way)        ,"
     }
 ]
