@@ -1,387 +1,266 @@
 [
     {
-        "question": "Who ranked first in the Forbes World's Billionaires List, released on 10 March 2026?",
+        "question": "In March 2026, which country hosted the 14th Ministerial Conference (MC14) of the World Trade Organization?",
         "options": {
-            "A": "",
-            "B": "Elon Musk",
-            "C": "Larry Page",
-            "D": "Sergey Brin"
-        },
-        "correct": "B",
-        "explanation": "• According to the list of the world's billionaires released by Forbes on March 10,\n2026, Elon Musk was the richest person in the world with an estimated net worth of\nUS$839 billion.\n• Elon Musk held the top spot on the list for the second consecutive year and also\nbecame the first person to possess a net worth exceeding $800 billion.\n• Larry Page ranked second and Sergey Brin third on the list.\n• A total of 3,428 billionaires were included in this list, marking the highest number\never recorded.\n10   2026             2026      839\n3,428     ,"
-    },
-    {
-        "question": "Which Indian institution ranked first among Indian institutions in the QS World University Rankings 2027?",
-        "options": {
-            "A": "Indian Institute of Technology Bombay (IIT",
-            "B": "Indian Institute of Technology Madras (IIT",
-            "C": "Indian Institute of Technology Delhi (IIT Delhi)",
-            "D": "Indian Institute of Science, Bengaluru (IISc"
-        },
-        "correct": "A",
-        "explanation": "Bengaluru)\n21.\n• According to the QS World University Rankings 2027, the Indian Institute of Technology (IIT)\nDelhi ranked first among Indian institutions. Globally, IIT Delhi secured the 118th position, the\nhighest rank achieved by any Indian institution.\n• In this ranking, the Indian Institute of Technology Bombay (IIT Bombay) and the Indian Institute\nof Technology Madras (IIT Madras) stood at the 134th and 180th positions, respectively.\n• Globally, the Massachusetts Institute of Technology (MIT), USA, retained the top spot for the\n15th consecutive year.\n• These rankings are released annually by QS Quacquarelli Symonds.\n• Universities are evaluated based on key parameters such as academic reputation, employer\nreputation, faculty-student ratio, research citations, international faculty and students, and\nemployment outcomes.\n2027         (IIT),\nIIT   118    ,\n( ) 134\n(  ) 180\n(),      15\nQS Quacquarelli Symonds"
-    },
-    {
-        "question": "(Women, Peace and Security Index) 2025–26  -       ? Which country ranks first in the Women, Peace and Security Index 2025–26?",
-        "options": {
-            "A": "Sweden",
-            "B": "Iceland",
-            "C": "Norway",
-            "D": "Denmark"
-        },
-        "correct": "B",
-        "explanation": "(Women, Peace and Security Index) 2025–26\n0.607       131\n2025–26   181            (Inclusion),\n(Justice)     (Security)   13\n• According to the Women, Peace and Security Index 2025–26, Denmark ranked first\nin the world for the third consecutive time.\n• In this report, Iceland holds the second position, while Norway and Sweden jointly\nshare the third spot.\n• India ranks 131st with a score of 0.607.\n• Afghanistan occupies the lowest position in this index.\n• This index is published biennially through a joint effort by the Georgetown\nInstitute for Women, Peace and Security and the Peace Research Institute Oslo.\n• In the 2025–26 edition, 181 countries were evaluated based on 13 indicators related\nto women's inclusion, justice, and security."
-    },
-    {
-        "question": "(Global Economic Prospects Report)          ? Which organization publishes the Global Economic Prospects Report?",
-        "options": {
-            "A": "International Monetary Fund (IMF)",
-            "B": "World Bank",
-            "C": "World Economic Forum (WEF)",
-            "D": "Organisation for Economic Co-operation and"
-        },
-        "correct": "B",
-        "explanation": "Development (OECD)\n30.\n• The World Bank publishes the 'Global Economic Prospects Report' twice a year (in\nJanuary and June).\n• This report presents an analysis and forecast regarding global, regional, and\nindividual country economic growth (GDP growth), inflation, trade, investment,\ndebt, and major economic risks.\n• According to the June 2026 report, the Indian economy's growth rate for the 2025-\n26 financial year is projected at 7.7%.\n(Global Economic Prospects Report)\n(GDP Growth),  ,\n2026        2025-26         7.7%"
-    },
-    {
-        "question": "(Citations),              (Employment Outcomes)                  2026           -  ? According to the World Giving Report 2026, which is the most generous country in the world?",
-        "options": {
-            "A": "Ghana",
-            "B": "Nigeria",
+            "A": "Switzerland",
+            "B": "Yaounde, Cameroon",
             "C": "Kenya",
             "D": "Indonesia"
         },
-        "correct": "B",
-        "explanation": "• According to the World Giving Report 2026, Nigeria was the most generous\ncountry in the world.\n• The report states that Nigerians donated, on average, 2.8% of their income to\ncharity, religious causes, and aid for the needy—the highest figure globally.\n• This is followed by Ghana, Egypt, and Kenya, respectively.\n• According to the report, India ranks fifth among the most generous countries.\n• The report is published by the Charities Aid Foundation (CAF).\n• It assesses giving, philanthropy, and social cooperation based on a survey of over\n60,000 people across 105 countries.\n2026             (Most Generous)\n2.8%    ,\n105   60,000           ,"
-    },
-    {
-        "question": "(Climate Risk Index)              ? Which organization publishes the Climate Risk Index?",
-        "options": {
-            "A": "Lowy Institute",
-            "B": "World Meteorological Organization (WMO)",
-            "C": "Center for Global Development (CGD)",
-            "D": "Germanwatch"
-        },
-        "correct": "D",
-        "explanation": "(  ,  ,\n• The Climate Risk Index is published annually by the organization Germanwatch.\n• In this index, the Caribbean nation of Dominica ranks first, while India holds the\n9th position.\n• This index assesses the impact of extreme weather events caused by climate change\n(such as floods, cyclones, droughts, heatwaves, etc.) on countries. Countries are\nranked based on key indicators such as human fatalities, the number of people\naffected, and economic losses.\n• Germanwatch also publishes another index known as the Climate Change\nPerformance Index."
-    },
-    {
-        "question": "2026      -    ? What is India's rank in the Global Digital Nomad Report 2026?",
-        "options": {
-            "A": "32",
-            "B": "34",
-            "C": "36",
-            "D": "38"
-        },
         "correct": "A",
-        "explanation": "2026   38\n• According to the Global Digital Nomad Report 2026, India ranked 38th.\n• This report is published by ‘Global Citizen Solutions’.\n• According to the report, Spain was the best digital nomad destination in the world.\n• It was followed by the Netherlands in second place, Uruguay in third, and Canada\nin fourth."
+        "explanation": "(tax moratoriums)\n166         26  29\n• MC14 convened in Cameroon to resolve disputes regarding agricultural subsidies and e-\ncommerce tax moratoriums. The Ministerial Conference is the highest decision-making\nassembly of the WTO, typically gathering ministers from all 166 members every two years.\nFrom March 26 to 29, 2026."
     },
     {
-        "question": "2025    -         ? According to the Trends in World Military Expenditure Report 2025, which country has the highest military expenditure?",
+        "question": "Which country emerged as India's largest trading partner during the financial year 2025–26, surpassing previous margins?",
         "options": {
             "A": "China",
-            "B": "Germany",
-            "C": "Russia",
-            "D": "United States of America"
+            "B": "United States",
+            "C": "UAE",
+            "D": "Saudi Arabia"
         },
         "correct": "A",
-        "explanation": "• The 'World Military Expenditure Trends 2025' report was published by the\nStockholm International Peace Research Institute (SIPRI).\n• According to the report, the United States incurred military expenditure of\napproximately US$954 billion in 2024, the highest in the world.\n• The report places China in second place, Russia in third, and Germany in fourth\nregarding military spending.\n• India ranked fifth with military expenditure of approximately US$92.1 billion.\n(SIPRI)\n2024         954"
+        "explanation": "• Trade between India and the US reached record highs, fueled by intense exchanges in tech\nservices, engineering items, and pharmaceuticals. Driven by annual commercial mechanisms\nlike the India-US Commercial Dialogue."
     },
     {
-        "question": "500, 2026            ? According to the Brand Finance Global 500 Report 2026, which company is the world's most valuable brand?",
+        "question": "Which document outlining the long-term vision of the bloc was reviewed and signed at the SCO Summit in Tianjin?",
         "options": {
-            "A": "Microsoft",
-            "B": "Google",
-            "C": "",
-            "D": "Apple"
+            "A": "Tianjin Maritime Trade Pact",
+            "B": "SCO Development Strategy for the Next",
+            "C": "Beijing-Tianjin Security Accord",
+            "D": "Eurasian Digital Commerce Integration"
         },
-        "correct": "D",
-        "explanation": "• According to the Brand Finance Global 500 (2026), Apple remained the world's\nmost valuable brand.\n• Microsoft ranked second and Google third, following Apple.\n• India's Tata Group is the country's most valuable brand on this list, ranking 61st,\nwhile Infosys is the second most valuable, ranking 150th.\n• This ranking is published annually by Brand Finance.\n• In the report, brands are evaluated based on criteria such as brand value, brand\nstrength, marketing investment, consumer perception, and business performance.\n500, 2026     (Apple)\n61                            150\n(Brand Value),    (Brand Strength),"
+        "correct": "B",
+        "explanation": "Framework\n11.\n2035   ,     -\n(RATS)\n• The document sets out the regional roadmap for trade facilitation, mutual energy corridors,\nand cyber-security coordination through 2035. Coordinated by the SCO Secretariat based in\nBeijing and the Regional Anti-Terrorist Structure (RATS) based in Tashkent."
     },
     {
-        "question": "99.7%             2026      -    ? What is India's rank in the Global Peace Index 2026?",
+        "question": "Where was the WTO’s 14th Ministerial Conference (MC14) held in March 2026, with India represented by Commerce and Industry Minister Piyush Goyal?",
         "options": {
-            "A": "127th",
-            "B": "130th",
-            "C": "131th",
-            "D": "132th"
-        },
-        "correct": "A",
-        "explanation": "2025   130\n2025   131\n2026  132\n• India ranks 127th in the Global Peace Index.\n• India ranks 130th in the Human Development Report 2025.\n• India ranks 131st in the Global Gender Gap Report 2025.\n• India ranks 132nd in the Index of Economic Freedom 2026."
-    },
-    {
-        "question": "(Export Preparedness Index) 2024  -         ? Which state ranks first in the Export Preparedness Index (EPI) 2024, released by NITI Aayog?",
-        "options": {
-            "A": "Maharashtra",
-            "B": "Tamil Nadu",
-            "C": "Gujarat",
-            "D": "Uttar Pradesh"
+            "A": "Yaoundé, Cameroon",
+            "B": "Geneva, Switzerland",
+            "C": "Abu Dhabi, UAE",
+            "D": "Nairobi, Kenya"
         },
         "correct": "A",
-        "explanation": "(Export Preparedness Index-EPI) 2024\n(Policy),\n(Business Ecosystem),      (Export Ecosystem)\n(Export Performance)\n• According to the Export Preparedness Index (EPI) 2024 released by NITI Aayog,\nMaharashtra holds the top position with a score of 68.01.\n• It is followed by Tamil Nadu, Gujarat, and Uttar Pradesh, respectively.\n• This is the fourth edition of the EPI; it was first published in August 2020.\n• The objective of this index is to assess the export potential, competitiveness, and\nexport-friendly ecosystem of states and Union Territories.\n• In this report, states are evaluated based on four key pillars: Policy, Business\nEcosystem, Export Ecosystem, and Export Performance."
+        "explanation": "14   (MC14) 26-29 , 2026  ,    ,\n(WTO)       ,  1995\n• The 14th Ministerial Conference (MC14) took place in Yaoundé, Cameroon, from March\n26–29, 2026, shifting critical multilateral trade focus toward African economic integration.\nThe Ministerial Conference is the topmost decision-making body of the World Trade\nOrganization (WTO), which officially succeeded GATT in 1995."
     },
     {
-        "question": "(Greenfield Projects)                         (Responsible Nations Index) 2026  -        ? Which country ranks first in the recently released Responsible Nations Index (RNI) 2026?",
+        "question": "Where was the 2025 G20 Leaders' Summit hosted by President Cyril Ramaphosa?",
         "options": {
-            "A": "",
-            "B": "Denmark",
-            "C": "Cyprus",
-            "D": "Singapore"
+            "A": "Cape Town",
+            "B": "Johannesburg",
+            "C": "Durban",
+            "D": "Pretoria"
         },
-        "correct": "D",
-        "explanation": "• The Responsible Nations Index (RNI) 2026 has been jointly published by the World\nIntellectual Foundation and Jawaharlal Nehru University.\n• In the RNI 2026, Singapore ranked first, Switzerland second, and Denmark third.\n• India holds the 16th position in this index, while the Central African Republic\nranks at the bottom.\n(RNI) 2026\nRNI 2026    ,"
+        "correct": "B",
+        "explanation": "2025                20\n(GDP)   85%      -\n• Johannesburg served as the central diplomatic hub for the 2025 leaders' summit. The G20\nmembers represent around 85% of global GDP and two-thirds of the world's population."
     },
     {
-        "question": "2026 (International IP Index 2026)  -       ? Which country ranks first in the International IP Index 2026?",
+        "question": "Which country emerged as India's largest trading partner during the financial year 2025–26, surpassing previous margins?",
+        "options": {
+            "A": "China",
+            "B": "United States",
+            "C": "UAE",
+            "D": "Saudi Arabia"
+        },
+        "correct": "A",
+        "explanation": "• Trade between India and the US reached record highs, fueled by intense exchanges in tech\nservices, engineering items, and pharmaceuticals. Driven by annual commercial mechanisms\nlike the India-US Commercial Dialogue."
+    },
+    {
+        "question": "Where was the 2025 G20 Leaders' Summit hosted by President Cyril Ramaphosa?",
+        "options": {
+            "A": "Cape Town",
+            "B": "Johannesburg",
+            "C": "Durban",
+            "D": "Pretoria"
+        },
+        "correct": "B",
+        "explanation": "2025                20\n(GDP)   85%      -\n• Johannesburg served as the central diplomatic hub for the 2025 leaders' summit. The G20\nmembers represent around 85% of global GDP and two-thirds of the world's population."
+    },
+    {
+        "question": "Where was the WTO’s 14th Ministerial Conference (MC14) held in March 2026, with India represented by Commerce and Industry Minister Piyush Goyal?",
+        "options": {
+            "A": "Yaoundé, Cameroon",
+            "B": "Geneva, Switzerland",
+            "C": "Abu Dhabi, UAE",
+            "D": "Nairobi, Kenya"
+        },
+        "correct": "A",
+        "explanation": "14   (MC14) 26-29 , 2026  ,    ,\n(WTO)       ,  1995\n• The 14th Ministerial Conference (MC14) took place in Yaoundé, Cameroon, from March\n26–29, 2026, shifting critical multilateral trade focus toward African economic integration.\nThe Ministerial Conference is the topmost decision-making body of the World Trade\nOrganization (WTO), which officially succeeded GATT in 1995."
+    },
+    {
+        "question": "In March 2026, which country hosted the 14th Ministerial Conference (MC14) of the World Trade Organization?",
         "options": {
             "A": "Switzerland",
-            "B": "United States of America",
-            "C": "United Kingdom",
-            "D": "France"
+            "B": "Yaounde, Cameroon",
+            "C": "Kenya",
+            "D": "Indonesia"
         },
-        "correct": "B",
-        "explanation": "2026    95.15%\n• The United States ranks first in the International Intellectual Property Index 2026\nwith an overall score of 95.15%.\n• It is followed by the United Kingdom, France, and Germany, respectively.\n• This index has been released by the ‘Global Innovation Policy Center,’ an entity\nassociated with the U.S. Chamber of Commerce."
+        "correct": "A",
+        "explanation": "(tax moratoriums)\n166         26  29\n• MC14 convened in Cameroon to resolve disputes regarding agricultural subsidies and e-\ncommerce tax moratoriums. The Ministerial Conference is the highest decision-making\nassembly of the WTO, typically gathering ministers from all 166 members every two years.\nFrom March 26 to 29, 2026."
     },
     {
-        "question": "2025      -    ? What is India's rank in the Global Democracy Index 2025?",
+        "question": "Which document outlining the long-term vision of the bloc was reviewed and signed at the SCO Summit in Tianjin?",
         "options": {
-            "A": "23rd",
-            "B": "47th",
-            "C": "70th",
-            "D": "91st"
+            "A": "Tianjin Maritime Trade Pact",
+            "B": "SCO Development Strategy for the Next",
+            "C": "Beijing-Tianjin Security Accord",
+            "D": "Eurasian Digital Commerce Integration"
         },
         "correct": "B",
-        "explanation": "2025      47          \" \"\n2025      23\n2026      70\n2025     91\n• India ranks 47th in the Global Democracy Index 2025 and has been categorized as\na \"flawed democracy.\" The Global Democracy Index is released by the Economist\nIntelligence Unit.\n• India ranks 23rd in the Climate Change Performance Index 2025.\n• India ranks 70th in the Energy Transition Index 2026.\n• India ranks 91st in the Corruption Perceptions Index 2025."
+        "explanation": "Framework\n11.\n2035   ,     -\n(RATS)\n• The document sets out the regional roadmap for trade facilitation, mutual energy corridors,\nand cyber-security coordination through 2035. Coordinated by the SCO Secretariat based in\nBeijing and the Regional Anti-Terrorist Structure (RATS) based in Tashkent."
     },
     {
-        "question": "2026  -       ? Which country ranks first in the Global Peace Index 2026?",
+        "question": "According to the Economic Survey 2025–26, India's GDP growth for FY 2026–27 is projected in the range of?",
         "options": {
-            "A": "Norway",
-            "B": "Iceland",
-            "C": "Denmark",
-            "D": "Sweden"
+            "A": "5.5%–6.0%",
+            "B": "6.0%–6.5%",
+            "C": "6.8%–7.2%",
+            "D": "7.5%–8.0%"
         },
-        "correct": "B",
-        "explanation": "• Iceland ranks first in the Global Peace Index 2026, followed by New Zealand and\nSwitzerland, respectively.\n• It is published annually by the Institute for Economics and Peace (IEP), based in\nSydney, Australia.\n• The 2026 edition marks the 20th edition of this index, evaluating 163 independent\ncountries and territories that represent approximately 99.7% of the world's population.\n(IEP),  ( )\n2026         20   ,  163"
+        "correct": "A",
+        "explanation": "(FY 2026–27)\n2026–27        6.8%  7.2%"
     },
     {
-        "question": "2026          - ? According to the Index of Economic Freedom 2026, which country has the freest economy in the world?",
+        "question": "According to the Industrial Relations Code (Amendment) Bill, 2026, from what date do the three legacy labor acts stand repealed?",
         "options": {
-            "A": "Singapore",
+            "A": "11  2026",
+            "B": "31  2025",
+            "C": "21  2025",
+            "D": "1  2026"
+        },
+        "correct": "A",
+        "explanation": "(   1926,\n1946     1947) 21 , 2025\n• The bill clarifies that the three older acts (Trade Unions Act 1926, Industrial Employment Act\n1946, and Industrial Disputes Act 1947) stand officially repealed from November 21, 2025."
+    },
+    {
+        "question": "The 2020 Industrial Relations Code provides statutory frameworks for which of the following matters?",
+        "options": {
+            "A": "Corporate tax filings and audits",
             "B": "",
-            "C": "Ireland",
-            "D": ""
-        },
-        "correct": "A",
-        "explanation": "Luxembourg\n24.\n• The Index of Economic Freedom 2026 has been published by ‘The Heritage\nFoundation’.\n• According to this report, Singapore remained the world's freest economy.\n• Switzerland ranked second, and Ireland ranked third.\n• India holds the 132nd rank in the Index of Economic Freedom 2026, while North\nKorea occupies the bottom spot.\n• This index evaluates countries based on four key pillars—Rule of Law,\nGovernment Size, Regulatory Efficiency, and Open Markets—and 12 indicators.\n2026     ‘   ’\n2026      132\n(Rule of Law),"
-    },
-    {
-        "question": "2025      -    ? What is India's rank in the Global Gender Gap Report 2025?",
-        "options": {
-            "A": "131st",
-            "B": "132nd",
-            "C": "133   /133rd",
-            "D": "134th"
-        },
-        "correct": "A",
-        "explanation": "2025      148   131\n16                ,\n• According to the Global Gender Gap Report 2025, India ranked 131st out of 148\ncountries.\n• Iceland remained the world's most gender-equal country for the 16th consecutive\nyear, while Finland and Norway secured the second and third positions,\nrespectively.\n• This report is published annually by the World Economic Forum (WEF).\n• The report evaluates gender equality based on four key parameters: economic\nparticipation and opportunity, educational attainment, health and survival, and\npolitical empowerment."
-    },
-    {
-        "question": "(Climate Change Performance Index) 2026     -       ? Which country ranks first overall in the Climate Change Performance Index (CCPI) 2026?",
-        "options": {
-            "A": "Denmark",
-            "B": "United Kingdom",
-            "C": "Morocco",
-            "D": "Sweden"
-        },
-        "correct": "A",
-        "explanation": "(CCPI) 2026    ,\n\"  (Very\nHigh)\"\n• According to the Climate Change Performance Index (CCPI) 2026, the first,\nsecond, and third positions have been left vacant because no country could achieve\na \"Very High\" rating across all parameters for addressing climate change.\n• Therefore, despite holding the fourth position in the overall ranking, Denmark is\nthe top-performing country.\n• India ranks 23rd in this index, while Saudi Arabia occupies the bottom spot."
-    },
-    {
-        "question": "What is India's rank in the Corruption Perceptions Index (CPI) 2025?",
-        "options": {
-            "A": "89",
-            "B": "90",
-            "C": "91",
-            "D": "92"
-        },
-        "correct": "A",
-        "explanation": "• According to the Corruption Perceptions Index (CPI) 2025, India ranked 91st out\nof 182 countries with a score of 39/100.\n• Denmark consistently held the top spot, while Finland ranked second and\nSingapore third.\n• The African nation of South Sudan ranked at the very bottom of this index.\n• This index is published annually by Transparency International.\n• It evaluates countries based on perceived levels of public sector corruption, where a\nscore of 0 indicates the highest level of corruption and 100 indicates the lowest.\n(CPI) 2025      182   91\n39/100"
-    },
-    {
-        "question": "(Savills)                   -  ? According to the World's Top Tech Cities Ranking released by the real estate consultancy Savills, which is India's top-ranked tech city?",
-        "options": {
-            "A": "Bengaluru",
-            "B": "Hyderabad",
-            "C": "Mumbai",
-            "D": "Pune"
-        },
-        "correct": "A",
-        "explanation": "• Bengaluru emerged as India's top tech city, securing the 16th rank in the global top\ntech cities ranking released by the real estate consultancy firm Savills.\n• Bengaluru also secured a place among major global technology cities. It is known as\nthe \"Silicon Valley of India.\"\n• According to the report, factors such as Bengaluru's robust IT and startup\necosystem, Global Capability Centres (GCCs), highly skilled workforce, research\nand innovation capabilities, and the presence of a large number of multinational\ntechnology companies have established it as India's leading tech hub.\n• Hyderabad and Mumbai also featured among the prominent Indian tech cities.\n• In this list, San Francisco (USA) secured the first position, while New York ranked\nsecond.\n(Global Capability Centres-GCCs),    ,\nThankoo!"
-    },
-    {
-        "question": "(Government Size),     (Regulatory Efficiency)       (Open Markets)       12            (Global Risks Report)              ? Which organization publishes the Global Risks Report every year?",
-        "options": {
-            "A": "International Monetary Fund (IMF)",
-            "B": "World Economic Forum (WEF)",
-            "C": "World Bank",
-            "D": ""
+            "C": "Minimum support price",
+            "D": "Environmental impact"
         },
         "correct": "B",
-        "explanation": "United Nations Development Programme (UNDP)\n25.\n• The Global Risks Report is published annually by the World Economic Forum\n(WEF).\n• This report assesses the major economic, environmental, geopolitical, societal, and\ntechnological risks facing the world over the next two years (short-term) and ten\nyears (long-term).\n• According to the report, the world has moved away from mutual cooperation and\nentered an ‘era of competition’.\n2  ( )   10  ( )"
+        "explanation": "assessments for heavy manufacturing units\n7.\nThe documentation explicitly states that the Code provides for matters such as recognition of\ntrade unions, notice periods for strikes and lock-outs, and the resolution of industrial disputes."
     },
     {
-        "question": "2025            ? Which organization publishes the Global Gender Gap Report 2025?",
+        "question": "The \"Champion SME\" initiative introduced a dedicated Growth Fund for micro and small enterprises with a corpus of:",
         "options": {
-            "A": "Institute for Economics and Peace (IEP)",
-            "B": "Transparency International",
-            "C": "",
-            "D": "World Economic Forum (WEF)"
-        },
-        "correct": "B",
-        "explanation": "The Global Gender Gap Report is published annually by the World Economic\nForum.\nThe Human Development Report is published by the United Nations Development\nProgramme.\nThe Corruption Perceptions Index is published by Transparency International.\nThe Global Terrorism Index is published by the Institute for Economics and Peace."
-    },
-    {
-        "question": "(GNI per capita)              (World Investment Report) 2025      -    ? What is India's rank in the World Investment Report 2025?",
-        "options": {
-            "A": "13",
-            "B": "14",
-            "C": "15",
-            "D": "16"
-        },
-        "correct": "A",
-        "explanation": "• The World Investment Report 2025 is published by the United Nations Conference\non Trade and Development (UNCTAD).\n• The United States holds the top position in this index.\n• According to the report, India ranked 15th among countries receiving Foreign\nDirect Investment (FDI) in 2024, whereas it held the 16th position in 2023.\n• India received approximately US$ 27.6 billion in FDI in 2024.\n• The report indicates that India remained the largest FDI recipient in South Asia\nand ranked fourth globally in terms of announced Greenfield projects.\n(World Investment Report) 2025\n(UNCTAD)\n2024     (FDI)          15\n2023    16\n2024      27.6      FDI"
-    },
-    {
-        "question": "(Network Readiness Index) 2025      -    ? What is India's rank in the Network Readiness Index (NRI) 2025?",
-        "options": {
-            "A": "42nd",
-            "B": "45  /45th",
-            "C": "48th",
-            "D": "50th"
-        },
-        "correct": "B",
-        "explanation": "(Network Readiness Index - NRI) 2025    127   45\n54.43            ( ..)\n• India ranked 45th out of 127 countries in the Network Readiness Index (NRI) 2025,\nmarking an improvement of four places compared to the previous year.\n• India's overall score was 54.43. This index is published by Portulans (Washington,\nD.C.).\n• The United States holds the top spot in this index, followed by Finland, Singapore,\nand Denmark, respectively."
-    },
-    {
-        "question": "(Fiscal Health Index) 2026  -        ? Which state ranks first in the Fiscal Health Index 2026?",
-        "options": {
-            "A": "Gujarat",
-            "B": "Goa",
-            "C": "Odisha",
-            "D": "Jharkhand"
-        },
-        "correct": "B",
-        "explanation": "(Fiscal Health Index–2026)\n11  2026\nThe second edition of the Fiscal Health Index (2026) was released by NITI Aayog on\nMarch 11, 2026.\n• Odisha secured the top spot in this index for the second consecutive year. Among major\nstates, Goa ranked second and Jharkhand third.\n• In the 2026 edition, Northeastern and Himalayan states have been included in a separate\ncategory for the first time, making the index more comprehensive and representative.\n• The index evaluates the financial health of states based on five key sub-indices: quality of\nexpenditure, revenue mobilization, fiscal prudence, debt index, and debt sustainability.\n• It classifies states into 'Achiever', 'Front Runner', 'Performer', and 'Aspirational'\ncategories based on their financial status."
-    },
-    {
-        "question": "(World Press Freedom Index)               ? Which organization publishes the World Press Freedom Index every year?",
-        "options": {
-            "A": "Economist Intelligence Unit",
-            "B": "Institute for Economics and Peace (IEP)",
-            "C": "Reporters Without Borders (RSF)",
-            "D": "World Justice Project"
-        },
-        "correct": "A",
-        "explanation": "• The World Press Freedom Index is published annually by the Paris-based\ninternational NGO Reporters Without Borders.\n• The Global Democracy Index is released by the Economist Intelligence Unit.\n• The Global Peace Index is released by the Institute for Economics and Peace (IEP).\n• The Rule of Law Index is published by the World Justice Project."
-    },
-    {
-        "question": "2025  -       ? Which country ranks first in the Rule of Law Index 2025?",
-        "options": {
-            "A": "Norway",
-            "B": "Denmark",
-            "C": "",
-            "D": "Venezuela"
-        },
-        "correct": "A",
-        "explanation": "(Rule of Law Index) 2025\n2025    143\n• According to the Rule of Law Index 2025, Denmark consistently held the first\nposition.\n• Norway ranked second and Finland third, while India stood at the 86th position.\n• Venezuela ranks last in the Rule of Law Index.\n• This index is published annually by the World Justice Project. The 2025 edition\nevaluated 143 countries and jurisdictions."
-    },
-    {
-        "question": "2025      -    ? What is India's rank in the Asia Power Index 2025?",
-        "options": {
-            "A": "First",
-            "B": "Second",
-            "C": "Third",
-            "D": "Fourth"
+            "A": "5,000 Crore",
+            "B": "40,000 Crore",
+            "C": "10,000 Crore",
+            "D": "15,000 Crore"
         },
         "correct": "C",
-        "explanation": "2025   ,\n\"Major Power\" ( )\n(Comprehensive Power)\n(Resilience)\n• According to the Asia Power Index 2025, India ranked third. This index is\npublished annually by the Lowy Institute (Australia).\n• In 2025, the United States ranked first, China second, and India third.\n• In this edition, India achieved the status of a \"Major Power\" for the first time,\nsurpassing Japan.\n• This index assesses the \"Comprehensive Power\" of countries in the Asia-Pacific\nregion based on key indicators such as economic capability, military capability,\ndiplomatic influence, defense networks, economic relationships, cultural influence,\nfuture resources, and resilience."
+        "explanation": "\"SME\" ₹10,000\nThe \"Champion SME\" initiative set up a ₹10,000 Crore dedicated equity/growth fund to\nsupport small business scalability.\n2026-27           (Public Capital"
     },
     {
-        "question": "(Energy Transition Index) 2026  -       ? Which country ranks first in the Energy Transition Index (ETI) 2026?",
+        "question": "What was the manufacturing sector's growth rate in the second quarter of FY26 (Q2 FY26)?",
         "options": {
-            "A": "Sweden",
+            "A": "7.0%",
+            "B": "7.72%",
+            "C": "9.13%",
+            "D": "6.7%"
+        },
+        "correct": "B",
+        "explanation": "Q1 FY26 7.72% Q2 FY26 9.13%\nManufacturing growth accelerated significantly, rising from 7.72% in Q1 FY26 to 9.13% in\nQ2 FY26.\n2025 , 14       (PLI)\nTill September 2025, the Production"
+    },
+    {
+        "question": "What was India's Current Account Deficit (CAD) as a percentage of GDP during the second quarter of FY26 (Q2 FY26)?",
+        "options": {
+            "A": "4.0%",
+            "B": "2.4%",
+            "C": "1.3%",
+            "D": "3.2%"
+        },
+        "correct": "C",
+        "explanation": "Q2 FY26 CAD GDP 1.3%\nThe CAD print stood at an extremely healthy level of approximately 1.3% of national GDP\nduring Q2 FY26.\n2024      (FDI)"
+    },
+    {
+        "question": "What was the gross GST collection figure recorded during the April–December 2025 period?",
+        "options": {
+            "A": "11.21 Lakh Crore",
+            "B": "15.48 Lakh Crore",
+            "C": "17.4 Lakh Crore",
+            "D": "18.7 Lakh Crore"
+        },
+        "correct": "C",
+        "explanation": "GST ₹17.4 , 6.7% --\nGross collections under GST totalled ₹17.4 Lakh Crore, registering a year-on-year\nexpansion of 6.7%.\n(SASCI)  ,     FY25\nGDP               ? / Under the"
+    },
+    {
+        "question": "During the bilateral trade discussions in February 2026, the US and India agreed to cut reciprocal tariffs on key items from 50% to:",
+        "options": {
+            "A": "25%",
+            "B": "18%",
+            "C": "15%",
+            "D": "10%"
+        },
+        "correct": "B",
+        "explanation": "2026 ,\n50% 18%\nDuring US President Donald Trump's visit in February 2026, both nations agreed to lower\nreciprocal tariffs on select agricultural and industrial goods from 50% to 18%.\nAs part of the bilateral trade"
+    },
+    {
+        "question": "What is the target debt-to-GDP ratio projected for the Central Government in BE 2026-27?",
+        "options": {
+            "A": "49.6%",
+            "B": "55.6%",
+            "C": "56.1%",
+            "D": "43.0%"
+        },
+        "correct": "C",
+        "explanation": "RE 2025-26 56.1% BE 2026-27 --\nThe Central Government’s debt-to-GDP ratio is projected to fall to 55.6% in BE 2026-27,\ncompared to 56.1% in RE 2025-26.\n5   \"\" (SHAKTI)"
+    },
+    {
+        "question": "The Central Government's revenue receipts reached what percentage of GDP in FY25 (PA)?",
+        "options": {
+            "A": "8.5%",
+            "B": "9.2%",
+            "C": "4.0%",
+            "D": "7.4%"
+        },
+        "correct": "A",
+        "explanation": "FY16-FY20 8.5% FY25 (PA)\nCentral government revenue receipts rose from an average of roughly 8.5% in FY16-FY20\nto 9.2% of GDP in FY25 (PA).\n2025 ,  -  (GNPA)"
+    },
+    {
+        "question": "India’s non-petroleum exports reached a historical high of how many billions in FY25?",
+        "options": {
+            "A": "USD 135.4 Billion",
+            "B": "USD 374.3 Billion",
+            "C": "USD 387.6 Billion",
+            "D": "USD 825.3 Billion"
+        },
+        "correct": "B",
+        "explanation": "USD 374.3 /\nThe non-petroleum component of total outgoing merchandise trades scaled up to USD 374.3\nBillion.\n2026    (Q2 FY26)   GDP"
+    },
+    {
+        "question": "economic growth. For least developed countries (LDCs), the framework sets a specific annual GDP growth target. What is it?",
+        "options": {
+            "A": "At least 3% per annum",
+            "B": "At least 5% per annum",
+            "C": "At least 7% per annum",
+            "D": "At least 10% per annum"
+        },
+        "correct": "A",
+        "explanation": "Target 8.1 explicitly sets a baseline for economic growth: \"at least 7 percent gross domestic\nproduct growth per annum in the least developed countries.\"\nSDG 10 (  )   10.1 \" \"\nTarget 10.1 of SDG 10 (Reduced Inequalities) focuses on"
+    },
+    {
+        "question": "The 2020 Industrial Relations Code provides statutory frameworks for which of the following matters?",
+        "options": {
+            "A": "Corporate tax filings and audits",
             "B": "",
-            "C": "Denmark",
-            "D": "Estonia"
-        },
-        "correct": "A",
-        "explanation": "• Sweden ranked first globally in the Energy Transition Index (ETI) 2026. This index\nis published by the World Economic Forum (WEF).\n• According to the report, Finland ranked second, Denmark third, and Estonia\nfourth.\n• India ranked 70th in the index and was among the top improvers among major\neconomies.\n• The African nation of the Democratic Republic of the Congo ranked lowest in the\nindex.\n• In the ETI 2026, 120 countries were evaluated based on the current performance of\ntheir energy systems (System Performance) and their readiness for energy\ntransition (Transition Readiness).\n(ETI) 2026\nETI 2026  120               (System"
-    },
-    {
-        "question": "(Global Innovation Index) 2025      -    ? What is India's rank in the Global Innovation Index (GII) 2025?",
-        "options": {
-            "A": "38th",
-            "B": "43rd",
-            "C": "56th",
-            "D": "78th"
-        },
-        "correct": "A",
-        "explanation": "(WIPO)\n• The Global Innovation Index (GII) is a leading global index that assesses the\ninnovation capacity and performance of countries worldwide.\n• It is published annually by the World Intellectual Property Organization (WIPO).\n• India ranks 38th on this index, while Switzerland holds the top spot.\n• The African nation of Niger ranks last on the Global Innovation Index."
-    },
-    {
-        "question": "Which country ranked first for the tenth consecutive year in the World Press Freedom Index?",
-        "options": {
-            "A": "Finland",
-            "B": "Denmark",
-            "C": "Switzerland",
-            "D": "Norway"
-        },
-        "correct": "D",
-        "explanation": "157          ‘ ’ (Very\nSerious)\n• Norway has retained the top spot in the World Press Freedom Index for the tenth\nconsecutive year. It is followed by the Netherlands, Estonia, Denmark, and Sweden,\nrespectively.\n• Eritrea ranks last on this index.\n• India holds the 157th position in the World Press Freedom Index and has been\nplaced in the ‘Very Serious’ category."
-    },
-    {
-        "question": "2026                  ? According to the Hurun Global Rich List 2026, India ranked third in the world with how many billionaires?",
-        "options": {
-            "A": "284",
-            "B": "295",
-            "C": "308",
-            "D": "321"
-        },
-        "correct": "C",
-        "explanation": "2026      308\n1,110             1,000\n• According to the Hurun Global Rich List 2026, India ranked third globally with 308\nbillionaires.\n• This list is released by the Hurun Research Institute.\n• According to the report, China ranked first with 1,110 billionaires, while the United\nStates ranked second with 1,000 billionaires.\n• The report indicates that China has once again secured the title of the world's\n'Billionaire Capital'.\n• India added 24 new billionaires compared to the previous year.\n• Meanwhile, Mukesh Ambani retained his position as the richest person in India and\nAsia."
-    },
-    {
-        "question": "(Global Terrorism Index) 2026  -       ? Which country ranks first in the Global Terrorism Index (GTI) 2026?",
-        "options": {
-            "A": "Burkina Faso",
-            "B": "Pakistan",
-            "C": "Niger",
-            "D": "Nigeria"
-        },
-        "correct": "C",
-        "explanation": "(GTI) 2026          (IEP)\n13  (6.428) ,\n• The Global Terrorism Index (GTI) 2026 was published by the Institute for\nEconomics and Peace (IEP).\n• In this report, Pakistan ranked first due to consistently rising terrorist incidents\nand fatalities caused by terrorism, while Burkina Faso ranked second and Niger\nthird.\n• India ranked 13th with a score of 6.428, an improvement compared to the previous\nyear.\n• This index assesses the impact of terrorism across countries annually, based on\nindicators such as terrorist incidents, fatalities, injuries, the number of hostages,\nand economic impact."
-    },
-    {
-        "question": "(World Happiness Report) 2026       9        -  ? According to the World Happiness Report 2026, which country has remained the happiest country in the world for the ninth consecutive year?",
-        "options": {
-            "A": "Denmark",
-            "B": "Iceland",
-            "C": "",
-            "D": "Costa Rica"
+            "C": "Minimum support price",
+            "D": "Environmental impact"
         },
         "correct": "B",
-        "explanation": "2026        9\n2026 ,      ,\nGallup\n(UN Sustainable Development Solutions\nNetwork - SDSN)\n• According to the World Happiness Report 2026, Finland remained the world's\nhappiest country for the ninth consecutive year.\n• In the World Happiness Report 2026, Iceland ranked second, Denmark third, and\nCosta Rica fourth, while India stood at the 116th position.\n• This report is published by the Wellbeing Research Centre at the University of\nOxford in collaboration with Gallup and the UN Sustainable Development\nSolutions Network (SDSN).\n• Countries are ranked in the report based on criteria such as per capita income,\nsocial support, healthy life expectancy, freedom to make life choices, generosity,\nand perceptions of corruption."
+        "explanation": "assessments for heavy manufacturing units\n7.\nThe documentation explicitly states that the Code provides for matters such as recognition of\ntrade unions, notice periods for strikes and lock-outs, and the resolution of industrial disputes."
     },
     {
-        "question": "0       100                  (UNDP)           2025      -   ? What is India's rank in the Human Development Report 2025, released by the United Nations Development Programme (UNDP)?",
+        "question": "According to the Industrial Relations Code (Amendment) Bill, 2026, from what date do the three legacy labor acts stand repealed?",
         "options": {
-            "A": "128",
-            "B": "130",
-            "C": "132",
-            "D": "134"
+            "A": "11  2026",
+            "B": "31  2025",
+            "C": "21  2025",
+            "D": "1  2026"
         },
         "correct": "A",
-        "explanation": "• According to the Human Development Report 2025, India ranked 130th out of 193\ncountries and territories. This report is published by the United Nations\nDevelopment Programme (UNDP).\n• According to the report, India's Human Development Index (HDI) stood at 0.685,\nplacing it in the 'Medium Human Development' category.\n• Iceland secured the first position, followed by Norway in second place and\nSwitzerland in third.\n• The Human Development Index is determined based on life expectancy, education\n(mean and expected years of schooling), and Gross National Income (GNI) per\ncapita.\n2025      193     130\n(HDI) 0.685  ,\n(Medium Human Development)"
+        "explanation": "(   1926,\n1946     1947) 21 , 2025\n• The bill clarifies that the three older acts (Trade Unions Act 1926, Industrial Employment Act\n1946, and Industrial Disputes Act 1947) stand officially repealed from November 21, 2025."
     }
 ]

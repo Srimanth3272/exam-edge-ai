@@ -1,14 +1,25 @@
 [
     {
-        "question": "World Chess Day is celebrated every year on which date?",
+        "question": "Which organization launched the 'National Olympic Education and Development Programme' (NOEDP) to strengthen the sports ecosystem from the grassroots to elite levels?",
         "options": {
-            "A": "1",
-            "B": "26",
-            "C": "20",
-            "D": "11"
+            "A": "Sports Authority of India (SAI)",
+            "B": "Indian Olympic Association (IOA)",
+            "C": "Ministry of Youth Affairs and Sports",
+            "D": "Board of Control for Cricket in India (BCCI)"
         },
-        "correct": "A",
-        "explanation": "Thankoo!"
+        "correct": "B",
+        "explanation": "National Olympic Education and Development Programme (NOEDP)\n(The Indian Olympic\nAssociation (IOA) launched the NOEDP and reactivated the National Olympic\nAcademy in Ahmedabad to strengthen the sports ecosystem.)\n37.\n' '     38     ?\nUnion Minister Nirmala Sitharaman launched 'Mission Jaagruk' on the 38th Foundation"
+    },
+    {
+        "question": "Which initiative was introduced as a massive sports talent hunt by the Bihar Chief Minister in May 2025, designed for secondary and higher secondary school students?",
+        "options": {
+            "A": "Bihar Sports Samarthan Yojana",
+            "B": "Mashal",
+            "C": "Lakshaya",
+            "D": "Khel Pratibha Khoj Abhiyan"
+        },
+        "correct": "B",
+        "explanation": "Mashal Initiative"
     },
     {
         "question": "National Doctors' Day is celebrated in India on which date?",
@@ -20,5 +31,49 @@
         },
         "correct": "A",
         "explanation": ""
+    },
+    {
+        "question": "(Indian opening batsman Shikhar Dhawan shares personal stories, career reflections, and insights into his life both on and off the cricket pitch.)",
+        "options": {
+            "A": "Justice Ranjan Gogoi",
+            "B": "Justice N. V. Ramana",
+            "C": "Justice U. U. Lalit",
+            "D": "Justice H. L. Dattu"
+        },
+        "correct": "A",
+        "explanation": "\"   \"     ?\nWho is the author of the book \"Narratives from the Bench\"?\n(CJI)  ..   (This legal\nbook is written by former Chief Justice of India Justice N.V. Ramana.)"
+    },
+    {
+        "question": "(It brings a critical and analytical perspective to the historical facts, ideological evolutions, and modern legacies surrounding Vinayak Damodar Savarkar.)",
+        "options": {
+            "A": "Deepa Malik",
+            "B": "Kiran Mazumdar-Shaw",
+            "C": "Sudha Murthy",
+            "D": "Arundhati Roy"
+        },
+        "correct": "A",
+        "explanation": "\"  :      \"     ?\nWho is the author of the book \"BRING IT ON: The Incredible Story of My Life\"?\n(Autobiography) ,\n( )     (This is the autobiography of Deepa Malik, an Indian\npara-athlete from Haryana specializing in Shot Put.)"
+    },
+    {
+        "question": "(This book chronicles the groundbreaking work, scientific vision, and legacy of Dr. M.S. Swaminathan, the pioneer of India's Green Revolution.)",
+        "options": {
+            "A": "Virat Kohli",
+            "B": "Rohit Sharma",
+            "C": "Shikhar Dhawan",
+            "D": "Hardik Pandya"
+        },
+        "correct": "C",
+        "explanation": "\" : ,    \"     ?\nWho is the author of the book \"The One: Cricket, My Life and More\"?\n(This book is\nauthored by Indian international opening batsman Shikhar Dhawan.)"
+    },
+    {
+        "question": "(Olympic wrestler Sakshi Malik shares her struggles, triumphs on the mat, and her subsequent prominent role in administrative battles and advocacy within Indian sports.)",
+        "options": {
+            "A": "Anand Grover",
+            "B": "Tushar Mehta",
+            "C": "K. K. Venugopal",
+            "D": "N. V. Ramana"
+        },
+        "correct": "A",
+        "explanation": "\"  \"     ?\nWho is the author of the book \"The Unyielding Judge\"?"
     }
 ]

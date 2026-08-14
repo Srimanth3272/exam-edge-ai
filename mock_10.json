@@ -1,17 +1,72 @@
 [
     {
-        "question": "2.5  3   CO2            (This aligns with India's international commitments under the Paris Agreement to create an additional carbon sink of 2.5 to 3 billion tonnes of CO2 equivalent.) 6.                                  ₹1       ? Which of the following schemes, announced by the Government of India, has a total outlay of ₹1 lakh crore to support high-risk, high-impact research and innovation projects across science & technology disciplines?",
+        "question": "What is the central environmental theme/focus of the COP30 climate summit held in Brazil?",
         "options": {
-            "A": "Digital India Innovation Fund",
-            "B": "Atmanirbhar Bharat R&D Programme",
-            "C": "National Science & Technology Fund",
-            "D": "Research, Development & Innovation Scheme"
+            "A": "Tropical Forests and the Amazon Basin",
+            "B": "Maritime Plastics Elimination",
+            "C": "Arctic Ice Core Preservation",
+            "D": "Desertification in Sub-Saharan Africa"
         },
-        "correct": "D",
-        "explanation": "Research, Development & Innovation (RDI) Scheme\n(The Union Cabinet\napproved the Research, Development and Innovation (RDI) Scheme with a massive\nfinancial corpus of ₹1 lakh crore spanned over six years to support high-risk, high-\nimpact research across science and technology.)\n(ANRF)"
+        "correct": "A",
+        "explanation": "COP30       ,\n(COP)  198\n• Centered in the Amazon, Brazil leveraged COP30 to prioritize halting global deforestation\nand implementing nature-based solutions. Managed by the UNFCCC Secretariat, the annual\nCOP functions as the supreme decision-making body representing all 198 signatory parties"
     },
     {
-        "question": "(Aims to promote and give a distinct identity to traditional food and beverage specialties of each district.) 35. PM-KUSUM  ( PPA/LoI 31  2025  / )    -      (MNRE)       ? The Ministry of New and Renewable Energy (MNRE) has extended the commissioning deadline for PM-KUSUM projects (whose PPAs/LoIs were signed or issued on or before 31 December 2025) up to which date?",
+        "question": "Under the central theme of \"One Sun, One World, One Grid,\" which iteration of the International Solar Alliance (ISA) Assembly was organized at Bharat Mandapam, New Delhi, in late 2025?",
+        "options": {
+            "A": "5th Assembly",
+            "B": "6th Assembly",
+            "C": "8th Assembly",
+            "D": "10th Assembly"
+        },
+        "correct": "A",
+        "explanation": "27-30 , 2025          -\n2015  COP21          ,   ,  2030\n1        -\n• The 8th International Solar Alliance Assembly convened from October 27–30, 2025, in New\nDelhi to fast-track global solar infrastructure financing and decentralized energy access. The\nISA was co-founded by India and France in 2015 during COP21. Headquartered in\nGurugram, India, it serves as a treaty-based international body targeting over $1 trillion in\nsolar investments by 2030."
+    },
+    {
+        "question": "The 25th Council of Heads of State of the SCO was organized in August–September 2025 in which Chinese city?",
+        "options": {
+            "A": "Shanghai",
+            "B": "Beijing",
+            "C": "Tianjin",
+            "D": "Guangzhou"
+        },
+        "correct": "C",
+        "explanation": "• China concluded its leadership tenure by hosting the annual heads of state meeting in the\nmajor port city of Tianjin. The SCO is recognized as the world's largest regional\norganization in terms of geographic scope and population."
+    },
+    {
+        "question": "Under the central theme of \"One Sun, One World, One Grid,\" which iteration of the International Solar Alliance (ISA) Assembly was organized at Bharat Mandapam, New Delhi, in late 2025?",
+        "options": {
+            "A": "5th Assembly",
+            "B": "6th Assembly",
+            "C": "8th Assembly",
+            "D": "10th Assembly"
+        },
+        "correct": "A",
+        "explanation": "27-30 , 2025          -\n2015  COP21          ,   ,  2030\n1        -\n• The 8th International Solar Alliance Assembly convened from October 27–30, 2025, in New\nDelhi to fast-track global solar infrastructure financing and decentralized energy access. The\nISA was co-founded by India and France in 2015 during COP21. Headquartered in\nGurugram, India, it serves as a treaty-based international body targeting over $1 trillion in\nsolar investments by 2030."
+    },
+    {
+        "question": "What is the central environmental theme/focus of the COP30 climate summit held in Brazil?",
+        "options": {
+            "A": "Tropical Forests and the Amazon Basin",
+            "B": "Maritime Plastics Elimination",
+            "C": "Arctic Ice Core Preservation",
+            "D": "Desertification in Sub-Saharan Africa"
+        },
+        "correct": "A",
+        "explanation": "COP30       ,\n(COP)  198\n• Centered in the Amazon, Brazil leveraged COP30 to prioritize halting global deforestation\nand implementing nature-based solutions. Managed by the UNFCCC Secretariat, the annual\nCOP functions as the supreme decision-making body representing all 198 signatory parties"
+    },
+    {
+        "question": "The 25th Council of Heads of State of the SCO was organized in August–September 2025 in which Chinese city?",
+        "options": {
+            "A": "Shanghai",
+            "B": "Beijing",
+            "C": "Tianjin",
+            "D": "Guangzhou"
+        },
+        "correct": "C",
+        "explanation": "• China concluded its leadership tenure by hosting the annual heads of state meeting in the\nmajor port city of Tianjin. The SCO is recognized as the world's largest regional\norganization in terms of geographic scope and population."
+    },
+    {
+        "question": "The Ministry of New and Renewable Energy (MNRE) has extended the commissioning deadline for PM-KUSUM projects (whose PPAs/LoIs were signed or issued on or before 31 December 2025) up to which date?",
         "options": {
             "A": "31  2026",
             "B": "31  2027",
@@ -22,7 +77,7 @@
         "explanation": "PM-KUSUM Commissioning Deadline\n(MNRE)  -  (  31"
     },
     {
-        "question": "(It focuses on preserving ecosystems by encouraging sustainable ecotourism, supporting local livelihoods, and enhancing biodiversity conservation.) 26.  2025         ,  2030      (Carbon Sink)      ? According to the Revised Green India Mission Plan released in 2025, how much additional carbon sink is targeted to be created by 2030?",
+        "question": "According to the Revised Green India Mission Plan released in 2025, how much additional carbon sink is targeted to be created by 2030?",
         "options": {
             "A": "3.39",
             "B": "4",
@@ -33,51 +88,7 @@
         "explanation": "Revised Green India Mission Carbon Sink Goal\n2025         ,  2030"
     },
     {
-        "question": "(PM10  PM2.5)       (Launched by MoEFCC in January 2019, its core focus is substantially reducing PM10 and PM2.5 concentrations.) 28.  2026     -      -   (IPOI)   ? Which European country formally joined the Indo-Pacific Oceans Initiative (IPOI) in January 2026?",
-        "options": {
-            "A": "France",
-            "B": "Germany",
-            "C": "Spain",
-            "D": "Italy"
-        },
-        "correct": "C",
-        "explanation": "Indo-Pacific Oceans Initiative (IPOI)\n2026      -   (IPOI)\n(On January 21, 2026, Spain formally joined the Indo-Pacific Oceans Initiative.)\n21  2026               ,"
-    },
-    {
-        "question": "39             (The Revised Green India Mission Plan released in 2025 aims to create an additional carbon sink of 3.39 billion tonnes by 2030.) 27.  2025      (NCAP)              ? By June 2025, how many cities were covered under the National Clean Air Programme (NCAP) to combat air pollution?",
-        "options": {
-            "A": "111",
-            "B": "131",
-            "C": "121",
-            "D": "141"
-        },
-        "correct": "B",
-        "explanation": "National Clean Air Programme (NCAP)\n2025               131\n(By June 2025, the program covered a total of 131 non-\nattainment cities across India that failed to meet National Ambient Air Quality\nStandards.)\n(MoEFCC)   2019"
-    },
-    {
-        "question": "1,000         (The initiative aims to modernize 1,000 government ITIs and NSTIs to bridge the skill gap.) 31.  2026  14        (HPV)            ? From which city did Prime Minister Narendra Modi launch the nationwide Human Papillomavirus (HPV) vaccination campaign for 14-year-old girls in February 2026?",
-        "options": {
-            "A": "Ajmer, Rajasthan",
-            "B": "Gandhinagar, Gujarat",
-            "C": "Pune, Maharashtra",
-            "D": "Bhopal, Madhya Pradesh"
-        },
-        "correct": "A",
-        "explanation": "HPV Vaccination Campaign Launch\n2026       14\n(HPV)     (In February\n2026, PM Narendra Modi launched the nationwide HPV vaccination campaign from\nAjmer, Rajasthan, targeting 14-year-old girls.)\n28  2026"
-    },
-    {
-        "question": "2.0%           (Under PMFBY, farmers pay a subsidized uniform premium of just 2.0% for Kharif crops, 1.5% for Rabi crops, and 5% for commercial/horticultural crops.) 41. '  '      ? What is the primary objective of the 'Namo Drone Didi' Scheme?",
-        "options": {
-            "A": "To empower rural",
-            "B": "To provide free tractors to farmers",
-            "C": "To establish drone manufacturing",
-            "D": "To make drone education compulsory in schools"
-        },
-        "correct": "A",
-        "explanation": "PMGKAY Free Food Grains\n(PMGKAY)"
-    },
-    {
-        "question": "13  2021  -            (Comparison: E-Bus Sewa was launched on Aug 16, 2023, to deploy 10,000 electric buses; PM Gati Shakti launched on Oct 13, 2021, for multi-modal infrastructure.) 24. \"     (MPLADS)\"                    ? The \"MPLADS\" (Members of Parliament Local Area Development Scheme) allows MPs to recommend developmental works in their constituencies up to what annual financial limit?",
+        "question": "The \"MPLADS\" (Members of Parliament Local Area Development Scheme) allows MPs to recommend developmental works in their constituencies up to what annual financial limit?",
         "options": {
             "A": "2",
             "B": "5",
@@ -88,73 +99,7 @@
         "explanation": "MPLADS Scheme\n(MPLADS)\n5           (MPLADS enables Members of\nParliament to recommend developmental projects emphasizing local needs up to ₹5\ncrore per year.)"
     },
     {
-        "question": "(Anchored under MeitY's ISEA project, the initiative aims to train one million rural women as \"Cyber Sakhis\" over three years to promote safe online practices.) 49.  2025     -2  -3                    ? Which of the following initiatives did the Maharashtra Government approve in September 2025 to generate employment in Tier-2 and Tier-3 cities and boost skilled job opportunities?",
-        "options": {
-            "A": "Free Urban Transit",
-            "B": "Mandatory Local Employment",
-            "C": "Global Capability Center (GCC)",
-            "D": ""
-        },
-        "correct": "C",
-        "explanation": "Targeted Wage Subsidy\nProgramme for unskilled labourers\nGlobal Capability Center Policy 2025\n2025  -2  -3"
-    },
-    {
-        "question": "(Launched in 2018 under the Ministry of Health & Family Welfare, it is billed as the world's largest health insurance scheme.) 17.  2019     -   2024                ? Which scheme launched in 2019 aims to provide piped potable water to every rural household by the year 2024?",
-        "options": {
-            "A": "Swachh Bharat Mission",
-            "B": "Jal Jeevan Mission (JJM)",
-            "C": "PM-KUSUM",
-            "D": "AMRUT Scheme"
-        },
-        "correct": "B",
-        "explanation": "Jal Jeevan Mission (JJM)\n(The Jal Jeevan Mission (JJM),\nlaunched in 2019, explicitly targeted providing safe drinking water to every rural\nhousehold through functional tap connections.)\n2024          (Launched\nin 2019 under the Ministry of Jal Shakti with the target year of 2024.)\n2  2014"
-    },
-    {
-        "question": "(Managed under the strategic oversight of the Anusandhan National Research Foundation (ANRF), it provides long-tenor, concessional/low-interest financing for private sector participation in high-risk, deep-tech sunrise sectors like quantum computing, AI, and biotechnology.) 7.    RESET Programme      ? Recently, which Ministry launched the RESET Programme?",
-        "options": {
-            "A": "Ministry of Education",
-            "B": "Ministry of Sports",
-            "C": "Ministry of Defence",
-            "D": "Ministry of Agriculture"
-        },
-        "correct": "A",
-        "explanation": "RESET Programme\n'   ' (RESET)\n(The \"Retired Sportsperson Empowerment Training\" (RESET)\nProgramme was launched by Sports Minister Mansukh Mandaviya.)\n(Aim: Designed to empower\nretired athletes.)\n20  50"
-    },
-    {
-        "question": "''  (Introduced as a massive sports talent hunt by the Bihar CM in May 2025 for school students, named 'Mashal'.) 51.  2025      -                 '  , 2025'      ? Which state government approved the Bamboo Industry Policy, 2025, in October 2025 to provide farmers with a sustainable and eco-friendly source of income while boosting bamboo production?",
-        "options": {
-            "A": "West Bengal",
-            "B": "Tripura",
-            "C": "Tamil Nadu",
-            "D": "Maharashtra"
-        },
-        "correct": "D",
-        "explanation": "Bamboo Industry Policy 2025\n2025       ,"
-    },
-    {
-        "question": "SC/ST          (Managed by the Ministry of Finance, loans are targeted at least to one SC/ST and one woman borrower per bank branch.) 21.  2018     \"   (Aspirational Districts Programme)\"        ? The \"Aspirational Districts Programme\" launched in 2018 is anchored by which authority?",
-        "options": {
-            "A": "Ministry of Rural Development",
-            "B": "Ministry of Home Affairs",
-            "C": "NITI Aayog",
-            "D": "National Development Council"
-        },
-        "correct": "C",
-        "explanation": "Aspirational Districts Programme\n2018             (NITI Aayog)\n(The Aspirational Districts Programme was launched in 2018\nanchored by NITI Aayog.)"
-    },
-    {
-        "question": "25,000   (Announced by Assam CM Himanta Biswa Sarma, general research scholars receive ₹25,000 per month.) 30.      PM-SETU        830             ? Which international financial institution recently approved an 830 million USD loan for India's PM-SETU programme to upgrade ITIs?",
-        "options": {
-            "A": "International Monetary Fund (IMF)",
-            "B": "World Bank Group (WBG)",
-            "C": "New Development Bank (NDB)",
-            "D": "African Development Bank (AfDB)"
-        },
-        "correct": "B",
-        "explanation": "PM-SETU ITI Upgradation Loan\n(WBG)       (ITIs)\n830          (The World\nBank Group (WBG) approved an 830 million USD loan to support the PM-SETU\nprogram for ITI ecosystem transformation and upgradation.)"
-    },
-    {
-        "question": "(Ease of Compliance: Offers a one-time relief window with no past dues or retrospective penalties demanded at registration, encouraging companies to formalize hassle-free.) 4.     2025         -     (Climate Resilience Programme)  ? The Union Government launched a new climate resilience program in January 2025 to tackle extreme weather events. What is the name of this initiative?",
+        "question": "The Union Government launched a new climate resilience program in January 2025 to tackle extreme weather events. What is the name of this initiative?",
         "options": {
             "A": "Mission Mausam",
             "B": "National Climate Adaptation Plan",
@@ -165,7 +110,7 @@
         "explanation": "Mission Mausam"
     },
     {
-        "question": "\" \"       (Spain announced joining during its Foreign Minister's visit to New Delhi, elevating its bilateral relationship with India to a \"Strategic Partnership\".) 29. '   '               ? Under the 'Atal Vichal Agragami Assam' scheme, what is the monthly financial assistance designated for differently-abled (Divyang) research scholars?",
+        "question": "Under the 'Atal Vichal Agragami Assam' scheme, what is the monthly financial assistance designated for differently-abled (Divyang) research scholars?",
         "options": {
             "A": "25,000",
             "B": "30,000",
@@ -176,18 +121,7 @@
         "explanation": "Atal Vichal Agragami Assam Scheme\n40,000\n(Under this scheme, differently-abled (divyang)\nresearch scholars receive a monthly financial assistance of ₹40,000.)"
     },
     {
-        "question": "2025   )        31  2027    (The MNRE extended the project commissioning deadline to March 31, 2027, for PM-KUSUM projects whose PPAs/LoIs were signed/issued on or before December 31, 2025.) 36.                '      (NOEDP)'      ? Which organization launched the 'National Olympic Education and Development Programme' (NOEDP) to strengthen the sports ecosystem from the grassroots to elite levels?",
-        "options": {
-            "A": "Sports Authority of India (SAI)",
-            "B": "Indian Olympic Association (IOA)",
-            "C": "Ministry of Youth Affairs and Sports",
-            "D": "Board of Control for Cricket in India (BCCI)"
-        },
-        "correct": "B",
-        "explanation": "National Olympic Education and Development Programme (NOEDP)\n(The Indian Olympic\nAssociation (IOA) launched the NOEDP and reactivated the National Olympic\nAcademy in Ahmedabad to strengthen the sports ecosystem.)\n37.\n' '     38     ?\nUnion Minister Nirmala Sitharaman launched 'Mission Jaagruk' on the 38th Foundation"
-    },
-    {
-        "question": "Workers)   -       (APY is a pension scheme launched in 2015, targeting workers in the unorganized sector to guarantee a fixed post-retirement monthly income.) State Government Schemes 47. ' ' ,                 ,        ? Which state government launched the 'Vandevi Samman' Scheme to provide monthly financial assistance to local women artisans and forest produce gatherers?",
+        "question": "Workers)   -       (APY is a pension scheme launched in 2015, targeting workers in the unorganized sector to guarantee a fixed post-retirement monthly income.) State Government Schemes 47. ' ' ,                 ,?",
         "options": {
             "A": "Jharkhand",
             "B": "Chhattisgarh",
@@ -198,51 +132,7 @@
         "explanation": "Vandevi Samman Scheme"
     },
     {
-        "question": "6 Central Government Schemes 1.   2025–26  , \"  ,    \"                      (National Centres of Excellence for Skilling)   ? According to the Union Budget 2025–26, how many National Centres of Excellence for Skilling are to be set up with global expertise and partnerships to equip Indian youth with the skills required for \"Make for India, Make for the World\" manufacturing?",
-        "options": {
-            "A": "1",
-            "B": "5",
-            "C": "4",
-            "D": "10"
-        },
-        "correct": "A",
-        "explanation": "National Centres of Excellence for Skilling\n2025-26  , \"  ,    \""
-    },
-    {
-        "question": "(Approved with an outlay of ₹33,660 crore to build world-class infrastructure and boost manufacturing competitiveness.) 33.       '   '     ? What is the primary objective of the 'Saheli Pink Smart Card' launched by the Delhi Government?",
-        "options": {
-            "A": "To provide free health insurance to",
-            "B": "To provide free travel for",
-            "C": "To provide scholarships to girl students",
-            "D": "To provide housing support to working"
-        },
-        "correct": "A",
-        "explanation": "women\nProject Vayu Baan\n(IAF)  ' '        (The Indian\nAir Force (IAF) launched the indigenous drone project named 'Vayu Baan'.)"
-    },
-    {
-        "question": "2025  ₹50,000        (The Karnataka Minority Welfare Department introduced a ₹50,000 incentive scheme to ease the economic burden on underprivileged minority families during mass marriages.) 53. '  :    2025'             ? The sixth phase of the 'Jal Shakti Abhiyan: Catch the Rain 2025' was launched in which of the following Indian states?",
-        "options": {
-            "A": "Haryana",
-            "B": "Uttarakhand",
-            "C": "Rajasthan",
-            "D": "Bihar"
-        },
-        "correct": "A",
-        "explanation": "Jal Shakti Abhiyan: Catch the Rain 2025\n'  :    2025'\n(The sixth phase of the campaign was launched in the state of Haryana.)\n54."
-    },
-    {
-        "question": "125     (Now renamed to VB G RAM G SCHEME, with days increased to 125.) 15. \"    (PMJDY)\"            -      ? Under the \"Pradhan Mantri Jan Dhan Yojana (PMJDY)\", which of the following benefits are provided to the unbanked population?",
-        "options": {
-            "A": "Zero-balance bank account",
-            "B": "Accident insurance cover",
-            "C": "Overdraft facility",
-            "D": "All of the above"
-        },
-        "correct": "B",
-        "explanation": "Pradhan Mantri Jan Dhan Yojana (PMJDY)\n(Zero-balance\naccounts),             (Under\nPMJDY, the unbanked population receives basic savings bank accounts with zero\nbalance, accident insurance cover, and overdraft facilities.)\n2014     PMJDY"
-    },
-    {
-        "question": "(Launched in 2014 by the Ministry of Finance, PMJDY is a national mission for financial inclusion.) 16. \"      (AB-PMJAY)\"                ? Under the \"Ayushman Bharat Pradhan Mantri Jan Arogya Yojana (AB-PMJAY)\", what is the health insurance cover provided per family per year?",
+        "question": "Under the \"Ayushman Bharat Pradhan Mantri Jan Arogya Yojana (AB-PMJAY)\", what is the health insurance cover provided per family per year?",
         "options": {
             "A": "2",
             "B": "3",
@@ -253,29 +143,7 @@
         "explanation": "Ayushman Bharat Pradhan Mantri Jan Arogya Yojana (AB-PMJAY)\n(Provides a health insurance cover of up to ₹5\nlakh per family per year for secondary and tertiary care hospitalization to poor and\nvulnerable families.)"
     },
     {
-        "question": "2001  6  14               (Comparison: SHRESHTA, managed by the Ministry of Social Justice, provides CBSE schooling to SC students; Sarva Shiksha Abhiyan was launched in 2001 for free and compulsory education for children aged 6–14.) 23.  2016     -            ₹2,500          ? Which initiative launched in 2016 focuses on boosting regional air connectivity by capping airfares at ₹2,500 per hour for operational routes?",
-        "options": {
-            "A": "PM Gati Shakti",
-            "B": "UDAN (Ude Desh Ka Aam Nagrik)",
-            "C": "E-Bus Sewa Scheme",
-            "D": "Namo Bharat"
-        },
-        "correct": "B",
-        "explanation": "UDAN (Ude Desh ka Aam Nagrik)\n2016          ₹2,500\n(Launched in 2016 by the Ministry of Civil Aviation, this\nregional connectivity scheme caps airfares at ₹2,500 per hour for operational routes.)\n16  2023      10,000"
-    },
-    {
-        "question": "Day of which regulatory body to protect retail investors from financial misinformation and fraud?",
-        "options": {
-            "A": "Reserve Bank of India (RBI)",
-            "B": "Insurance Regulatory and Development",
-            "C": "Securities and Exchange Board of India (SEBI)",
-            "D": "Pension Fund Regulatory and"
-        },
-        "correct": "A",
-        "explanation": "Development Authority (PFRDA)\nMission Jaagruk\n(SEBI) 38\n' ' (Union\nFinance Minister Nirmala Sitharaman launched 'Mission Jaagruk' on the 38th\nFoundation Day of SEBI in Mumbai to protect retail investors from fraudulent\nfinancial content.)\n38.\n' ,   (BBBP)'   2015"
-    },
-    {
-        "question": "50           (First project where small, autonomous precision-strike drones are dropped from helicopters to target objectives up to 50 km away.) 34. ' '        ? The 'Vanajeevi Didi' Initiative has been launched in which state?",
+        "question": "The 'Vanajeevi Didi' Initiative has been launched in which state?",
         "options": {
             "A": "Odisha",
             "B": "Jharkhand",
@@ -286,7 +154,7 @@
         "explanation": "One District, One Cuisine (ODOC) Initiative\n2026    Diwas    ' ,\n'    (Union Home Minister Amit Shah launched the 'One\nDistrict, One Cuisine' (ODOC) scheme on Uttar Pradesh Diwas in January 2026.)"
     },
     {
-        "question": "(The Maharashtra Government approved the Bamboo Industry Policy, 2025, to provide sustainable farmers' income and boost production.) 52.  2025               ₹50,000         ? Which Indian state launched a ₹50,000 incentive scheme in July 2025 for minority couples marrying through mass marriage events?",
+        "question": "Which Indian state launched a ₹50,000 incentive scheme in July 2025 for minority couples marrying through mass marriage events?",
         "options": {
             "A": "Kerala",
             "B": "Karnataka",
@@ -297,7 +165,7 @@
         "explanation": "Minority Couple Mass Marriage Incentive"
     },
     {
-        "question": "(Focuses on preventing gender-biased sex-selective elimination, ensuring girl child survival, and promoting education.) 39.    -                  ? The Padma Barrage Project, approved by Bangladesh to revive the hydrology of its dry southwestern region, is situated on which river?",
+        "question": "The Padma Barrage Project, approved by Bangladesh to revive the hydrology of its dry southwestern region, is situated on which river?",
         "options": {
             "A": "Teesta River",
             "B": "Padma River",
@@ -308,18 +176,7 @@
         "explanation": "Padma Barrage Project\n' ' (Padma River)"
     },
     {
-        "question": "(The Income Tax Act, 2025 replaced the Income Tax Act, 1961, aiming to simplify, modernize, and streamline the tax system.) 9.    (JJM 2.0)       ? Jal Jeevan Mission (JJM 2.0) has been extended till which year?",
-        "options": {
-            "A": "2026",
-            "B": "2030",
-            "C": "2028",
-            "D": "2025"
-        },
-        "correct": "C",
-        "explanation": "Jal Jeevan Mission (JJM 2.0)\n(JJM 2.0)     2028      (Jal Jeevan\nMission (JJM 2.0) has been extended until the year 2028.)\n2028      '  '     (Aim: To\nachieve 'Har Ghar Jal' status for all Gram Panchayats by 2028.)\n15  2019          ,"
-    },
-    {
-        "question": "20    (change leaders)     (Launched in 1 lakh villages to boost grassroots governance and build 20 lakh change leaders.) 11. 'PM- :   '    ? Who has unveiled the 'PM-Surya Ghar: Muft Bijli Yojana'?",
+        "question": "Who has unveiled the 'PM-Surya Ghar: Muft Bijli Yojana'?",
         "options": {
             "A": "Rajnath Singh",
             "B": "PM Narendra Modi",
@@ -330,7 +187,7 @@
         "explanation": "PM-Surya Ghar: Muft Bijli Yojana\n(Unveiled by PM\nNarendra Modi.)\n(rooftop solar panels)\n(Launched for installing rooftop solar panels.)\n75,021        ,   1"
     },
     {
-        "question": "5    (/)     (PMGKAY, introduced in 2020, provides 5 kg of free food grains per person per month to over 80 crore NFSA beneficiaries.) 42. 'NAMASTE'      ? What is the primary objective of the 'NAMASTE' Scheme?",
+        "question": "What is the primary objective of the 'NAMASTE' Scheme?",
         "options": {
             "A": "To provide housing for the urban poor",
             "B": "",
@@ -341,40 +198,7 @@
         "explanation": "insurance to sanitation workers\nNational Digital Health Mission (NDHM)\n2020       (    )"
     },
     {
-        "question": "(The original JJM was launched on August 15, 2019, under the Ministry of Jal Shakti to provide safe drinking water to every rural household.) 10.  2025  '  '      ? Which Ministry launched the Adi Karmayogi Abhiyan in 2025?",
-        "options": {
-            "A": "Ministry of Tribal Affairs",
-            "B": "Ministry of Rural Development",
-            "C": "Ministry of Social Justice",
-            "D": "Ministry of Panchayati Raj"
-        },
-        "correct": "A",
-        "explanation": "Adi Karmayogi Abhiyan\n2025     (Ministry of Tribal Affairs)\n(The Adi Karmayogi Abhiyan was launched by the Ministry of\nTribal Affairs in 2025.)\n(It is the world's largest\ntribal leadership programme, aiming to empower tribal communities through\ngrassroots leadership.)"
-    },
-    {
-        "question": "(Eligibility: Central scheme open to national athletes aged 20-50 who won international medals or were national/state medalists.) 8.               'PRARAMBH 2026'    ? GoI launched the PRARAMBH 2026 nationwide campaign to educate citizens about which Act?",
-        "options": {
-            "A": "GST Act",
-            "B": "Income Tax Act, 2025",
-            "C": "Companies Act",
-            "D": "Banking Regulation Act"
-        },
-        "correct": "B",
-        "explanation": "PRARAMBH 2026 Campaign\n2025 (Income Tax Act, 2025)\n' 2026'     (The Government of\nIndia launched the PRARAMBH 2026 nationwide campaign to educate citizens about\nthe Income Tax Act, 2025.)\n' ' (Kar Saathi)\n(Launched by Finance Minister Nirmala Sitharaman, featuring the 'Kar\nSaathi' chatbot to provide real-time answers to tax queries.)\n2025  ' , 1961'"
-    },
-    {
-        "question": "'  '     (The Maharashtra Cabinet approved the GCC Policy 2025 to incentivize hubs in Tier-2 and Tier-3 cities like Nagpur, Nashik, etc., targeting 1 million skilled jobs by 2030) 50.  2025                       -    ? Which initiative was introduced as a massive sports talent hunt by the Bihar Chief Minister in May 2025, designed for secondary and higher secondary school students?",
-        "options": {
-            "A": "Bihar Sports Samarthan Yojana",
-            "B": "Mashal",
-            "C": "Lakshaya",
-            "D": "Khel Pratibha Khoj Abhiyan"
-        },
-        "correct": "B",
-        "explanation": "Mashal Initiative"
-    },
-    {
-        "question": "(manual scavenging)      (The NAMASTE scheme was launched in 2022 under the Ministry of Social Justice & Empowerment to eradicate unsafe manual scavenging and equip workers with PPE.) 44. '  (PM SVANidhi)' ,   2020  -19      , -         (Micro-credit)    ? The 'PM SVANidhi' Scheme, launched in 2020 during the COVID-19 pandemic, provides micro-credit facilities up to what amount for street vendors?",
+        "question": "The 'PM SVANidhi' Scheme, launched in 2020 during the COVID-19 pandemic, provides micro-credit facilities up to what amount for street vendors?",
         "options": {
             "A": "5,000",
             "B": "10,000",
@@ -385,18 +209,7 @@
         "explanation": "PM SVANidhi Credit Limit\n19     2020         -"
     },
     {
-        "question": "( )  ₹10,000   -      (PM SVANidhi, administered by the Ministry of Housing & Urban Affairs, offers working capital micro-credit of up to ₹10,000 to street vendors.) 45.  2023     -  , ,                      ? Which scheme, launched in 2023, aims to support traditional artisans and craftspeople (such as carpenters, blacksmiths and locksmiths) with skill training and loans?",
-        "options": {
-            "A": "PM Vishwakarma Yojana",
-            "B": "PM-SURAJ Portal",
-            "C": "SHRESHTA Schools",
-            "D": "PM Gati Shakti"
-        },
-        "correct": "A",
-        "explanation": "PM Vishwakarma Yojana\n2023       , ,"
-    },
-    {
-        "question": "(all-weather road connectivity)    (Its primary objective is to provide all-weather road connectivity to eligible unconnected habitations in rural areas.) 14.        (MGNREGA)                ? The Mahatma Gandhi National Rural Employment Guarantee Act (MGNREGA) guarantees how many days of wage employment per year to rural households?",
+        "question": "The Mahatma Gandhi National Rural Employment Guarantee Act (MGNREGA) guarantees how many days of wage employment per year to rural households?",
         "options": {
             "A": "50",
             "B": "100",
@@ -407,7 +220,7 @@
         "explanation": "MGNREGA Scheme\n(MGNREGA)\n100          (MGNREGA\nlegally guarantees at least 100 days of wage employment per financial year to rural\nhouseholds whose adult members volunteer for unskilled manual work.)\n2005   (NREGA)          2009\n(Initially launched as NREGA in 2005 and renamed\nin 2009.)\n'VB G RAM G SCHEME'"
     },
     {
-        "question": "(Digital Health IDs)           (Launched in 2020 under the Ministry of Health & Family Welfare, NDHM aims to build an integrated digital health infrastructure and issue digital Health IDs.) 43. ' (NAMASTE)' ,   2022    ,               ? The \"NAMASTE\" Scheme, launched in 2022, is primarily designed to address which of the following issues?",
+        "question": "The \"NAMASTE\" Scheme, launched in 2022, is primarily designed to address which of the following issues?",
         "options": {
             "A": "Digital literacy in schools",
             "B": "Elimination of",
@@ -418,7 +231,7 @@
         "explanation": "NAMASTE Scheme\n2022     '' (NAMASTE)"
     },
     {
-        "question": "(MoSPI)      (Originally launched in 1993, it is managed by the Ministry of Statistics & Programme Implementation.) 25. \"  \" (Amrit Dharohar Scheme),   2023  ,         ,       ? The \"Amrit Dharohar Scheme\", launched in 2023 under the Ministry of Environment, Forest and Climate Change, is primarily dedicated to:",
+        "question": "The \"Amrit Dharohar Scheme\", launched in 2023 under the Ministry of Environment, Forest and Climate Change, is primarily dedicated to:?",
         "options": {
             "A": "Planting trees along national highways",
             "B": "()          /",
@@ -429,18 +242,7 @@
         "explanation": "Amrit Dharohar Scheme\n(Launched in 2023 under MoEFCC, this scheme promotes the\nconservation values and wise use of Ramsar sites (wetlands).)"
     },
     {
-        "question": "(The Padma Barrage is situated on the Padma River (main distributary of Ganges in Bangladesh) in Rajbari district, approved to resolve water scarcity in southwestern plains.) 40.  2016     '    (PMFBY)'               ? Under the 'Pradhan Mantri Fasal Bima Yojana (PMFBY)' launched in 2016, what is the uniform premium rate paid by farmers for all Kharif crops?",
-        "options": {
-            "A": "1%",
-            "B": "1.5%",
-            "C": "2%",
-            "D": "5%"
-        },
-        "correct": "A",
-        "explanation": "PMFBY Kharif Crops Premium Rate\n(PMFBY)"
-    },
-    {
-        "question": "' (Kaavu)'                 ? The pilot programme for the restoration and conservation of 'Kaavu' (Sacred Groves) using local community participation has been initiated by which state?",
+        "question": "The pilot programme for the restoration and conservation of 'Kaavu' (Sacred Groves) using local community participation has been initiated by which state?",
         "options": {
             "A": "Karnataka",
             "B": "Kerala",
@@ -450,7 +252,7 @@
         "explanation": ""
     },
     {
-        "question": "' '  (The Union Government launched a new climate resilience program in January 2025 to tackle extreme weather events, named 'Mission Mausam'.) 5.  2025       (Green India Mission)   ,  2030                 ? Approximately how many hectares are targeted for increased forest and tree cover by 2030 as per the Revised Green India Mission (GIM) Plan released in 2025?",
+        "question": "Approximately how many hectares are targeted for increased forest and tree cover by 2030 as per the Revised Green India Mission (GIM) Plan released in 2025?",
         "options": {
             "A": "15.5",
             "B": "10",
@@ -459,17 +261,6 @@
         },
         "correct": "C",
         "explanation": "Revised Green India Mission (GIM) Plan 2025\n2025       (GIM)     2030\n24.7        -\n(The Revised Green India Mission (GIM) Plan, released in\n2025, targets approximately 24.7 million hectares of degraded forest and non-forest\nland for increased forest and tree cover by 2030.)"
-    },
-    {
-        "question": "(It focuses on transforming and improving 112 of the most developmentally backward districts across the country.) 22.  2022     -   ,                    ? Which scheme launched in 2022 aims to modernize thousands of schools across India by equipping them with digital labs, smart classrooms, and modern pedagogy?",
-        "options": {
-            "A": "Sarva Shiksha Abhiyan",
-            "B": "PM Schools for Rising India (PM-SHRI)",
-            "C": "SHRESHTA Schools",
-            "D": "PM-YUVA"
-        },
-        "correct": "B",
-        "explanation": "PM Schools for Rising India (PM-SHRI)\n2022                ,\n(Launched in 2022 to modernize\nover 14,500 schools with digital labs, smart classrooms, and modern pedagogy under\nthe National Education Policy 2020.)\n(Implemented under the Ministry of\nEducation.)\n'' (SHRESHTA)     (SC)"
     },
     {
         "question": "The 'Beti Bachao Beti Padhao (BBBP)' scheme was launched in 2015 under which nodal ministry?",
@@ -483,7 +274,7 @@
         "explanation": "Beti Bachao Beti Padhao (BBBP)\n2015       (Ministry of Women & Child\nDevelopment)       (Launched in 2015 as a joint initiative, with the\nMinistry of Women & Child Development acting as the primary nodal agency.)"
     },
     {
-        "question": "'  '  5  2016   /             (Comparison: Digital India launched on July 1, 2015, for a digitally empowered society; Stand Up India launched on April 5, 2016, to promote entrepreneurship among SC/ST and women.) 19. \"   (PMUY)\"                ? The \"Pradhan Mantri Ujjwala Yojana (PMUY)\" provides free LPG connections to women belonging to which specific category?",
+        "question": "The \"Pradhan Mantri Ujjwala Yojana (PMUY)\" provides free LPG connections to women belonging to which specific category?",
         "options": {
             "A": "Below Poverty Line (BPL) families",
             "B": "All rural households",
@@ -494,29 +285,7 @@
         "explanation": "Pradhan Mantri Ujjwala Yojana (PMUY)\n(PMUY provides free LPG cooking gas connections specifically to women\nbelonging to Below Poverty Line (BPL) families.)"
     },
     {
-        "question": "2016      (Launched in 2016 under the Ministry of Petroleum & Natural Gas to support clean cooking fuel access.) 20.  2016     \"- \"      ? What is the main objective of the \"Stand-Up India\" scheme launched in 2016?",
-        "options": {
-            "A": "To provide digital training to senior",
-            "B": "SC/ST    ₹10   ₹1",
-            "C": "To offer financial aid to defence personnel",
-            "D": "To give free smartphones to rural"
-        },
-        "correct": "B",
-        "explanation": "students\nStand-Up India Scheme\n(SC/ST)\n10   ₹1\n(Objective: To promote entrepreneurship at the grassroots\nlevel by facilitating bank loans ranging from ₹10 lakh to ₹1 crore to SC/ST and women\nborrowers.)"
-    },
-    {
-        "question": "5       (According to the Union Budget 2025– 26, 5 National Centres of Excellence for Skilling are to be set up with global expertise and partnerships to equip Indian youth with skills required for \"Make for India, Make for the World\" manufacturing.) 2.    'AgriSURE Fund'   ? Who launched the 'AgriSURE Fund' recently?",
-        "options": {
-            "A": "PM Modi",
-            "B": "Amit Shah",
-            "C": "Shivraj Singh Chouhan",
-            "D": "Rekha Gupta"
-        },
-        "correct": "C",
-        "explanation": "fund was recently launched by the Union Agriculture Minister, Shivraj Singh\nChouhan.) ]\n'AgriSURE'    'Agri Fund for Start-Ups & Rural Enterprises' ,\n(AgriSURE stands\nfor 'Agri Fund for Start-Ups & Rural Enterprises', aiming to support start-ups and\nagripreneurs.)\n750          (It is a central scheme with a total\nfund corpus of ₹750 crore.)\n3."
-    },
-    {
-        "question": "'Scheme for Promoting Registration of Employers and Employees (SPREE 2025)'  ? Which among the following organisations launched the 'Scheme for Promoting Registration of Employers and Employees' (SPREE 2025)?",
+        "question": "Which among the following organisations launched the 'Scheme for Promoting Registration of Employers and Employees' (SPREE 2025)?",
         "options": {
             "A": "Employees Provident Fund Organisation",
             "B": "Ministry of Finance",
@@ -527,7 +296,7 @@
         "explanation": "SPREE 2025 Scheme\n(ESIC)  '\n' (SPREE 2025)    (The Employees' State Insurance Corporation (ESIC)\nlaunched the 'Scheme for Promoting Registration of Employers and Employees'\n(SPREE 2025) initiative.)\nESI , 1948      (Objective: Designed to promote\nthe voluntary registration of unregistered employers and employees, extending\nhealth insurance and social security benefits to workers previously left out of the ESI\nAct, 1948.)\n(one-time relief window)   ,"
     },
     {
-        "question": "' 4'      (Launched on February 28, 2026, administering a single dose of quadrivalent Gardasil 4 vaccine to protect against cervical cancer.) 32. PM RAHAT                  ? Under the PM RAHAT Scheme, road accident victims are provided free cashless treatment for the first how many days?",
+        "question": "Under the PM RAHAT Scheme, road accident victims are provided free cashless treatment for the first how many days?",
         "options": {
             "A": "3",
             "B": "5",
@@ -538,7 +307,7 @@
         "explanation": "BHAVYA Scheme\n'' (BHAVYA)       100 --\n(Plug-and-Play Industrial Parks)       (The Union\nGovernment approved the 'BHAVYA' scheme to construct 100 plug-and-play industrial\nparks.)\n33,660       ,"
     },
     {
-        "question": "(AMRUT)       ,              (Comparison: Swachh Bharat Mission launched on Oct 2, 2014, to make India open defecation free; AMRUT scheme aims to improve urban infrastructure, water supply, and green spaces.) 18.                2014  -   ? The Ministry of Commerce and Industry launched which scheme in 2014 to transform India into a global manufacturing hub?",
+        "question": "The Ministry of Commerce and Industry launched which scheme in 2014 to transform India into a global manufacturing hub?",
         "options": {
             "A": "Stand Up India",
             "B": "Digital India",
@@ -549,7 +318,7 @@
         "explanation": "Make in India Initiative\n2014  '  '     (The Ministry of Commerce & Industry\nlaunched the Make in India initiative in 2014 to transform India into a global\nmanufacturing hub, boost FDI, and create jobs.)\n' '  1  2015"
     },
     {
-        "question": "'  '    (The Chhattisgarh government introduced the 'Vandevi Samman Yojana' to provide monthly financial aid to registered tribal women forest produce gatherers and artisans.) 48. -  (C-DAC Hyderabad)        '- (e- SafeHER)'      ? What is the primary objective of the 'e-SafeHER' initiative launched by C-DAC Hyderabad and the Reliance Foundation?",
+        "question": "What is the primary objective of the 'e-SafeHER' initiative launched by C-DAC Hyderabad and the Reliance Foundation?",
         "options": {
             "A": "To provide free",
             "B": "To offer interest-free",
@@ -560,7 +329,7 @@
         "explanation": "centres across government high schools\ne-SafeHER Initiative"
     },
     {
-        "question": "2015  ),   (          ),    (            ) (Comparison: PM Mudra was launched in 2015 for micro and small enterprises; PM Kusum promotes solar energy in agriculture; PM JANMAN is by the Ministry of Tribal Affairs for particularly vulnerable tribal groups.) 13.  2000     \"    (PMGSY)\"     -   ? Which ministry is responsible for the implementation of the \"Pradhan Mantri Gram Sadak Yojana (PMGSY)\" launched in the year 2000?",
+        "question": "Which ministry is responsible for the implementation of the \"Pradhan Mantri Gram Sadak Yojana (PMGSY)\" launched in the year 2000?",
         "options": {
             "A": "Ministry of Road Transport and Highways",
             "B": "Ministry of Rural Development",
@@ -571,7 +340,7 @@
         "explanation": "Pradhan Mantri Gram Sadak Yojana (PMGSY)\n2000              (Ministry\nof Rural Development)   (The Ministry of Rural Development is responsible\nfor implementing PMGSY, launched in the year 2000.)"
     },
     {
-        "question": "(PM Vishwakarma was launched in 2023 under the MSME Ministry to support traditional artisans with skill training and easy market-linkage credit.) 46.  2015     '   (APY)'                       ? Under the 'Atal Pension Yojana (APY)', launched in 2015, which category of workers is primarily targeted to provide guaranteed post-retirement income?",
+        "question": "Under the 'Atal Pension Yojana (APY)', launched in 2015, which category of workers is primarily targeted to provide guaranteed post-retirement income?",
         "options": {
             "A": "Central Government Employees",
             "B": "Public Sector Undertaking Workers",
@@ -582,7 +351,7 @@
         "explanation": "Atal Pension Yojana (APY)\n2015             (Unorganized Sector"
     },
     {
-        "question": "300        (With a total outlay of ₹75,021 crore, it provides up to 300 units of free electricity monthly to 1 crore households.) 12.           ₹6,000        ? Under which scheme do small and marginal farmers receive direct income support of ₹6,000 per year?",
+        "question": "Under which scheme do small and marginal farmers receive direct income support of ₹6,000 per year?",
         "options": {
             "A": "PM-KISAN",
             "B": "PM MUDRA Yojana",
@@ -591,5 +360,93 @@
         },
         "correct": "A",
         "explanation": "PM-KISAN Scheme\n(Under this scheme, small and marginal farmers receive\ndirect income support of ₹6,000 per year.)\n2019     PM-KISAN\n(Launched in 2019 under the Ministry of Agriculture & Farmers Welfare,\nPM-KISAN is a central sector scheme.)"
+    },
+    {
+        "question": "1%       (According to the Economic Survey 2025–26, India’s agriculture and allied sector was estimated to grow by approximately 3.1% in FY26.) 4.   2025–26  ,    (PLI)?",
+        "options": {
+            "A": "10",
+            "B": "12",
+            "C": "14",
+            "D": "18"
+        },
+        "correct": "A",
+        "explanation": "2020      (PLI)    14\n(Launched in 2020 under the vision of Aatmanirbhar Bharat, the PLI Scheme currently covers 14\nkey manufacturing sectors with a total outlay of ₹1.97 lakh crore.)\n2025  ₹2           (The\nscheme successfully attracted over ₹2 lakh crore in actual investments by September 2025.)\n18.70 lakh\n(PLI-supported industries generated over ₹18.70 lakh crore in incremental production and sales.)"
+    },
+    {
+        "question": "Which institution recently restituted the 11th-century Chola Copper Plates to the Government of India?",
+        "options": {
+            "A": "British Museum, London",
+            "B": "Rijksmuseum, Amsterdam",
+            "C": "Leiden University Library, Netherlands",
+            "D": "Louvre Museum, Paris"
+        },
+        "correct": "C",
+        "explanation": "11    /  (\n30      -  (\n• The Leiden University Library in the Netherlands formally returned the 11th-century Chola\nCopper Plates to India.\n• The plates were returned in the presence of PM Narendra Modi and the Minister from the\nNetherlands, Mr. Rob Jetten. The artifact text notes that the entire collection weighs\napproximately 30 kg and consists of two distinct sets (Larger and Smaller Leiden Plates)."
+    },
+    {
+        "question": "Linked Incentive (PLI) schemes across 14 sectors successfully attracted actual investments worth over:",
+        "options": {
+            "A": "18.7 Lakh Crore",
+            "B": "2.0 Lakh Crore",
+            "C": "15.48 Lakh Crore",
+            "D": "12.6 Lakh"
+        },
+        "correct": "B",
+        "explanation": "14 PLI 2025 ₹2.0\nPLI schemes across 14 target sectors successfully brought in actual investments exceeding\n₹2.0 Lakh Crore by September 2025.\n2025  PLI       /"
+    },
+    {
+        "question": "By December 2025, drone tracking surveys under the SVAMITVA Scheme had been successfully completed across how many villages?",
+        "options": {
+            "A": "1.82 Lakh villages",
+            "B": "3.28 Lakh villages",
+            "C": "3.44 Lakh villages",
+            "D": "1.09 Lakh villages"
+        },
+        "correct": "B",
+        "explanation": "2025 3.28\nDrone mapping under SVAMITVA covered 3.28 Lakh villages by December 2025.\n2026-27     ? / On what"
+    },
+    {
+        "question": "0, the financial envelope for the Electronic Components Manufacturing Scheme was expanded to:",
+        "options": {
+            "A": "10,000 Crore",
+            "B": "20,000 Crore",
+            "C": "40,000 Crore",
+            "D": "50,000 Crore"
+        },
+        "correct": "C",
+        "explanation": "ISM 2.0\n40,000\nTo boost domestic component manufacturing, the allocation for the Electronic Components\nManufacturing Scheme under ISM 2.0 was increased to ₹40,000 Crore."
+    },
+    {
+        "question": "To protect local industries, custom duty exemptions on basic components for lithium-ion battery manufacturing were extended until:",
+        "options": {
+            "A": "2030",
+            "B": "2035",
+            "C": "2027",
+            "D": "2029"
+        },
+        "correct": "B",
+        "explanation": "2035 -\nThe budget extended customs duty exemptions on critical components for lithium-ion\nbatteries until 2035 to support the green energy transition."
+    },
+    {
+        "question": "How many additional jobs have been directly/indirectly created through the execution of the PLI schemes till September 2025?",
+        "options": {
+            "A": "55.02 Lakh",
+            "B": "31 Lakh",
+            "C": "12.6 Lakh",
+            "D": "8.7 Lakh"
+        },
+        "correct": "C",
+        "explanation": "PLI 12.6\nThe implementation of the PLI framework generated over 12.6 Lakh additional\nemployment opportunities.\n2025 ,      (NH)  FY14  91,287"
+    },
+    {
+        "question": "Which institution recently restituted the 11th-century Chola Copper Plates to the Government of India?",
+        "options": {
+            "A": "British Museum, London",
+            "B": "Rijksmuseum, Amsterdam",
+            "C": "Leiden University Library, Netherlands",
+            "D": "Louvre Museum, Paris"
+        },
+        "correct": "C",
+        "explanation": "11    /  (\n30      -  (\n• The Leiden University Library in the Netherlands formally returned the 11th-century Chola\nCopper Plates to India.\n• The plates were returned in the presence of PM Narendra Modi and the Minister from the\nNetherlands, Mr. Rob Jetten. The artifact text notes that the entire collection weighs\napproximately 30 kg and consists of two distinct sets (Larger and Smaller Leiden Plates)."
     }
 ]

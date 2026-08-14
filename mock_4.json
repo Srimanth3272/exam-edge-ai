@@ -1,14 +1,641 @@
 [
     {
-        "question": "What rank has India achieved globally in terms of the total number of 5G users?",
+        "question": "What was the official theme of the 17th BRICS Summit held under the Brazilian Chairmanship in 2025?",
         "options": {
-            "A": "First",
-            "B": "Second",
-            "C": "Third",
-            "D": "Fourth"
+            "A": "Foster Partnerships for Global",
+            "B": "",
+            "C": "Intrabrics Cooperation",
+            "D": "Balanced Development and"
+        },
+        "correct": "A",
+        "explanation": "Technological Integration for All\n8.\n• Brazil’s theme emphasized reforming international political frameworks to provide a louder\nvoice to emerging economies. The 10 core members collaborate extensively on independent\nfinancial systems and regional infrastructure development."
+    },
+    {
+        "question": "Who assumed the charge as the Director-General of the World Trade Organization (WTO) for a consecutive term starting mid-2025?",
+        "options": {
+            "A": "Tedros Adhanom",
+            "B": "Ngozi Okonjo-Iweala",
+            "C": "Kristalina Georgieva",
+            "D": "Ajay Banga"
         },
         "correct": "B",
-        "explanation": "5G          (Second)\n(Driven by massive infrastructure deployment across both urban and rural\ntelecoms, India has successfully secured the Second position globally in terms of active 5G\nnetwork consumers.)\nFirst:   5G\n(First: China continues to lead the global metrics with the highest absolute numbers of\ndomestic 5G subscriptions.)"
+        "explanation": "1  1995\n(  ) ,   ,  166\n• Dr. Ngozi Okonjo-Iweala was re-appointed to steer the organization through global supply\nchain reconfigurations and protectionist shifts. Formed on January 1, 1995, via the\nMarrakesh Agreement (replacing GATT). Headquartered in Geneva, Switzerland, it\ngoverns international commerce with 166 member nations."
+    },
+    {
+        "question": "During the G20 Summit in late 2025, Indian Prime Minister Narendra Modi proposed the creation of which global platform to empower African youth?",
+        "options": {
+            "A": "G20 Tech Alliance for",
+            "B": "G20 Africa Skills",
+            "C": "Africa-India Digital",
+            "D": "Global South"
+        },
+        "correct": "A",
+        "explanation": "Entrepreneurship Network\n5.\n• This platform was introduced to share vocational frameworks, technical training, and\neducational resources directly across Africa. This initiative aligns with the integration of the\nAfrican Union into the G20 structure."
+    },
+    {
+        "question": "Which city served as the prominent diplomatic host for the World Government Summit in February 2026, centering on the theme \"Shaping Future Governments\"?",
+        "options": {
+            "A": "Riyadh, Saudi Arabia",
+            "B": "Doha, Qatar",
+            "C": "Dubai, UAE",
+            "D": "Muscat, Oman"
+        },
+        "correct": "C",
+        "explanation": "3-5 , 2026  ,     ,\n• The annual World Government Summit brought international policymakers, global\nthinkers, and state leaders together in Dubai, UAE, from February 3–5, 2026. The World\nGovernment Summit is a global, neutral, non-profit organization dedicated to shaping the\nfuture of governments through tech disruption, innovation, and leadership frameworks."
+    },
+    {
+        "question": "The 47th ASEAN Summit, organized under the core theme \"Inclusivity and Sustainability\" in October 2025, was hosted by which Southeast Asian nation?",
+        "options": {
+            "A": "Indonesia",
+            "B": "Malaysia",
+            "C": "Philippines",
+            "D": "Singapore"
+        },
+        "correct": "B",
+        "explanation": "2025            ,\n47          48   (2026) ,\n8  1967       ,\n()       10\n• Malaysia held the rotating ASEAN chairmanship for the late-2025 cycle, successfully\norganizing the 47th summit in Kuala Lumpur. The subsequent 48th summit (2026) is\ndesignated for Cebu, Philippines. Established on August 8, 1967, via the Bangkok\nDeclaration, the Association of Southeast Asian Nations (ASEAN) consists of 10 member\nstates driving regional integration."
+    },
+    {
+        "question": "Following his inauguration in January 2025, United States President Donald Trump announced the re- withdrawal of the US from which major international treaty?",
+        "options": {
+            "A": "Paris Climate Agreement",
+            "B": "Comprehensive Test Ban Treaty (CTBT)",
+            "C": "UN Convention on the Law of the",
+            "D": "Open Skies Treaty"
+        },
+        "correct": "A",
+        "explanation": "2015      4  2016         195\n• This directive signals a shift away from global carbon caps in favor of domestic energy\nproduction. The Paris Agreement was adopted on December 12, 2015, and entered into force\non November 4, 2016. It maintains 195 Parties worldwide."
+    },
+    {
+        "question": "India and which neighboring country renewed their bilateral Inland Water Transit and Trade Protocol in late 2025 to enhance cargo movement across regional rivers?",
+        "options": {
+            "A": "Nepal",
+            "B": "Bangladesh",
+            "C": "Myanmar",
+            "D": "Bhutan"
+        },
+        "correct": "B",
+        "explanation": "• The renewal facilitates cost-effective riverine freight transport, connecting India's mainland\nto its northeastern states via Bangladeshi waterways. A long-standing bilateral mechanism\noriginally instituted in 1972 to enhance sub-continental transit."
+    },
+    {
+        "question": "The 62nd Munich Security Conference (MSC) held in February 2026 convened global defense leaders under which sobering thematic focus?",
+        "options": {
+            "A": "Horizons of Diplomacy",
+            "B": "Under Destruction",
+            "C": "Turn of the Tide",
+            "D": "Multilateralism or Fracture"
+        },
+        "correct": "B",
+        "explanation": "\" \"   1963\n• Held at its traditional venue, the Hotel Bayerischer Hof, the 62nd edition of the summit\nadopted the central theme \"Under Destruction\" to deliberate on shifting global geopolitical\nsafety guardrails. Founded in 1963, the Munich Security Conference is an independent\nforum held annually in Germany, widely regarded as the world's premier platform for\ninternational security policy debate."
+    },
+    {
+        "question": "Which country hosted the 52nd G7 Summit in June 2026 at the scenic resort town of Évian-les-Bains?",
+        "options": {
+            "A": "Canada",
+            "B": "United States",
+            "C": "Germany",
+            "D": "France"
+        },
+        "correct": "D",
+        "explanation": "15-17 , 2026  --  52 G7\n51   ,  (2025)     ,\n53    (2027)     G7 (  )  -\n• France assumed the presidency to host the 52nd G7 Summit in Évian-les-Bains from June\n15–17, 2026. The 51st summit was held in Kananaskis, Canada (2025), and the 53rd is slated\nfor the United States (2027). The G7 (Group of Seven) is an intergovernmental political\nforum consisting of Canada, France, Germany, Italy, Japan, the United Kingdom, and the\nUnited States, plus the European Union as a non-enumerated member."
+    },
+    {
+        "question": "Which city hosted the 30th Conference of the Parties (COP30) to the UNFCCC in November 2025?",
+        "options": {
+            "A": "Baku, Azerbaijan",
+            "B": "Belém, Brazil",
+            "C": "Dubai, UAE",
+            "D": "Sharm El-Sheikh, Egypt"
+        },
+        "correct": "A",
+        "explanation": "(UNFCCC)  1992          1994\n198  (197    )\n• Brazil hosted COP30 in Belém to focus global attention on the Amazon rainforest. The\nUNFCCC was adopted in 1992 at the Earth Summit and entered into force in 1994. It\ncurrently has 198 Parties (197 countries and the European Union)."
+    },
+    {
+        "question": "In June 2025, India signed a comprehensive \"Green Hydrogen Partnership\" agreement to accelerate clean energy supply chains with which European nation?",
+        "options": {
+            "A": "Germany",
+            "B": "France",
+            "C": "Italy",
+            "D": "Norway"
+        },
+        "correct": "A",
+        "explanation": "• The agreement integrates Indian manufacturing infrastructure with European supply lines\nto create export channels for clean fuels. This is a bilateral state-to-state agreement aligned\nwith the broader India-European Union trade dialogues."
+    },
+    {
+        "question": "Which country officially holds the Chairmanship of the Shanghai Cooperation Organization (SCO) for the 2025–2026 cycle?",
+        "options": {
+            "A": "China",
+            "B": "Kyrgyz Republic",
+            "C": "Kazakhstan",
+            "D": "Uzbekistan"
+        },
+        "correct": "B",
+        "explanation": "2025-2026\n15  2001         10\n(     2024   )\n• The rotating presidency of the SCO was officially handed over to the Kyrgyz Republic for\nthe 2025–2026 term. Founded on June 15, 2001. The Eurasian political and economic bloc\nconsists of 10 permanent member states: China, India, Iran, Kazakhstan, Kyrgyzstan,\nPakistan, Russia, Tajikistan, Uzbekistan, and Belarus (which officially joined in July 2024)."
+    },
+    {
+        "question": "The \"Baku to Belém Roadmap\" drafted during the transition from COP29 to COP30 specifically outlines mechanisms for which issue?",
+        "options": {
+            "A": "Forest Cover Replenishment",
+            "B": "Scaling Up Global Climate",
+            "C": "Decarbonization of Maritime Freight Routes",
+            "D": "Transitioning to Solid-State EV Batteries"
+        },
+        "correct": "A",
+        "explanation": "• The roadmap maps out a structured path to bridge the gap between financial targets set in\nAzerbaijan and implementation in Brazil. This framework coordinates financial obligations\nbetween developed and developing states across all 198 Parties to the UNFCCC."
+    },
+    {
+        "question": "What is the official theme for the Mobile World Congress (MWC) hosted in Barcelona, Spain, in March 2026?",
+        "options": {
+            "A": "Velocity: Tomorrow's Technology Today",
+            "B": "The IQ Era - A Smarter Way Forward",
+            "C": "Connectivity Unleashed",
+            "D": "Future First: Intelligent Ecosystems"
+        },
+        "correct": "B",
+        "explanation": "2026  \"   -    \"\n(     )\n• MWC Barcelona 2026 centered its entire industry showcase and high-level keynotes around\nthe theme \"The IQ Era - A Smarter Way Forward,\" tracking next-generation hardware and\ncognitive AI computing. Organized annually by the GSMA (Global System for Mobile\nCommunications Association), MWC is the world's most influential exhibition for the mobile\nconnectivity industry."
+    },
+    {
+        "question": "The 17th annual BRICS Summit was hosted in July 2025 in which city?",
+        "options": {
+            "A": "Kazan, Russia",
+            "B": "Johannesburg, South Africa",
+            "C": "Rio de Janeiro, Brazil",
+            "D": "New Delhi, India"
+        },
+        "correct": "C",
+        "explanation": "2009   (BRIC   , 2011     )  2024 (,\n2025 (  )\n• Brazil assumed the chairmanship of BRICS for 2025 and convened the summit in Rio de\nJaneiro. Formed in 2009 (as BRIC, with South Africa joining in 2011). The bloc underwent a\nmajor expansion in January 2024 (adding Egypt, Ethiopia, Iran, and the UAE) and January\n2025 (adding Indonesia), bringing the total core membership to 10 nations."
+    },
+    {
+        "question": "The \"Baku to Belém Roadmap\" drafted during the transition from COP29 to COP30 specifically outlines mechanisms for which issue?",
+        "options": {
+            "A": "Forest Cover Replenishment",
+            "B": "Scaling Up Global Climate",
+            "C": "Decarbonization of Maritime Freight Routes",
+            "D": "Transitioning to Solid-State EV Batteries"
+        },
+        "correct": "A",
+        "explanation": "• The roadmap maps out a structured path to bridge the gap between financial targets set in\nAzerbaijan and implementation in Brazil. This framework coordinates financial obligations\nbetween developed and developing states across all 198 Parties to the UNFCCC."
+    },
+    {
+        "question": "Which city hosted the 30th Conference of the Parties (COP30) to the UNFCCC in November 2025?",
+        "options": {
+            "A": "Baku, Azerbaijan",
+            "B": "Belém, Brazil",
+            "C": "Dubai, UAE",
+            "D": "Sharm El-Sheikh, Egypt"
+        },
+        "correct": "A",
+        "explanation": "(UNFCCC)  1992          1994\n198  (197    )\n• Brazil hosted COP30 in Belém to focus global attention on the Amazon rainforest. The\nUNFCCC was adopted in 1992 at the Earth Summit and entered into force in 1994. It\ncurrently has 198 Parties (197 countries and the European Union)."
+    },
+    {
+        "question": "Which country hosted the 52nd G7 Summit in June 2026 at the scenic resort town of Évian-les-Bains?",
+        "options": {
+            "A": "Canada",
+            "B": "United States",
+            "C": "Germany",
+            "D": "France"
+        },
+        "correct": "D",
+        "explanation": "15-17 , 2026  --  52 G7\n51   ,  (2025)     ,\n53    (2027)     G7 (  )  -\n• France assumed the presidency to host the 52nd G7 Summit in Évian-les-Bains from June\n15–17, 2026. The 51st summit was held in Kananaskis, Canada (2025), and the 53rd is slated\nfor the United States (2027). The G7 (Group of Seven) is an intergovernmental political\nforum consisting of Canada, France, Germany, Italy, Japan, the United Kingdom, and the\nUnited States, plus the European Union as a non-enumerated member."
+    },
+    {
+        "question": "During the G20 Summit in late 2025, Indian Prime Minister Narendra Modi proposed the creation of which global platform to empower African youth?",
+        "options": {
+            "A": "G20 Tech Alliance for",
+            "B": "G20 Africa Skills",
+            "C": "Africa-India Digital",
+            "D": "Global South"
+        },
+        "correct": "A",
+        "explanation": "Entrepreneurship Network\n5.\n• This platform was introduced to share vocational frameworks, technical training, and\neducational resources directly across Africa. This initiative aligns with the integration of the\nAfrican Union into the G20 structure."
+    },
+    {
+        "question": "The 17th annual BRICS Summit was hosted in July 2025 in which city?",
+        "options": {
+            "A": "Kazan, Russia",
+            "B": "Johannesburg, South Africa",
+            "C": "Rio de Janeiro, Brazil",
+            "D": "New Delhi, India"
+        },
+        "correct": "C",
+        "explanation": "2009   (BRIC   , 2011     )  2024 (,\n2025 (  )\n• Brazil assumed the chairmanship of BRICS for 2025 and convened the summit in Rio de\nJaneiro. Formed in 2009 (as BRIC, with South Africa joining in 2011). The bloc underwent a\nmajor expansion in January 2024 (adding Egypt, Ethiopia, Iran, and the UAE) and January\n2025 (adding Indonesia), bringing the total core membership to 10 nations."
+    },
+    {
+        "question": "Who assumed the charge as the Director-General of the World Trade Organization (WTO) for a consecutive term starting mid-2025?",
+        "options": {
+            "A": "Tedros Adhanom",
+            "B": "Ngozi Okonjo-Iweala",
+            "C": "Kristalina Georgieva",
+            "D": "Ajay Banga"
+        },
+        "correct": "B",
+        "explanation": "1  1995\n(  ) ,   ,  166\n• Dr. Ngozi Okonjo-Iweala was re-appointed to steer the organization through global supply\nchain reconfigurations and protectionist shifts. Formed on January 1, 1995, via the\nMarrakesh Agreement (replacing GATT). Headquartered in Geneva, Switzerland, it\ngoverns international commerce with 166 member nations."
+    },
+    {
+        "question": "India and which neighboring country renewed their bilateral Inland Water Transit and Trade Protocol in late 2025 to enhance cargo movement across regional rivers?",
+        "options": {
+            "A": "Nepal",
+            "B": "Bangladesh",
+            "C": "Myanmar",
+            "D": "Bhutan"
+        },
+        "correct": "B",
+        "explanation": "• The renewal facilitates cost-effective riverine freight transport, connecting India's mainland\nto its northeastern states via Bangladeshi waterways. A long-standing bilateral mechanism\noriginally instituted in 1972 to enhance sub-continental transit."
+    },
+    {
+        "question": "What is the official theme for the Mobile World Congress (MWC) hosted in Barcelona, Spain, in March 2026?",
+        "options": {
+            "A": "Velocity: Tomorrow's Technology Today",
+            "B": "The IQ Era - A Smarter Way Forward",
+            "C": "Connectivity Unleashed",
+            "D": "Future First: Intelligent Ecosystems"
+        },
+        "correct": "B",
+        "explanation": "2026  \"   -    \"\n(     )\n• MWC Barcelona 2026 centered its entire industry showcase and high-level keynotes around\nthe theme \"The IQ Era - A Smarter Way Forward,\" tracking next-generation hardware and\ncognitive AI computing. Organized annually by the GSMA (Global System for Mobile\nCommunications Association), MWC is the world's most influential exhibition for the mobile\nconnectivity industry."
+    },
+    {
+        "question": "The 47th ASEAN Summit, organized under the core theme \"Inclusivity and Sustainability\" in October 2025, was hosted by which Southeast Asian nation?",
+        "options": {
+            "A": "Indonesia",
+            "B": "Malaysia",
+            "C": "Philippines",
+            "D": "Singapore"
+        },
+        "correct": "B",
+        "explanation": "2025            ,\n47          48   (2026) ,\n8  1967       ,\n()       10\n• Malaysia held the rotating ASEAN chairmanship for the late-2025 cycle, successfully\norganizing the 47th summit in Kuala Lumpur. The subsequent 48th summit (2026) is\ndesignated for Cebu, Philippines. Established on August 8, 1967, via the Bangkok\nDeclaration, the Association of Southeast Asian Nations (ASEAN) consists of 10 member\nstates driving regional integration."
+    },
+    {
+        "question": "The 62nd Munich Security Conference (MSC) held in February 2026 convened global defense leaders under which sobering thematic focus?",
+        "options": {
+            "A": "Horizons of Diplomacy",
+            "B": "Under Destruction",
+            "C": "Turn of the Tide",
+            "D": "Multilateralism or Fracture"
+        },
+        "correct": "B",
+        "explanation": "\" \"   1963\n• Held at its traditional venue, the Hotel Bayerischer Hof, the 62nd edition of the summit\nadopted the central theme \"Under Destruction\" to deliberate on shifting global geopolitical\nsafety guardrails. Founded in 1963, the Munich Security Conference is an independent\nforum held annually in Germany, widely regarded as the world's premier platform for\ninternational security policy debate."
+    },
+    {
+        "question": "What was the official theme of the 17th BRICS Summit held under the Brazilian Chairmanship in 2025?",
+        "options": {
+            "A": "Foster Partnerships for Global",
+            "B": "",
+            "C": "Intrabrics Cooperation",
+            "D": "Balanced Development and"
+        },
+        "correct": "A",
+        "explanation": "Technological Integration for All\n8.\n• Brazil’s theme emphasized reforming international political frameworks to provide a louder\nvoice to emerging economies. The 10 core members collaborate extensively on independent\nfinancial systems and regional infrastructure development."
+    },
+    {
+        "question": "Which country officially holds the Chairmanship of the Shanghai Cooperation Organization (SCO) for the 2025–2026 cycle?",
+        "options": {
+            "A": "China",
+            "B": "Kyrgyz Republic",
+            "C": "Kazakhstan",
+            "D": "Uzbekistan"
+        },
+        "correct": "B",
+        "explanation": "2025-2026\n15  2001         10\n(     2024   )\n• The rotating presidency of the SCO was officially handed over to the Kyrgyz Republic for\nthe 2025–2026 term. Founded on June 15, 2001. The Eurasian political and economic bloc\nconsists of 10 permanent member states: China, India, Iran, Kazakhstan, Kyrgyzstan,\nPakistan, Russia, Tajikistan, Uzbekistan, and Belarus (which officially joined in July 2024)."
+    },
+    {
+        "question": "In June 2025, India signed a comprehensive \"Green Hydrogen Partnership\" agreement to accelerate clean energy supply chains with which European nation?",
+        "options": {
+            "A": "Germany",
+            "B": "France",
+            "C": "Italy",
+            "D": "Norway"
+        },
+        "correct": "A",
+        "explanation": "• The agreement integrates Indian manufacturing infrastructure with European supply lines\nto create export channels for clean fuels. This is a bilateral state-to-state agreement aligned\nwith the broader India-European Union trade dialogues."
+    },
+    {
+        "question": "Following his inauguration in January 2025, United States President Donald Trump announced the re- withdrawal of the US from which major international treaty?",
+        "options": {
+            "A": "Paris Climate Agreement",
+            "B": "Comprehensive Test Ban Treaty (CTBT)",
+            "C": "UN Convention on the Law of the",
+            "D": "Open Skies Treaty"
+        },
+        "correct": "A",
+        "explanation": "2015      4  2016         195\n• This directive signals a shift away from global carbon caps in favor of domestic energy\nproduction. The Paris Agreement was adopted on December 12, 2015, and entered into force\non November 4, 2016. It maintains 195 Parties worldwide."
+    },
+    {
+        "question": "Which city served as the prominent diplomatic host for the World Government Summit in February 2026, centering on the theme \"Shaping Future Governments\"?",
+        "options": {
+            "A": "Riyadh, Saudi Arabia",
+            "B": "Doha, Qatar",
+            "C": "Dubai, UAE",
+            "D": "Muscat, Oman"
+        },
+        "correct": "C",
+        "explanation": "3-5 , 2026  ,     ,\n• The annual World Government Summit brought international policymakers, global\nthinkers, and state leaders together in Dubai, UAE, from February 3–5, 2026. The World\nGovernment Summit is a global, neutral, non-profit organization dedicated to shaping the\nfuture of governments through tech disruption, innovation, and leadership frameworks."
+    },
+    {
+        "question": "Which of the following schemes, announced by the Government of India, has a total outlay of ₹1 lakh crore to support high-risk, high-impact research and innovation projects across science & technology disciplines?",
+        "options": {
+            "A": "Digital India Innovation Fund",
+            "B": "Atmanirbhar Bharat R&D Programme",
+            "C": "National Science & Technology Fund",
+            "D": "Research, Development & Innovation Scheme"
+        },
+        "correct": "D",
+        "explanation": "Research, Development & Innovation (RDI) Scheme\n(The Union Cabinet\napproved the Research, Development and Innovation (RDI) Scheme with a massive\nfinancial corpus of ₹1 lakh crore spanned over six years to support high-risk, high-\nimpact research across science and technology.)\n(ANRF)"
+    },
+    {
+        "question": "Which European country formally joined the Indo-Pacific Oceans Initiative (IPOI) in January 2026?",
+        "options": {
+            "A": "France",
+            "B": "Germany",
+            "C": "Spain",
+            "D": "Italy"
+        },
+        "correct": "C",
+        "explanation": "Indo-Pacific Oceans Initiative (IPOI)\n2026      -   (IPOI)\n(On January 21, 2026, Spain formally joined the Indo-Pacific Oceans Initiative.)\n21  2026               ,"
+    },
+    {
+        "question": "By June 2025, how many cities were covered under the National Clean Air Programme (NCAP) to combat air pollution?",
+        "options": {
+            "A": "111",
+            "B": "131",
+            "C": "121",
+            "D": "141"
+        },
+        "correct": "B",
+        "explanation": "National Clean Air Programme (NCAP)\n2025               131\n(By June 2025, the program covered a total of 131 non-\nattainment cities across India that failed to meet National Ambient Air Quality\nStandards.)\n(MoEFCC)   2019"
+    },
+    {
+        "question": "From which city did Prime Minister Narendra Modi launch the nationwide Human Papillomavirus (HPV) vaccination campaign for 14-year-old girls in February 2026?",
+        "options": {
+            "A": "Ajmer, Rajasthan",
+            "B": "Gandhinagar, Gujarat",
+            "C": "Pune, Maharashtra",
+            "D": "Bhopal, Madhya Pradesh"
+        },
+        "correct": "A",
+        "explanation": "HPV Vaccination Campaign Launch\n2026       14\n(HPV)     (In February\n2026, PM Narendra Modi launched the nationwide HPV vaccination campaign from\nAjmer, Rajasthan, targeting 14-year-old girls.)\n28  2026"
+    },
+    {
+        "question": "0%           (Under PMFBY, farmers pay a subsidized uniform premium of just 2.0% for Kharif crops, 1.5% for Rabi crops, and 5% for commercial/horticultural crops.) 41. '  '?",
+        "options": {
+            "A": "To empower rural",
+            "B": "To provide free tractors to farmers",
+            "C": "To establish drone manufacturing",
+            "D": "To make drone education compulsory in schools"
+        },
+        "correct": "A",
+        "explanation": "PMGKAY Free Food Grains\n(PMGKAY)"
+    },
+    {
+        "question": "Which scheme launched in 2019 aims to provide piped potable water to every rural household by the year 2024?",
+        "options": {
+            "A": "Swachh Bharat Mission",
+            "B": "Jal Jeevan Mission (JJM)",
+            "C": "PM-KUSUM",
+            "D": "AMRUT Scheme"
+        },
+        "correct": "B",
+        "explanation": "Jal Jeevan Mission (JJM)\n(The Jal Jeevan Mission (JJM),\nlaunched in 2019, explicitly targeted providing safe drinking water to every rural\nhousehold through functional tap connections.)\n2024          (Launched\nin 2019 under the Ministry of Jal Shakti with the target year of 2024.)\n2  2014"
+    },
+    {
+        "question": "Recently, which Ministry launched the RESET Programme?",
+        "options": {
+            "A": "Ministry of Education",
+            "B": "Ministry of Sports",
+            "C": "Ministry of Defence",
+            "D": "Ministry of Agriculture"
+        },
+        "correct": "A",
+        "explanation": "RESET Programme\n'   ' (RESET)\n(The \"Retired Sportsperson Empowerment Training\" (RESET)\nProgramme was launched by Sports Minister Mansukh Mandaviya.)\n(Aim: Designed to empower\nretired athletes.)\n20  50"
+    },
+    {
+        "question": "Which state government approved the Bamboo Industry Policy, 2025, in October 2025 to provide farmers with a sustainable and eco-friendly source of income while boosting bamboo production?",
+        "options": {
+            "A": "West Bengal",
+            "B": "Tripura",
+            "C": "Tamil Nadu",
+            "D": "Maharashtra"
+        },
+        "correct": "D",
+        "explanation": "Bamboo Industry Policy 2025\n2025       ,"
+    },
+    {
+        "question": "What is the primary objective of the 'Saheli Pink Smart Card' launched by the Delhi Government?",
+        "options": {
+            "A": "To provide free health insurance to",
+            "B": "To provide free travel for",
+            "C": "To provide scholarships to girl students",
+            "D": "To provide housing support to working"
+        },
+        "correct": "A",
+        "explanation": "women\nProject Vayu Baan\n(IAF)  ' '        (The Indian\nAir Force (IAF) launched the indigenous drone project named 'Vayu Baan'.)"
+    },
+    {
+        "question": "The sixth phase of the 'Jal Shakti Abhiyan: Catch the Rain 2025' was launched in which of the following Indian states?",
+        "options": {
+            "A": "Haryana",
+            "B": "Uttarakhand",
+            "C": "Rajasthan",
+            "D": "Bihar"
+        },
+        "correct": "A",
+        "explanation": "Jal Shakti Abhiyan: Catch the Rain 2025\n'  :    2025'\n(The sixth phase of the campaign was launched in the state of Haryana.)\n54."
+    },
+    {
+        "question": "Which initiative launched in 2016 focuses on boosting regional air connectivity by capping airfares at ₹2,500 per hour for operational routes?",
+        "options": {
+            "A": "PM Gati Shakti",
+            "B": "UDAN (Ude Desh Ka Aam Nagrik)",
+            "C": "E-Bus Sewa Scheme",
+            "D": "Namo Bharat"
+        },
+        "correct": "B",
+        "explanation": "UDAN (Ude Desh ka Aam Nagrik)\n2016          ₹2,500\n(Launched in 2016 by the Ministry of Civil Aviation, this\nregional connectivity scheme caps airfares at ₹2,500 per hour for operational routes.)\n16  2023      10,000"
+    },
+    {
+        "question": "Jal Jeevan Mission (JJM 2.0) has been extended till which year?",
+        "options": {
+            "A": "2026",
+            "B": "2030",
+            "C": "2028",
+            "D": "2025"
+        },
+        "correct": "C",
+        "explanation": "Jal Jeevan Mission (JJM 2.0)\n(JJM 2.0)     2028      (Jal Jeevan\nMission (JJM 2.0) has been extended until the year 2028.)\n2028      '  '     (Aim: To\nachieve 'Har Ghar Jal' status for all Gram Panchayats by 2028.)\n15  2019          ,"
+    },
+    {
+        "question": "Which Ministry launched the Adi Karmayogi Abhiyan in 2025?",
+        "options": {
+            "A": "Ministry of Tribal Affairs",
+            "B": "Ministry of Rural Development",
+            "C": "Ministry of Social Justice",
+            "D": "Ministry of Panchayati Raj"
+        },
+        "correct": "A",
+        "explanation": "Adi Karmayogi Abhiyan\n2025     (Ministry of Tribal Affairs)\n(The Adi Karmayogi Abhiyan was launched by the Ministry of\nTribal Affairs in 2025.)\n(It is the world's largest\ntribal leadership programme, aiming to empower tribal communities through\ngrassroots leadership.)"
+    },
+    {
+        "question": "Under the 'Pradhan Mantri Fasal Bima Yojana (PMFBY)' launched in 2016, what is the uniform premium rate paid by farmers for all Kharif crops?",
+        "options": {
+            "A": "1%",
+            "B": "1.5%",
+            "C": "2%",
+            "D": "5%"
+        },
+        "correct": "A",
+        "explanation": "PMFBY Kharif Crops Premium Rate\n(PMFBY)"
+    },
+    {
+        "question": "Which scheme launched in 2022 aims to modernize thousands of schools across India by equipping them with digital labs, smart classrooms, and modern pedagogy?",
+        "options": {
+            "A": "Sarva Shiksha Abhiyan",
+            "B": "PM Schools for Rising India (PM-SHRI)",
+            "C": "SHRESHTA Schools",
+            "D": "PM-YUVA"
+        },
+        "correct": "B",
+        "explanation": "PM Schools for Rising India (PM-SHRI)\n2022                ,\n(Launched in 2022 to modernize\nover 14,500 schools with digital labs, smart classrooms, and modern pedagogy under\nthe National Education Policy 2020.)\n(Implemented under the Ministry of\nEducation.)\n'' (SHRESHTA)     (SC)"
+    },
+    {
+        "question": "Who launched the 'AgriSURE Fund' recently?",
+        "options": {
+            "A": "PM Modi",
+            "B": "Amit Shah",
+            "C": "Shivraj Singh Chouhan",
+            "D": "Rekha Gupta"
+        },
+        "correct": "C",
+        "explanation": "fund was recently launched by the Union Agriculture Minister, Shivraj Singh\nChouhan.) ]\n'AgriSURE'    'Agri Fund for Start-Ups & Rural Enterprises' ,\n(AgriSURE stands\nfor 'Agri Fund for Start-Ups & Rural Enterprises', aiming to support start-ups and\nagripreneurs.)\n750          (It is a central scheme with a total\nfund corpus of ₹750 crore.)\n3."
+    },
+    {
+        "question": "The Union Budget is built around several key pillars to promote economic growth and development. Which of the following is one of the major pillars of the Union Budget?",
+        "options": {
+            "A": "Agriculture and Rural Prosperity",
+            "B": "Space Tourism Development",
+            "C": "International Trade Agreements",
+            "D": "Private Currency Management"
+        },
+        "correct": "A",
+        "explanation": "(Agriculture & Rural Prosperity)\n2026-27      '   '\n(Agriculture and Rural Prosperity is one of the major pillars of the\nUnion Budget, focusing on the country's overall development.)\n(This pillar aims to improve farmers' income,\nstrengthen rural infrastructure, and create employment opportunities.)"
+    },
+    {
+        "question": "The Union Budget 2026–27 introduced Biopharma SHAKTI as an initiative related to which sector?",
+        "options": {
+            "A": "Agriculture sector",
+            "B": "Biotechnology and pharmaceutical sector",
+            "C": "Banking sector",
+            "D": "Tourism sector"
+        },
+        "correct": "B",
+        "explanation": "(Biopharma SHAKTI)\n2026-27            ' ' (Biopharma\nSHAKTI)       (The Union Budget 2026–27 introduced Biopharma SHAKTI as an initiative\nrelated to the biotechnology and pharmaceutical sector.)\nSHAKTI    \"Strategy for Healthcare Advancement through Knowledge, Technology and Innovation\"\n(SHAKTI stands for Strategy for Healthcare Advancement through Knowledge, Technology and Innovation.)\n10,000        ,\n(Global Biopharma Manufacturing Hub)       (It has a\ntotal outlay of ₹10,000 crore for five years, with the objective to develop India as a global biopharma\nmanufacturing hub.)\n(NIPERs)     7  NIPERs     (Three new NIPERs will be\nestablished and seven existing NIPERs will be upgraded to strengthen pharmaceutical education, research,\ninnovation, and industry collaboration.)\n1,000     '  ' (India Clinical Trial)"
+    },
+    {
+        "question": "The Union Budget 2026–27 is described as a “Yuva Shakti–Driven Budget.” What is the main focus of this theme?",
+        "options": {
+            "A": "Empowering youth",
+            "B": "Reducing investment in education and",
+            "C": "Focusing only on traditional industries",
+            "D": "Limiting entrepreneurship opportunities"
+        },
+        "correct": "A",
+        "explanation": "(Yuva Shakti–Driven Budget)\n2026-27   \" - \"        (The Union\nBudget 2026–27 is described as a “Yuva Shakti–Driven Budget.”)\n(Skill Development),  , ,"
+    },
+    {
+        "question": "The Union Budget 2026–27 identifies how many pillars for achieving rapid and sustainable economic development?",
+        "options": {
+            "A": "",
+            "B": "",
+            "C": "",
+            "D": ""
+        },
+        "correct": "C",
+        "explanation": "(Six Pillars)\n2026-27              (Six Pillars)\n(The Union Budget 2026–27 builds economic growth around six key pillars.)\n(Infrastructure),   (Sustainability), ,"
+    },
+    {
+        "question": "The Union Budget 2026–27 is based on how many core duties that guide government policies and decisions?",
+        "options": {
+            "A": "",
+            "B": "",
+            "C": "",
+            "D": ""
+        },
+        "correct": "B",
+        "explanation": "(Three Core Duties)\n2026-27     (Core Duties)       ,   2047\n' '              (The Union\nBudget 2026–27 is built around three core duties that form the foundation of India's\ndevelopment strategy towards achieving a developed India by 2047.)\n(The first core duty is to promote rapid and sustainable\neconomic development by encouraging growth, investment, innovation, and long-term\neconomic progress.)\nsecond core duty focuses on improving the quality of life of citizens by creating opportunities,\nenhancing services, and supporting the aspirations of people.)\n\" ,  \"     ,"
+    },
+    {
+        "question": "Who holds the record for presenting the maximum number of Union Budgets in India?",
+        "options": {
+            "A": "P. Chidambaram",
+            "B": "Pranab Mukherjee",
+            "C": "Morarji Desai",
+            "D": "Nirmala Sitharaman"
+        },
+        "correct": "C",
+        "explanation": "Morarji Desai holds the record for presenting the maximum\nnumber of Union Budgets (10). He presented six annual budgets and four interim budgets.\n2.\n2026–27  ,      (Total Expenditure)"
+    },
+    {
+        "question": "Which institution launched the digital initiatives ‘One Case One Data’ and ‘Su Sahay’?",
+        "options": {
+            "A": "Ministry of Law and Justice",
+            "B": "The Supreme Court of India",
+            "C": "NITI Aayog",
+            "D": "Bar Council of India"
+        },
+        "correct": "B",
+        "explanation": "'   '            -\n' '  -\n• The Supreme Court of India launched both of these major digital initiatives to strengthen\njudicial administration and access to justice.\n• 'One Case One Data' is a digital integration initiative designed to unify data across all tiers of\nthe Indian judiciary—from taluka courts up to the Supreme Court.\n• ‘Su Sahay’ is an AI-powered chatbot integrated directly into the Supreme Court website to help\nlitigants and citizens easily access court-related services."
+    },
+    {
+        "question": "Which City hosted the 29th National conference on e-governance in 2026?",
+        "options": {
+            "A": "Visakhapatnam",
+            "B": "Jaipur",
+            "C": "Delhi",
+            "D": "Mumbai"
+        },
+        "correct": "B",
+        "explanation": "1-2 , 2026\n\"2047: , \"\nHeld on July 1- 2, 2026 at Rajasthan International Centre in Jaipur.\nThe event focused on the theme “Viksit Bharat 2047: AI Enabled, data driven and secure digital\ngovernance”."
+    },
+    {
+        "question": "meeting of the Niti aayog on June 11, 2026 at Rashtrapati Bhavan cultural centre in New Delhi?",
+        "options": {
+            "A": "Narendra Modi",
+            "B": "Amit Shah",
+            "C": "Dharmendra Pardhan",
+            "D": "Nitin Gadkari"
+        },
+        "correct": "A",
+        "explanation": "11 2026\nPrime Minister Narendra Modi chaired the 11th governing council meeting of NITI Aayog on\nJune 11, 2026 at Rashtrapati Bhavan Cultural Centre in New Delhi.\n' ' (Bharatpol)    ? / Which organisation launched the"
+    },
+    {
+        "question": "Which organ under MHA launched the e-zero FIR system for Cyber fraud cases?",
+        "options": {
+            "A": "Indian cyber crime coordination centre",
+            "B": "Cyber appellate Tribunal",
+            "C": "State police of India",
+            "D": "Central bureau of investigation"
+        },
+        "correct": "A",
+        "explanation": "(MHA) (I4C) -\n(e-zero FIR)\nThe Indian Cyber Crime Coordination Centre (I4C) under the Ministry of Home Affairs\nlaunched the e-zero FIR system for cyber fraud cases.\n2025               29"
+    },
+    {
+        "question": "What is the name of the new digital platform being developed by election commission of India in 2025?",
+        "options": {
+            "A": "ECINET",
+            "B": "Election Link",
+            "C": "ECI Connect",
+            "D": "Voter hub"
+        },
+        "correct": "A",
+        "explanation": "ECINET (ECI) , -\n2025 2026 , ECINET\n100 (1 ) ,\nECINET is the unified, single-point IT platform and mobile application developed by the\nElection Commission of India (ECI).\nInitially conceptualized in 2025 and officially launched in January 2026, ECINET acts as a one-\nstop digital ecosystem designed to streamline services for nearly 100 crore (1 billion) Indian\nelectors, political parties, and the massive administrative election machinery.\n11  2026               11\nWho chaired the 11th governing council"
+    },
+    {
+        "question": "The SHANTI Bill, 2025 was introduced by which Union Ministry?",
+        "options": {
+            "A": "Ministry of Home Affairs",
+            "B": "Ministry of Power",
+            "C": "Ministry of New and Renewable Energy",
+            "D": "Ministry of Science and Technology"
+        },
+        "correct": "D",
+        "explanation": "and Earth Sciences\n1.\n\"          (SHANTI) , 2025\"\n17       ,    18\n• The \"Sustainable Harnessing and Advancement of Nuclear Energy for Transforming India\n(SHANTI) Bill, 2025\" falls under the Ministry of Science and Technology and Earth Sciences.\nIntroduced in the Lok Sabha on Dec 15, passed by the Lok Sabha on Dec 17, and subsequently\npassed by the Rajya Sabha on December 18. The bill specifically replaces the Atomic Energy Act\nof 1962 and the Civil Liability for Nuclear Damage Act of 2010."
     },
     {
         "question": "What is the name of India's first indigenously manufactured microchip developed by ISRO's Semiconductor Lab?",
@@ -20,17 +647,6 @@
         },
         "correct": "A",
         "explanation": "'-32' (Vikram-32)     (ISRO Semiconductor Lab)\n(Refers to the first fully indigenous microchip\nmanufactured by ISRO's Semiconductor Lab.)\nDHRUV64: -   64-   (The 64-bit microprocessor built by C-\nDAC.)\n1:            (A\ncommercial space launch vehicle built by Skyroot.)\nA2000:   (Netra Semi)      -- (SoC)  (The AI\nSystem-on-Chip launched by Netra Semi.)"
-    },
-    {
-        "question": "Which fintech platform recently received formal operating approval from the Reserve Bank of India (RBI) to function as a Cross-Border Payment Aggregator (PA-CB)?",
-        "options": {
-            "A": "PB Fintech",
-            "B": "(Skydo)",
-            "C": "(Camus)",
-            "D": "(Infibeam Avenues)"
-        },
-        "correct": "A",
-        "explanation": "' ' (Infibeam Avenues)     (RBI)\n(PA-CB)\n(The RBI granted regulatory authorization to Infibeam Avenues to conduct\noperations as a licensed Cross-Border Payment Aggregator (PA-CB).)\nPB Fintech:  (PolicyBazaar)       ,\n(PB Fintech: The parent corporate entity behind PolicyBazaar, not the recipient of\nthis license.)\nSkydo & Camus:"
     },
     {
         "question": "What is the name of the world's first doctor-operated AI healthcare ecosystem launched recently?",
@@ -55,17 +671,6 @@
         "explanation": "'' (Indrajal)   (Grene Robotics)\n(Indrajal is India's first mobile, AI-integrated anti-drone system designed to intercept\nautonomous threats developed by Grene Robotics.)\nBIRSA-101:   -     (BIRSA-101: An indigenous sickle-cell\ngene therapy project.)\nDHRUV64: -    (DHRUV64: The C-DAC computing\nmicroprocessor.)\nANCHOR:         3D    (ANCHOR:\nThe 3D human brainstem atlas project by IIT Madras.)"
     },
     {
-        "question": "Which Anti-Submarine Warfare Shallow Water Craft (ASW-SWC) corvette did the Indian Navy commission on February 26, 2026?",
-        "options": {
-            "A": "INS Anjadip",
-            "B": "INS Dunagiri",
-            "C": "INS Aridhaman",
-            "D": "INS Taragiri"
-        },
-        "correct": "A",
-        "explanation": "(INS Anjadip)\n26  2026     -\n(ASW-SWC)  ' ' (INS Anjadip)    (INS Anjadip was\nofficially commissioned by the Indian Navy as its third state-of-the-art Anti-Submarine\nWarfare Shallow Water Craft.)\n(GRSE)        -\n(INS Dunagiri: The fifth Nilgiri-class stealth frigate delivered by GRSE.)\n2026        -\n(SSBN)  (INS Aridhaman: India's third nuclear-powered ballistic missile\nsubmarine joined in April 2026.)\n(INS Taragiri: A stealth frigate commissioned at the Naval Dockyard in Visakhapatnam.)"
-    },
-    {
         "question": "On which river has the Union Ministry of Environment approved the 260 MW Dulhasti Stage-II Hydroelectric Project?",
         "options": {
             "A": "Chenab River",
@@ -77,7 +682,7 @@
         "explanation": "(Chenab River)  260  (MW)\nII       (The Dulhasti Stage-II project has been\nsanctioned on the Chenab River in Jammu & Kashmir.)\n1,200   -II      (The\nsite for the 1,200 MW Kalai-II Hydropower Project in Arunachal Pradesh.)"
     },
     {
-        "question": "(IIT Patna: Inaugurated Bihar's first 'PARAM Rudra' supercomputer.)       --  (AI)     ? What is the name of India's first indigenous and sophisticated video-to-text AI model?",
+        "question": "What is the name of India's first indigenous and sophisticated video-to-text AI model?",
         "options": {
             "A": "AILA",
             "B": "Vaani",
@@ -99,7 +704,7 @@
         "explanation": "(IIT Bombay)  - (P-Quest)\n(QDM)    (The P-Quest group from IIT Bombay built India's first\nindigenous Quantum Diamond Microscope (QDM).)\n'AILA'      (IIT Delhi: Known for\nthe AI assistant system 'AILA'.)\n(IIT Madras: Collaborated on the UN Center of Excellence and brainstem 3D mapping.)\n(IIT Patna: Housed the PARAM Rudra supercomputer under the National Supercomputing\nMission.)"
     },
     {
-        "question": "(Jamnagar: Chosen by Meta, Tata, and Reliance to set up a massive 168 MW AI data center.)             ? India is building its fourth Antarctic research station. What is its name?",
+        "question": "(Jamnagar: Chosen by Meta, Tata, and Reliance to set up a massive 168 MW AI data center.)?",
         "options": {
             "A": "Maitri",
             "B": "Bharati",
@@ -119,50 +724,6 @@
         },
         "correct": "A",
         "explanation": "(MIRV)    -V      ,\nMIRV    'Multiple Independently Targeted Re-entry Vehicle'  (India successfully\ntested the Agni-V missile equipped with MIRV technology, which stands for Multiple\nIndependently Targeted Re-entry Vehicle.)\n(Warheads)"
-    },
-    {
-        "question": "(Germany and Denmark: Collaborated with IIT Delhi to develop the 'AILA' AI system.)     (AI)  -       ? In which state was India’s first AI and digital-driven bank branch opened?",
-        "options": {
-            "A": "Assam",
-            "B": "Andhra Pradesh",
-            "C": "Odisha",
-            "D": "Kerala"
-        },
-        "correct": "A",
-        "explanation": "(AI)  -      (Assam)\n(India's first AI and digital-powered bank branch was inaugurated in the state of\nAssam.)\n(Andhra Pradesh: Launched\nIndia's first quantum computer at Amaravati.)\n(Odisha: Inaugurated India's first end-to-end Silicon Carbide semiconductor facility in\nBhubaneswar.)\n(Kerala:\nDeclared the Aralam Wildlife Sanctuary as the state's first butterfly sanctuary.)"
-    },
-    {
-        "question": "Where has India's first 3 Megawatt-hour capacity Vanadium Redox Flow Battery inaugurated?",
-        "options": {
-            "A": "Greater Noida",
-            "B": "Bhubaneswar",
-            "C": "Hyderabad",
-            "D": "Jamnagar"
-        },
-        "correct": "A",
-        "explanation": "3 - (3 MWh)\n(Greater Noida)    (India's first large-scale 3 MWh Vanadium\nRedox Flow Battery was launched in Greater Noida.)\n(Bhubaneswar: Site of the\nnewly opened Silicon Carbide semiconductor unit.)\n'CHIRAG'   (Hyderabad: Houses the\nCHIRAG railway analysis and training framework.)\n168  (MW)"
-    },
-    {
-        "question": "The Indian Army recently raised a specialized modern warfare unit equipped with drone technology, advanced batteries, and tactical units. What is it called?",
-        "options": {
-            "A": "Rudra Brigade",
-            "B": "Bhairav Battalion",
-            "C": "Agni Veg",
-            "D": "AILA Systems"
-        },
-        "correct": "B",
-        "explanation": "(Bhairav Battalion)\n' ' (Bhairav Battalion)\n(The Indian Army raised the 'Bhairav Battalion' to modernize its ranks using advanced drone\ntechnology and alternative power capabilities.)\n(Rudra Brigade:\nThe parent military formation under which the Bhairav Battalion operates.)\n106 -      (Agni Veg:\nThe codename for the 106 jet-powered kamikaze drones procured by the Indian Army.)\nAILA :         (AILA Systems: The\nAI laboratory platform created by IIT Delhi.)"
-    },
-    {
-        "question": "INS Aridhaman, commissioned in April 2026 under the leadership of Raksha Mantri Rajnath Singh, belongs to which class of naval vessels?",
-        "options": {
-            "A": "Scorpene-class Conventional Submarines",
-            "B": "Arihant-class Nuclear",
-            "C": "Nilgiri-class Stealth Frigates",
-            "D": "Sandhayak-class Hydrographic Survey"
-        },
-        "correct": "B",
-        "explanation": "Vessels\n27.\n(INS Aridhaman)\n2026            ' ' -\n(SSBN)    ,\n(INS Aridhaman is India's third indigenous nuclear-\npowered ballistic missile submarine, following INS Arihant and INS Arighat, belonging to the\nArihant-class SSBNs.)\n(Scorpene-class: Diesel-electric attack submarines, not nuclear-capable.)\n(Nilgiri-class: Surface combatant stealth warships like Dunagiri and Taragiri.)"
     },
     {
         "question": "Scientists from which two regions utilized Thorium- 229 to create the world's first operational nuclear clock?",
@@ -198,17 +759,6 @@
         "explanation": "(Hashemite Kingdom of Jordan)\n63     (The\nHashemite Kingdom of Jordan officially signed the Artemis Accords at NASA Headquarters,\nbecoming the 63rd member state.)\n(India: Already a signatory\nmember of the Artemis framework.)\n(TelePIX)          (South\nKorea: Involved in the deployment of space intelligence assets like TelePIX.)\n(ASI)    -"
     },
     {
-        "question": "Which joint satellite mission costing approximately $1.5 billion was developed by NASA and ISRO for climate and disaster monitoring?",
-        "options": {
-            "A": "Ramses Mission",
-            "B": "(NISAR)",
-            "C": "1 (RHUMI-1)",
-            "D": "GSLV-F14"
-        },
-        "correct": "A",
-        "explanation": "(NASA-ISRO)      1.5\n'' (NISAR)              GSLV Mk II\n(The NASA-ISRO NISAR satellite is a\ncollaborative project valued at around $1.5 billion launched via GSLV Mk II for tracking\nenvironmental shifts and managing disasters.)\nRamses Mission:   (2029)\n(ESA)       (Ramses Mission: An asteroid study mission\ntargeting asteroid Apophis (2029) on which ISRO is collaborating with ESA.)\nRHUMI-1:    :    (Reusable Hybrid Rocket)\n(RHUMI-1: Noted as India's first reusable hybrid rocket.)\nGSLV-F14:  2025          (GSLV-F14: The specific\nrocket mission flight launched in January 2025.)"
-    },
-    {
         "question": "Which institution launched India's first integrated agricultural intelligence ecosystem?",
         "options": {
             "A": "IIT Ropar",
@@ -231,7 +781,7 @@
         "explanation": "(Mount Etna)    ,     (Sicily, Italy)\n2026             (Mount\nEtna is a famous stratovolcano located on the eastern coast of Sicily, Italy.)\n'   ' (Piton de la Fournaise)\n(Home to the 'Piton de la Fournaise' volcano in the Indian Ocean.)\n():   ' ' (Mayon Volcano)    (Location of\nthe highly volatile Mayon Volcano.)\n(Active Mud Volcano)"
     },
     {
-        "question": "(The river from which the Dulhasti Stage-II project will draw water via the Pakal Dul project.)                 ? Which app has the Indian Railways recently launched for its women employees?",
+        "question": "(The river from which the Dulhasti Stage-II project will draw water via the Pakal Dul project.)?",
         "options": {
             "A": "SHINE App",
             "B": "SAFETY App",
@@ -242,7 +792,7 @@
         "explanation": "(SHINE)\n8  2026\n'SHINE'     (The Indian Railways launched the SHINE app on March\n8, 2026, to coincide with International Women's Day.)\n(HRMS)   ,"
     },
     {
-        "question": "(Italy: Partnering globally via ASI on projects like COSMO-SkyMed.)       (SAR)     (HAL)    5.5-   -, -   (multi-role utility helicopter)  :",
+        "question": "5-   -, -   (multi-role utility helicopter)  :",
         "options": {
             "A": "(Dhruv-NG)",
             "B": "Vikram-32",
@@ -262,17 +812,6 @@
         },
         "correct": "B",
         "explanation": "3201   3201\n'KALPANA3201'  'Vikram 3201'  (SHAKTI)\n(KALPANA3201 and Vikram 3201 are highly specialized 32-bit\nmicroprocessors engineered explicitly for space systems utilizing the SHAKTI architecture.)\n1 (RHUMI-1)\n(Reusable hybrid rockets: Describes the functional category of vehicles like RHUMI-1.)\n(Multi-purpose decontamination\nsoftware protocols: Unrelated to hardware; DRDO handles physical chemical/biological\ndecontamination technologies.)\nCRISPR- DRR  100"
-    },
-    {
-        "question": "India's first indigenously developed Quantum Diamond Microscope (QDM) was built by a group from which IIT?",
-        "options": {
-            "A": "IIT Bombay",
-            "B": "IIT Delhi",
-            "C": "IIT Madras",
-            "D": "IIT Patna"
-        },
-        "correct": "A",
-        "explanation": "3 - (3 MWh)\n(Greater Noida)    (India's first large-scale 3 MWh Vanadium\nRedox Flow Battery was launched in Greater Noida.)\n(Bhubaneswar: Site of the\nnewly opened Silicon Carbide semiconductor unit.)\n'CHIRAG'   (Hyderabad: Houses the\nCHIRAG railway analysis and training framework.)\n168  (MW)"
     },
     {
         "question": "Which IIT launched its first international center to support deep tech startups in America?",
@@ -297,18 +836,7 @@
         "explanation": "' II' (Artemis II)\n(Artemis II is structurally slated to serve as the historic\nfirst crewed mission (and the first crewed lunar flyby test within the contemporary lunar\ntrajectory architecture) designed to clear hardware safety profiles for eventual surface\ntouchdowns.)\n(It is a Mars exploration mission: Incorrect; the entire immediate\nArtemis framework is strategically mapped out for lunar exploration.)"
     },
     {
-        "question": "According to the recent CAG report, how many wetlands out of 697 have completely vanished over the last few decades in Jammu & Kashmir?",
-        "options": {
-            "A": "203 wetlands",
-            "B": "315 wetlands",
-            "C": "518 wetlands",
-            "D": "80 wetlands"
-        },
-        "correct": "B",
-        "explanation": "(Wetlands)\n(CAG)    , -      697\n315         203       (Out of the baseline\n697 wetlands surveyed in Jammu and Kashmir, 315 have vanished completely, and 203 have\ndrastically shrunk.)\n518 :               (The\ncombined tally of heavily degraded or lost water bodies.)\n80 :                (The\nnumber of pristine wetlands under the direct administration of the forest department.)"
-    },
-    {
-        "question": "(BIRSA-101: India's first indigenous gene therapy developed by CSIR-IGIB for Sickle Cell Anemia.)  (Jio)              ? Which platform will Jio launch as the country's first indigenous AI platform?",
+        "question": "(BIRSA-101: India's first indigenous gene therapy developed by CSIR-IGIB for Sickle Cell Anemia.)  (Jio)?",
         "options": {
             "A": "'People First'",
             "B": "'Muse Spark'",
@@ -374,28 +902,6 @@
         "explanation": "'- ' (   )    '' (Acanthamoeba)\n(Kerala recorded a spike in\nmeningoencephalitis cases caused by Acanthamoeba, a free-living amoeba commonly found\nin contaminated water.)\nBabesia:            (Babesia: The blood parasite\nresponsible for the Gir lion deaths.)\nThorium:            (Thorium: A chemical\nelement used in nuclear clocks.\nHoolock:\n(Hoolock: Refers to the Western Hoolock Gibbon primate found in Assam.)"
     },
     {
-        "question": "How many spy satellites is India planning to launch under the Space-Based Surveillance-3 (SBS-3) program?",
-        "options": {
-            "A": "52",
-            "B": "36",
-            "C": "48",
-            "D": "60"
-        },
-        "correct": "C",
-        "explanation": "3 (SBS-3)\n3 (SBS-3)  48\n(Spy Satellites) (Under the\nambitious Space-Based Surveillance-3 (SBS-3) defense and intelligence enterprise, India plans\nto deploy a coordinated constellation of 48 advanced spy satellites.)\n(LPSC)  ' 300' 3D\nWho has recently handed over the 'Akasha 300' 3D printer to\nISRO's Liquid Propulsion Systems Centre (LPSC) in Valiamala?\n(a)  4D / Spacetime 4D\n(b)  / DRDO\n(c)    / Hindustan Aeronautics Limited\n(d)    / Tata Advanced Systems\n56.\n300 3D\n4D (Spacetime 4D)          (LPSC)\n' 300' (Akasha 300)      ,     3D\n('Akasha 300' is an\nindigenously developed, large-scale industrial 3D printer delivered to ISRO’s LPSC facility. It\nspecializes in additive manufacturing of complex aerospace components, helping speed up\nengine prototyping and rocket manufacturing timelines by Spacetime 4D.)\nDRDO:       ,\n(DRDO: India's premier defense\nresearch organization, focused primarily on military technologies and armaments rather than\ndelivering machinery to commercial space wings.)\nHAL:               ,\n(HAL: A state-owned aerospace giant that primarily manufactures fighter aircraft,\nhelicopters, and heavy structures rather than developing commercial 3D printing machinery.)\nTata Advanced Systems:\nAdvanced Systems: A private defense and aerospace manufacturing arm of the Tata Group\nthat designs aerostructures and systems but is not the creator of the Akasha system.)\n(Floating LiDAR Buoy)\nBy whom was the recently developed Floating LiDAR Buoy\nsuccessfully tested?\n(a)     (NIOT) / National Institute of Ocean Technology\n(NIOT)\n(b)     / Indian Space Research Organisation\n(c)      / Defence Research and Development Organisation\n(d)  (NIO) / NIO\n57.\n(NIOT)\n(Floating LiDAR)\n(NIOT successfully deployed and validated India's first indigenous\nFloating LiDAR (Light Detection and Ranging) Buoy system. This system measures offshore\nwind profiles, ocean currents, and weather parameters to support the development of\noffshore wind energy installations.)\nISRO: -       ,    -\n(ISRO: Focuses on space exploration, satellite\ndeployment, and upper-atmospheric data rather than marine-buoy wind infrastructure.)\nDRDO:         ,\n(DRDO: Focuses on national defense systems, naval sonar,\nand naval weapons rather than commercial maritime wind mapping.)\nNIO:       ,\nLiDAR      (NIO: The National\nInstitute of Oceanography explores marine biology, geology, and chemical oceanography\nrather than engineering floating wind LiDAR equipment.)\n' ' (Personal Computer)     ? / Who\nrecently launched the 'Personal Computer' AI agent?\n(a)  / OpenAI\n(b)  / Perplexity\n(c)  / Google\n(d)  / Microsoft\n58.\n(Perplexity)   \"Personal Computer\"\n(Mac Mini)\n(Perplexity launched an advanced ecosystem featuring its \"Personal Computer\" system.\nRunning locally via specialized hardware interfaces (like a Mac Mini), it acts as an\nautonomous digital proxy that coordinates multiple AI models to perform complex, multi-\nstep tasks natively on a user's desktop.)\n(ISRO)  CE-20\n(a)     , ,       /\nThis test was conducted at the ISRO Propulsion Complex, Mahendragiri, Tamil Nadu.\n(b)   ,        / This test was conducted\nat Sriharikota, Andhra Pradesh.\n(c)   ,   165        22\nDuring the test, the engine operated for 165 seconds and generated\napproximately 22 tons of thrust.\n(d) (a)  (c)\n(e)  (c)\n59.\n(ISRO)    LVM3\nCE-20      ,\n(IPRC)    (The CE-20 cryogenic engine is the\nheavy-duty engine powering the upper cryogenic stage of India’s LVM3 rocket. All specialized\nliquid fuel and cryogenic engine hot tests are officially carried out at the dedicated ISRO\nPropulsion Complex (IPRC) facility located in Mahendragiri.)\nSriharikota:      (SDSC) ,\n(Sriharikota: This is the Satish Dhawan Space Centre (SDSC), which serves as India's primary\nrocket launch site, not the testing ground for ground-level engine duration hot-firings.)\n'' (Swachhata\nMonitoring & Automated Reporting Tool - SMART)   ? / Who recently\nlaunched the Swachhata Monitoring & Automated Reporting Tool (SMART)?\n(a)    / Delhi Cantonment Board\n(b)    / Delhi Municipal Corporation\n(c)    3.0 / Swachh Bharat Mission 3.0\n(d)      / New Delhi Municipal Council\n60.\n(SMART)\n(Delhi Cantonment Board)       ,\n'SMART'     (The Delhi Cantonment Board (DCB)\nintroduced the SMART platform to digitize public sanitation reporting, allowing automated\ndata analytics to track real-time cleaning cycles, resolve complaints, and manage public\nhealth operations effectively.)\n(MCD: Manages civic services for the wider\nmunicipal corporation zones of Delhi but operates distinct digital portals separate from this\nexact tool.)\nSwachh Bharat Mission 3.0:\n(Swachh Bharat Mission 3.0: Represents the macro nationwide policy umbrella\nframework run by the Union Government rather than a specific tool launched locally by a\nmunicipal division.)\n(NDMC: Governs the VIP zones of Lutyens'\nDelhi and relies on its own custom applications for civic maintenance monitoring.)\nThankoo!"
-    },
-    {
-        "question": "India's first artificial canopy bridge was constructed in the Hollongapar Gibbon Sanctuary to help Western Hoolock Gibbons safely cross railway tracks. In which state is this located?",
-        "options": {
-            "A": "Assam",
-            "B": "Arunachal Pradesh",
-            "C": "Jammu & Kashmir",
-            "D": "Manipur"
-        },
-        "correct": "A",
-        "explanation": "(Western Hoolock Gibbon)\n(Assam)\n(Located in the Jorhat district of Assam, this canopy bridge helps the\nendangered Western Hoolock Gibbon population cross dangerous rail lines safely.)\n(Arunachal Pradesh: Host state to the massive Kalai-II and Kamla hydroelectric projects.)\n(CAG)      300    (Wetlands)\n(Jammu & Kashmir: Suffered a loss of over 300 wetlands according to the CAG report.)\n' ' (Project Hinichi)"
-    },
-    {
         "question": "In which state is the Kaimur Wildlife Sanctuary, which recently received structural approval to be developed as the state's second Tiger Reserve, located?",
         "options": {
             "A": "Uttar Pradesh",
@@ -427,17 +933,6 @@
         },
         "correct": "C",
         "explanation": "'' (Gabi)     (South Korea)\n(The robot monk 'Gabi' was unveiled at the Jogyesa Temple located in\nSouth Korea.)\nGRAPES-3   (Muon Telescope)\n(Japan: Cooperated on the GRAPES-3 Muon Telescope project alongside India.)\n'NEO'  -  (BCI)     (China:\nDeveloped the 'NEO' commercial brain-computer interface chip.)\n(Thailand: Participated as an international destination for PSLV-C62 satellite launches.)"
-    },
-    {
-        "question": "What is the name of the world's first doctor-operated AI healthcare ecosystem launched recently?",
-        "options": {
-            "A": "Lenacapavir",
-            "B": "PathGenie",
-            "C": "Mizzo Endo 4000",
-            "D": "BIRSA 101"
-        },
-        "correct": "C",
-        "explanation": "\"  4000\" (Mizzo Endo 4000)\n(\"Mizzo Endo 4000\" is an\nindigenously engineered surgical robotic system built to improve accuracy during minimally\ninvasive medical operations.)\nLenacapavir:     (HIV)       (US FDA)\n(Lenacapavir: A drug approved by the US FDA specifically for HIV\nprevention.)\nPathGenie:\n(PathGenie: A software system launched by the Ministry of Science &\nTechnology for accelerating drug discovery.)\nBIRSA 101:               CRISPR"
     },
     {
         "question": "What is the core objective of 'Project Hinichi', which successfully yielded its first crop in the Churachandpur district of Manipur?",
@@ -583,17 +1078,6 @@
         "explanation": "(IIT Bombay)\nCAR-T          (India’s very first\nindigenous CAR-T cell cancer therapy was officially launched by President Droupadi Murmu at\nIIT Bombay.)\nIIT Delhi:    'AILA'       ,  MeitY\n' '     (IIT Delhi: Known for developing the AI Lab\nAssistant 'AILA', whereas MeitY launched the 'PARAM SHAKTI' supercomputer at IIT\nKharagpur.)\nIISc Bangalore:     ,     CAR-T\n(IISc Bangalore: A premier research institute, but not the launch location for this\nspecific CAR-T therapy.)\nIIT Madras:  (NSM)   ' '     ,"
     },
     {
-        "question": "NASA's historic crewed lunar flyby mission, planned to break the record for the farthest distance traveled by humans in space since Apollo 13, is named what?",
-        "options": {
-            "A": "II (Artemis II)",
-            "B": "III (Artemis III)",
-            "C": "IV (Artemis IV)",
-            "D": "V (Artemis V)"
-        },
-        "correct": "A",
-        "explanation": "(NASA)         ' II' (Artemis II) ,\n(Artemis II is NASA's planned 10-day crewed mission to orbit the Moon, flying over\n252,756 miles from Earth, surpassing Apollo 13's record.)\nArtemis III:  2027            (Artemis III:\nThe actual crewed lunar landing mission scheduled for 2027.)\nArtemis IV:  2028\n(Artemis IV: The 2028 mission targeting the second crewed landing and\nintegration with the Gateway.)\nArtemis V:  2028"
-    },
-    {
         "question": "In the context of space observation, the NASA Hubble Space Telescope discovered a unique starless dark matter cloud located near which galaxy?",
         "options": {
             "A": "94 (Messier 94)",
@@ -603,5 +1087,368 @@
         },
         "correct": "A",
         "explanation": "94 (Messier 94)\n(NASA's Hubble Space Telescope observed and mapped an entirely starless dark matter cloud\nlocated in close cosmic proximity to the spiral galaxy Messier 94.)\nAndromeda Galaxy:  (Milky Way)        ,"
+    },
+    {
+        "question": "formally draft and approve a Comprehensive Urban Policy focusing on sustainable development and governance?",
+        "options": {
+            "A": "Tamil Nadu",
+            "B": "Kerala",
+            "C": "Karnataka",
+            "D": "Maharashtra"
+        },
+        "correct": "B",
+        "explanation": "2050 ,\nKerala became the first state to adopt a Comprehensive Urban Policy, aimed at managing\nurban growth, infrastructure, and sustainability through 2050.\n(MoSPI)\nThe Ministry of Statistics and Programme"
+    },
+    {
+        "question": "The Common Interface System (CIS) for import clearances aims to streamline customs processes into a unified platform within:",
+        "options": {
+            "A": "1 Year",
+            "B": "2 Years",
+            "C": "3 Years",
+            "D": "5 Years"
+        },
+        "correct": "B",
+        "explanation": "The CIS platform will integrate custom clearance workflows into a single interface within\nthe next 2 years."
+    },
+    {
+        "question": "\"Shared Prosperity.\" It measures the income growth of what specific segment of the population?",
+        "options": {
+            "A": "The bottom 10%",
+            "B": "The bottom 40%",
+            "C": "The middle-income class",
+            "D": "Anyone living below the national poverty"
+        },
+        "correct": "A",
+        "explanation": "line\n73.\n10.1 \"40\nTarget 10.1 aims to \"progressively achieve and sustain income growth of the bottom 40 per\ncent of the population at a rate higher than the national average.\""
+    },
+    {
+        "question": "The Budget announced a dedicated Container Manufacturing Scheme with a budget allocation exceeding:",
+        "options": {
+            "A": "5,000 Crore",
+            "B": "10,000 Crore",
+            "C": "20,000 Crore",
+            "D": "12.2 Lakh Crore"
+        },
+        "correct": "B",
+        "explanation": "5 ₹10,000\nA new Container Manufacturing Scheme was introduced with an outlay exceeding ₹10,000\nCrore over 5 years to build a competitive global container manufacturing ecosystem.\n\" \" (Champion SME)"
+    },
+    {
+        "question": "What percentage of the Indian Railways route network had been successfully electrified up to October 2025?",
+        "options": {
+            "A": "78.7%",
+            "B": "53.6%",
+            "C": "99.1%",
+            "D": "11.6%"
+        },
+        "correct": "C",
+        "explanation": "2025 99.1%\nIndian Railways neared full network electrification, reaching 99.1% coverage by October\n2025."
+    },
+    {
+        "question": "agreement, the United States committed to purchasing energy, technology, and coal from India worth:",
+        "options": {
+            "A": "USD 100 Billion",
+            "B": "USD 250 Billion",
+            "C": "USD 500 Billion",
+            "D": "USD 750 Billion"
+        },
+        "correct": "C",
+        "explanation": "USD 500\nThe agreement includes a long-term commercial commitment by the US to purchase Indian\ngoods and services worth USD 500 Billion across key sectors.\n2026     ,          ? /"
+    },
+    {
+        "question": "What is the projected real GDP growth rate range for the financial year 2027 (FY27)?",
+        "options": {
+            "A": "7.4% – 7.6%",
+            "B": "6.8% – 7.2%",
+            "C": "7.0% – 7.5%",
+            "D": "6.0% – 6.5%"
+        },
+        "correct": "A",
+        "explanation": "FY27 (GDP) 6.8% 7.2%\nthe real GDP growth rate for FY27 is estimated to remain between 6.8% and 7.2%"
+    },
+    {
+        "question": "The Union Budget 2026-27 made a record capital allocation for Indian Railways. What is the total outlay set for the railways?",
+        "options": {
+            "A": "1.46 Lakh Crore",
+            "B": "2.93 Lakh Crore",
+            "C": "12.2 Lakh Crore",
+            "D": "11.21 Lakh Crore"
+        },
+        "correct": "B",
+        "explanation": "FY 2026-27 ₹2.93\nIndian Railways received a record budgetary allocation of ₹2.93 Lakh Crore for FY 2026-27\nto expand safety and connectivity.\nR&D            (Safe"
+    },
+    {
+        "question": "Scheme for Special Assistance to States for Capital Investment (SASCI), the Centre incentivized states to maintain what percentage of their GDP as capital expenditure in FY25?",
+        "options": {
+            "A": "1.3%",
+            "B": "2.4%",
+            "C": "3.2%",
+            "D": "4.3%"
+        },
+        "correct": "B",
+        "explanation": "SASCI GSDP 2.4%\nSASCI provided support structure frameworks enabling states to allocate and maintain\nroughly 2.4% of their respective GSDP figures as dedicated Capex."
+    },
+    {
+        "question": "According to the international aviation safety audit, which airline became the first Indian carrier to secure full IATA membership?",
+        "options": {
+            "A": "IndiGo",
+            "B": "Akasa Air",
+            "C": "Air India",
+            "D": "SpiceJet"
+        },
+        "correct": "B",
+        "explanation": "IATA ,\nAkasa Air successfully secured full IATA membership following compliance audits,\nsupporting its international expansion plans."
+    },
+    {
+        "question": "(Peace, Justice, and Strong Institutions) tracks the transparency of governance. Which of the following is an official indicator under Target 16.5 (Reduce corruption and bribery)?",
+        "options": {
+            "A": "The Corruption Perceptions Index (CPI)",
+            "B": "",
+            "C": "Number of journalists imprisoned per year",
+            "D": "Total value of illicit financial flows"
+        },
+        "correct": "A",
+        "explanation": "entering the country\n76.\n16.5.1 /: 12\nOfficial Indicator 16.5.1 tracks primary household/business experience data: the proportion\nof people who paid a bribe to a public official during the previous 12 months.\nWho publishes the annual Sustainable Development"
+    },
+    {
+        "question": "Under SDG 7 (Affordable and Clean Energy), what is the specific mandate regarding renewable energy by 2030?",
+        "options": {
+            "A": "Achieve 100% renewable energy",
+            "B": "Double the global rate of improvement in",
+            "C": "Increase",
+            "D": "Phase out all fossil fuel subsidies"
+        },
+        "correct": "C",
+        "explanation": "completely\n71.\n7.2 : \"2030 ,\nTarget 7.2 states: \"By 2030, increase substantially the share of renewable energy in the\nglobal energy mix.\"\nSDG 8            (LDCs)  ,\nSDG 8 targets sustainable"
+    },
+    {
+        "question": "How many operational airports did India have in the year 2025, compared to 74 in 2014?",
+        "options": {
+            "A": "100",
+            "B": "164",
+            "C": "211",
+            "D": "180"
+        },
+        "correct": "B",
+        "explanation": "2014 74\n2025 164\nDriven by regional connectivity, the number of operational airports in India grew from 74\nin 2014 to 164 in 2025."
+    },
+    {
+        "question": "to fund the development of City Economic Regions over the next 5 years. This scheme operates via a:",
+        "options": {
+            "A": "100%",
+            "B": "(Challenge-based",
+            "C": "(PPP)",
+            "D": ""
+        },
+        "correct": "B",
+        "explanation": "Earmarked allocations for city economic regions will be disbursed via a competitive,\nchallenge-based financing model to reward sustainable urban reforms.\nWhat is the"
+    },
+    {
+        "question": "",
+        "options": {
+            "A": "Vinod Rai",
+            "B": "Tushar Mehta",
+            "C": "Shubhanshu Shukla",
+            "D": "Shakamuri Srinivasa Prasad"
+        },
+        "correct": "A",
+        "explanation": "\"  \"     ?\nWho is the author of the book \"When Audit Matters\"?\n(CAG)       (Written by\nthe former Comptroller and Auditor General (CAG) of India, Vinod Rai.)"
+    },
+    {
+        "question": "(Featuring stories rooted in moral lessons, everyday values, and human connections.)",
+        "options": {
+            "A": "P. S. Raman",
+            "B": "R. Kaushik",
+            "C": "Harsha Bhogle",
+            "D": "Suresh Raina"
+        },
+        "correct": "A",
+        "explanation": "\":       \"     ?\nWho is the author of the book \"Leo: The Untold Story of Chennai Super Kings\"?\n(This sports-centric book is written by P.S.\nRaman.)"
+    },
+    {
+        "question": "(Yang Shuang-zi) (This novel is written by Taiwanese author Yang Shuang-zi.)",
+        "options": {
+            "A": "Romila Thapar",
+            "B": "Kiran Desai",
+            "C": "Sarojini Naidu",
+            "D": "Dheeraj Kakadia"
+        },
+        "correct": "A",
+        "explanation": "\" \"     ?\nWho is the author of the memoir \"Just Being\"?"
+    },
+    {
+        "question": "(CSK) ,  , (This sports chronicle offers an insider look into the journey, massive fan culture, management strategies, and legacy of the popular IPL franchise, Chennai Super Kings.)",
+        "options": {
+            "A": "Anil Raturi",
+            "B": "R. K. Raghavan",
+            "C": "K. J. S. Dhillon",
+            "D": "Kiran Bedi"
+        },
+        "correct": "A",
+        "explanation": "\"  \"     ?\nWho is the author of the book \"Khaki Mein Sthitaprajna\"?\n(Written by\nretired police officer and former Uttarakhand DGP Anil Raturi.)"
+    },
+    {
+        "question": "75 , (Written by Rajya Sabha MP Bhim Singh, this book honors and documents the lives, sacrifices, and struggles of 75 key freedom fighters who fought against colonial rule.)",
+        "options": {
+            "A": "C. P. Radhakrishnan",
+            "B": "P. P. Sathyan",
+            "C": "K. Arumugam",
+            "D": "Shashi Tharoor"
+        },
+        "correct": "B",
+        "explanation": "\"    :    . . \"     ?\nWho is the author of the book \"The Library Man of India: The Story of P. N. Panicker\"?\n(P.P. Sathyan)  (This biographical book is authored\nby P.P. Sathyan.)"
+    },
+    {
+        "question": "(Amish Tripathi explores historical themes and adventurous fiction set against the backdrop of the powerful Chola Empire.)",
+        "options": {
+            "A": "R. Kaushik",
+            "B": "Sowmya Rajendran",
+            "C": "Swagata Srinivasaraju",
+            "D": "Anupama Chopra"
+        },
+        "correct": "A",
+        "explanation": ""
+    },
+    {
+        "question": "(Abhijeet Joag) (This book focusing on Indian identity is authored by Abhijeet Joag.)",
+        "options": {
+            "A": "Lin Xiang",
+            "B": "Yang Shuang-zi",
+            "C": "Dostoevsky",
+            "D": "Lee King"
+        },
+        "correct": "A",
+        "explanation": "\" \"     ?\nWho is the author of the novel \"Taiwan Travelogue\"?"
+    },
+    {
+        "question": "()       (This book serves as a strategic blueprint aimed at unlocking the massive, untapped potential within the Indian tourism sector.)",
+        "options": {
+            "A": "Dr. Usha Upadhyay",
+            "B": "Ashutosh Agnihotri",
+            "C": "Dr. Dheeraj Kakadia",
+            "D": "Sudha Murty"
+        },
+        "correct": "A",
+        "explanation": "\"  \"    ?\nWho is the author of the Gujarati biography \"Vishwaguru Srila Prabhupada\"?\n(This is a Gujarati\nlanguage biography authored by Dr. Usha Upadhyay.)"
+    },
+    {
+        "question": "' ' (Paika Rebellion)     (This book focuses on Buxi Jagabandhu, the legendary commander who led the famous Paika Rebellion against British rule.)",
+        "options": {
+            "A": "Dr. Dheeraj Kakadia",
+            "B": "Kailash Satyarthi",
+            "C": "Sanjay Raut",
+            "D": "Asif Anwar"
+        },
+        "correct": "A",
+        "explanation": "\":   \"     ?\nWho is the author of the book \"Mahatma: A Great Communicator\"?\n(This book is written by Dr. Dheeraj Kakadia.)\n(This book explores Mahatma Gandhi's unique"
+    },
+    {
+        "question": "(MM Naravane) (This book unearthing military myths and mysteries is written by former Chief of the Army Staff General M.M. Naravane.)",
+        "options": {
+            "A": "Dr. G. Chandramouli",
+            "B": "Somnath Lahiri",
+            "C": "Dr. V. Narayanan",
+            "D": "S. Somnath"
+        },
+        "correct": "A",
+        "explanation": "\"         - --\n\"     ?\nWho is the author of the book \"The Unprecedented Success Story of the First Indigenous\nSupersonic Multi-Target Surface-to-Air Missile System – AKASH\"?\n(This successful chronicle detailing the indigenous\nAKASH missile system is written by Dr. G. Chandramouli.\nThankoo!"
+    },
+    {
+        "question": "(This wellness and lifestyle book is authored by well-known actress and fitness icon Malaika Arora.) -,  (Malaika Arora shares her personal philosophies on clean eating, daily fitness routines, and maintaining physical and mental well- being.)",
+        "options": {
+            "A": "K. J. S. Dhillon",
+            "B": "Dr. T. C. Rao",
+            "C": "Ashok Chopra",
+            "D": "R. Kaushik"
+        },
+        "correct": "A",
+        "explanation": "\" :   ... \"     ?\nWho is the author of the book \"Operation Sindhu: The Untold Story... Pakistan\"?"
+    },
+    {
+        "question": "(This book details the high stakes, critical accountability, and internal mechanics of public auditing.)",
+        "options": {
+            "A": "Dr. Usha Upadhyay and Dr. M. N. Sudha",
+            "B": "O. Shama Bhatt and Dr. M. N. Sudha",
+            "C": "Naveen Kundu and G. Chandramouli",
+            "D": "Biswabhusan Harichandan and T. M. Krishna"
+        },
+        "correct": "B",
+        "explanation": "\" -  \"   -  ?\nWho are the co-authors of the book \"Agathiyar – The Unifier\"?\n(This piece is co-authored by O.\nShama Bhatt and Dr. M.N. Sudha.)\n()    ,"
+    },
+    {
+        "question": "(The book focuses on military strategy, geopolitical defense boundaries, and shifting security dynamics under the concept of \"India's new normal.\")",
+        "options": {
+            "A": "G. Chandramouli",
+            "B": "Naveen Kundu",
+            "C": "Sanjay Raut",
+            "D": "T. M. Krishna"
+        },
+        "correct": "B",
+        "explanation": "\" :       \"\nWho is the author of the book \"Reclaiming Incredible: A Blueprint of India Tourism's\nUnclaimed Throne\"?\n(Naveen Kundu)     (This book has been authored by Naveen\nKundu.)"
+    },
+    {
+        "question": "meeting of the Niti aayog on June 11, 2026 at Rashtrapati Bhavan cultural centre in New Delhi?",
+        "options": {
+            "A": "Narendra Modi",
+            "B": "Amit Shah",
+            "C": "Dharmendra Pardhan",
+            "D": "Nitin Gadkari"
+        },
+        "correct": "A",
+        "explanation": "11 2026\nPrime Minister Narendra Modi chaired the 11th governing council meeting of NITI Aayog on\nJune 11, 2026 at Rashtrapati Bhavan Cultural Centre in New Delhi.\n' ' (Bharatpol)    ? / Which organisation launched the"
+    },
+    {
+        "question": "Which institution launched the digital initiatives ‘One Case One Data’ and ‘Su Sahay’?",
+        "options": {
+            "A": "Ministry of Law and Justice",
+            "B": "The Supreme Court of India",
+            "C": "NITI Aayog",
+            "D": "Bar Council of India"
+        },
+        "correct": "B",
+        "explanation": "'   '            -\n' '  -\n• The Supreme Court of India launched both of these major digital initiatives to strengthen\njudicial administration and access to justice.\n• 'One Case One Data' is a digital integration initiative designed to unify data across all tiers of\nthe Indian judiciary—from taluka courts up to the Supreme Court.\n• ‘Su Sahay’ is an AI-powered chatbot integrated directly into the Supreme Court website to help\nlitigants and citizens easily access court-related services."
+    },
+    {
+        "question": "Which organ under MHA launched the e-zero FIR system for Cyber fraud cases?",
+        "options": {
+            "A": "Indian cyber crime coordination centre",
+            "B": "Cyber appellate Tribunal",
+            "C": "State police of India",
+            "D": "Central bureau of investigation"
+        },
+        "correct": "A",
+        "explanation": "(MHA) (I4C) -\n(e-zero FIR)\nThe Indian Cyber Crime Coordination Centre (I4C) under the Ministry of Home Affairs\nlaunched the e-zero FIR system for cyber fraud cases.\n2025               29"
+    },
+    {
+        "question": "What is the name of the new digital platform being developed by election commission of India in 2025?",
+        "options": {
+            "A": "ECINET",
+            "B": "Election Link",
+            "C": "ECI Connect",
+            "D": "Voter hub"
+        },
+        "correct": "A",
+        "explanation": "ECINET (ECI) , -\n2025 2026 , ECINET\n100 (1 ) ,\nECINET is the unified, single-point IT platform and mobile application developed by the\nElection Commission of India (ECI).\nInitially conceptualized in 2025 and officially launched in January 2026, ECINET acts as a one-\nstop digital ecosystem designed to streamline services for nearly 100 crore (1 billion) Indian\nelectors, political parties, and the massive administrative election machinery.\n11  2026               11\nWho chaired the 11th governing council"
+    },
+    {
+        "question": "Which City hosted the 29th National conference on e-governance in 2026?",
+        "options": {
+            "A": "Visakhapatnam",
+            "B": "Jaipur",
+            "C": "Delhi",
+            "D": "Mumbai"
+        },
+        "correct": "B",
+        "explanation": "1-2 , 2026\n\"2047: , \"\nHeld on July 1- 2, 2026 at Rajasthan International Centre in Jaipur.\nThe event focused on the theme “Viksit Bharat 2047: AI Enabled, data driven and secure digital\ngovernance”."
+    },
+    {
+        "question": "The SHANTI Bill, 2025 was introduced by which Union Ministry?",
+        "options": {
+            "A": "Ministry of Home Affairs",
+            "B": "Ministry of Power",
+            "C": "Ministry of New and Renewable Energy",
+            "D": "Ministry of Science and Technology"
+        },
+        "correct": "D",
+        "explanation": "and Earth Sciences\n1.\n\"          (SHANTI) , 2025\"\n17       ,    18\n• The \"Sustainable Harnessing and Advancement of Nuclear Energy for Transforming India\n(SHANTI) Bill, 2025\" falls under the Ministry of Science and Technology and Earth Sciences.\nIntroduced in the Lok Sabha on Dec 15, passed by the Lok Sabha on Dec 17, and subsequently\npassed by the Rajya Sabha on December 18. The bill specifically replaces the Atomic Energy Act\nof 1962 and the Civil Liability for Nuclear Damage Act of 2010."
     }
 ]
